@@ -1,0 +1,46 @@
+19/03/2016: (version 2.6)
+- Fixed: Warning: in_array()
+
+23/02/2016: (version 2.5)
+- Fixed: Start Minimized
+- Fixed: Display/Hide Hello text when set Minimized
+- Fixed: JS Uncaught TypeError: Cannot read property 'style' of null
+- Fixed: Select pages to display chat box
+- Added: Option disable chat for mobile
+- Added: Display for homepage for who not use a page for Home
+- Added: Except pages display chat box
+
+
+06/01/2016: (version 2.0)
+- Added: Compatible with Multisite
+- Added: Compatible with Dokan Multivendor
+- Fixed: Cookie
+- Fixed: Some bugs
+
+23/11/2015: (version 1.6)
+- Added: Support HTTPS
+- Fixed: Media upload not working
+- Fixed: Removed double / character
+- Fixed: jQuery conflict
+
+19/11/2015: (version 1.5)
+- Added: Option select where to display Facebook Live Chat
+- Added: Option Minimized for Mobile, Tablet and Desktop
+- Fixed: Some small bugs
+
+18/11/2015: (version 1.4)
+- Fixed: CSS Logo
+
+17/11/2015: (version 1.3)
+- Fixed: Long title
+
+16/11/2015: (version 1.2)
+- Fixed: Close button
+- Added: Language option for chat box
+
+
+14/11/2015: (version 1.1)
+- Fix some small bugs
+
+11/11/2015: (version 1.0)
+- Version 1.0 Initial Release

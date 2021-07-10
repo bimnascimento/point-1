@@ -1,0 +1,4 @@
+v1.2 (September 7, 2015)
+===================
+ - [fix] CSS changed for social Icons of verification widget only
+ - [fix] Widget compatibility to WP 4.3

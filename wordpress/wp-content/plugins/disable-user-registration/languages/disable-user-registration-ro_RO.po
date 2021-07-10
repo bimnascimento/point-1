@@ -1,0 +1,65 @@
+# Copyright (C) 2015 Media Files Background Color
+# This file is distributed under the same license as the Media Files Background Color package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Disable User Registration 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disable-user-registration\n"
+"POT-Creation-Date: 2017-01-05 20:25+0200\n"
+"PO-Revision-Date: 2017-01-05 20:26+0200\n"
+"Last-Translator: Andrei Gheorghiu <andrei.gheorghiu@evolution.ro>\n"
+"Language-Team: websiter.ro <mail@websiter.ro>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext;_n;_n_noop;_x;_nx;_nx_noop;_ex;esc_attr__;"
+"esc_attr_e;esc_attr_x;esc_html__;esc_html_e;esc_html_x;_c;_nc\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: disable-user-registration.php:136
+msgid "User registration is currently not allowed."
+msgstr "Înregistrarea utilizatorilor este momentan dezactivată."
+
+#: disable-user-registration.php:194
+msgid "Settings"
+msgstr "Setări"
+
+#: disable-user-registration.php:195
+msgid "General"
+msgstr "Generale"
+
+#: disable-user-registration.php:196
+msgid "Membership"
+msgstr "Utilizatori noi"
+
+#: disable-user-registration.php:198
+msgid "Anyone can register"
+msgstr "Oricine se poate înregistra"
+
+#: disable-user-registration.php:203
+#, php-format
+msgid ""
+"Don't forget to un-check %s in %s (and <strong>save changes</strong>) to stop all user "
+"registrations."
+msgstr ""
+"Nu uita să debifezi %s în %s (și <strong>să salvezi</strong>) pentru a bloca crearea de "
+"conturi noi."
+
+#: disable-user-registration.php:210
+msgid "Congratulations! Robots are no longer able to register accounts on your website!"
+msgstr "Felicitări! Acum roboții nu mai pot înregistra conturi pe site!"
+
+#: disable-user-registration.php:225
+msgid "Disable user registration"
+msgstr "Dezactivează înregistrarea de conturi"
+
+#: disable-user-registration.php:226
+msgid "Enable user registration"
+msgstr "Activează înregistrarea de conturi"
+
+#~ msgid "Congratulations! Now bots are no longer able to register accounts on your website!"
+#~ msgstr "Felicitări! Acum roboții nu mai pot înregistra conturi pe site!"

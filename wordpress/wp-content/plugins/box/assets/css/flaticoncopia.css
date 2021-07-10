@@ -1,0 +1,71 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:01
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./fonts/Flaticon.eot");
+  src: url("./fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./fonts/Flaticon.woff") format("woff"),
+       url("./fonts/Flaticon.ttf") format("truetype"),
+       url("./fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-bleach-bottle:before { content: "\f100"; }
+.flaticon-clothespin:before { content: "\f101"; }
+.flaticon-do-not-iron:before { content: "\f102"; }
+.flaticon-do-not-wash:before { content: "\f103"; }
+.flaticon-drip-dry:before { content: "\f104"; }
+.flaticon-dry-clean:before { content: "\f105"; }
+.flaticon-dry-normal:before { content: "\f106"; }
+.flaticon-drying-cord:before { content: "\f107"; }
+.flaticon-drying-rope:before { content: "\f108"; }
+.flaticon-equilateral-triangle:before { content: "\f109"; }
+.flaticon-f-inside-a-circle:before { content: "\f10a"; }
+.flaticon-hand-wash:before { content: "\f10b"; }
+.flaticon-hot-ironer:before { content: "\f10c"; }
+.flaticon-iron:before { content: "\f10d"; }
+.flaticon-iron-1:before { content: "\f10e"; }
+.flaticon-iron-electric-heat:before { content: "\f10f"; }
+.flaticon-iron-side-outline-with-two-dots:before { content: "\f110"; }
+.flaticon-laundry-basket:before { content: "\f111"; }
+.flaticon-laundry-instructions-30-degrees-water:before { content: "\f112"; }
+.flaticon-letter-a-inside-a-circle:before { content: "\f113"; }
+.flaticon-maximum-temperature-medium-agitation:before { content: "\f114"; }
+.flaticon-minus-button:before { content: "\f115"; }
+.flaticon-no-rope:before { content: "\f116"; }
+.flaticon-normal-temperature:before { content: "\f117"; }
+.flaticon-only-non-chlorine-bleach-when-needed:before { content: "\f118"; }
+.flaticon-permanent-press-cycle:before { content: "\f119"; }
+.flaticon-tumble-dry:before { content: "\f11a"; }
+.flaticon-tumble-dry-laundry-instructions:before { content: "\f11b"; }
+.flaticon-two-shirts:before { content: "\f11c"; }
+.flaticon-wash-at-50-degrees:before { content: "\f11d"; }
+.flaticon-wash-on-hot-water:before { content: "\f11e"; }
+.flaticon-washer-machine:before { content: "\f11f"; }
+.flaticon-washing-in-cold-water:before { content: "\f120"; }
+.flaticon-washing-option-symbol-of-a-triangle-with-a-cross:before { content: "\f121"; }
+.flaticon-washing-options:before { content: "\f122"; }
+.flaticon-washing-options-symbol-of-a-container-with-water-and-two-dots:before { content: "\f123"; }
+.flaticon-washing-symbol-of-a-cross-over-a-circle-in-a-square:before { content: "\f124"; }
+.flaticon-washing-symbol-of-three-dots-in-a-circle-inside-a-square:before { content: "\f125"; }
+.flaticon-washing-temperature:before { content: "\f126"; }
+.flaticon-wet-cleaning:before { content: "\f127"; }

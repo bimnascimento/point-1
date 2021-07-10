@@ -1,0 +1,5405 @@
+# Copyright (C) 2015 weDevs
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Dokan (Lite) - Multi-vendor Marketplace 2.4.8\n"
+"Report-Msgid-Bugs-To: http://wedevs.com/support/forum/theme-support/dokan/\n"
+"POT-Creation-Date: 2017-05-06 21:36-0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-05-06 22:07-0300\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"X-Generator: Poedit 1.8.8\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: pt_BR\n"
+
+#: templates/products/new-product-single.php:404
+#, fuzzy
+msgid "1"
+msgstr "Nenhuma dado de %1$s foi especificado para editar %1$s"
+
+#: includes/pro/includes/widgets/best-seller.php:78
+#: includes/pro/includes/widgets/feature-seller.php:79
+#, fuzzy
+msgid "3"
+msgstr "ex: 3"
+
+#: classes/admin-user-profile.php:67 includes/pro/classes/shipping.php:353
+#, fuzzy
+msgid "Country"
+msgstr "País"
+
+#: classes/admin-user-profile.php:71
+#, fuzzy
+msgid "Select a country&hellip;"
+msgstr "Selecione o país"
+
+#: classes/admin-user-profile.php:74
+#, fuzzy
+msgid "State/County"
+msgstr "Estado"
+
+#: classes/admin-user-profile.php:75
+#, fuzzy
+msgid "State/County or state code"
+msgstr "Estado"
+
+#: classes/admin-user-profile.php:80
+#, fuzzy
+msgid "Dokan Options"
+msgstr "Opções de titulo"
+
+#: classes/admin-user-profile.php:85
+#, fuzzy
+msgid "Banner"
+msgstr ""
+"Isto irá redefinir as configurações de rastreamento de uso, o que resultará "
+"na exibição do banner de opt-in novamente e não irá enviar mais nenhum dado."
+
+#: classes/admin-user-profile.php:97 templates/settings/store-form.php:67
+#, fuzzy
+msgid "Upload banner"
+msgstr "Upload"
+
+#: classes/admin-user-profile.php:98 templates/settings/store-form.php:68
+msgid "(Upload a banner for your store. Banner size is (825x300) pixels. )"
+msgstr ""
+
+#: classes/admin-user-profile.php:105
+#, fuzzy
+msgid "Store name"
+msgstr ""
+"Por favor, envie seu cheque para Nome da loja, Rua da loja, Cidade da loja, "
+"Estado/País da loja, CEP da loja."
+
+#: classes/admin-user-profile.php:112
+#, fuzzy
+msgid "Address 1"
+msgstr "Endereço"
+
+#: classes/admin-user-profile.php:119
+#, fuzzy
+msgid "Address 2"
+msgstr "Complemento"
+
+#: classes/admin-user-profile.php:126
+#, fuzzy
+msgid "Town/City"
+msgstr "Cidade"
+
+#: classes/admin-user-profile.php:133
+#, fuzzy
+msgid "Zip Code"
+msgstr "Por favor, digite um número de CEP válido."
+
+#: classes/admin-user-profile.php:173 includes/pro/admin/sellers.php:31
+#: includes/pro/admin/sellers.php:106
+#: includes/pro/templates/global/update-account.php:63
+#: includes/template-tags.php:618
+#: templates/global/seller-registration-form.php:38
+#, fuzzy
+msgid "Phone Number"
+msgstr "Número de telefone."
+
+#: classes/admin-user-profile.php:191
+#, fuzzy
+msgid "Selling"
+msgstr "Pronto para começar a vender algo incrível?"
+
+#: classes/admin-user-profile.php:196
+#, fuzzy
+msgid "Enable Selling"
+msgstr "Locais de venda"
+
+#: classes/admin-user-profile.php:199
+msgid "Enable or disable product selling capability"
+msgstr ""
+
+#: classes/admin-user-profile.php:204
+#, fuzzy
+msgid "Publishing"
+msgstr ""
+"Powered by WordPress, uma plataforma semântica de vanguarda para publicação "
+"pessoal."
+
+#: classes/admin-user-profile.php:209
+#, fuzzy
+msgid "Publish product directly"
+msgstr "Publique o seu produto!"
+
+#: classes/admin-user-profile.php:212
+msgid "Bypass pending, publish products directly"
+msgstr ""
+
+#: classes/admin-user-profile.php:217 includes/admin/admin.php:220
+#, fuzzy
+msgid "Seller Commission %"
+msgstr "Sou dono de lavanderia"
+
+#: classes/admin-user-profile.php:221
+msgid "Enter commission % seller will get from each order"
+msgstr ""
+
+#: classes/admin-user-profile.php:226
+#: includes/pro/includes/widgets/feature-seller.php:78
+#, fuzzy
+msgid "Featured Seller"
+msgstr "Destaque"
+
+#: classes/admin-user-profile.php:231
+#, fuzzy
+msgid "Mark as featured seller"
+msgstr "Sou dono de lavanderia"
+
+#: classes/admin-user-profile.php:234
+#, fuzzy
+msgid "This seller will be marked as a featured seller."
+msgstr "%s mais vendido neste mês (vendido %d)"
+
+#: classes/admin-withdraw.php:190
+#, fuzzy
+msgid "Requests DELETED!"
+msgstr "Excluído!"
+
+#: classes/admin-withdraw.php:194
+#, fuzzy
+msgid "Requests CANCELLED!"
+msgstr "Cancelado"
+
+#: classes/admin-withdraw.php:198
+#, fuzzy
+msgid "Requests APPROVED!"
+msgstr "Aprovado"
+
+#: classes/admin-withdraw.php:219 classes/admin-withdraw.php:233
+#, fuzzy
+msgid "User Name"
+msgstr "Sobrenome para o usuário."
+
+#: classes/admin-withdraw.php:220 classes/admin-withdraw.php:234
+#: includes/pro/admin/duplicate-order-list.php:30
+#: includes/pro/admin/duplicate-order-list.php:41
+#: includes/pro/templates/coupon/form.php:41
+#: includes/pro/templates/coupon/form.php:43
+#: templates/withdraw/approved-request-listing.php:14
+#: templates/withdraw/pending-request-listing.php:14
+#, fuzzy
+msgid "Amount"
+msgstr "Total de Impostos"
+
+#: classes/admin-withdraw.php:221 classes/admin-withdraw.php:235
+#: templates/withdraw/approved-request-listing.php:15
+#: templates/withdraw/pending-request-listing.php:15
+#, fuzzy
+msgid "Method"
+msgstr "Método"
+
+#: classes/admin-withdraw.php:222 classes/admin-withdraw.php:236
+#, fuzzy
+msgid "Method Details"
+msgstr "Detalhes do plugin"
+
+#: classes/admin-withdraw.php:223 classes/admin-withdraw.php:237
+#, fuzzy
+msgid "Note"
+msgstr "Nota"
+
+#: classes/admin-withdraw.php:224 classes/admin-withdraw.php:238
+#, fuzzy
+msgid "IP"
+msgstr "Endereço de IP do cliente."
+
+#: classes/admin-withdraw.php:225 classes/admin-withdraw.php:239
+#: includes/admin-functions.php:49 includes/pro/admin/announcement.php:174
+#: templates/my-orders.php:28 templates/orders/listing.php:21
+#: templates/products/products-listing.php:60 templates/sub-orders.php:26
+#: templates/withdraw/approved-request-listing.php:16
+#: templates/withdraw/pending-request-listing.php:16
+#, fuzzy
+msgid "Date"
+msgstr "Data"
+
+#: classes/admin-withdraw.php:263 classes/admin-withdraw.php:273
+#: includes/pro/templates/review/listing-table-tr.php:35
+#: includes/pro/templates/review/listing-table-tr.php:54
+#, fuzzy
+msgid "Approve"
+msgstr "Aprovar"
+
+#: classes/admin-withdraw.php:264 classes/admin-withdraw.php:268
+#: includes/pro/templates/products/edit/sidebar.php:36
+#: includes/pro/templates/products/edit/sidebar.php:76
+#: templates/my-orders.php:83 templates/orders/details.php:185
+#: templates/withdraw/pending-request-listing.php:17
+#: templates/withdraw/pending-request-listing.php:35
+#, fuzzy
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: classes/admin-withdraw.php:269 classes/admin-withdraw.php:274
+#: includes/admin/withdraw.php:13
+#: includes/pro/templates/dashboard/review-widget.php:24
+#: templates/dashboard/orders-widget.php:31
+#, fuzzy
+msgid "Pending"
+msgstr "Pendente"
+
+#: classes/admin-withdraw.php:279 classes/admin-withdraw.php:358
+#: includes/pro/admin/duplicate-order-list.php:79
+#: includes/pro/admin/duplicate-order-list.php:107
+#: includes/pro/admin/sellers.php:116
+#: includes/pro/templates/products/edit/variation-popup.php:169
+#: includes/pro/templates/products/edit/variation-popup.php:191
+#: includes/woo-views/html-product-download.php:18
+#: includes/woo-views/html-product-download.php:39
+#: includes/woo-views/html-product-variation-download.php:5
+#, fuzzy
+msgid "Delete"
+msgstr "Excluir"
+
+#: classes/admin-withdraw.php:303 templates/orders/details.php:278
+#, fuzzy
+msgid "Add note"
+msgstr "Adicionar nota"
+
+#: classes/admin-withdraw.php:309
+#: includes/pro/templates/products/edit/variation-attribute-popup.php:74
+#: includes/pro/templates/products/edit/variation-popup.php:244
+#, fuzzy
+msgid "Save"
+msgstr "Salvar"
+
+#: classes/admin-withdraw.php:310
+#, fuzzy
+msgid "cancel"
+msgstr "Cancelar"
+
+#: classes/admin-withdraw.php:326
+#: includes/pro/admin/duplicate-order-list.php:93
+#, fuzzy
+msgid "No results found"
+msgstr "Nenhum resultado encontrado."
+
+#: classes/admin-withdraw.php:338
+#: includes/pro/admin/duplicate-order-list.php:105
+#: includes/pro/admin/sellers.php:115
+#, fuzzy
+msgid "Bulk Actions"
+msgstr "Ações"
+
+#: classes/admin-withdraw.php:342 classes/admin-withdraw.php:352
+#, fuzzy
+msgid "Approve Requests"
+msgstr "Aprovar"
+
+#: classes/admin-withdraw.php:343 classes/admin-withdraw.php:347
+#, fuzzy
+msgid "Mark as Cancelled"
+msgstr "Marcar como concluído"
+
+#: classes/admin-withdraw.php:348 classes/admin-withdraw.php:353
+#: includes/pro/templates/review/listing.php:57
+#, fuzzy
+msgid "Mark Pending"
+msgstr "Pendente"
+
+#: classes/admin-withdraw.php:359
+msgid "Download PayPal mass payment file"
+msgstr ""
+
+#: classes/admin-withdraw.php:364
+#: includes/pro/admin/duplicate-order-list.php:111
+#: includes/pro/admin/sellers.php:119
+#, fuzzy
+msgid "Apply"
+msgstr "Aplicar"
+
+#: classes/admin-withdraw.php:373 includes/pro/admin/reports.php:302
+#: includes/pro/classes/coupons.php:403 includes/pro/classes/reviews.php:302
+#: includes/pro/classes/reviews.php:359
+#, fuzzy
+msgid "&laquo;"
+msgstr "&laquo; Comentários mais antigos"
+
+#: classes/admin-withdraw.php:374 includes/pro/admin/reports.php:303
+#: includes/pro/classes/coupons.php:404 includes/pro/classes/reviews.php:303
+#: includes/pro/classes/reviews.php:360
+#, fuzzy
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: classes/ajax.php:70
+#, fuzzy
+msgid "<br><strong> Seller:</strong> %s"
+msgstr "Sua senha é <strong>%s</strong>."
+
+#: classes/ajax.php:85 classes/template-settings.php:207
+#: classes/template-settings.php:215 classes/template-settings.php:221
+#: classes/template-settings.php:227 classes/template-settings.php:261
+#: classes/template-settings.php:323 classes/template-settings.php:362
+#: classes/template-settings.php:409 classes/template-withdraw.php:163
+#: classes/template-withdraw.php:188 includes/pro/classes/coupons.php:167
+#: includes/pro/classes/coupons.php:189 includes/pro/classes/coupons.php:251
+#: includes/pro/classes/coupons.php:457 includes/pro/classes/store-seo.php:456
+msgid "Are you cheating?"
+msgstr ""
+
+#: classes/ajax.php:120 classes/ajax.php:154
+#, fuzzy
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Você não tem permissão para acessar essa página!"
+
+#: classes/ajax.php:124 classes/ajax.php:158
+msgid "You have taken too long. Please go back and retry."
+msgstr ""
+
+#: classes/ajax.php:133 classes/ajax.php:167
+#, fuzzy
+msgid "You do not have permission to change this order"
+msgstr "Você não tem permissão para criar reembolsos"
+
+#: classes/ajax.php:218
+#, fuzzy
+msgid "File %d"
+msgstr "Arquivo %d"
+
+#: classes/ajax.php:267 includes/pro/admin/tools.php:261
+#: includes/template-tags.php:140
+#, fuzzy
+msgid "Something went wrong!"
+msgstr "Não existe post ou algo deu errado."
+
+#: classes/ajax.php:275
+#, fuzzy
+msgid "Email sent successfully!"
+msgstr "O e-mail não pôde ser enviado."
+
+#: classes/ajax.php:330 templates/orders/details.php:264
+#, fuzzy
+msgid "Delete note"
+msgstr "Apagar nota"
+
+#: classes/customizer.php:19
+#, fuzzy
+msgid "Theme Logo"
+msgstr "Logo"
+
+#: classes/customizer.php:21
+msgid "Upload your logo to replace the default Logo (dimension : 180 X 50)"
+msgstr ""
+
+#: classes/customizer.php:27
+#, fuzzy
+msgid "Upload Logo"
+msgstr "Logo"
+
+#: classes/customizer.php:39
+#, fuzzy
+msgid "Link"
+msgstr "Link"
+
+#: classes/customizer.php:52
+#, fuzzy
+msgid "Link hover"
+msgstr "Link para"
+
+#: classes/customizer.php:65
+#, fuzzy
+msgid "Header Background"
+msgstr "Cabeçalho"
+
+#: classes/customizer.php:78
+#, fuzzy
+msgid "Navigation Background"
+msgstr "Fundo"
+
+#: classes/customizer.php:91
+#, fuzzy
+msgid "Navigation Link"
+msgstr "Navegação de cupons"
+
+#: classes/customizer.php:103
+#, fuzzy
+msgid "Navigation Link Hover"
+msgstr "Navegação de cupons"
+
+#: classes/customizer.php:116
+#, fuzzy
+msgid "Footer Background"
+msgstr "Fundo"
+
+#: classes/customizer.php:129
+#, fuzzy
+msgid "Copy Container Background"
+msgstr "Copiar"
+
+#: classes/customizer.php:142
+#, fuzzy
+msgid "Footer text"
+msgstr "Footer Text"
+
+#: classes/customizer.php:155
+#, fuzzy
+msgid "Sidebar widget header"
+msgstr "Lateral"
+
+#: classes/customizer.php:168
+#, fuzzy
+msgid "Footer widget header"
+msgstr "Cabeçalho"
+
+#: classes/customizer.php:182
+#, fuzzy
+msgid "Footer Widget link"
+msgstr "Rodapé"
+
+#: classes/customizer.php:194
+msgid "Footer Widget link hover"
+msgstr ""
+
+#: classes/email.php:106
+msgid "\"%s\" sent you a message from your \"%s\" store"
+msgstr ""
+
+#: classes/email.php:166
+#, fuzzy
+msgid "[%s] New Withdraw Request"
+msgstr "Novo %s"
+
+#: classes/email.php:187
+msgid "[%s] Your Withdraw Request has been approved"
+msgstr ""
+
+#: classes/email.php:209
+msgid "[%s] Your Withdraw Request has been cancelled"
+msgstr ""
+
+#: classes/email.php:247
+#, fuzzy
+msgid "[%s] New Seller Registered"
+msgstr "%s mais vendido neste mês (vendido %d)"
+
+#: classes/email.php:300
+#, fuzzy
+msgid "[%s] New Product Added"
+msgstr "Novos produtos adicionados para %s"
+
+#: classes/email.php:339
+#, fuzzy
+msgid "[%s] Your product has been approved!"
+msgstr "Olá. O seu pedido em %s foi reembolsado."
+
+#: classes/installer.php:122 includes/admin-functions.php:52
+#: includes/admin-functions.php:557 includes/admin-functions.php:573
+#: includes/pro/admin/reports.php:199 includes/wc-template.php:13
+#: templates/my-orders.php:31
+#, fuzzy
+msgid "Seller"
+msgstr "%s mais vendido neste mês (vendido %d)"
+
+#: classes/installer.php:151 includes/admin/admin.php:128
+#: includes/admin/admin.php:253 includes/pro/admin/admin.php:252
+#: includes/template-tags.php:295
+#, fuzzy
+msgid "Dashboard"
+msgstr "Painel"
+
+#: classes/installer.php:157 includes/pro/admin/admin.php:258
+#, fuzzy
+msgid "Store List"
+msgstr "Notificação da loja"
+
+#: classes/installer.php:163 includes/admin/admin.php:259
+#: templates/global/header-menu.php:46
+msgid "My Orders"
+msgstr ""
+
+#: classes/template-orders.php:106 classes/template-orders.php:175
+#, fuzzy
+msgid "Order No"
+msgstr "Ordenar por"
+
+#: classes/template-orders.php:107 classes/template-orders.php:176
+#: templates/orders/details.php:20
+#, fuzzy
+msgid "Order Items"
+msgstr ""
+"Nota: As permissões para os itens do pedido serão concedidas automaticamente "
+"quando o status do pedido estiverem como processando/concluído."
+
+#: classes/template-orders.php:108 classes/template-orders.php:177
+#, fuzzy
+msgid "Shipping method"
+msgstr "Método de entrega"
+
+#: classes/template-orders.php:109 classes/template-orders.php:178
+#, fuzzy
+msgid "Shipping Cost"
+msgstr "Adicionar custo de entrega"
+
+#: classes/template-orders.php:110 classes/template-orders.php:179
+#, fuzzy
+msgid "Payment method"
+msgstr "Método de pagamento"
+
+#: classes/template-orders.php:111 classes/template-orders.php:180
+#: includes/pro/admin/reports.php:200 templates/orders/listing.php:18
+#, fuzzy
+msgid "Order Total"
+msgstr "Total de pedido"
+
+#: classes/template-orders.php:112 classes/template-orders.php:181
+#, fuzzy
+msgid "Order Status"
+msgstr "Status do pedido."
+
+#: classes/template-orders.php:113 classes/template-orders.php:182
+#, fuzzy
+msgid "Order Date"
+msgstr "Data do pedido:"
+
+#: classes/template-orders.php:114 classes/template-orders.php:183
+#, fuzzy
+msgid "Customer Name"
+msgstr "Sobrenome do cliente."
+
+#: classes/template-orders.php:115 classes/template-orders.php:184
+#, fuzzy
+msgid "Customer Email"
+msgstr "O e-mail do cliente é inválido"
+
+#: classes/template-orders.php:116 classes/template-orders.php:185
+#, fuzzy
+msgid "Customer Phone"
+msgstr "Telefone"
+
+#: classes/template-orders.php:117 classes/template-orders.php:186
+#, fuzzy
+msgid "Customer IP"
+msgstr "IP do Cliente"
+
+#: classes/template-products.php:106
+#, fuzzy
+msgid "Details of your product ..."
+msgstr "Seus Detalhes"
+
+#: classes/template-products.php:122 classes/template-products.php:232
+#: classes/template-products.php:319
+#, fuzzy
+msgid "Please enter product title"
+msgstr "Digite um título para o site."
+
+#: classes/template-products.php:128 classes/template-products.php:238
+#: classes/template-products.php:325
+#, fuzzy
+msgid "Please select a category"
+msgstr "Selecione uma categoria"
+
+#: classes/template-products.php:132 classes/template-products.php:242
+#: classes/template-products.php:329
+#, fuzzy
+msgid "Please select AT LEAST ONE category"
+msgstr "Selecione ao menos um item para realizar esta ação."
+
+#: classes/template-settings.php:70 classes/template-settings.php:74
+#: dokan.php:687 includes/admin/admin.php:133 includes/admin/admin.php:383
+#: includes/admin/welcome.php:20 includes/functions.php:1507
+#: includes/pro/admin/admin.php:329
+#, fuzzy
+msgid "Settings"
+msgstr "Configurações"
+
+#: classes/template-settings.php:72
+#, fuzzy
+msgid "Payment Settings"
+msgstr "Configurações"
+
+#: classes/template-settings.php:92
+msgid ""
+"These are the withdraw methods available for you. Please update your payment "
+"information below to submit withdraw requests and get your store payments "
+"seamlessly."
+msgstr ""
+
+#: classes/template-settings.php:240
+#, fuzzy
+msgid "Your information has been saved successfully"
+msgstr "A sua base de dados foi atualizada com sucesso!"
+
+#: classes/template-settings.php:269 classes/template-settings.php:370
+#, fuzzy
+msgid "Store name required"
+msgstr "O nome da taxa é obrigatório."
+
+#: classes/template-settings.php:275 classes/template-settings.php:331
+#: classes/template-settings.php:376
+#, fuzzy
+msgid "Store type required"
+msgstr "obrigatório"
+
+#: classes/template-settings.php:282 classes/template-settings.php:339
+#: classes/template-settings.php:383 classes/template-settings.php:418
+#, fuzzy
+msgid "Invalid email"
+msgstr "Endereço de e-mail inválido."
+
+#: classes/template-settings.php:299
+#, fuzzy
+msgid "Address field for %s is required"
+msgstr "\"%s\" é um campo obrigatório."
+
+#: classes/template-settings.php:563
+msgid "Add Profile Picture to gain %s%% progress"
+msgstr ""
+
+#: classes/template-settings.php:582 includes/functions.php:1632
+#, fuzzy
+msgid "Facebook"
+msgstr "Facebook"
+
+#: classes/template-settings.php:582
+#, fuzzy
+msgid "Google+"
+msgstr "Jabber / Google Talk"
+
+#: classes/template-settings.php:583
+msgid "Add %s profile link to gain %s%% progress"
+msgstr ""
+
+#: classes/template-settings.php:597
+msgid "Add Phone to gain %s%% progress"
+msgstr ""
+
+#: classes/template-settings.php:610
+msgid "Add Banner to gain %s%% progress"
+msgstr ""
+
+#: classes/template-settings.php:622
+msgid "Add Store Name to gain %s%% progress"
+msgstr ""
+
+#: classes/template-settings.php:634
+msgid "Add address to gain %s%% progress"
+msgstr ""
+
+#: classes/template-settings.php:680
+msgid "Add a Payment method to gain %s%% progress"
+msgstr ""
+
+#: classes/template-settings.php:688
+msgid "Add Map location to gain %s%% progress"
+msgstr ""
+
+#: classes/template-settings.php:707
+msgid "Book"
+msgstr ""
+
+#: classes/template-settings.php:708
+msgid "Dress"
+msgstr ""
+
+#: classes/template-settings.php:709
+msgid "Electronic"
+msgstr ""
+
+#: classes/template-shortcodes.php:50
+msgid ""
+"Please install <a href=\"%s\"><strong>WooCommerce</strong></a> plugin first"
+msgstr ""
+
+#: classes/template-withdraw.php:116
+#, fuzzy
+msgid "Current Balance: %s"
+msgstr "(Atual: %s)"
+
+#: classes/template-withdraw.php:197
+#, fuzzy
+msgid "Withdraw amount required "
+msgstr "Valor do reembolso é obrigatório"
+
+#: classes/template-withdraw.php:200
+msgid "You don't have enough balance for this request"
+msgstr ""
+
+#: classes/template-withdraw.php:202
+#, fuzzy
+msgid "Withdraw amount must be greater than %d"
+msgstr "O valor do reembolso precisa ser maior do que zero."
+
+#: classes/template-withdraw.php:206
+#, fuzzy
+msgid "withdraw method required"
+msgstr "ID e título do método de pagamento são obrigatórios"
+
+#: classes/template-withdraw.php:269
+#, fuzzy
+msgid "Your request has been cancelled successfully!"
+msgstr "Seu pedido de cancelamento está sendo processado."
+
+#: classes/template-withdraw.php:273
+msgid "Your request has been received successfully and being reviewed!"
+msgstr ""
+
+#: classes/template-withdraw.php:277
+#, fuzzy
+msgid "Unknown error!"
+msgstr "Erro desconhecido"
+
+#: classes/template-withdraw.php:304
+msgid "You already withdrawed %s. This amount will deducted from your balance."
+msgstr ""
+
+#: classes/template-withdraw.php:310
+msgid "You already have pending withdraw request(s)."
+msgstr ""
+
+#: classes/template-withdraw.php:310
+msgid ""
+"Please submit your request after approval or cancellation of your previous "
+"request."
+msgstr ""
+
+#: classes/template-withdraw.php:324
+msgid "You don't have sufficient balance for a withdraw request!"
+msgstr ""
+
+#: classes/template-withdraw.php:367
+#, fuzzy
+msgid "Sorry, no transactions were found!"
+msgstr "Nenhum produto foi encontrado para a sua seleção."
+
+#: classes/upgrade.php:50
+msgid ""
+"<strong>Dokan Data Update Required</strong> &#8211; Please click the button "
+"below to update to the latest version."
+msgstr ""
+
+#: classes/upgrade.php:53
+#, fuzzy
+msgid "Run the Updater"
+msgstr "Fazer a atualização"
+
+#: classes/upgrade.php:79
+msgid "Please Update Dokan Add-ons"
+msgstr ""
+
+#: classes/upgrade.php:82
+msgid ""
+"Dokan <strong>v2.4</strong> plugin templating system has been changed. To "
+"get smoother add-on experience, update your existing <a href=\"%s\" target="
+"\"_blank\">Dokan Add-Ons</a> from <a href=\"%s\" target=\"_blank\">weDevs."
+"com</a>."
+msgstr ""
+
+#: classes/upgrade.php:86
+#, fuzzy
+msgid "Hide Notice"
+msgstr "Esconder esta mensagem."
+
+#: classes/withdraw.php:235 templates/withdraw/pending-request-listing.php:41
+#, fuzzy
+msgid "Pending Reivew"
+msgstr "Pendente"
+
+#: classes/withdraw.php:239 templates/withdraw/pending-request-listing.php:43
+msgid "Accepted"
+msgstr ""
+
+#: dokan.php:140
+msgid "<b>Dokan</b> requires %sWoocommerce%s to be installed & activated!"
+msgstr ""
+
+#: dokan.php:276 dokan.php:301
+#, fuzzy
+msgid "Available"
+msgstr "Disponível"
+
+#: dokan.php:277 dokan.php:302
+#, fuzzy
+msgid "Not Available"
+msgstr "Disponível"
+
+#: dokan.php:279 dokan.php:304
+#, fuzzy
+msgid "Are you sure?"
+msgstr "Você tem certeza que o servidor de banco de dados está funcionando?"
+
+#: dokan.php:280
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: dokan.php:305
+#, fuzzy
+msgid "Something is wrong, Please try again."
+msgstr "Tente novamente."
+
+#: dokan.php:306
+msgid "Sorry, this attribute option already exists, Try a different one."
+msgstr ""
+
+#: dokan.php:307
+msgid ""
+"Warning! This product will not have any variations if this option is not "
+"checked."
+msgstr ""
+
+#: dokan.php:311
+#, fuzzy
+msgid "This field is required"
+msgstr "Este campo é obrigatório"
+
+#: dokan.php:312
+#, fuzzy
+msgid "Please fix this field."
+msgstr "este campo se"
+
+#: dokan.php:313
+#, fuzzy
+msgid "Please enter a valid email address."
+msgstr "Por favor digite m email válido."
+
+#: dokan.php:314
+#, fuzzy
+msgid "Please enter a valid URL."
+msgstr "Por favor digite uma URL válida"
+
+#: dokan.php:315
+#, fuzzy
+msgid "Please enter a valid date."
+msgstr "Por favor digite uma URL válida"
+
+#: dokan.php:316
+#, fuzzy
+msgid "Please enter a valid date (ISO)."
+msgstr "Por favor digite um numero váldo."
+
+#: dokan.php:317
+#, fuzzy
+msgid "Please enter a valid number."
+msgstr "Por favor digite um numero váldo."
+
+#: dokan.php:318
+#, fuzzy
+msgid "Please enter only digits."
+msgstr "Por favor use apenas dígitos."
+
+#: dokan.php:319
+#, fuzzy
+msgid "Please enter a valid credit card number."
+msgstr "Por favor, digite um número de CPF válido."
+
+#: dokan.php:320
+#, fuzzy
+msgid "Please enter the same value again."
+msgstr "Por favor digite um valor maior ou igual a {0}."
+
+#: dokan.php:321
+#, fuzzy
+msgid "Please enter no more than {0} characters."
+msgstr "Por favor não digite mais que {0} caracteres"
+
+#: dokan.php:322
+#, fuzzy
+msgid "Please enter at least {0} characters."
+msgstr "Por favor digite ao menos {0} caracteres"
+
+#: dokan.php:323
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr ""
+
+#: dokan.php:324
+#, fuzzy
+msgid "Please enter a value between {0} and {1}."
+msgstr "Por favor digite um valor menor ou igual que {0}."
+
+#: dokan.php:325
+#, fuzzy
+msgid "Please enter a value less than or equal to {0}."
+msgstr "Por favor digite um valor menor ou igual que {0}."
+
+#: dokan.php:326
+#, fuzzy
+msgid "Please enter a value greater than or equal to {0}."
+msgstr "Por favor digite um valor maior ou igual a {0}."
+
+#: dokan.php:652
+#, fuzzy
+msgid "Page %s"
+msgstr "Página: %s"
+
+#: dokan.php:684
+#, fuzzy
+msgid "Get PRO"
+msgstr "Remote Get"
+
+#: dokan.php:688 includes/admin/welcome.php:21
+#, fuzzy
+msgid "Documentation"
+msgstr "Documentação"
+
+#: includes/admin/add-on.php:2
+#, fuzzy
+msgid "Dokan - Add-ons"
+msgstr "Adicionar um menu"
+
+#: includes/admin/admin.php:48
+#, fuzzy
+msgid "- select -"
+msgstr "Selecionar"
+
+#: includes/admin/admin.php:121 includes/admin/admin.php:129
+#: includes/admin/admin.php:376 includes/admin/dashboard.php:72
+#: includes/functions.php:1486 includes/pro/admin/admin.php:308
+#: includes/template-tags.php:314 templates/withdraw/header.php:11
+msgid "Withdraw"
+msgstr ""
+
+#: includes/admin/admin.php:124
+#, fuzzy
+msgid "Withdraw %s"
+msgstr "%s, %s"
+
+#: includes/admin/admin.php:127 includes/admin/admin.php:360
+#: includes/functions.php:1470
+msgid "Dokan"
+msgstr ""
+
+#: includes/admin/admin.php:128 includes/admin/admin.php:369
+#: includes/admin/dashboard.php:96 includes/functions.php:1479
+#: includes/pro/admin/admin.php:301
+#, fuzzy
+msgid "Dokan Dashboard"
+msgstr "Painel"
+
+#: includes/admin/admin.php:134
+#, fuzzy
+msgid "Add Ons"
+msgstr "Adicionar"
+
+#: includes/admin/admin.php:134
+#, fuzzy
+msgid "Add-ons"
+msgstr "Adicionar"
+
+#: includes/admin/admin.php:141 includes/admin/welcome.php:12
+#, fuzzy
+msgid "Welcome to Dokan"
+msgstr "Bem-vindo ao {site_title}"
+
+#: includes/admin/admin.php:157
+#, fuzzy
+msgid "General"
+msgstr "Geral"
+
+#: includes/admin/admin.php:161
+#, fuzzy
+msgid "Selling Options"
+msgstr "Locais de venda"
+
+#: includes/admin/admin.php:165
+#, fuzzy
+msgid "Withdraw Options"
+msgstr "Preencher Opções"
+
+#: includes/admin/admin.php:169
+#, fuzzy
+msgid "Page Settings"
+msgstr "Configurações"
+
+#: includes/admin/admin.php:190
+#, fuzzy
+msgid "Admin area access"
+msgstr "O URL da área do admin"
+
+#: includes/admin/admin.php:191
+msgid "Disable sellers and customers from accessing wp-admin area"
+msgstr ""
+
+#: includes/admin/admin.php:197
+#, fuzzy
+msgid "Seller Store URL"
+msgstr "Sou dono de lavanderia"
+
+#: includes/admin/admin.php:198
+msgid "Define seller store URL (%s<strong>[this-text]</strong>/[seller-name])"
+msgstr ""
+
+#: includes/admin/admin.php:204 includes/functions.php:972
+#: templates/settings/store-form.php:163
+#, fuzzy
+msgid "Terms and Conditions"
+msgstr "Termos e Condições"
+
+#: includes/admin/admin.php:205
+msgid "Enable terms and conditions for seller store"
+msgstr ""
+
+#: includes/admin/admin.php:213
+msgid "New Seller Enable Selling"
+msgstr ""
+
+#: includes/admin/admin.php:214
+msgid "Make selling status enable for new registred seller"
+msgstr ""
+
+#: includes/admin/admin.php:221
+msgid "How much amount (%) a seller will get from each order"
+msgstr ""
+
+#: includes/admin/admin.php:227
+#, fuzzy
+msgid "Order Status Change"
+msgstr "Não é possível alterar o status da assinatura para \"%s\"."
+
+#: includes/admin/admin.php:228
+#, fuzzy
+msgid "Seller can change order status"
+msgstr ""
+"Para editar este pedido altere o status do pedido de volta para \"pendente\""
+
+#: includes/admin/admin.php:236
+#, fuzzy
+msgid "Withdraw Methods"
+msgstr "Métodos de pagamento"
+
+#: includes/admin/admin.php:237
+#, fuzzy
+msgid "Withdraw methods for sellers"
+msgstr "Lista de produtos mais vendidos."
+
+#: includes/admin/admin.php:244
+#, fuzzy
+msgid "Minimum Withdraw Limit"
+msgstr "Nenhum valor mínimo"
+
+#: includes/admin/admin.php:245
+msgid "Minimum balance required to make a withdraw request"
+msgstr ""
+
+#: includes/admin/admin.php:265
+#, fuzzy
+msgid "Terms and Conditions Page"
+msgstr "Termos e Condições"
+
+#: includes/admin/admin.php:438
+msgid ""
+"<strong>Dokan Data Update Required</strong> &#8211; We need to update your "
+"install to the latest version"
+msgstr ""
+
+#: includes/admin/admin.php:439
+#, fuzzy
+msgid "Run the updater"
+msgstr "Fazer a atualização"
+
+#: includes/admin/admin.php:444
+#, fuzzy
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you wish to run the updater now?"
+msgstr ""
+"É extremamente recomendado que você faça backup de seu banco de dados antes "
+"de continuar. Você tem certeza que deseja fazer a atualização agora?"
+
+#: includes/admin/dashboard.php:39
+#, fuzzy
+msgid "Sellers"
+msgstr "Mais vendidos"
+
+#: includes/admin/dashboard.php:53
+#, fuzzy
+msgid "No Active Seller"
+msgstr "Sou dono de lavanderia"
+
+#: includes/admin/dashboard.php:64
+#, fuzzy
+msgid "No Pending Seller"
+msgstr "Sou dono de lavanderia"
+
+#: includes/admin/dashboard.php:77
+#, fuzzy
+msgid "%d Pending Withdraw"
+msgstr "Pendente"
+
+#: includes/admin/dashboard.php:81
+#, fuzzy
+msgid "%d Completed Withdraw"
+msgstr "Concluído"
+
+#: includes/admin/dashboard.php:85
+#, fuzzy
+msgid "%d Cancelled Withdraw"
+msgstr "Cancelado"
+
+#: includes/admin/dashboard.php:101
+msgid "At a Glance"
+msgstr ""
+
+#: includes/admin/dashboard.php:102
+#, fuzzy
+msgid "Dokan News Updates"
+msgstr "Novidades"
+
+#: includes/admin/dashboard.php:110 includes/pro/includes/reports.php:14
+msgid "Overview"
+msgstr ""
+
+#: includes/admin/welcome.php:15
+#, fuzzy
+msgid "Thank you for installing Dokan!"
+msgstr "Obrigado pelo seu pedido!"
+
+#: includes/admin/welcome.php:16
+msgid ""
+"Dokan %s makes it even easier to start your own multivendor marketplace."
+msgstr ""
+
+#: includes/admin/welcome.php:40
+#, fuzzy
+msgid "Order Synchronization"
+msgstr "Detalhes do pedido {order_number}"
+
+#: includes/admin/welcome.php:43
+msgid ""
+"Seems like you have some unsynchronized orders. This tool will re-build "
+"Dokan's sync table."
+msgstr ""
+
+#: includes/admin/welcome.php:44
+msgid "Don't worry, any existing orders will not be deleted."
+msgstr ""
+
+#: includes/admin/welcome.php:54
+#, fuzzy
+msgid "Skip"
+msgstr "Retroceder %1 segundos"
+
+#: includes/admin/welcome.php:55
+#, fuzzy
+msgid "Synchronize Orders"
+msgstr "pedidos"
+
+#: includes/admin/welcome.php:65
+msgid "Flat view style for product add and edit"
+msgstr ""
+
+#: includes/admin/welcome.php:66
+msgid ""
+"New Flat view for add or edit product is a single page design to add new "
+"products from one place. To switch the new product upload screen, you can go "
+"to wp-admin → Dokan → Settings → Selling Options → Add Edit Product Style."
+msgstr ""
+
+#: includes/admin/welcome.php:70
+msgid "Store SEO manage system for sellers store"
+msgstr ""
+
+#: includes/admin/welcome.php:71
+msgid ""
+"From now on, whenever someone shares the store page, the images and texts "
+"written on the settings will appear on the social sites. So your sellers can "
+"get more traffic from search engines and social sites."
+msgstr ""
+
+#: includes/admin/welcome.php:75
+#, fuzzy
+msgid "Shipping calculator on single product page"
+msgstr "Permitir a calculadora de frete na página de carrinho"
+
+#: includes/admin/welcome.php:76
+msgid ""
+"From this version, the customers can calculate the shipping cost right from "
+"the product page, before adding them to cart and also know about if that "
+"product ships to his location or not. So this means less cart abandonment "
+"and more conversion."
+msgstr ""
+
+#: includes/admin/welcome.php:82
+msgid "Changelog"
+msgstr ""
+
+#: includes/admin/withdraw.php:8
+msgid "Withdraw Requests"
+msgstr ""
+
+#: includes/admin/withdraw.php:18
+#, fuzzy
+msgid "Approved"
+msgstr "Aprovado"
+
+#: includes/admin/withdraw.php:23 templates/dashboard/orders-widget.php:41
+#, fuzzy
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#: includes/admin-functions.php:42 includes/pro/admin/reports.php:203
+#: includes/pro/admin/sellers.php:32 includes/pro/admin/sellers.php:107
+#: templates/my-orders.php:29 templates/orders/listing.php:19
+#: templates/products/products-listing.php:54 templates/sub-orders.php:27
+#: templates/withdraw/pending-request-listing.php:18
+#, fuzzy
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin-functions.php:43 includes/pro/admin/reports.php:198
+#: templates/dashboard/big-counter-widget.php:21 templates/my-orders.php:27
+#: templates/orders/details.php:20 templates/orders/listing.php:17
+#: templates/sub-orders.php:25
+#, fuzzy
+msgid "Order"
+msgstr "Pedido"
+
+#: includes/admin-functions.php:44
+#, fuzzy
+msgid "Purchased"
+msgstr "Comprado"
+
+#: includes/admin-functions.php:45
+#: includes/pro/templates/settings/shipping.php:172
+#: includes/pro/templates/settings/shipping.php:276
+#: includes/pro/templates/settings/shipping.php:334
+#, fuzzy
+msgid "Ship to"
+msgstr "Enviar para"
+
+#: includes/admin-functions.php:47
+#, fuzzy
+msgid "Customer Message"
+msgstr "Mensagem do cliente"
+
+#: includes/admin-functions.php:48 templates/orders/details.php:240
+#, fuzzy
+msgid "Order Notes"
+msgstr "Notas do pedido"
+
+#: includes/admin-functions.php:50 templates/dashboard/orders-widget.php:21
+#: templates/dashboard/products-widget.php:26 templates/my-orders.php:30
+#: templates/orders/order-fee-html.php:17 templates/sub-orders.php:28
+#, fuzzy
+msgid "Total"
+msgstr "Total"
+
+#: includes/admin-functions.php:51
+#: includes/pro/admin/duplicate-order-list.php:31
+#: includes/pro/admin/duplicate-order-list.php:42
+#, fuzzy
+msgid "Actions"
+msgstr "Ações"
+
+#: includes/admin-functions.php:53
+msgid "Sub Order"
+msgstr ""
+
+#: includes/admin-functions.php:79
+#: includes/pro/admin/duplicate-order-list.php:64
+msgid "Sub Order of"
+msgstr ""
+
+#: includes/admin-functions.php:89
+#, fuzzy
+msgid "Show Sub-Orders"
+msgstr "Mostrar"
+
+#: includes/admin-functions.php:89
+#, fuzzy
+msgid "Hide Sub-Orders"
+msgstr "Item de menu agora é um subitem"
+
+#: includes/admin-functions.php:246
+#, fuzzy
+msgid "Toggle Sub-orders"
+msgstr "Alternar destaque"
+
+#: includes/admin-functions.php:375 includes/admin-functions.php:684
+#, fuzzy
+msgid "Total Sales"
+msgstr "Total de vendas"
+
+#: includes/admin-functions.php:382 includes/admin-functions.php:691
+#, fuzzy
+msgid "Total: "
+msgstr "Total:"
+
+#: includes/admin-functions.php:385 includes/admin-functions.php:694
+#: includes/pro/includes/reports.php:563 includes/reports.php:347
+#, fuzzy
+msgid "Number of orders"
+msgstr "Número de pedidos"
+
+#: includes/admin-functions.php:392 includes/admin-functions.php:701
+#: includes/pro/includes/reports.php:570 includes/reports.php:354
+#, fuzzy
+msgid "sales"
+msgstr "Vendas"
+
+#: includes/admin-functions.php:395 includes/admin-functions.php:704
+#: includes/pro/admin/reports.php:202
+msgid "Commision"
+msgstr ""
+
+#: includes/admin-functions.php:402 includes/admin-functions.php:711
+msgid "Commision: "
+msgstr ""
+
+#: includes/free/admin/admin.php:39 includes/free/admin/admin.php:64
+#, fuzzy
+msgid "PRO Features"
+msgstr "Recursos de validação"
+
+#: includes/free/admin/pro-features.php:2
+#, fuzzy
+msgid "Dokan - Pro Features"
+msgstr "Recursos de validação"
+
+#: includes/functions.php:501
+#: includes/pro/templates/products/edit/sidebar.php:25
+#: templates/products/new-product-single.php:518
+#, fuzzy
+msgid "Online"
+msgstr ""
+"WooCommerce aceita pagamentos online e offline. %2$sMétodos de pagamentos "
+"adicionais%3$s podem ser instalados posteriormente e gerenciados a partir da "
+"página de %1$sconfigurações de finalização%3$s."
+
+#: includes/functions.php:505
+#: includes/pro/templates/products/edit/sidebar.php:26
+#: templates/products/new-product-single.php:519
+#, fuzzy
+msgid "Draft"
+msgstr "Rascunho"
+
+#: includes/functions.php:509 includes/pro/admin/admin.php:138
+#: templates/dashboard/products-widget.php:41
+#, fuzzy
+msgid "Pending Review"
+msgstr "Revisão pendente"
+
+#: includes/functions.php:513 includes/functions.php:573
+#: templates/products/products-listing.php:213
+#, fuzzy
+msgid "Scheduled"
+msgstr "Agendado"
+
+#: includes/functions.php:561
+#, fuzzy
+msgid "Simple Product"
+msgstr "Produto simples"
+
+#: includes/functions.php:565
+#, fuzzy
+msgid "Variable Product"
+msgstr "Produto variável"
+
+#: includes/functions.php:569
+#, fuzzy
+msgid "Grouped Product"
+msgstr "Grupo de produto"
+
+#: includes/functions.php:778 includes/pro/templates/review/listing.php:16
+#, fuzzy
+msgid "Author"
+msgstr "Autor"
+
+#: includes/functions.php:962 includes/pro/admin/sellers.php:29
+#: includes/pro/admin/sellers.php:65 includes/pro/admin/sellers.php:104
+#: includes/pro/templates/products/product-edit.php:93
+#: includes/template-tags.php:301 templates/dashboard/products-widget.php:16
+#, fuzzy
+msgid "Products"
+msgstr "Produtos"
+
+#: includes/functions.php:1009
+#, fuzzy
+msgid "Account Name: %s"
+msgstr "Nome da conta"
+
+#: includes/functions.php:1012
+#, fuzzy
+msgid "Account Number: %s"
+msgstr "Número da conta"
+
+#: includes/functions.php:1015
+#, fuzzy
+msgid "Bank Name: %s"
+msgstr "Nome do banco"
+
+#: includes/functions.php:1018
+#, fuzzy
+msgid "Address: %s"
+msgstr ""
+"Erro de validação: Na resposta do IPN do PayPal consta um endereço de e-mail "
+"diferente (%s)."
+
+#: includes/functions.php:1021
+#, fuzzy
+msgid "SWIFT: %s"
+msgstr "Identificação - BIC / Swift"
+
+#: includes/functions.php:1361
+#, fuzzy
+msgid "- Select a location -"
+msgstr "Localização"
+
+#: includes/functions.php:1365 includes/functions.php:1388
+#, fuzzy
+msgid "Everywhere Else"
+msgstr "Em toda parte"
+
+#: includes/functions.php:1384
+#, fuzzy
+msgid "- Select a State -"
+msgstr "Estado"
+
+#: includes/functions.php:1406
+#, fuzzy
+msgid "Ready to ship in..."
+msgstr "Enviar para"
+
+#: includes/functions.php:1407
+#, fuzzy
+msgid "1 business day"
+msgstr "1 dia"
+
+#: includes/functions.php:1408
+#, fuzzy
+msgid "1-2 business day"
+msgstr "1 dia"
+
+#: includes/functions.php:1409
+#, fuzzy
+msgid "1-3 business day"
+msgstr "1 dia"
+
+#: includes/functions.php:1410
+#, fuzzy
+msgid "3-5 business day"
+msgstr "1 dia"
+
+#: includes/functions.php:1411
+msgid "1-2 weeks"
+msgstr ""
+
+#: includes/functions.php:1412
+msgid "2-3 weeks"
+msgstr ""
+
+#: includes/functions.php:1413
+msgid "3-4 weeks"
+msgstr ""
+
+#: includes/functions.php:1414
+msgid "4-6 weeks"
+msgstr ""
+
+#: includes/functions.php:1415
+msgid "6-8 weeks"
+msgstr ""
+
+#: includes/functions.php:1493 includes/pro/admin/admin.php:41
+#: includes/pro/admin/admin.php:315
+#, fuzzy
+msgid "All Sellers"
+msgstr "Mais vendidos"
+
+#: includes/functions.php:1500 includes/pro/admin/admin.php:42
+#: includes/pro/admin/admin.php:322
+#, fuzzy
+msgid "Earning Reports"
+msgstr "Relatórios"
+
+#: includes/functions.php:1550
+#, fuzzy
+msgid "All dates"
+msgstr "Todas as datas"
+
+#. translators: 1: month name, 2: 4-digit year
+#: includes/functions.php:1563
+#, fuzzy
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: includes/functions.php:1636
+#, fuzzy
+msgid "Google Plus"
+msgstr "Comparilhar no Google+"
+
+#: includes/functions.php:1640
+#, fuzzy
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/functions.php:1644
+#, fuzzy
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: includes/functions.php:1648
+#, fuzzy
+msgid "Youtube"
+msgstr "YouTube"
+
+#: includes/functions.php:1652
+#, fuzzy
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/functions.php:1656
+msgid "Flickr"
+msgstr ""
+
+#: includes/order-functions.php:211
+msgid "Mark parent order completed when all child orders are completed."
+msgstr ""
+
+#: includes/pro/admin/admin.php:41
+#, fuzzy
+msgid "Sellers Listing"
+msgstr "Mais vendidos"
+
+#: includes/pro/admin/admin.php:43 includes/pro/admin/announcement.php:43
+#: includes/pro/admin/announcement.php:54
+#: includes/pro/admin/announcement.php:55
+#: includes/pro/templates/announcement/header.php:12
+msgid "Announcement"
+msgstr ""
+
+#: includes/pro/admin/admin.php:44
+#, fuzzy
+msgid "Tools"
+msgstr "Ferramentas"
+
+#: includes/pro/admin/admin.php:64
+msgid "Show Map on Store Page"
+msgstr ""
+
+#: includes/pro/admin/admin.php:65
+msgid "Enable showing Store location map on store left sidebar"
+msgstr ""
+
+#: includes/pro/admin/admin.php:71
+#, fuzzy
+msgid "Enable Store SEO"
+msgstr "Habilitar"
+
+#: includes/pro/admin/admin.php:72
+msgid "Sellers can manage their Store page SEO"
+msgstr ""
+
+#: includes/pro/admin/admin.php:78
+msgid "Show Contact Form on Store Page"
+msgstr ""
+
+#: includes/pro/admin/admin.php:79
+msgid "Enable showing contact seller form on store left sidebar"
+msgstr ""
+
+#: includes/pro/admin/admin.php:85
+msgid "Enable Store Sidebar From Theme"
+msgstr ""
+
+#: includes/pro/admin/admin.php:86
+msgid "Enable showing Store Sidebar From Your Theme."
+msgstr ""
+
+#: includes/pro/admin/admin.php:92
+#, fuzzy
+msgid "Product Mail Notification"
+msgstr "Configurações de Notificações"
+
+#: includes/pro/admin/admin.php:93
+msgid "Email notification on new product submission"
+msgstr ""
+
+#: includes/pro/admin/admin.php:99
+#, fuzzy
+msgid "Enable Terms and Condition"
+msgstr "Habilitar"
+
+#: includes/pro/admin/admin.php:100
+msgid "Enable Terms and Condition check on registration form"
+msgstr ""
+
+#: includes/pro/admin/admin.php:110
+#, fuzzy
+msgid "Add/Edit Product Style"
+msgstr "Adicionar produto"
+
+#: includes/pro/admin/admin.php:111
+msgid "The style you prefer for seller to add or edit products. "
+msgstr ""
+
+#: includes/pro/admin/admin.php:115
+#, fuzzy
+msgid "Tab View"
+msgstr "Ver"
+
+#: includes/pro/admin/admin.php:116
+#, fuzzy
+msgid "Flat View"
+msgstr "Taxa fixa"
+
+#: includes/pro/admin/admin.php:121
+#, fuzzy
+msgid "Category Selection"
+msgstr "Seleção mínima"
+
+#: includes/pro/admin/admin.php:122
+msgid "What option do you prefer for seller to select product category? "
+msgstr ""
+
+#: includes/pro/admin/admin.php:126
+#, fuzzy
+msgid "Single"
+msgstr "Imagem do produto"
+
+#: includes/pro/admin/admin.php:127
+#, fuzzy
+msgid "Multiple"
+msgstr ""
+"Variações são para produtos mais complexos como camisas com vários tamanhos."
+
+#: includes/pro/admin/admin.php:132
+#, fuzzy
+msgid "New Product Status"
+msgstr "Status do produto (status do post)."
+
+#: includes/pro/admin/admin.php:133
+msgid "Product status when a seller creates a product"
+msgstr ""
+
+#: includes/pro/admin/admin.php:137 templates/products/products-listing.php:208
+#, fuzzy
+msgid "Published"
+msgstr "Publicado"
+
+#: includes/pro/admin/admin.php:143
+#, fuzzy
+msgid "Review Editing"
+msgstr "Adicionar uma avaliação"
+
+#: includes/pro/admin/admin.php:144
+msgid "Seller can edit product reviews"
+msgstr ""
+
+#: includes/pro/admin/admin.php:154
+#, fuzzy
+msgid "Order Status for Withdraw"
+msgstr "Status do pedido alterado para %s."
+
+#: includes/pro/admin/admin.php:155
+msgid "Order status for which seller can make a withdraw request."
+msgstr ""
+
+#: includes/pro/admin/admin.php:157 includes/pro/admin/admin.php:158
+#: templates/dashboard/orders-widget.php:26
+#, fuzzy
+msgid "Completed"
+msgstr "Concluído"
+
+#: includes/pro/admin/admin.php:157 includes/pro/admin/admin.php:158
+#: templates/dashboard/orders-widget.php:36 templates/orders/listing.php:97
+#, fuzzy
+msgid "Processing"
+msgstr "Processando"
+
+#: includes/pro/admin/admin.php:157 includes/pro/admin/admin.php:158
+#, fuzzy
+msgid "On-hold"
+msgstr "Aguardando pagamento"
+
+#: includes/pro/admin/admin.php:162
+#, fuzzy
+msgid "Withdraw Threshold"
+msgstr "Limiar de estoque baixo"
+
+#: includes/pro/admin/admin.php:163
+msgid ""
+"Days, ( Make order matured to make a withdraw request) <br> Value \"0\" will "
+"inactive this option"
+msgstr ""
+
+#: includes/pro/admin/ajax.php:82
+msgid "%d orders sync completed out of %d"
+msgstr ""
+
+#: includes/pro/admin/ajax.php:85 includes/pro/admin/ajax.php:168
+#, fuzzy
+msgid "Go to Dashboard &rarr;"
+msgstr "Ir"
+
+#: includes/pro/admin/ajax.php:89
+msgid "All orders has been synchronized. %s"
+msgstr ""
+
+#: includes/pro/admin/ajax.php:157
+#, fuzzy
+msgid "%d orders checked out of %d"
+msgstr "Pedidos (página %d)"
+
+#: includes/pro/admin/ajax.php:164
+msgid "All orders are checked and we found some duplicate orders"
+msgstr ""
+
+#: includes/pro/admin/ajax.php:172
+msgid "All orders are checked and no duplicate was found. %s"
+msgstr ""
+
+#: includes/pro/admin/announcement.php:21
+#, fuzzy
+msgid "-- Select --"
+msgstr "Selecionar"
+
+#: includes/pro/admin/announcement.php:22
+#, fuzzy
+msgid "All Seller"
+msgstr "Sou dono de lavanderia"
+
+#: includes/pro/admin/announcement.php:23
+#, fuzzy
+msgid "Selected Seller"
+msgstr "Sou dono de lavanderia"
+
+#: includes/pro/admin/announcement.php:56
+msgid "Dokan Announcement"
+msgstr ""
+
+#: includes/pro/admin/announcement.php:57
+#, fuzzy
+msgid "Add Announcement"
+msgstr "Adicionar um menu"
+
+#: includes/pro/admin/announcement.php:58
+#, fuzzy
+msgid "Add New Announcement"
+msgstr "Adicionar novo conjunto de alteração"
+
+#: includes/pro/admin/announcement.php:59
+#: includes/pro/templates/coupon/listing.php:36
+#: includes/pro/templates/products/edit/sidebar.php:20
+#: includes/pro/templates/products/edit/sidebar.php:63
+#: includes/pro/templates/products/product-edit.php:148
+#: templates/products/products-listing.php:120
+#, fuzzy
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/pro/admin/announcement.php:60
+#, fuzzy
+msgid "Edit Announcement"
+msgstr "Editar isto"
+
+#: includes/pro/admin/announcement.php:61
+#, fuzzy
+msgid "New Announcement"
+msgstr "Novos produtos"
+
+#: includes/pro/admin/announcement.php:62
+#: includes/pro/admin/announcement.php:63
+#, fuzzy
+msgid "View Announcement"
+msgstr "Ver"
+
+#: includes/pro/admin/announcement.php:64
+#, fuzzy
+msgid "Search Announcement"
+msgstr "Pesquisar por:"
+
+#: includes/pro/admin/announcement.php:65
+#, fuzzy
+msgid "No Announcement Found"
+msgstr "Nenhuma Assinatura encontrada"
+
+#: includes/pro/admin/announcement.php:66
+#, fuzzy
+msgid "No Announcement found in trash"
+msgstr "Nenhuma Assinatura encontrada na lixeira"
+
+#: includes/pro/admin/announcement.php:67
+#, fuzzy
+msgid "Parent Announcement"
+msgstr "Pai"
+
+#: includes/pro/admin/announcement.php:80
+#, fuzzy
+msgid "Announcement Settings"
+msgstr "Configurações"
+
+#: includes/pro/admin/announcement.php:103
+#, fuzzy
+msgid "Send Announcement To"
+msgstr "Enviar apenas o total do pedido"
+
+#: includes/pro/admin/announcement.php:114
+#, fuzzy
+msgid "Select Sellers"
+msgstr "Mais vendidos"
+
+#: includes/pro/admin/announcement.php:116
+#, fuzzy
+msgid "Select Sellers..."
+msgstr "Mais vendidos"
+
+#: includes/pro/admin/announcement.php:173
+#, fuzzy
+msgid "Sent To"
+msgstr "Pedido atualizado e enviado por e-mail."
+
+#: includes/pro/admin/announcement.php:198
+#, fuzzy
+msgid "No seller assigned!"
+msgstr "Sou dono de lavanderia"
+
+#: includes/pro/admin/duplicate-order-list.php:10
+#, fuzzy
+msgid "Duplicate Orders"
+msgstr "Duplicar"
+
+#: includes/pro/admin/duplicate-order-list.php:28
+#: includes/pro/admin/duplicate-order-list.php:39
+#, fuzzy
+msgid "Order No."
+msgstr "Ordenar por"
+
+#: includes/pro/admin/duplicate-order-list.php:29
+#: includes/pro/admin/duplicate-order-list.php:40
+#, fuzzy
+msgid "Seller Name"
+msgstr "Sou dono de lavanderia"
+
+#: includes/pro/admin/duplicate-order-list.php:60
+msgid "by"
+msgstr ""
+
+#: includes/pro/admin/duplicate-order-list.php:73
+#, fuzzy
+msgid " via "
+msgstr "Via"
+
+#: includes/pro/admin/duplicate-order-list.php:78 templates/my-orders.php:88
+#: templates/orders/listing.php:114 templates/products/products-listing.php:122
+#: templates/sub-orders.php:59
+#, fuzzy
+msgid "View"
+msgstr "Ver"
+
+#: includes/pro/admin/reports.php:17 includes/pro/classes/reports.php:73
+#: includes/pro/templates/report/header.php:11
+#, fuzzy
+msgid "Reports"
+msgstr "Relatórios"
+
+#: includes/pro/admin/reports.php:18
+#, fuzzy
+msgid "All Logs"
+msgstr "Logs"
+
+#: includes/pro/admin/reports.php:31
+#, fuzzy
+msgid "By Day"
+msgstr "Dia"
+
+#: includes/pro/admin/reports.php:32
+#, fuzzy
+msgid "By Month"
+msgstr "Este mês"
+
+#: includes/pro/admin/reports.php:33
+#, fuzzy
+msgid "By Seller"
+msgstr "Sou dono de lavanderia"
+
+#: includes/pro/admin/reports.php:76 includes/pro/admin/reports.php:116
+#: includes/pro/includes/reports.php:326 includes/pro/includes/reports.php:692
+#: includes/pro/includes/reports.php:796
+#, fuzzy
+msgid "From:"
+msgstr "A partir de: "
+
+#: includes/pro/admin/reports.php:80 includes/pro/admin/reports.php:121
+#: includes/pro/includes/reports.php:330 includes/pro/includes/reports.php:697
+#: includes/pro/includes/reports.php:801
+msgid "To:"
+msgstr ""
+
+#: includes/pro/admin/reports.php:83 includes/pro/admin/reports.php:124
+#: includes/pro/admin/reports.php:139 includes/pro/includes/reports.php:333
+#: includes/pro/includes/reports.php:701 includes/pro/includes/reports.php:805
+#, fuzzy
+msgid "Show"
+msgstr "Mostrar"
+
+#: includes/pro/admin/reports.php:93 includes/pro/admin/reports.php:100
+#, fuzzy
+msgid "Select a Store..."
+msgstr "Notificação da loja"
+
+#: includes/pro/admin/reports.php:99
+#, fuzzy
+msgid "Store Name : "
+msgstr ""
+"Por favor, envie seu cheque para Nome da loja, Rua da loja, Cidade da loja, "
+"Estado/País da loja, CEP da loja."
+
+#: includes/pro/admin/reports.php:131
+#, fuzzy
+msgid "Year:"
+msgstr "Ano"
+
+#: includes/pro/admin/reports.php:172
+#, fuzzy
+msgid "Total Earning"
+msgstr "Total:"
+
+#: includes/pro/admin/reports.php:176
+#, fuzzy
+msgid "Total Earning in this period"
+msgstr "Total"
+
+#: includes/pro/admin/reports.php:180
+#, fuzzy
+msgid "Order total in this period"
+msgstr "Valor total de entrega do pedido."
+
+#: includes/pro/admin/reports.php:184
+#, fuzzy
+msgid "orders placed in this period"
+msgstr "Total de pedidos feitos."
+
+#: includes/pro/admin/reports.php:201
+#, fuzzy
+msgid "Seller Earning"
+msgstr "Sou dono de lavanderia"
+
+#: includes/pro/admin/reports.php:257
+#, fuzzy
+msgid "edit"
+msgstr "Editar"
+
+#: includes/pro/admin/sellers.php:12
+#, fuzzy
+msgid "Seller Listing"
+msgstr "Sou dono de lavanderia"
+
+#: includes/pro/admin/sellers.php:25 includes/pro/admin/sellers.php:100
+#, fuzzy
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: includes/pro/admin/sellers.php:26 includes/pro/admin/sellers.php:101
+#: includes/pro/templates/products/edit/variation-popup.php:156
+#: includes/pro/templates/review/tmpl-review-script.php:16
+#: includes/woo-views/variation-admin-html.php:164
+#: templates/products/new-product-single.php:465
+#: templates/products/products-listing.php:53
+#, fuzzy
+msgid "Name"
+msgstr "Nome"
+
+#: includes/pro/admin/sellers.php:27 includes/pro/admin/sellers.php:102
+#: includes/pro/templates/global/update-account.php:46
+#: templates/global/seller-registration-form.php:26
+#, fuzzy
+msgid "Shop Name"
+msgstr "Loja"
+
+#: includes/pro/admin/sellers.php:28 includes/pro/admin/sellers.php:103
+#: includes/pro/classes/withdraws.php:79
+#: includes/pro/templates/review/tmpl-review-script.php:20
+#: includes/withdraw-functions.php:98 includes/withdraw-functions.php:120
+#, fuzzy
+msgid "E-mail"
+msgstr "E-mail"
+
+#: includes/pro/admin/sellers.php:30 includes/pro/admin/sellers.php:105
+#, fuzzy
+msgid "Balance"
+msgstr ""
+"Aceite pagamentos pelo PayPal usando o saldo da conta ou cartão de crédito."
+
+#: includes/pro/admin/sellers.php:60
+#, fuzzy
+msgid "Activate Selling"
+msgstr "Ativar"
+
+#: includes/pro/admin/sellers.php:62
+#, fuzzy
+msgid "Make Inactivate"
+msgstr "Faça uma doação"
+
+#: includes/pro/admin/sellers.php:66 includes/template-tags.php:307
+#: templates/dashboard/orders-widget.php:15
+#, fuzzy
+msgid "Orders"
+msgstr "Pedidos"
+
+#: includes/pro/admin/sellers.php:81
+#, fuzzy
+msgid "Active"
+msgstr "Ativo"
+
+#: includes/pro/admin/sellers.php:83
+#, fuzzy
+msgid "Inactive"
+msgstr "Coloque widgets na lixeira os movendo para a área de widgets inativos."
+
+#: includes/pro/admin/sellers.php:91
+#, fuzzy
+msgid "No users found!"
+msgstr "Usuários"
+
+#: includes/pro/admin/sellers.php:132 includes/template-tags.php:109
+#: includes/template-tags.php:642
+#, fuzzy
+msgid "&larr; Previous"
+msgstr "Anterior"
+
+#: includes/pro/admin/sellers.php:133 includes/template-tags.php:120
+#: includes/template-tags.php:643
+#, fuzzy
+msgid "Next &rarr;"
+msgstr "Próximo"
+
+#: includes/pro/admin/tools.php:12
+#, fuzzy
+msgid "Dokan Tools"
+msgstr "Ferramentas"
+
+#: includes/pro/admin/tools.php:20
+#, fuzzy
+msgid "Pages have been created and installed!"
+msgstr "Nenhum classe de entrega foi criada."
+
+#: includes/pro/admin/tools.php:24
+msgid "Order sync table has been regenerated!"
+msgstr ""
+
+#: includes/pro/admin/tools.php:272
+#, fuzzy
+msgid "Page Installation"
+msgstr "A instalação de %s falhou"
+
+#: includes/pro/admin/tools.php:275
+msgid "Clicking this button will create required pages for the plugin."
+msgstr ""
+
+#: includes/pro/admin/tools.php:276
+#, fuzzy
+msgid "Install Dokan Pages"
+msgstr "Instalar páginas"
+
+#: includes/pro/admin/tools.php:281
+msgid "Regenerate Order Sync Table"
+msgstr ""
+
+#: includes/pro/admin/tools.php:284
+msgid ""
+"This tool will delete all orders from the Dokan's sync table and re-build it."
+msgstr ""
+
+#: includes/pro/admin/tools.php:293
+#, fuzzy
+msgid "Re-build"
+msgstr "Digite sua senha novamente"
+
+#: includes/pro/admin/tools.php:300
+#, fuzzy
+msgid "Check for Duplicate Orders"
+msgstr "Duplicar"
+
+#: includes/pro/admin/tools.php:303
+msgid "This tool will check for duplicate orders from the Dokan's sync table."
+msgstr ""
+
+#: includes/pro/admin/tools.php:312
+#, fuzzy
+msgid "Check Orders"
+msgstr "pedidos"
+
+#: includes/pro/classes/ajax.php:93 includes/pro/classes/ajax.php:119
+#: includes/pro/classes/ajax.php:203
+#: includes/pro/templates/settings/shipping.php:202
+#: includes/pro/templates/settings/shipping.php:232
+#, fuzzy
+msgid "State"
+msgstr "Estado"
+
+#: includes/pro/classes/ajax.php:99 includes/pro/classes/ajax.php:123
+#: includes/pro/templates/settings/shipping.php:180
+#: includes/pro/templates/settings/shipping.php:210
+#: includes/pro/templates/settings/shipping.php:236
+#: includes/pro/templates/settings/shipping.php:284
+#: includes/pro/templates/settings/shipping.php:342
+#, fuzzy
+msgid "Cost"
+msgstr "Custo"
+
+#: includes/pro/classes/ajax.php:173
+#, fuzzy
+msgid "No Announcement found"
+msgstr "Nenhuma Assinatura encontrada"
+
+#: includes/pro/classes/ajax.php:205
+#, fuzzy
+msgid "--Select State--"
+msgstr "Estado"
+
+#: includes/pro/classes/ajax.php:209
+#, fuzzy
+msgid "Other States"
+msgstr "Dólar dos Estados Unidos"
+
+#: includes/pro/classes/ajax.php:275
+#, fuzzy
+msgid "Please select a State from the dropdown"
+msgstr "Em sua conta, no dropdown selecione \"Downloads\""
+
+#: includes/pro/classes/ajax.php:279 includes/pro/classes/ajax.php:284
+#, fuzzy
+msgid "Shipping Cost : "
+msgstr "Adicionar custo de entrega"
+
+#: includes/pro/classes/ajax.php:289
+#, fuzzy
+msgid "Please select a country from the dropdown"
+msgstr "Em sua conta, no dropdown selecione \"Downloads\""
+
+#: includes/pro/classes/ajax.php:614 includes/wc-functions.php:1345
+#: includes/wc-functions.php:1388 includes/wc-functions.php:1655
+#, fuzzy
+msgid "Variation #%s of %s"
+msgstr "Variação %s de %s"
+
+#: includes/pro/classes/ajax.php:918
+#: includes/pro/templates/products/edit/variation-popup.php:126
+#: includes/pro/templates/products/edit/variation-popup.php:141
+#: includes/woo-views/variation-admin-html.php:136
+#: includes/woo-views/variation-admin-html.php:149
+#, fuzzy
+msgid "Same as parent"
+msgstr "Igual ao pai"
+
+#: includes/pro/classes/ajax.php:919 includes/pro/classes/products.php:177
+#: includes/pro/templates/products/edit/inventory.php:6
+#: includes/pro/templates/products/edit/load_variation_template.php:16
+#: includes/wc-functions.php:26
+#, fuzzy
+msgid "Standard"
+msgstr "Padrão"
+
+#: includes/pro/classes/ajax.php:928
+#: includes/pro/templates/products/edit/inventory.php:53
+#: includes/pro/templates/products/edit/variation-popup.php:54
+#: includes/woo-views/variation-admin-html.php:70
+#: templates/products/new-product-single.php:420
+#, fuzzy
+msgid "Do not allow"
+msgstr "Não permitir"
+
+#: includes/pro/classes/ajax.php:929
+#, fuzzy
+msgid "Allow, but notify customer"
+msgstr "Permitir, mas informar o cliente"
+
+#: includes/pro/classes/ajax.php:930
+#: includes/pro/templates/products/edit/inventory.php:55
+#: includes/pro/templates/products/edit/variation-popup.php:56
+#: includes/woo-views/variation-admin-html.php:72
+#: templates/products/new-product-single.php:422
+#, fuzzy
+msgid "Allow"
+msgstr "Permitir"
+
+#: includes/pro/classes/ajax.php:934
+#: includes/pro/templates/products/edit/variation-popup.php:64
+#: includes/woo-views/variation-admin-html.php:80
+#: templates/products/products-listing.php:140
+#, fuzzy
+msgid "In stock"
+msgstr "Em estoque"
+
+#: includes/pro/classes/ajax.php:935
+#: includes/pro/templates/products/edit/variation-popup.php:65
+#: includes/woo-views/variation-admin-html.php:81
+#: templates/products/products-listing.php:142
+#, fuzzy
+msgid "Out of stock"
+msgstr "Fora de estoque"
+
+#: includes/pro/classes/ajax.php:1172
+#: includes/pro/templates/products/edit/attributes.php:56
+#: includes/pro/templates/products/edit/templates-js.php:11
+#: includes/woo-views/variation-admin-html.php:6
+#, fuzzy
+msgid "Remove"
+msgstr "Remover"
+
+#: includes/pro/classes/ajax.php:1183
+#: includes/pro/templates/products/edit/attributes.php:74
+#: includes/pro/templates/products/edit/templates-js.php:21
+#, fuzzy
+msgid "Visible on the product page"
+msgstr "Visível na página de produto"
+
+#: includes/pro/classes/ajax.php:1190
+#: includes/pro/templates/products/edit/attributes.php:87
+#: includes/pro/templates/products/edit/templates-js.php:27
+#, fuzzy
+msgid "Used for variations"
+msgstr "Usado para variações"
+
+#: includes/pro/classes/ajax.php:1201 includes/pro/classes/ajax.php:1212
+#: includes/pro/templates/products/edit/attributes.php:101
+#: includes/pro/templates/products/edit/attributes.php:115
+#: includes/pro/templates/products/edit/templates-js.php:36
+#: includes/pro/templates/products/edit/templates-js.php:54
+#, fuzzy
+msgid "Option..."
+msgstr "Ative essa opção para destacar este produto."
+
+#: includes/pro/classes/coupons.php:64 templates/orders/details.php:94
+#, fuzzy
+msgid "Coupons"
+msgstr "Cupons"
+
+#: includes/pro/classes/coupons.php:195
+#, fuzzy
+msgid "Please enter the coupon title"
+msgstr "Digite um título para o site."
+
+#: includes/pro/classes/coupons.php:199
+#, fuzzy
+msgid "Please enter the amount"
+msgstr "Digite um nome de usuário."
+
+#: includes/pro/classes/coupons.php:203
+#, fuzzy
+msgid "Please specify any products"
+msgstr "Se deve ocultar recursos não atribuídos a nenhum produto."
+
+#: includes/pro/classes/coupons.php:232
+#, fuzzy
+msgid "Coupon title already exists"
+msgstr "O código de cupom já existe"
+
+#: includes/pro/classes/coupons.php:330
+#, fuzzy
+msgid "Coupon has been deleted successfully!"
+msgstr "O Cupom foi removido."
+
+#: includes/pro/classes/coupons.php:334
+#, fuzzy
+msgid "Coupon has been saved successfully!"
+msgstr "Sua nova senha não foi salva."
+
+#: includes/pro/classes/coupons.php:338
+#, fuzzy
+msgid "Coupon has been updated successfully!"
+msgstr "A sua base de dados foi atualizada com sucesso!"
+
+#: includes/pro/classes/coupons.php:384
+#, fuzzy
+msgid "No coupons found!"
+msgstr "Nenhum cupom encontrado"
+
+#: includes/pro/classes/coupons.php:453
+#, fuzzy
+msgid "Create Coupon"
+msgstr "Não foi possível criar o cupom, tente novamente"
+
+#: includes/pro/classes/coupons.php:461
+#, fuzzy
+msgid "Update Coupon"
+msgstr "Não foi possível atualizar o cupom, tente novamente."
+
+#: includes/pro/classes/notice.php:204
+#: templates/products/products-listing.php:249
+#, fuzzy
+msgid "&laquo; Previous"
+msgstr "&laquo; Anterior"
+
+#: includes/pro/classes/notice.php:205
+#: templates/products/products-listing.php:250
+#, fuzzy
+msgid "Next &raquo;"
+msgstr "Próximo &raquo;"
+
+#: includes/pro/classes/reviews.php:86 includes/pro/classes/store.php:83
+#: includes/pro/templates/dashboard/review-widget.php:14
+#: includes/pro/templates/products/edit/options.php:10
+#: includes/pro/templates/review/header.php:11
+#, fuzzy
+msgid "Reviews"
+msgstr "Avaliações"
+
+#: includes/pro/classes/reviews.php:549
+#, fuzzy
+msgid "You can not edit reviews!"
+msgstr "Você não tem permissão para editar este item."
+
+#: includes/pro/classes/settings.php:72 includes/pro/classes/shipping.php:293
+#: includes/pro/templates/products/product-edit.php:163
+#, fuzzy
+msgid "Shipping"
+msgstr "Entrega"
+
+#: includes/pro/classes/settings.php:80
+#, fuzzy
+msgid "Social Profile"
+msgstr "Perfil"
+
+#: includes/pro/classes/settings.php:88 includes/pro/classes/settings.php:146
+#, fuzzy
+msgid "Store SEO"
+msgstr "Visitar loja"
+
+#: includes/pro/classes/settings.php:138
+msgid "Social Profiles"
+msgstr ""
+
+#: includes/pro/classes/settings.php:142
+#, fuzzy
+msgid "Shipping Settings"
+msgstr "Configurações"
+
+#: includes/pro/classes/settings.php:208
+msgid ""
+"Social profiles help you to gain more trust. Consider adding your social "
+"profile links for better user interaction."
+msgstr ""
+
+#: includes/pro/classes/settings.php:214
+msgid ""
+"This page contains your store-wide shipping settings, costs, shipping and "
+"refund policy."
+msgstr ""
+
+#: includes/pro/classes/settings.php:215
+msgid ""
+"You can enable/disable shipping for your products. Also you can override "
+"these shipping costs while creating or editing a product."
+msgstr ""
+
+#: includes/pro/classes/settings.php:286
+#, fuzzy
+msgid "Shipping options saved successfully"
+msgstr "Opções de entrega"
+
+#: includes/pro/classes/shipping.php:150
+msgid "This product does not ship to your chosen location: %s"
+msgstr ""
+
+#: includes/pro/classes/shipping.php:152
+msgid "These products do not ship to your chosen location.: %s"
+msgstr ""
+
+#: includes/pro/classes/shipping.php:333
+#, fuzzy
+msgid "Ready to ship in"
+msgstr "Enviar para"
+
+#: includes/pro/classes/shipping.php:337
+#, fuzzy
+msgid "from"
+msgstr "A partir de: "
+
+#: includes/pro/classes/shipping.php:347
+#, fuzzy
+msgid "Shipping Calculation:"
+msgstr "Tipo de cálculo"
+
+#: includes/pro/classes/shipping.php:355
+#, fuzzy
+msgid "--Select Country--"
+msgstr "País"
+
+#: includes/pro/classes/shipping.php:357
+#, fuzzy
+msgid "Other Countries"
+msgstr "Países selecionados"
+
+#: includes/pro/classes/shipping.php:368
+#: templates/products/new-product-single.php:403
+#, fuzzy
+msgid "Quantity"
+msgstr "Quantidade"
+
+#: includes/pro/classes/shipping.php:372
+#, fuzzy
+msgid "Get Shipping Cost"
+msgstr "Adicionar custo de entrega"
+
+#: includes/pro/classes/shipping.php:387
+#: includes/pro/templates/settings/shipping.php:115
+#, fuzzy
+msgid "Shipping Policy"
+msgstr "Rota:"
+
+#: includes/pro/classes/shipping.php:394
+#: includes/pro/templates/settings/shipping.php:128
+#, fuzzy
+msgid "Refund Policy"
+msgstr "Reembolso"
+
+#: includes/pro/classes/store-seo.php:481
+#, fuzzy
+msgid "Your changes has been updated!"
+msgstr "A sua base de dados foi atualizada com sucesso!"
+
+#: includes/pro/classes/update.php:56
+#, fuzzy
+msgid "Updates"
+msgstr "Atualizações do pedido"
+
+#: includes/pro/classes/update.php:79
+msgid ""
+"Please <a href=\"%s\">enter</a> your <strong>Dokan</strong> plugin license "
+"key to get regular update and support."
+msgstr ""
+
+#: includes/pro/classes/update.php:94
+#, fuzzy
+msgid "Please activate your copy"
+msgstr "Copie e cole este código no seu site para incorporar"
+
+#: includes/pro/classes/update.php:132
+#, fuzzy
+msgid "Dokan Error:"
+msgstr "Erro! Erro no API Envato"
+
+#: includes/pro/classes/update.php:325
+#, fuzzy
+msgid "Empty email address"
+msgstr "Endereço de e-mail."
+
+#: includes/pro/classes/update.php:329
+#, fuzzy
+msgid "Empty license key"
+msgstr "está vazio"
+
+#: includes/pro/classes/update.php:347
+#, fuzzy
+msgid "Settings Saved"
+msgstr "Salvo"
+
+#: includes/pro/classes/update.php:363
+#, fuzzy
+msgid "Plugin Activation"
+msgstr "Chave de Ativação:"
+
+#: includes/pro/classes/update.php:366
+msgid ""
+"Enter the E-mail address that was used for purchasing the plugin and the "
+"license key."
+msgstr ""
+
+#: includes/pro/classes/update.php:367
+msgid ""
+"We recommend you to enter those details to get regular <strong>plugin update "
+"and support</strong>."
+msgstr ""
+
+#: includes/pro/classes/update.php:386
+#, fuzzy
+msgid "E-mail Address"
+msgstr "Informe um nome de usuário ou endereço de e-mail."
+
+#: includes/pro/classes/update.php:389
+#, fuzzy
+msgid "Enter your purchase Email address"
+msgstr "O seu endereço de e-mail não será publicado."
+
+#: includes/pro/classes/update.php:393
+#, fuzzy
+msgid "License Key"
+msgstr ""
+"Não é possível desativar. O código de compra não é válido para sua chave de "
+"licença!"
+
+#: includes/pro/classes/update.php:396
+msgid "Enter your license key"
+msgstr ""
+
+#: includes/pro/classes/update.php:401
+#, fuzzy
+msgid "Save & Activate"
+msgstr "Salvar e ativar"
+
+#: includes/pro/classes/update.php:410
+#, fuzzy
+msgid "has been expired %s ago"
+msgstr "Olá. O seu pedido em %s foi reembolsado."
+
+#: includes/pro/classes/update.php:413
+#, fuzzy
+msgid "will expire in %s"
+msgstr "%s, %s"
+
+#: includes/pro/classes/update.php:419
+msgid "Validity:"
+msgstr ""
+
+#: includes/pro/classes/update.php:424
+#, fuzzy
+msgid "Renew License"
+msgstr "Licença"
+
+#: includes/pro/classes/update.php:432
+#, fuzzy
+msgid "Plugin is activated"
+msgstr "Licenção ativada com Sucesso. Obrigado"
+
+#: includes/pro/classes/update.php:436
+#, fuzzy
+msgid "Delete License"
+msgstr "Licença"
+
+#: includes/pro/classes/withdraws.php:53
+msgid "Skrill"
+msgstr ""
+
+#: includes/pro/includes/functions.php:25
+msgid "Start with adding a Banner to gain profile progress"
+msgstr ""
+
+#: includes/pro/includes/reports.php:11 includes/pro/includes/reports.php:709
+#: includes/pro/includes/reports.php:812
+#: templates/dashboard/big-counter-widget.php:30
+#: templates/dashboard/sales-chart-widget.php:15
+#, fuzzy
+msgid "Sales"
+msgstr "Vendas"
+
+#: includes/pro/includes/reports.php:20
+#, fuzzy
+msgid "Sales by day"
+msgstr "Vendas"
+
+#: includes/pro/includes/reports.php:25
+#, fuzzy
+msgid "Top selling"
+msgstr "Topo"
+
+#: includes/pro/includes/reports.php:30
+#, fuzzy
+msgid "Top earning"
+msgstr "Topo"
+
+#: includes/pro/includes/reports.php:288
+#, fuzzy
+msgid "This month's sales"
+msgstr "Este mês"
+
+#: includes/pro/includes/reports.php:338
+#, fuzzy
+msgid "Sales in this period"
+msgstr "Vendas liquidas no período."
+
+#: includes/pro/includes/reports.php:424
+#, fuzzy
+msgid "%s sales in this period"
+msgstr "%s vendas líquidas neste período"
+
+#: includes/pro/includes/reports.php:428
+#, fuzzy
+msgid "%s average daily sales"
+msgstr "%s média diária de vendas líquidas"
+
+#: includes/pro/includes/reports.php:432
+#, fuzzy
+msgid "%s orders placed"
+msgstr "%s pedidos feitos"
+
+#: includes/pro/includes/reports.php:436
+#, fuzzy
+msgid "%s items purchased"
+msgstr "%s itens comprados"
+
+#: includes/pro/includes/reports.php:440
+#, fuzzy
+msgid "%s charged for shipping"
+msgstr "%s cobrado para o transporte"
+
+#: includes/pro/includes/reports.php:444
+#, fuzzy
+msgid "%s worth of coupons used"
+msgstr "%s no valor dos cupons usados"
+
+#: includes/pro/includes/reports.php:553 includes/reports.php:337
+#, fuzzy
+msgid "Number of items sold"
+msgstr "Número de itens vendidos"
+
+#: includes/pro/includes/reports.php:708 includes/pro/includes/reports.php:811
+#: includes/pro/templates/coupon/form.php:69
+#, fuzzy
+msgid "Product"
+msgstr "Produto"
+
+#: includes/pro/includes/reports.php:723
+#, fuzzy
+msgid "Product does not exist"
+msgstr "A área não existe!"
+
+#: includes/pro/includes/reports.php:827
+#, fuzzy
+msgid "Product no longer exists"
+msgstr "Não existe mais"
+
+#: includes/pro/includes/shipping-gateway/shipping.php:21
+#, fuzzy
+msgid "Dokan Shipping"
+msgstr "Rota:"
+
+#: includes/pro/includes/shipping-gateway/shipping.php:22
+msgid "Enable sellers to set shipping cost per product and per country"
+msgstr ""
+
+#: includes/pro/includes/shipping-gateway/shipping.php:57
+#, fuzzy
+msgid "Enable/Disable"
+msgstr "Habilitar/Desabilitar"
+
+#: includes/pro/includes/shipping-gateway/shipping.php:59
+#: includes/pro/templates/settings/shipping.php:38
+#, fuzzy
+msgid "Enable Shipping"
+msgstr ""
+"Ative o modo de depuração de entrega para mostrar as áreas de entrega e "
+"ignorar o cache dos custos de entrega."
+
+#: includes/pro/includes/shipping-gateway/shipping.php:63
+#, fuzzy
+msgid "Method Title"
+msgstr "Título do método"
+
+#: includes/pro/includes/shipping-gateway/shipping.php:65
+#, fuzzy
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+"Isto controla o título que o usuário vê durante a finalização da compra."
+
+#: includes/pro/includes/shipping-gateway/shipping.php:66
+#, fuzzy
+msgid "Regular Shipping"
+msgstr "Preço"
+
+#: includes/pro/includes/shipping-gateway/shipping.php:70
+#: includes/pro/templates/products/edit/inventory.php:64
+#: includes/pro/templates/products/product-shipping-content.php:122
+#, fuzzy
+msgid "Tax Status"
+msgstr "Situação fiscal"
+
+#: includes/pro/includes/shipping-gateway/shipping.php:74
+#: includes/pro/templates/products/edit/inventory.php:67
+#: includes/pro/templates/products/product-shipping-content.php:125
+#, fuzzy
+msgid "Taxable"
+msgstr "Tributável"
+
+#: includes/pro/includes/widgets/best-seller.php:77
+#, fuzzy
+msgid "Best Seller"
+msgstr "Sou dono de lavanderia"
+
+#: includes/pro/includes/widgets/best-seller.php:85
+#: includes/pro/includes/widgets/feature-seller.php:86
+#: includes/pro/includes/widgets/store-contact.php:88
+#: includes/pro/includes/widgets/store-location.php:88
+#: includes/widgets/bestselling-product.php:62
+#: includes/widgets/menu-category.php:147 includes/widgets/store-menu.php:70
+#: includes/widgets/top-rated-product.php:61
+#, fuzzy
+msgid "Title:"
+msgstr "Título"
+
+#: includes/pro/includes/widgets/best-seller.php:89
+#, fuzzy
+msgid "No. of Seller:"
+msgstr "Sou dono de lavanderia"
+
+#: includes/pro/includes/widgets/feature-seller.php:90
+#, fuzzy
+msgid "No of Seller:"
+msgstr "Sou dono de lavanderia"
+
+#: includes/pro/includes/widgets/store-contact.php:18
+msgid "Dokan Seller Contact Form"
+msgstr ""
+
+#: includes/pro/includes/widgets/store-contact.php:19
+msgid "Dokan: Store Contact Form"
+msgstr ""
+
+#: includes/pro/includes/widgets/store-contact.php:82
+#: includes/pro/templates/store-reviews.php:40 templates/store-toc.php:39
+#: templates/store.php:42
+#, fuzzy
+msgid "Contact Seller"
+msgstr "Contato"
+
+#: includes/pro/includes/widgets/store-location.php:18
+msgid "Dokan Seller Store Location"
+msgstr ""
+
+#: includes/pro/includes/widgets/store-location.php:19
+#, fuzzy
+msgid "Dokan: Store Location"
+msgstr "Localização"
+
+#: includes/pro/includes/widgets/store-location.php:82
+#: includes/pro/templates/store-reviews.php:37 templates/store-toc.php:36
+#: templates/store.php:39
+#, fuzzy
+msgid "Store Location"
+msgstr "Localização"
+
+#: includes/pro/templates/announcement/listing-announcement.php:34
+#, fuzzy
+msgid " See More"
+msgstr ""
+"Isto controla como seus campos são exibidos no front-end. <br /> Se você "
+"escolher \"Mostrar usando ganchos de ação\" você tem que escrever "
+"manualmente o código para o seu tema ou plugin para exibir os campos e as "
+"definições de configuração abaixo não irão funcionar . <br /> Se você usar "
+"extensão Composite products você deve deixar esta definição para \"normal\" "
+"caso contrário, as opções extras não podem ser exibidos nos pacotes de "
+"produtos compostos. <br />Veja mais na documentação."
+
+#: includes/pro/templates/announcement/listing-announcement.php:47
+#: includes/pro/templates/dashboard/announcement-widget.php:47
+#, fuzzy
+msgid "No announcement found"
+msgstr "Nenhuma Assinatura encontrada"
+
+#: includes/pro/templates/announcement/no-announcement.php:13
+#, fuzzy
+msgid "Notice"
+msgstr "Texto de notificação da loja"
+
+#: includes/pro/templates/announcement/no-announcement.php:17
+#, fuzzy
+msgid "No Notice found; "
+msgstr "Esconder esta mensagem."
+
+#: includes/pro/templates/announcement/no-announcement.php:17
+#: includes/pro/templates/announcement/single-notice.php:23
+#, fuzzy
+msgid "Back to all Notice"
+msgstr "Esconder esta mensagem."
+
+#: includes/pro/templates/coupon/form.php:16
+#, fuzzy
+msgid "Coupon Title"
+msgstr "(sem título)"
+
+#: includes/pro/templates/coupon/form.php:18
+#: templates/products/new-product-single.php:172
+#, fuzzy
+msgid "Title"
+msgstr "Título"
+
+#: includes/pro/templates/coupon/form.php:23
+#: templates/products/new-product-single.php:371
+#, fuzzy
+msgid "Description"
+msgstr "Descrição"
+
+#: includes/pro/templates/coupon/form.php:30
+#, fuzzy
+msgid "Discount Type"
+msgstr "Tipo de desconto"
+
+#: includes/pro/templates/coupon/form.php:34
+#, fuzzy
+msgid "Product Discount"
+msgstr "Desconto nos produtos"
+
+#: includes/pro/templates/coupon/form.php:35
+#, fuzzy
+msgid "Product % Discount"
+msgstr "% desconto nos produtos"
+
+#: includes/pro/templates/coupon/form.php:48
+#, fuzzy
+msgid "Email Restrictions"
+msgstr "Restringir aos e-mails"
+
+#: includes/pro/templates/coupon/form.php:50
+#, fuzzy
+msgid "Email restrictions"
+msgstr "Restringir aos e-mails"
+
+#: includes/pro/templates/coupon/form.php:55
+#: includes/pro/templates/coupon/form.php:57
+#, fuzzy
+msgid "Usage Limit"
+msgstr "Uso / Limite"
+
+#: includes/pro/templates/coupon/form.php:62
+#: includes/pro/templates/coupon/form.php:64
+#, fuzzy
+msgid "Expire Date"
+msgstr "Data:"
+
+#: includes/pro/templates/coupon/form.php:71
+#: includes/pro/templates/coupon/form.php:114
+#, fuzzy
+msgid "Select Some Product"
+msgstr "Selecione uma das opções do produto antes de adicioná-lo ao carrinho."
+
+#: includes/pro/templates/coupon/form.php:89
+#, fuzzy
+msgid "Exclude Sale Items"
+msgstr "Excluir itens em oferta"
+
+#: includes/pro/templates/coupon/form.php:94
+#, fuzzy
+msgid "Check this box if the coupon should not apply to items on sale."
+msgstr ""
+"Marque esta caixa se o cupom não se aplica aos itens em oferta. Cupons por "
+"item só irão funcionar se o item não está em oferta. Cupons por carrinho só "
+"irão funcionar se não houver itens em oferta no carrinho."
+
+#: includes/pro/templates/coupon/form.php:98
+#, fuzzy
+msgid ""
+" Per-item coupons will only work if the item is not on sale. Per-cart "
+"coupons will only work if there are no sale items in the cart."
+msgstr ""
+"Marque esta caixa se o cupom não se aplica aos itens em oferta. Cupons por "
+"item só irão funcionar se o item não está em oferta. Cupons por carrinho só "
+"irão funcionar se não houver itens em oferta no carrinho."
+
+#: includes/pro/templates/coupon/form.php:105
+#: includes/pro/templates/coupon/form.php:107
+#, fuzzy
+msgid "Minimum Amount"
+msgstr "Quantidade mínima para pedido (definido abaixo)"
+
+#: includes/pro/templates/coupon/form.php:112
+#, fuzzy
+msgid "Exclude products"
+msgstr "Excluir produtos"
+
+#: includes/pro/templates/coupon/header.php:13
+#, fuzzy
+msgid "Coupon"
+msgstr "Cupom"
+
+#: includes/pro/templates/coupon/header.php:15
+#, fuzzy
+msgid "Edit Coupon"
+msgstr "Editar cupom"
+
+#: includes/pro/templates/coupon/header.php:22
+#, fuzzy
+msgid "Add new Coupon"
+msgstr "Adicionar novo cupom"
+
+#: includes/pro/templates/coupon/listing.php:14
+#, fuzzy
+msgid "Code"
+msgstr "Código"
+
+#: includes/pro/templates/coupon/listing.php:15
+#, fuzzy
+msgid "Coupon type"
+msgstr "Tipo de cupom"
+
+#: includes/pro/templates/coupon/listing.php:16
+#, fuzzy
+msgid "Coupon amount"
+msgstr "Valor do cupom"
+
+#: includes/pro/templates/coupon/listing.php:17
+#, fuzzy
+msgid "Product IDs"
+msgstr "ID do produto"
+
+#: includes/pro/templates/coupon/listing.php:18
+#, fuzzy
+msgid "Usage / Limit"
+msgstr "Uso / Limite"
+
+#: includes/pro/templates/coupon/listing.php:19
+#, fuzzy
+msgid "Expiry date"
+msgstr "Data de validade"
+
+#: includes/pro/templates/coupon/listing.php:37
+#, fuzzy
+msgid "Are you sure want to delete"
+msgstr "Tem certeza de que deseja excluir %s?"
+
+#: includes/pro/templates/coupon/listing.php:37
+#, fuzzy
+msgid "delete"
+msgstr "Excluir"
+
+#: includes/pro/templates/coupon/listing.php:47
+#, fuzzy
+msgid "Fixed Amount"
+msgstr "Quantia fixa"
+
+#: includes/pro/templates/coupon/listing.php:49
+#, fuzzy
+msgid "Percent"
+msgstr "Porcentagem do preço original por caractere"
+
+#: includes/pro/templates/coupon/listing.php:79
+#, fuzzy
+msgid "%s / %s"
+msgstr "%s (%s)"
+
+#: includes/pro/templates/coupon/listing.php:81
+#, fuzzy
+msgid "%s / &infin;"
+msgstr "&infin;"
+
+#: includes/pro/templates/dashboard/announcement-widget.php:14
+#, fuzzy
+msgid "Latest Announcement"
+msgstr "Seus posts recentes"
+
+#: includes/pro/templates/dashboard/announcement-widget.php:17
+#, fuzzy
+msgid "See All"
+msgstr "Você pode ver todos os comentários para este post em:"
+
+#: includes/pro/templates/dashboard/review-widget.php:19
+#: includes/pro/templates/review/status-filter.php:12
+#, fuzzy
+msgid "All"
+msgstr "Todos"
+
+#: includes/pro/templates/dashboard/review-widget.php:29
+#: includes/pro/templates/review/listing-table-tr.php:36
+#: includes/pro/templates/review/listing-table-tr.php:60
+#, fuzzy
+msgid "Spam"
+msgstr "Spam"
+
+#: includes/pro/templates/dashboard/review-widget.php:34
+#: includes/pro/templates/review/listing-table-tr.php:37
+#: includes/pro/templates/review/listing-table-tr.php:61
+#, fuzzy
+msgid "Trash"
+msgstr "Lixeira"
+
+#: includes/pro/templates/global/account-migration-btn.php:14
+#: includes/pro/templates/global/update-account.php:84
+#, fuzzy
+msgid "Become a Seller"
+msgstr "Sou dono de lavanderia"
+
+#: includes/pro/templates/global/profile-progressbar.php:15
+#, fuzzy
+msgid "% Profile complete"
+msgstr "Perfil"
+
+#: includes/pro/templates/global/update-account.php:28
+#, fuzzy
+msgid "Update account to Seller"
+msgstr "Atualizar"
+
+#: includes/pro/templates/global/update-account.php:35
+#: templates/global/seller-registration-form.php:15
+#, fuzzy
+msgid "First Name"
+msgstr "Primeiro nome "
+
+#: includes/pro/templates/global/update-account.php:40
+#: templates/global/seller-registration-form.php:20
+#, fuzzy
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#: includes/pro/templates/global/update-account.php:51
+#: templates/global/seller-registration-form.php:31
+#, fuzzy
+msgid "Shop URL"
+msgstr "Loja"
+
+#: includes/pro/templates/global/update-account.php:58
+#: templates/settings/address-form.php:26
+#, fuzzy
+msgid "Address"
+msgstr "Endereço"
+
+#: includes/pro/templates/global/update-account.php:76
+msgid ""
+"I have read and agree to the <a target=\"_blank\" href=\"%s\">Terms &amp; "
+"Conditions</a>."
+msgstr ""
+
+#: includes/pro/templates/products/edit/attributes.php:1
+#: includes/pro/templates/products/product-edit.php:168
+#, fuzzy
+msgid "Attributes"
+msgstr "Atributos"
+
+#: includes/pro/templates/products/edit/attributes.php:1
+msgid "Different types of this product (e.g. size, color)"
+msgstr ""
+
+#: includes/pro/templates/products/edit/attributes.php:48
+#: includes/pro/templates/products/edit/templates-js.php:5
+#, fuzzy
+msgid "Category name"
+msgstr "Nome da categoria."
+
+#: includes/pro/templates/products/edit/attributes.php:140
+#: includes/pro/templates/products/edit/variation-attribute-popup.php:25
+#: includes/pro/templates/products/product-variation.php:32
+#, fuzzy
+msgid "Custom Attribute"
+msgstr ""
+"Mostra um atributo personalizado em um widget que permite diminuir a lista "
+"de produtos ao visualizar categorias de produtos."
+
+#: includes/pro/templates/products/edit/attributes.php:148
+#, fuzzy
+msgid "+ Add a category"
+msgstr "Adicionar nova categoria"
+
+#: includes/pro/templates/products/edit/attributes.php:149
+#, fuzzy
+msgid "Save attributes"
+msgstr "Salvar atributos"
+
+#: includes/pro/templates/products/edit/inventory.php:18
+#: includes/pro/templates/products/edit/inventory.php:20
+#: includes/pro/templates/products/edit/load_variation_template.php:118
+#: includes/pro/templates/products/edit/variation-table.php:20
+#: includes/woo-views/variation-admin-html.php:54
+#: templates/products/new-product-single.php:392
+#: templates/products/products-listing.php:55
+#, fuzzy
+msgid "SKU"
+msgstr "REF"
+
+#: includes/pro/templates/products/edit/inventory.php:25
+#: includes/woo-views/variation-admin-html.php:232
+#, fuzzy
+msgid "Manage Stock?"
+msgstr "Gerenciar estoque?"
+
+#: includes/pro/templates/products/edit/inventory.php:27
+#, fuzzy
+msgid "Enable stock management at product level"
+msgstr "Habilitar gerenciamento de estoque a nível de produto"
+
+#: includes/pro/templates/products/edit/inventory.php:32
+#, fuzzy
+msgid "Stock Qty"
+msgstr "Qtd. no Estoque"
+
+#: includes/pro/templates/products/edit/inventory.php:39
+#: templates/products/new-product-single.php:408
+#, fuzzy
+msgid "Stock Status"
+msgstr "Status do estoque"
+
+#: includes/pro/templates/products/edit/inventory.php:42
+#: templates/products/new-product-single.php:411
+#, fuzzy
+msgid "In Stock"
+msgstr "Em estoque"
+
+#: includes/pro/templates/products/edit/inventory.php:43
+#: templates/products/new-product-single.php:412
+#, fuzzy
+msgid "Out of Stock"
+msgstr "Sem estoque"
+
+#: includes/pro/templates/products/edit/inventory.php:50
+#: templates/products/new-product-single.php:417
+#, fuzzy
+msgid "Allow Backorders"
+msgstr "Permitir encomendas?"
+
+#: includes/pro/templates/products/edit/inventory.php:54
+#: includes/pro/templates/products/edit/variation-popup.php:55
+#: includes/woo-views/variation-admin-html.php:71
+#: templates/products/new-product-single.php:421
+#, fuzzy
+msgid "Allow but notify customer"
+msgstr "Permitir, mas informar o cliente"
+
+#: includes/pro/templates/products/edit/inventory.php:68
+#: includes/pro/templates/products/product-shipping-content.php:126
+#, fuzzy
+msgid "Shipping only"
+msgstr "Somente transporte"
+
+#: includes/pro/templates/products/edit/inventory.php:76
+#: includes/pro/templates/products/product-shipping-content.php:134
+#, fuzzy
+msgid "Tax Class"
+msgstr "Classe de imposto"
+
+#: includes/pro/templates/products/edit/load_variation_template.php:115
+#: templates/products/products-listing.php:52
+#, fuzzy
+msgid "Image"
+msgstr "Imagem"
+
+#: includes/pro/templates/products/edit/load_variation_template.php:116
+#: includes/pro/templates/products/edit/variation-table.php:18
+msgid "Variant"
+msgstr ""
+
+#: includes/pro/templates/products/edit/load_variation_template.php:117
+#: includes/pro/templates/products/edit/variation-table.php:19
+#: templates/products/new-product-single.php:181
+#: templates/products/products-listing.php:57
+#, fuzzy
+msgid "Price"
+msgstr "Preço"
+
+#: includes/pro/templates/products/edit/load_variation_template.php:119
+#: templates/orders/listing.php:22
+#: templates/products/new-product-single.php:467
+#, fuzzy
+msgid "Action"
+msgstr "Ação"
+
+#: includes/pro/templates/products/edit/load_variation_template.php:210
+#, fuzzy
+msgid "Add Options"
+msgstr "Adicionar"
+
+#: includes/pro/templates/products/edit/load_variation_template.php:211
+#, fuzzy
+msgid "Add New Variation"
+msgstr "Adicionar variação"
+
+#: includes/pro/templates/products/edit/options.php:3
+#: templates/products/new-product-single.php:545
+#, fuzzy
+msgid "Purchase Note"
+msgstr "Nota da compra"
+
+#: includes/pro/templates/products/edit/options.php:13
+#, fuzzy
+msgid "Enable Reviews"
+msgstr "Habilitar avaliações"
+
+#: includes/pro/templates/products/edit/options.php:18
+#: templates/products/new-product-single.php:535
+#, fuzzy
+msgid "Visibility"
+msgstr "Visibilidade"
+
+#: includes/pro/templates/products/edit/options.php:21
+#: templates/products/new-product-single.php:537
+#, fuzzy
+msgid "Catalog or Search"
+msgstr "Catalogo e pesquisa"
+
+#: includes/pro/templates/products/edit/options.php:22
+#: templates/products/new-product-single.php:538
+#, fuzzy
+msgid "Catalog"
+msgstr "Catálogo"
+
+#: includes/pro/templates/products/edit/options.php:23
+#: templates/products/listing-filter.php:50
+#: templates/products/new-product-single.php:539
+#, fuzzy
+msgid "Search"
+msgstr "Pesquisar"
+
+#: includes/pro/templates/products/edit/options.php:24
+#: includes/pro/templates/products/product-edit.php:97
+#: templates/products/new-product-single.php:120
+#: templates/products/new-product-single.php:540
+#, fuzzy
+msgid "Hidden"
+msgstr "Escondido"
+
+#: includes/pro/templates/products/edit/options.php:30
+#, fuzzy
+msgid "Sold Individually"
+msgstr "Vender individualmente"
+
+#: includes/pro/templates/products/edit/options.php:32
+#, fuzzy
+msgid ""
+"Enable this to only allow one of this item to be bought in a single order"
+msgstr ""
+"Habilite para permitir que somente um item deste produto seja comprado por "
+"pedido."
+
+#: includes/pro/templates/products/edit/shipping.php:24
+#, fuzzy
+msgid "Disable Shipping"
+msgstr "Desativar entrega e cálculo de entrega"
+
+#: includes/pro/templates/products/edit/shipping.php:26
+#, fuzzy
+msgid "Disable shipping for this product"
+msgstr "Desativar mas mudar os preços dos produtos"
+
+#: includes/pro/templates/products/edit/shipping.php:32
+#: includes/pro/templates/products/edit/variation-popup.php:100
+#: includes/woo-views/variation-admin-html.php:113
+#, fuzzy
+msgid "Weight"
+msgstr "Peso"
+
+#: includes/pro/templates/products/edit/shipping.php:39
+#, fuzzy
+msgid "Dimensions"
+msgstr "Dimensões"
+
+#: includes/pro/templates/products/edit/shipping.php:41
+#, fuzzy
+msgid "length"
+msgstr "Comprimento"
+
+#: includes/pro/templates/products/edit/shipping.php:42
+#, fuzzy
+msgid "width"
+msgstr "Largura"
+
+#: includes/pro/templates/products/edit/shipping.php:43
+#, fuzzy
+msgid "height"
+msgstr "Altura"
+
+#: includes/pro/templates/products/edit/shipping.php:49
+#, fuzzy
+msgid "Override Shipping"
+msgstr "Sobrescrever endereço"
+
+#: includes/pro/templates/products/edit/shipping.php:51
+#: includes/pro/templates/products/product-shipping-content.php:81
+#, fuzzy
+msgid "Override default shipping cost for this product"
+msgstr ""
+"Habilite esta opção caso o produto não é entregue ou não tem custos de "
+"entrega"
+
+#: includes/pro/templates/products/edit/shipping.php:56
+#: includes/pro/templates/products/product-shipping-content.php:85
+#, fuzzy
+msgid "Additional cost"
+msgstr ""
+"Um por linha: Nome da opção | Custo adicional [+- percentagem] | Tipo de "
+"custo (order, class, ou item) Exemplo: <code>Entrega prioritária | 6.95 [+ "
+"0.2%] | order</code>"
+
+#: includes/pro/templates/products/edit/shipping.php:64
+#: includes/pro/templates/products/product-shipping-content.php:90
+#: includes/pro/templates/settings/shipping.php:84
+#, fuzzy
+msgid "Per Qty Additional Price"
+msgstr "Preço por caractere (sem espaços)"
+
+#: includes/pro/templates/products/edit/shipping.php:72
+#: includes/pro/templates/products/product-shipping-content.php:95
+#: includes/pro/templates/settings/shipping.php:97
+#, fuzzy
+msgid "Processing Time"
+msgstr "Tempo"
+
+#: includes/pro/templates/products/edit/sidebar.php:8
+#, fuzzy
+msgid "Update Product"
+msgstr "Atualizar etiqueta de produto"
+
+#: includes/pro/templates/products/edit/sidebar.php:14
+#, fuzzy
+msgid "Product Status:"
+msgstr "Status do produto (status do post)."
+
+#: includes/pro/templates/products/edit/sidebar.php:35
+#: includes/pro/templates/products/edit/sidebar.php:75
+#, fuzzy
+msgid "OK"
+msgstr "OK"
+
+#: includes/pro/templates/products/edit/sidebar.php:42
+#, fuzzy
+msgid "Product Type:"
+msgstr "Tipo de produto."
+
+#: includes/pro/templates/products/edit/sidebar.php:46
+#, fuzzy
+msgid "Simple product"
+msgstr "Produto simples"
+
+#: includes/pro/templates/products/edit/sidebar.php:47
+#, fuzzy
+msgid "Variable product"
+msgstr "Produto variável"
+
+#: includes/pro/templates/products/edit/sidebar.php:88
+#, fuzzy
+msgid "Downloadable Product"
+msgstr "ID do produto baixável."
+
+#: includes/pro/templates/products/edit/sidebar.php:108
+#: includes/pro/templates/products/edit/variation-popup.php:171
+#: includes/woo-views/variation-admin-html.php:180
+#: templates/products/new-product-single.php:459
+#, fuzzy
+msgid "Add File"
+msgstr "Adicionar Arquivo"
+
+#: includes/pro/templates/products/edit/sidebar.php:128
+#, fuzzy
+msgid "Limit"
+msgstr "Limitar para CEPs específicos."
+
+#: includes/pro/templates/products/edit/sidebar.php:129
+#, fuzzy
+msgid "Number of times"
+msgstr "Número de vezes que o cupom já foi utilizado."
+
+#: includes/pro/templates/products/edit/sidebar.php:135
+#: templates/products/new-product-single.php:491
+#, fuzzy
+msgid "Number of days"
+msgstr "Um número de dias de hoje."
+
+#: includes/pro/templates/products/edit/sidebar.php:146
+#, fuzzy
+msgid "Image Gallery"
+msgstr "Galeria de imagens do produto"
+
+#: includes/pro/templates/products/edit/sidebar.php:177
+#, fuzzy
+msgid "+ Add product images"
+msgstr "Adicionar galeria de imagens do produto"
+
+#: includes/pro/templates/products/edit/variation-attribute-popup.php:18
+#: includes/pro/templates/products/product-variation.php:25
+#, fuzzy
+msgid "Option Name"
+msgstr ""
+"Um por linha: Nome da opção | Custo adicional [+- percentagem] | Tipo de "
+"custo (order, class, ou item) Exemplo: <code>Entrega prioritária | 6.95 [+ "
+"0.2%] | order</code>"
+
+#: includes/pro/templates/products/edit/variation-attribute-popup.php:19
+#: includes/pro/templates/products/product-variation.php:26
+#, fuzzy
+msgid "Option Values"
+msgstr ""
+"Resetar os valores de opções depois que o produto for adicionado ao carrinho"
+
+#: includes/pro/templates/products/edit/variation-attribute-popup.php:34
+#: includes/pro/templates/products/product-variation.php:41
+#, fuzzy
+msgid "Add Option"
+msgstr "Adicionar Opção Extra"
+
+#: includes/pro/templates/products/edit/variation-item.php:28
+#: includes/woo-views/variation-admin-html.php:21
+#, fuzzy
+msgid "Any"
+msgstr "Qualquer"
+
+#: includes/pro/templates/products/edit/variation-item.php:55
+#: includes/pro/templates/products/edit/variation-popup.php:79
+#: includes/pro/templates/products/edit/variation-table.php:36
+#: templates/products/new-product-single.php:185
+#: templates/products/new-product-single.php:194
+msgid "0.00"
+msgstr ""
+
+#: includes/pro/templates/products/edit/variation-popup.php:13
+#, fuzzy
+msgid "Add New "
+msgstr "Adicionar nova"
+
+#: includes/pro/templates/products/edit/variation-popup.php:19
+#, fuzzy
+msgid "Any "
+msgstr "Qualquer"
+
+#: includes/pro/templates/products/edit/variation-popup.php:38
+#, fuzzy
+msgid "SKU: "
+msgstr "REF:"
+
+#: includes/pro/templates/products/edit/variation-popup.php:38
+#: includes/woo-views/variation-admin-html.php:54
+#, fuzzy
+msgid ""
+"Enter a SKU for this variation or leave blank to use the parent product SKU."
+msgstr ""
+"Informe a REF para esta variação ou deixe em branco para usar a REF do "
+"produto pai."
+
+#: includes/pro/templates/products/edit/variation-popup.php:48
+#, fuzzy
+msgid "Stock Qty: "
+msgstr "Qtd. no Estoque"
+
+#: includes/pro/templates/products/edit/variation-popup.php:48
+#: includes/woo-views/variation-admin-html.php:64
+#, fuzzy
+msgid ""
+"Enter a quantity to enable stock management at variation level, or leave "
+"blank to use the parent product's options."
+msgstr ""
+"Introduza uma quantidade para habilitar o gerenciamento de estoque no nível "
+"de variação, ou deixe em branco para usar as opções do produto pai."
+
+#: includes/pro/templates/products/edit/variation-popup.php:52
+#: includes/woo-views/variation-admin-html.php:68
+#, fuzzy
+msgid "Allow Backorders?"
+msgstr "Permitir encomendas?"
+
+#: includes/pro/templates/products/edit/variation-popup.php:62
+#: includes/woo-views/variation-admin-html.php:78
+#, fuzzy
+msgid "Stock status"
+msgstr "Status do estoque"
+
+#: includes/pro/templates/products/edit/variation-popup.php:73
+#, fuzzy
+msgid "Regular Price: "
+msgstr "Preço"
+
+#: includes/pro/templates/products/edit/variation-popup.php:74
+#: includes/woo-views/variation-admin-html.php:90
+#, fuzzy
+msgid "Variation price (required)"
+msgstr "Preço da variação (obrigatório)"
+
+#: includes/pro/templates/products/edit/variation-popup.php:77
+#, fuzzy
+msgid "Sale Price: "
+msgstr "Preço promocional"
+
+#: includes/pro/templates/products/edit/variation-popup.php:77
+#: includes/pro/templates/products/product-edit.php:262
+#: includes/woo-views/variation-admin-html.php:93
+#, fuzzy
+msgid "Schedule"
+msgstr "Programar"
+
+#: includes/pro/templates/products/edit/variation-popup.php:78
+#: includes/woo-views/variation-admin-html.php:93
+#, fuzzy
+msgid "Cancel schedule"
+msgstr "Cancelar agendamento"
+
+#: includes/pro/templates/products/edit/variation-popup.php:85
+#: includes/woo-views/variation-admin-html.php:100
+#, fuzzy
+msgid "Sale start date:"
+msgstr "Data de início da oferta"
+
+#: includes/pro/templates/products/edit/variation-popup.php:86
+#, fuzzy
+msgid "From… YYYY-MM-DD"
+msgstr "DD / MM / AAAA"
+
+#: includes/pro/templates/products/edit/variation-popup.php:89
+#: includes/woo-views/variation-admin-html.php:104
+#, fuzzy
+msgid "Sale end date:"
+msgstr "Data final da oferta"
+
+#: includes/pro/templates/products/edit/variation-popup.php:90
+#, fuzzy
+msgid "To… YYYY-MM-DD"
+msgstr "DD-MM-YYYY"
+
+#: includes/pro/templates/products/edit/variation-popup.php:108
+#: includes/woo-views/variation-admin-html.php:121
+#, fuzzy
+msgid "Dimensions (L&times;W&times;H)"
+msgstr "Dimensões (C&times;L&times;A)"
+
+#: includes/pro/templates/products/edit/variation-popup.php:122
+#: includes/woo-views/variation-admin-html.php:132
+#, fuzzy
+msgid "Shipping class:"
+msgstr "Classe de entrega"
+
+#: includes/pro/templates/products/edit/variation-popup.php:139
+#: includes/woo-views/variation-admin-html.php:147
+#, fuzzy
+msgid "Tax class:"
+msgstr "Classe da taxa."
+
+#: includes/pro/templates/products/edit/variation-popup.php:152
+#: includes/woo-views/variation-admin-html.php:160
+#, fuzzy
+msgid "Downloadable Files"
+msgstr "Arquivos para download"
+
+#: includes/pro/templates/products/edit/variation-popup.php:156
+#: includes/woo-views/html-product-download.php:7
+#: includes/woo-views/variation-admin-html.php:164
+#: templates/products/new-product-single.php:465
+#, fuzzy
+msgid "This is the name of the download shown to the customer."
+msgstr "Este é o nome do arquivo de download exibido para o cliente."
+
+#: includes/pro/templates/products/edit/variation-popup.php:157
+#: includes/woo-views/variation-admin-html.php:165
+#: templates/products/new-product-single.php:466
+#, fuzzy
+msgid "File URL"
+msgstr "URL do Arquivo"
+
+#: includes/pro/templates/products/edit/variation-popup.php:157
+#: includes/woo-views/html-product-download.php:12
+#: includes/woo-views/variation-admin-html.php:165
+#: templates/products/new-product-single.php:466
+#, fuzzy
+msgid ""
+"This is the URL or absolute path to the file which customers will get access "
+"to."
+msgstr ""
+"Esta é a URL ou o caminho absoluto para o arquivo que os clientes terão "
+"acesso. URLs inseridas já devem ser codificadas."
+
+#: includes/pro/templates/products/edit/variation-popup.php:166
+#: includes/pro/templates/products/edit/variation-popup.php:188
+#: includes/woo-views/html-product-download.php:8
+#: includes/woo-views/html-product-download.php:27
+#: includes/woo-views/html-product-variation-download.php:2
+#, fuzzy
+msgid "File Name"
+msgstr "Nome do arquivo"
+
+#: includes/pro/templates/products/edit/variation-popup.php:167
+#: includes/pro/templates/products/edit/variation-popup.php:189
+#: includes/woo-views/html-product-download.php:13
+#: includes/woo-views/html-product-download.php:32
+#: includes/woo-views/html-product-variation-download.php:3
+#, fuzzy
+msgid "http://"
+msgstr "http://"
+
+#: includes/pro/templates/products/edit/variation-popup.php:168
+#: includes/pro/templates/products/edit/variation-popup.php:190
+#: includes/woo-views/html-product-download.php:17
+#: includes/woo-views/html-product-download.php:33
+#: includes/woo-views/html-product-variation-download.php:4
+#, fuzzy
+msgid "Choose file"
+msgstr "Escolher arquivo"
+
+#: includes/pro/templates/products/edit/variation-popup.php:168
+#: includes/pro/templates/products/edit/variation-popup.php:190
+#: includes/woo-views/html-product-download.php:17
+#: includes/woo-views/html-product-download.php:33
+#: includes/woo-views/html-product-variation-download.php:4
+#, fuzzy
+msgid "Insert file URL"
+msgstr "Inserir a URL do arquivo"
+
+#: includes/pro/templates/products/edit/variation-popup.php:205
+#: includes/woo-views/variation-admin-html.php:206
+#, fuzzy
+msgid "Download Limit:"
+msgstr "Limite de download"
+
+#: includes/pro/templates/products/edit/variation-popup.php:205
+#: includes/woo-views/variation-admin-html.php:206
+#, fuzzy
+msgid "Leave blank for unlimited re-downloads."
+msgstr "Deixe em branco para permitir downloads ilimitados."
+
+#: includes/pro/templates/products/edit/variation-popup.php:206
+#: includes/pro/templates/products/edit/variation-popup.php:212
+#: includes/woo-views/variation-admin-html.php:207
+#: includes/woo-views/variation-admin-html.php:213
+#: templates/orders/order-download-permission-html.php:28
+#, fuzzy
+msgid "Unlimited"
+msgstr "Ilimitado"
+
+#: includes/pro/templates/products/edit/variation-popup.php:211
+#: includes/woo-views/variation-admin-html.php:212
+#, fuzzy
+msgid "Download Expiry:"
+msgstr "Validade do download"
+
+#: includes/pro/templates/products/edit/variation-popup.php:211
+#: includes/woo-views/variation-admin-html.php:212
+#, fuzzy
+msgid ""
+"Enter the number of days before a download link expires, or leave blank."
+msgstr ""
+"Informe o número de dias antes do link de download expirar ou deixe em "
+"branco."
+
+#: includes/pro/templates/products/new-product.php:41
+#: templates/products/new-product-single.php:106
+#, fuzzy
+msgid "Add New Product"
+msgstr "Adicionar novo produto"
+
+#: includes/pro/templates/products/new-product.php:53
+#: includes/pro/templates/products/product-edit.php:132
+#: templates/global/seller-warning.php:11
+#: templates/products/new-product-single.php:134
+#, fuzzy
+msgid "Error!"
+msgstr "ERRO"
+
+#: includes/pro/templates/products/new-product.php:75
+#, fuzzy
+msgid "Upload Product Image"
+msgstr "Subir uma imagem"
+
+#: includes/pro/templates/products/new-product.php:86
+#: templates/products/new-product-single.php:173
+#, fuzzy
+msgid "Product name.."
+msgstr "Nome do produto."
+
+#: includes/pro/templates/products/new-product.php:97
+#, fuzzy
+msgid "Short description of the product..."
+msgstr "Breve descrição do produto."
+
+#: includes/pro/templates/products/new-product.php:105
+#: includes/pro/templates/products/product-edit.php:302
+#: templates/products/listing-filter.php:22
+#: templates/products/new-product-single.php:235
+#, fuzzy
+msgid "- Select a category -"
+msgstr "Selecione uma categoria"
+
+#: includes/pro/templates/products/new-product.php:120
+#: includes/pro/templates/products/product-edit.php:317
+#: templates/products/new-product-single.php:250
+#, fuzzy
+msgid "Choose a category"
+msgstr "&larr; Escolha uma categoria para ver as estatísticas"
+
+#: includes/pro/templates/products/new-product.php:173
+#, fuzzy
+msgid "Add Product"
+msgstr "Adicionar produto"
+
+#: includes/pro/templates/products/product-edit.php:19
+#, fuzzy
+msgid "Access Denied"
+msgstr "Acesso negado"
+
+#: includes/pro/templates/products/product-edit.php:102
+#: templates/products/new-product-single.php:115
+#, fuzzy
+msgid "View Product"
+msgstr "Ver produto"
+
+#: includes/pro/templates/products/product-edit.php:119
+#: templates/products/new-product-single.php:143
+#, fuzzy
+msgid "Success!"
+msgstr "WordPress &rsaquo; Sucesso"
+
+#: includes/pro/templates/products/product-edit.php:119
+#, fuzzy
+msgid "The product has been updated successfully."
+msgstr "A sua base de dados foi atualizada com sucesso!"
+
+#: includes/pro/templates/products/product-edit.php:122
+#: templates/products/new-product-single.php:146
+#, fuzzy
+msgid "View Product &rarr;"
+msgstr "Ver produto"
+
+#: includes/pro/templates/products/product-edit.php:153
+#, fuzzy
+msgid "Options"
+msgstr "Usar opções"
+
+#: includes/pro/templates/products/product-edit.php:158
+#, fuzzy
+msgid "Inventory"
+msgstr "Inventário"
+
+#: includes/pro/templates/products/product-edit.php:173
+#, fuzzy
+msgid "Variations"
+msgstr "Variações"
+
+#: includes/pro/templates/products/product-edit.php:216
+#: templates/products/new-product-single.php:317
+#, fuzzy
+msgid "Upload a product cover image"
+msgstr "Upload/Adicionar imagem"
+
+#: includes/pro/templates/products/product-edit.php:248
+#, fuzzy
+msgid "Enable Discounted Price"
+msgstr "Preço"
+
+#: includes/pro/templates/products/product-edit.php:258
+#, fuzzy
+msgid "Special Price"
+msgstr "Caracteres especiais"
+
+#: includes/pro/templates/products/product-edit.php:269
+#: templates/products/new-product-single.php:208
+#, fuzzy
+msgid "From"
+msgstr "A partir de: "
+
+#: includes/pro/templates/products/product-edit.php:276
+#: templates/products/new-product-single.php:215
+msgid "To"
+msgstr ""
+
+#: includes/pro/templates/products/product-edit.php:361
+#: templates/products/new-product-single.php:292
+#, fuzzy
+msgid "Select product tags"
+msgstr "WooCommerce etiquetas de produto"
+
+#: includes/pro/templates/products/product-shipping-content.php:16
+#, fuzzy
+msgid "Shipping & Tax"
+msgstr "Taxa de entrega:"
+
+#: includes/pro/templates/products/product-shipping-content.php:19
+#, fuzzy
+msgid "Manage shipping and tax for this product"
+msgstr "Taxa de entrega:"
+
+#: includes/pro/templates/products/product-shipping-content.php:35
+#, fuzzy
+msgid "This product required shipping"
+msgstr "ID do método de envio é obrigatório"
+
+#: includes/pro/templates/products/product-shipping-content.php:51
+#, fuzzy
+msgid "Shipping Class"
+msgstr "Classe de entrega"
+
+#: includes/pro/templates/products/product-shipping-content.php:65
+#, fuzzy
+msgid "No shipping class"
+msgstr "Nenhum classe de entrega"
+
+#: includes/pro/templates/products/product-shipping-content.php:74
+#, fuzzy
+msgid ""
+"Shipping classes are used by certain shipping methods to group similar "
+"products."
+msgstr ""
+"Classes de envio são utilizados por certos métodos de envio para agrupar "
+"produtos semelhantes."
+
+#: includes/pro/templates/products/product-shipping-content.php:117
+#, fuzzy
+msgid "This product required Tax"
+msgstr "Quantidade do produto é obrigatório"
+
+#: includes/pro/templates/products/product-variation.php:16
+#, fuzzy
+msgid "This product has multiple options"
+msgstr "Opções Extras do Produto"
+
+#: includes/pro/templates/products/product-variation.php:17
+msgid "e.g. Multiple sizes and/or colors"
+msgstr ""
+
+#: includes/pro/templates/products/product-variation.php:25
+msgid "Enter your variation attribute option name"
+msgstr ""
+
+#: includes/pro/templates/products/product-variation.php:26
+msgid "Enter attribute options values corresponding options name"
+msgstr ""
+
+#: includes/pro/templates/products/product-variation.php:88
+msgid "Create variation using those attribute options"
+msgstr ""
+
+#: includes/pro/templates/products/product-variation.php:109
+msgid "Use those above variations"
+msgstr ""
+
+#: includes/pro/templates/products/product-variation.php:109
+#, fuzzy
+msgid "If unchecked, then no variation will be created"
+msgstr "A data em que a variação foi criada, no fuso horário do site."
+
+#: includes/pro/templates/products/product-variation.php:111
+#, fuzzy
+msgid "yes"
+msgstr "Sim"
+
+#: includes/pro/templates/review/listing-table-body.php:14
+#: includes/pro/templates/store-reviews.php:78
+#, fuzzy
+msgid "No Results Found"
+msgstr "Nenhum resultado encontrado."
+
+#: includes/pro/templates/review/listing-table-tr.php:23
+#, fuzzy
+msgid "Submitted on "
+msgstr "Enviado em:"
+
+#: includes/pro/templates/review/listing-table-tr.php:41
+#, fuzzy
+msgid "Not Spam"
+msgstr "Spam"
+
+#: includes/pro/templates/review/listing-table-tr.php:42
+#: includes/pro/templates/review/listing-table-tr.php:47
+#: templates/products/products-listing.php:121
+#, fuzzy
+msgid "Delete Permanently"
+msgstr "Excluir permanentemente"
+
+#: includes/pro/templates/review/listing-table-tr.php:46
+#, fuzzy
+msgid "Restore"
+msgstr "Restaurar"
+
+#: includes/pro/templates/review/listing-table-tr.php:52
+msgid "Unapprove"
+msgstr ""
+
+#: includes/pro/templates/review/listing-table-tr.php:58
+#, fuzzy
+msgid "Quick Edit"
+msgstr "Editar rápida"
+
+#: includes/pro/templates/review/listing-table-tr.php:69
+#, fuzzy
+msgid "View Comment"
+msgstr "Comentário"
+
+#: includes/pro/templates/review/listing-table-tr.php:85
+#: includes/pro/templates/store-reviews.php:97
+#, fuzzy
+msgid "Rated %d out of 5"
+msgstr "Avaliado como %d de 5"
+
+#: includes/pro/templates/review/listing-table-tr.php:86
+#: includes/pro/templates/store-reviews.php:98
+#, fuzzy
+msgid "out of 5"
+msgstr "de 5"
+
+#: includes/pro/templates/review/listing.php:17
+#, fuzzy
+msgid "Comment"
+msgstr "Comentário"
+
+#: includes/pro/templates/review/listing.php:18
+#, fuzzy
+msgid "Link To"
+msgstr "Link para"
+
+#: includes/pro/templates/review/listing.php:19
+#, fuzzy
+msgid "Rating"
+msgstr "WooCommerce filtro de média de classificação"
+
+#: includes/pro/templates/review/listing.php:43
+#: includes/pro/templates/review/listing.php:48
+#: includes/pro/templates/review/listing.php:52
+#: includes/pro/templates/review/listing.php:56
+#, fuzzy
+msgid "-None-"
+msgstr "Nenhum"
+
+#: includes/pro/templates/review/listing.php:44
+#, fuzzy
+msgid "Mark Approve"
+msgstr "Aprovar"
+
+#: includes/pro/templates/review/listing.php:45
+#: includes/pro/templates/review/listing.php:58
+#, fuzzy
+msgid "Mark Spam"
+msgstr "Spam"
+
+#: includes/pro/templates/review/listing.php:46
+#: includes/pro/templates/review/listing.php:59
+#, fuzzy
+msgid "Mark Trash"
+msgstr "Marcar como concluído"
+
+#: includes/pro/templates/review/listing.php:49
+#, fuzzy
+msgid "Mark Not Spam"
+msgstr "Spam"
+
+#: includes/pro/templates/review/listing.php:50
+#: includes/pro/templates/review/listing.php:54
+#, fuzzy
+msgid "Delete permanently"
+msgstr "Excluir permanentemente"
+
+#: includes/pro/templates/review/listing.php:53
+msgid "Resore"
+msgstr ""
+
+#: includes/pro/templates/review/listing.php:67
+#, fuzzy
+msgid "Submit"
+msgstr "Enviar"
+
+#: includes/pro/templates/review/status-filter.php:14
+#, fuzzy
+msgid "Pending ("
+msgstr "Pendente"
+
+#: includes/pro/templates/review/status-filter.php:14
+#: includes/pro/templates/review/status-filter.php:17
+#: includes/pro/templates/review/status-filter.php:20
+msgid ")"
+msgstr ""
+
+#: includes/pro/templates/review/status-filter.php:17
+#, fuzzy
+msgid "Spam ("
+msgstr "Spam"
+
+#: includes/pro/templates/review/status-filter.php:20
+#, fuzzy
+msgid "Trash ("
+msgstr "Lixeira"
+
+#: includes/pro/templates/review/tmpl-review-script.php:24
+#, fuzzy
+msgid "URL"
+msgstr "URL"
+
+#: includes/pro/templates/review/tmpl-review-script.php:38
+#, fuzzy
+msgid "Close"
+msgstr "Fechar"
+
+#: includes/pro/templates/review/tmpl-review-script.php:39
+#, fuzzy
+msgid "Update Comment"
+msgstr "Não foi possível atualizar o status do comentário"
+
+#: includes/pro/templates/settings/seo-form.php:16
+#, fuzzy
+msgid "SEO Title :"
+msgstr "(sem título)"
+
+#: includes/pro/templates/settings/seo-form.php:17
+msgid "SEO Title is shown as the title of your store page"
+msgstr ""
+
+#: includes/pro/templates/settings/seo-form.php:27
+#, fuzzy
+msgid "Meta Description :"
+msgstr "Descrição"
+
+#: includes/pro/templates/settings/seo-form.php:28
+msgid ""
+"The meta description is often shown as the black text under the title in a "
+"search result. For this to work it has to contain the keyword that was "
+"searched for and should be less than 156 chars."
+msgstr ""
+
+#: includes/pro/templates/settings/seo-form.php:38
+#, fuzzy
+msgid "Meta Keywords :"
+msgstr "Palavras-chave"
+
+#: includes/pro/templates/settings/seo-form.php:39
+msgid ""
+"Insert some comma separated keywords for better ranking of your store page."
+msgstr ""
+
+#: includes/pro/templates/settings/seo-form.php:49
+#, fuzzy
+msgid "Facebook Title :"
+msgstr "Facebook"
+
+#: includes/pro/templates/settings/seo-form.php:56
+#, fuzzy
+msgid "Facebook Description :"
+msgstr "Facebook"
+
+#: includes/pro/templates/settings/seo-form.php:66
+#, fuzzy
+msgid "Facebook Image :"
+msgstr "Facebook"
+
+#: includes/pro/templates/settings/seo-form.php:75
+#: includes/pro/templates/settings/seo-form.php:107
+#: templates/settings/store-form.php:85
+#, fuzzy
+msgid "Upload Photo"
+msgstr "Upload"
+
+#: includes/pro/templates/settings/seo-form.php:81
+#, fuzzy
+msgid "Twitter Title :"
+msgstr "Twitter"
+
+#: includes/pro/templates/settings/seo-form.php:88
+#, fuzzy
+msgid "Twitter Description :"
+msgstr "Twitter"
+
+#: includes/pro/templates/settings/seo-form.php:98
+#, fuzzy
+msgid "Twitter Image :"
+msgstr "Twitter"
+
+#: includes/pro/templates/settings/seo-form.php:115
+#, fuzzy
+msgid "Save Changes"
+msgstr "Salvar alterações"
+
+#: includes/pro/templates/settings/shipping.php:39
+#, fuzzy
+msgid "Check this if you want to enable shipping for your store"
+msgstr ""
+"Habilite isso se você quiser que este atributo tenha arquivos de produto na "
+"sua loja."
+
+#: includes/pro/templates/settings/shipping.php:48
+#, fuzzy
+msgid "Enable shipping functionality"
+msgstr "Ativar para os métodos de entrega"
+
+#: includes/pro/templates/settings/shipping.php:58
+#, fuzzy
+msgid "Default Shipping Price"
+msgstr "Por padrão para o endereço de entrega do cliente"
+
+#: includes/pro/templates/settings/shipping.php:59
+msgid ""
+"This is the base price and will be the starting shipping price for each "
+"product"
+msgstr ""
+
+#: includes/pro/templates/settings/shipping.php:71
+#, fuzzy
+msgid "Per Product Additional Price"
+msgstr "Preço por caractere (sem espaços)"
+
+#: includes/pro/templates/settings/shipping.php:72
+msgid ""
+"If a customer buys more than one type product from your store, first product "
+"of the every second type will be charged with this price"
+msgstr ""
+
+#: includes/pro/templates/settings/shipping.php:85
+msgid "Every second product of same type will be charged with this price"
+msgstr ""
+
+#: includes/pro/templates/settings/shipping.php:98
+msgid "The time required before sending the product for delivery"
+msgstr ""
+
+#: includes/pro/templates/settings/shipping.php:116
+msgid "Write your terms, conditions and instructions about shipping"
+msgstr ""
+
+#: includes/pro/templates/settings/shipping.php:129
+msgid "Write your terms, conditions and instructions about refund"
+msgstr ""
+
+#: includes/pro/templates/settings/shipping.php:141
+#, fuzzy
+msgid "Ships from:"
+msgstr "A partir de: "
+
+#: includes/pro/templates/settings/shipping.php:142
+msgid ""
+"Location from where the products are shipped for delivery. Usually it is "
+"same as the store."
+msgstr ""
+
+#: includes/pro/templates/settings/shipping.php:159
+msgid ""
+"Add the countries you deliver your products to. You can specify states as "
+"well. If the shipping price is same except some countries/states, there is "
+"an option <strong>Everywhere Else</strong>, you can use that."
+msgstr ""
+
+#: includes/pro/templates/settings/shipping.php:173
+#: includes/pro/templates/settings/shipping.php:277
+#: includes/pro/templates/settings/shipping.php:335
+#, fuzzy
+msgid "The country you ship to"
+msgstr "Enviar para"
+
+#: includes/pro/templates/settings/shipping.php:181
+#: includes/pro/templates/settings/shipping.php:285
+#: includes/pro/templates/settings/shipping.php:343
+msgid ""
+"If the shipping price is same for all the states, use this field. If not, "
+"manually add the states below"
+msgstr ""
+
+#: includes/pro/templates/settings/shipping.php:203
+#, fuzzy
+msgid "The state you ship to"
+msgstr "Enviar para"
+
+#: includes/pro/templates/settings/shipping.php:211
+#, fuzzy
+msgid "Shipping price for this state"
+msgstr "Preço"
+
+#: includes/pro/templates/settings/shipping.php:307
+#, fuzzy
+msgid "Add Location"
+msgstr "Localização"
+
+#: includes/pro/templates/settings/shipping.php:322
+#, fuzzy
+msgid "Save Settings"
+msgstr "Configurações"
+
+#: includes/pro/templates/settings/social.php:32
+#: templates/settings/payment.php:39 templates/settings/store-form.php:195
+#, fuzzy
+msgid "Update Settings"
+msgstr "Atualizar"
+
+#: includes/pro/templates/store-reviews.php:35 templates/store-toc.php:34
+#: templates/store.php:37
+#, fuzzy
+msgid "Store Category"
+msgstr "Categoria"
+
+#: includes/pro/templates/store-reviews.php:73
+#, fuzzy
+msgid "Seller Review"
+msgstr "Sou dono de lavanderia"
+
+#: includes/pro/templates/widgets/best-seller.php:22
+#: includes/pro/templates/widgets/feature-seller.php:22
+#: includes/wc-functions.php:2465
+#, fuzzy
+msgid "No ratings found yet!"
+msgstr "Avaliações de produto"
+
+#: includes/pro/templates/widgets/best-seller.php:36
+#, fuzzy
+msgid "No best seller found"
+msgstr "Sou dono de lavanderia"
+
+#: includes/pro/templates/widgets/store-contact-form.php:15
+#, fuzzy
+msgid "Your Name"
+msgstr "<strong>ERRO</strong>: o seu nome é muito longo."
+
+#: includes/pro/templates/widgets/store-contact-form.php:18
+msgid "you@example.com"
+msgstr ""
+
+#: includes/pro/templates/widgets/store-contact-form.php:21
+#, fuzzy
+msgid "Type your messsage..."
+msgstr "Tipo do anexo."
+
+#: includes/pro/templates/widgets/store-contact-form.php:28
+#, fuzzy
+msgid "Send Message"
+msgstr "Mensagem"
+
+#: includes/template-tags.php:136
+#, fuzzy
+msgid "Product succesfully deleted"
+msgstr "Produto deletado"
+
+#: includes/template-tags.php:185
+#: templates/products/listing-status-filter.php:13
+msgid "All (%d)"
+msgstr ""
+
+#: includes/template-tags.php:199
+#, fuzzy
+msgid "Completed (%d)"
+msgstr "Concluído"
+
+#: includes/template-tags.php:213
+#, fuzzy
+msgid "Processing (%d)"
+msgstr "Processando"
+
+#: includes/template-tags.php:227
+#, fuzzy
+msgid "On-hold (%d)"
+msgstr "Aguardando pagamento"
+
+#: includes/template-tags.php:241
+#, fuzzy
+msgid "Pending (%d)"
+msgstr "Pendente"
+
+#: includes/template-tags.php:255
+#, fuzzy
+msgid "Cancelled (%d)"
+msgstr "Cancelado"
+
+#: includes/template-tags.php:269
+#, fuzzy
+msgid "Refunded (%d)"
+msgstr "Reembolsado:"
+
+#: includes/template-tags.php:322
+msgid "Settings <i class=\"fa fa-angle-right pull-right\"></i>"
+msgstr ""
+
+#: includes/template-tags.php:330
+#, fuzzy
+msgid "Back to Dashboard"
+msgstr "Voltar"
+
+#: includes/template-tags.php:336
+#, fuzzy
+msgid "Store"
+msgstr ""
+"Por favor, envie seu cheque para Nome da loja, Rua da loja, Cidade da loja, "
+"Estado/País da loja, CEP da loja."
+
+#: includes/template-tags.php:342
+#, fuzzy
+msgid "Payment"
+msgstr "Pagamento"
+
+#: includes/template-tags.php:590 templates/orders/order-tax-html.php:8
+#, fuzzy
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/template-tags.php:603
+#, fuzzy
+msgid "No Image"
+msgstr "Imagem"
+
+#: includes/template-tags.php:618
+#, fuzzy
+msgid "P:"
+msgstr "p"
+
+#: includes/template-tags.php:623 templates/settings/header.php:13
+#, fuzzy
+msgid "Visit Store"
+msgstr "Visitar loja"
+
+#: includes/template-tags.php:663
+#, fuzzy
+msgid "No seller found!"
+msgstr "Sou dono de lavanderia"
+
+#: includes/wc-functions.php:42
+#, fuzzy
+msgid ""
+"Before adding variations, add and save some attributes on the "
+"<strong>Attributes</strong> tab."
+msgstr ""
+"Antes de adicionar opções extras. adicione e salve atributos na aba "
+"<strong>Atributos</strong>"
+
+#: includes/wc-functions.php:44
+#, fuzzy
+msgid "Learn more"
+msgstr "Aprenda mais"
+
+#: includes/wc-functions.php:157
+#, fuzzy
+msgid "Add Variation"
+msgstr "Adicionar variação"
+
+#: includes/wc-functions.php:159
+#, fuzzy
+msgid "Link all variations"
+msgstr ""
+"Tem a certeza que pretende ligar todas as variações? Isto irá criar uma nova "
+"variação para cada possível combinação de atributos (máximo de %d por vez)."
+
+#: includes/wc-functions.php:161
+#, fuzzy
+msgid "Default selections:"
+msgstr "Nenhum padrão"
+
+#: includes/wc-functions.php:174
+#, fuzzy
+msgid "No default"
+msgstr "Nenhum padrão"
+
+#: includes/wc-functions.php:259
+#, fuzzy
+msgid ""
+"Are you sure you want to link all variations? This will create a new "
+"variation for each and every possible combination of variation attributes "
+"(max 50 per run)."
+msgstr ""
+"Tem a certeza que pretende ligar todas as variações? Isto irá criar uma nova "
+"variação para cada possível combinação de atributos (máximo de %d por vez)."
+
+#: includes/wc-functions.php:276
+#, fuzzy
+msgid "variation added"
+msgstr "variação adicionada"
+
+#: includes/wc-functions.php:278
+#, fuzzy
+msgid "variations added"
+msgstr "variações adicionadas"
+
+#: includes/wc-functions.php:280
+#, fuzzy
+msgid "No variations added"
+msgstr "Variações não adicionadas"
+
+#: includes/wc-functions.php:303
+#, fuzzy
+msgid "Are you sure you want to remove this variation?"
+msgstr "Tem certeza de que deseja remover essa variação?"
+
+#: includes/wc-functions.php:423
+#, fuzzy
+msgid "Choose an image"
+msgstr "Escolher uma imagem"
+
+#: includes/wc-functions.php:425
+#, fuzzy
+msgid "Set variation image"
+msgstr "Configurar imagem da variação"
+
+#: includes/wc-functions.php:551 includes/wc-functions.php:969
+#, fuzzy
+msgid "Product SKU must be unique."
+msgstr "REF do produto precisa ser única."
+
+#: includes/wc-functions.php:1901
+#, fuzzy
+msgid "Order &ndash; %s"
+msgstr "Pedido &ndash; %s"
+
+#: includes/wc-functions.php:2143
+msgid "Cheating, eh?"
+msgstr ""
+
+#: includes/wc-functions.php:2152
+#, fuzzy
+msgid "Please enter your first name."
+msgstr "Digite um nome para o site."
+
+#: includes/wc-functions.php:2157
+#, fuzzy
+msgid "Please enter your last name."
+msgstr "Digite um nome para o site."
+
+#: includes/wc-functions.php:2161
+#, fuzzy
+msgid "Please enter your phone number."
+msgstr "Por favor digite um numero váldo."
+
+#: includes/wc-functions.php:2470
+#, fuzzy
+msgid "Rated %s out of %d"
+msgstr "Avaliado como %d de 5"
+
+#: includes/wc-functions.php:2551
+#, fuzzy
+msgid "Enter your first name"
+msgstr "Nome do cliente."
+
+#: includes/wc-functions.php:2552
+#, fuzzy
+msgid "Enter your last name"
+msgstr "Sobrenome do cliente."
+
+#: includes/wc-functions.php:2553
+#, fuzzy
+msgid "Enter your shop name"
+msgstr "A página da loja irá exibir os seus produtos."
+
+#: includes/wc-functions.php:2554
+#, fuzzy
+msgid "Enter your shop address"
+msgstr "Endereço base da loja"
+
+#: includes/wc-functions.php:2555
+#, fuzzy
+msgid "Enter your phone number"
+msgstr "não é um número de telefone válido."
+
+#: includes/wc-functions.php:2590
+#, fuzzy
+msgid "Your {site_title} order receipt from {order_date}"
+msgstr "{site_title} recebeu seu pedido realizado em {order_date}"
+
+#: includes/wc-functions.php:2591
+#, fuzzy
+msgid "Your {site_title} order from {order_date} is complete"
+msgstr "Seu pedido em {site_title} realizado em {order_date} está concluído"
+
+#: includes/wc-template.php:32
+#, fuzzy
+msgid "Seller Info"
+msgstr "Informações do servidor"
+
+#: includes/widgets/bestselling-product.php:55
+#, fuzzy
+msgid "Best Selling Product"
+msgstr "Locais de venda"
+
+#: includes/widgets/bestselling-product.php:66
+#: includes/widgets/top-rated-product.php:65
+#, fuzzy
+msgid "No of Product:"
+msgstr "Produto"
+
+#: includes/widgets/bestselling-product.php:71
+#: includes/widgets/top-rated-product.php:70
+#, fuzzy
+msgid "Show Product Rating"
+msgstr "Mostrar a avaliação do link"
+
+#: includes/widgets/menu-category.php:70
+#, fuzzy
+msgid "Dokan product category menu"
+msgstr "Nenhuma categoria de produto foi encontrada."
+
+#: includes/widgets/menu-category.php:141
+#, fuzzy
+msgid "Product Category"
+msgstr "Categoria de Produto"
+
+#: includes/widgets/store-menu.php:16
+msgid "Dokan Seller Store Menu"
+msgstr ""
+
+#: includes/widgets/store-menu.php:17
+msgid "Dokan: Store Category Menu"
+msgstr ""
+
+#: includes/widgets/store-menu.php:64
+#: templates/products/new-product-single.php:224
+#, fuzzy
+msgid "Category"
+msgstr "Categoria"
+
+#: includes/widgets/top-rated-product.php:10
+msgid "Dokan: Top Rated Product Widget"
+msgstr ""
+
+#: includes/widgets/top-rated-product.php:11
+msgid "A Widget for displaying To rated products for dokan"
+msgstr ""
+
+#: includes/widgets/top-rated-product.php:54
+#, fuzzy
+msgid "Top Rated Product"
+msgstr "Produtos mais vendidos"
+
+#: includes/withdraw-functions.php:11
+#, fuzzy
+msgid "PayPal"
+msgstr "PayPal"
+
+#: includes/withdraw-functions.php:15
+#, fuzzy
+msgid "Bank Transfer"
+msgstr "Débito Online"
+
+#: includes/withdraw-functions.php:143
+#, fuzzy
+msgid "Your bank account name"
+msgstr "Nome da conta"
+
+#: includes/withdraw-functions.php:149
+#, fuzzy
+msgid "Your bank account number"
+msgstr "Número da conta"
+
+#: includes/withdraw-functions.php:155
+#, fuzzy
+msgid "Name of bank"
+msgstr "Nome do banco"
+
+#: includes/withdraw-functions.php:161
+#, fuzzy
+msgid "Address of your bank"
+msgstr "Selecione o seu banco:"
+
+#: includes/withdraw-functions.php:167
+#, fuzzy
+msgid "Swift code"
+msgstr "Identificação - BIC / Swift"
+
+#: includes/woo-views/html-product-download.php:7
+#, fuzzy
+msgid "File Name:"
+msgstr "Nome do arquivo."
+
+#: includes/woo-views/html-product-download.php:12
+#, fuzzy
+msgid "File URL:"
+msgstr "URL do arquivo."
+
+#: includes/woo-views/variation-admin-html.php:7
+#, fuzzy
+msgid "Click to toggle"
+msgstr "Clique para alterar"
+
+#: includes/woo-views/variation-admin-html.php:64
+#, fuzzy
+msgid "Stock Qty:"
+msgstr "Qtd. no Estoque"
+
+#: includes/woo-views/variation-admin-html.php:78
+#, fuzzy
+msgid ""
+"Controls whether or not the product is listed as \"in stock\" or \"out of "
+"stock\" on the frontend."
+msgstr ""
+"Controla se o produto é listado na loja como \"em estoque\" ou \"não "
+"disponível\"."
+
+#: includes/woo-views/variation-admin-html.php:89
+#, fuzzy
+msgid "Regular Price:"
+msgstr "Preço"
+
+#: includes/woo-views/variation-admin-html.php:93
+#, fuzzy
+msgid "Sale Price:"
+msgstr "Preço promocional"
+
+#: includes/woo-views/variation-admin-html.php:113
+#, fuzzy
+msgid ""
+"Enter a weight for this variation or leave blank to use the parent product "
+"weight."
+msgstr ""
+"Informe o peso para esta variação ou deixe em branco para usar o peso do "
+"produto pai."
+
+#: includes/woo-views/variation-admin-html.php:226
+#, fuzzy
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: includes/woo-views/variation-admin-html.php:228
+#: templates/products/products-listing.php:170
+#, fuzzy
+msgid "Downloadable"
+msgstr "Baixável/Download"
+
+#: includes/woo-views/variation-admin-html.php:228
+#, fuzzy
+msgid ""
+"Enable this option if access will be given to a downloadable file upon the "
+"purchase of a product"
+msgstr ""
+"Habilite esta opção caso será dado acesso ao download de um arquivo após a "
+"compra de um produto"
+
+#: includes/woo-views/variation-admin-html.php:230
+#: templates/products/products-listing.php:168
+#, fuzzy
+msgid "Virtual"
+msgstr "Virtual"
+
+#: includes/woo-views/variation-admin-html.php:230
+#, fuzzy
+msgid ""
+"Enable this option if a product is not shipped or there is no shipping cost"
+msgstr ""
+"Habilite esta opção caso o produto não é entregue ou não tem custos de "
+"entrega"
+
+#: includes/woo-views/variation-admin-html.php:232
+#, fuzzy
+msgid "Enable this option to enable stock management at variation level"
+msgstr ""
+"Ative essa opção para habilitar o gerenciamento de estoque em nível de "
+"variação"
+
+#: templates/dashboard/big-counter-widget.php:17
+msgid "Pageview"
+msgstr ""
+
+#: templates/dashboard/big-counter-widget.php:34
+msgid "Earning"
+msgstr ""
+
+#: templates/dashboard/orders-widget.php:46
+#, fuzzy
+msgid "Refunded"
+msgstr "Reembolsado"
+
+#: templates/dashboard/orders-widget.php:51
+#, fuzzy
+msgid "On hold"
+msgstr "Em espera (suspenso)"
+
+#: templates/dashboard/products-widget.php:19
+#, fuzzy
+msgid "+ Add new product"
+msgstr "Adicionar nova etiqueta de produto"
+
+#: templates/dashboard/products-widget.php:31
+#, fuzzy
+msgid "Live"
+msgstr "Ao vivo"
+
+#: templates/dashboard/products-widget.php:36
+#, fuzzy
+msgid "Offline"
+msgstr ""
+"WooCommerce aceita pagamentos online e offline. %2$sMétodos de pagamentos "
+"adicionais%3$s podem ser instalados posteriormente e gerenciados a partir da "
+"página de %1$sconfigurações de finalização%3$s."
+
+#: templates/global/header-menu.php:13
+#, fuzzy
+msgid "Cart %s"
+msgstr "carrinho"
+
+#: templates/global/header-menu.php:29
+#, fuzzy
+msgid "Seller Dashboard"
+msgstr "Painel"
+
+#: templates/global/header-menu.php:32
+#, fuzzy
+msgid "Visit your store"
+msgstr "Visitar loja"
+
+#: templates/global/header-menu.php:47
+#, fuzzy
+msgid "My Account"
+msgstr "Minha Conta"
+
+#: templates/global/header-menu.php:48
+#, fuzzy
+msgid "Edit Account"
+msgstr "Editar conta"
+
+#: templates/global/header-menu.php:50 templates/orders/details.php:120
+#, fuzzy
+msgid "Billing Address"
+msgstr "Endereço de coleta (Cobrança)"
+
+#: templates/global/header-menu.php:51 templates/orders/details.php:129
+#, fuzzy
+msgid "Shipping Address"
+msgstr "Morada de Envio"
+
+#: templates/global/header-menu.php:58
+#, fuzzy
+msgid "Log in"
+msgstr "Acessar"
+
+#: templates/global/header-menu.php:59
+#, fuzzy
+msgid "Sign Up"
+msgstr "Permitir que novos usuários se registrem"
+
+#: templates/global/product-tab.php:11
+#, fuzzy
+msgid "Seller Information"
+msgstr "Sou dono de lavanderia"
+
+#: templates/global/product-tab.php:17
+#, fuzzy
+msgid "Store Name:"
+msgstr ""
+"Por favor, envie seu cheque para Nome da loja, Rua da loja, Cidade da loja, "
+"Estado/País da loja, CEP da loja."
+
+#: templates/global/product-tab.php:26
+#, fuzzy
+msgid "Seller:"
+msgstr "Sou dono de lavanderia"
+
+#: templates/global/product-tab.php:35
+#, fuzzy
+msgid "Address:"
+msgstr "Endereço"
+
+#: templates/global/seller-registration-form.php:65
+#, fuzzy
+msgid "I am a customer"
+msgstr "Novo cadastro"
+
+#: templates/global/seller-registration-form.php:70
+#, fuzzy
+msgid "I am a seller"
+msgstr "Sou dono de lavanderia"
+
+#: templates/global/seller-warning.php:12
+msgid "Your account is not enabled for selling, please contact the admin"
+msgstr ""
+
+#: templates/my-orders.php:21
+#, fuzzy
+msgid "Recent Orders"
+msgstr "Pagamentos recentes"
+
+#: templates/my-orders.php:55 templates/sub-orders.php:51
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/my-orders.php:65
+#, fuzzy
+msgid "Multiple Seller"
+msgstr "Sou dono de lavanderia"
+
+#: templates/my-orders.php:77
+#, fuzzy
+msgid "Pay"
+msgstr "Pagamento"
+
+#: templates/my-orders.php:106
+#, fuzzy
+msgid "No orders found!"
+msgstr "Nenhum pedido encontrado"
+
+#: templates/orders/date-export.php:15
+#, fuzzy
+msgid "Date:"
+msgstr "Data:"
+
+#: templates/orders/date-export.php:16 templates/products/listing-filter.php:42
+#, fuzzy
+msgid "Filter"
+msgstr "Filtro"
+
+#: templates/orders/date-export.php:23
+#, fuzzy
+msgid "Export All"
+msgstr "Exportar CSV"
+
+#: templates/orders/date-export.php:24
+#, fuzzy
+msgid "Export Filtered"
+msgstr "Exporta Formulário"
+
+#: templates/orders/details.php:7
+#, fuzzy
+msgid "This is not yours, I swear!"
+msgstr "O site %s é seu."
+
+#: templates/orders/details.php:26
+#, fuzzy
+msgid "Item"
+msgstr "Item"
+
+#: templates/orders/details.php:30
+#, fuzzy
+msgid "Qty"
+msgstr "Qtd"
+
+#: templates/orders/details.php:32
+#, fuzzy
+msgid "Totals"
+msgstr "Totais"
+
+#: templates/orders/details.php:140
+#, fuzzy
+msgid "Downloadable Product Permission"
+msgstr "Se o produto é baixável."
+
+#: templates/orders/details.php:155
+#, fuzzy
+msgid "General Details"
+msgstr "Detalhes Gerais"
+
+#: templates/orders/details.php:159
+#, fuzzy
+msgid "Order Status:"
+msgstr "Status do pedido."
+
+#: templates/orders/details.php:163
+#, fuzzy
+msgid "&nbsp; Edit"
+msgstr "&nbsp;&ndash; Página %s"
+
+#: templates/orders/details.php:183
+#, fuzzy
+msgid "Update"
+msgstr "Atualizar"
+
+#: templates/orders/details.php:189
+#, fuzzy
+msgid "Order Date:"
+msgstr "Data do pedido:"
+
+#: templates/orders/details.php:196
+#, fuzzy
+msgid "Customer:"
+msgstr "Cliente:"
+
+#: templates/orders/details.php:209
+#, fuzzy
+msgid "Email:"
+msgstr "E-mail:"
+
+#: templates/orders/details.php:213
+#, fuzzy
+msgid "Phone:"
+msgstr "Telefone"
+
+#: templates/orders/details.php:217
+#, fuzzy
+msgid "Customer IP:"
+msgstr "IP do Cliente"
+
+#: templates/orders/details.php:229
+#, fuzzy
+msgid "Customer Note:"
+msgstr "Notas do cliente"
+
+#: templates/orders/details.php:264
+#, fuzzy
+msgid "added %s ago"
+msgstr "%s atrás"
+
+#: templates/orders/details.php:270
+#, fuzzy
+msgid "There are no notes for this order yet."
+msgstr "Não há nenhuma nota ainda."
+
+#: templates/orders/details.php:286
+#, fuzzy
+msgid "Customer note"
+msgstr "Notas do cliente"
+
+#: templates/orders/details.php:287
+#, fuzzy
+msgid "Private note"
+msgstr "Nota privada"
+
+#: templates/orders/details.php:295
+#, fuzzy
+msgid "Add Note"
+msgstr "Adicionar nota"
+
+#: templates/orders/downloadable.php:39
+#, fuzzy
+msgid "Choose a downloadable product&hellip;"
+msgstr "Pesquisar um produto baixável&hellip;"
+
+#: templates/orders/downloadable.php:72
+#, fuzzy
+msgid "Grant Access"
+msgstr "Conceder Acesso"
+
+#: templates/orders/listing.php:20
+#, fuzzy
+msgid "Customer"
+msgstr "Cliente"
+
+#: templates/orders/listing.php:32
+#, fuzzy
+msgid "Order %s"
+msgstr "Pedido %s"
+
+#: templates/orders/listing.php:38
+msgid "<span class=\"dokan-label dokan-label-%s\">%s</span>"
+msgstr ""
+
+#: templates/orders/listing.php:61
+#, fuzzy
+msgid "Guest"
+msgstr "Visitante"
+
+#: templates/orders/listing.php:70 templates/products/products-listing.php:189
+#, fuzzy
+msgid "Unpublished"
+msgstr "Não publicado"
+
+#: templates/orders/listing.php:72 templates/products/products-listing.php:192
+#, fuzzy
+msgid "Y/m/d g:i:s A"
+msgstr "d/m/Y g:i:s A"
+
+#: templates/orders/listing.php:78 templates/products/products-listing.php:199
+#, fuzzy
+msgid "%s ago"
+msgstr "%s atrás"
+
+#: templates/orders/listing.php:80 templates/products/products-listing.php:201
+#, fuzzy
+msgid "Y/m/d"
+msgstr "d/m/Y"
+
+#: templates/orders/listing.php:105
+#, fuzzy
+msgid "Complete"
+msgstr "Concluído"
+
+#: templates/orders/listing.php:162
+#, fuzzy
+msgid "No orders found"
+msgstr "Nenhum pedido encontrado"
+
+#: templates/orders/order-download-permission-html.php:7
+#, fuzzy
+msgid "File %d: %s"
+msgstr "Arquivo %d"
+
+#: templates/orders/order-download-permission-html.php:10
+#, fuzzy
+msgid "Revoke Access"
+msgstr "Cancelar acesso"
+
+#: templates/orders/order-download-permission-html.php:20
+#, fuzzy
+msgid "Downloaded"
+msgstr "Quantidade de vezes que a variação pode ser baixada."
+
+#: templates/orders/order-download-permission-html.php:22
+msgid "%s time"
+msgid_plural "%s times"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/orders/order-download-permission-html.php:25
+#, fuzzy
+msgid "Downloads Remaining"
+msgstr "Downloads restantes"
+
+#: templates/orders/order-download-permission-html.php:31
+#, fuzzy
+msgid "Access Expires"
+msgstr "Acesso expira em"
+
+#: templates/orders/order-download-permission-html.php:32
+#, fuzzy
+msgid "Never"
+msgstr "Nunca"
+
+#: templates/orders/order-fee-html.php:10
+#, fuzzy
+msgid "Fee Name"
+msgstr "Nome da taxa"
+
+#: templates/orders/order-tax-html.php:6
+#, fuzzy
+msgid "Tax Rate:"
+msgstr "Taxa."
+
+#: templates/orders/order-tax-html.php:16
+#, fuzzy
+msgid "Sales Tax:"
+msgstr "Sim, eu vou cobrar taxas"
+
+#: templates/orders/order-tax-html.php:20
+#, fuzzy
+msgid "Shipping Tax:"
+msgstr "Taxa de entrega:"
+
+#: templates/orders/orders-status-filter.php:14
+#, fuzzy
+msgid "&larr; Orders"
+msgstr "&larr; Voltar para %s"
+
+#: templates/products/listing-status-filter.php:16
+#, fuzzy
+msgid "Online (%d)"
+msgstr "Baixar %d"
+
+#: templates/products/listing-status-filter.php:19
+#, fuzzy
+msgid "Pending Review (%d)"
+msgstr "Revisão pendente"
+
+#: templates/products/listing-status-filter.php:22
+#, fuzzy
+msgid "Draft (%d)"
+msgstr "Rascunho"
+
+#: templates/products/new-product-single.php:108
+#, fuzzy
+msgid "Edit Product"
+msgstr "Editar produto"
+
+#: templates/products/new-product-single.php:143
+#, fuzzy
+msgid "The product has been saved successfully."
+msgstr "A sua base de dados foi atualizada com sucesso!"
+
+#: templates/products/new-product-single.php:190
+#, fuzzy
+msgid "Discounted Price"
+msgstr ""
+"Ao aplicar vários cupons, aplique o primeiro para o preço total, o segundo "
+"para o preço com desconto e assim por diante."
+
+#: templates/products/new-product-single.php:201
+#, fuzzy
+msgid "Schedule Discounted Price"
+msgstr "Agendado para:"
+
+#: templates/products/new-product-single.php:272
+#, fuzzy
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: templates/products/new-product-single.php:348
+#, fuzzy
+msgid "Delete image"
+msgstr "Apagar imagem"
+
+#: templates/products/new-product-single.php:359
+#, fuzzy
+msgid "+ Add more images"
+msgstr "Adicionar galeria de imagens do produto"
+
+#: templates/products/new-product-single.php:366
+#, fuzzy
+msgid "Short Description"
+msgstr "Breve descrição sobre o produto"
+
+#: templates/products/new-product-single.php:383
+#, fuzzy
+msgid "Inventory & Variants"
+msgstr "Inventário"
+
+#: templates/products/new-product-single.php:386
+msgid "Manage inventory, and configure the options for selling this product."
+msgstr ""
+
+#: templates/products/new-product-single.php:392
+#, fuzzy
+msgid "(Stock Keeping Unit)"
+msgstr "Unidade de manutenção de estoque"
+
+#: templates/products/new-product-single.php:397
+#, fuzzy
+msgid "Enable product stock management"
+msgstr "Habilitar gerenciamento de estoque a nível de produto"
+
+#: templates/products/new-product-single.php:428
+#, fuzzy
+msgid "Allow only one quantity of this product to be bought in a single order"
+msgstr ""
+"Habilite para permitir que somente um item deste produto seja comprado por "
+"pedido."
+
+#: templates/products/new-product-single.php:438
+#, fuzzy
+msgid "This is a downloadable product"
+msgstr "Permissões de produto baixáveis"
+
+#: templates/products/new-product-single.php:485
+#, fuzzy
+msgid "Download Limit"
+msgstr "Limite de download"
+
+#: templates/products/new-product-single.php:486
+#, fuzzy
+msgid "e.g. 4"
+msgstr "ex: 3"
+
+#: templates/products/new-product-single.php:490
+#, fuzzy
+msgid "Download Expiry"
+msgstr "Validade do download"
+
+#: templates/products/new-product-single.php:509
+#, fuzzy
+msgid "Other Options"
+msgstr "Outro"
+
+#: templates/products/new-product-single.php:515
+#, fuzzy
+msgid "Product Status"
+msgstr "Status do produto (status do post)."
+
+#: templates/products/new-product-single.php:546
+msgid "Customer will get this info in their order email"
+msgstr ""
+
+#: templates/products/new-product-single.php:551
+#, fuzzy
+msgid "Enable product reviews"
+msgstr "Habilitar avaliações"
+
+#: templates/products/new-product-single.php:562
+#, fuzzy
+msgid "Save Product"
+msgstr "Salvar"
+
+#: templates/products/products-listing.php:39
+#, fuzzy
+msgid "Add new product"
+msgstr "Adicionar novo produto"
+
+#: templates/products/products-listing.php:56
+#, fuzzy
+msgid "Stock"
+msgstr "Estoque"
+
+#: templates/products/products-listing.php:58
+#, fuzzy
+msgid "Type"
+msgstr "Tipo"
+
+#: templates/products/products-listing.php:59
+msgid "Views"
+msgstr ""
+
+#: templates/products/products-listing.php:162
+#, fuzzy
+msgid "Grouped"
+msgstr "Agrupado"
+
+#: templates/products/products-listing.php:164
+#, fuzzy
+msgid "External/Affiliate"
+msgstr "Externo/Afiliado"
+
+#: templates/products/products-listing.php:172
+#, fuzzy
+msgid "Simple"
+msgstr "Simples"
+
+#: templates/products/products-listing.php:176
+#, fuzzy
+msgid "Variable"
+msgstr "Variável"
+
+#: templates/products/products-listing.php:211
+#, fuzzy
+msgid "Missed schedule"
+msgstr "Agendado perdido"
+
+#: templates/products/products-listing.php:216
+#, fuzzy
+msgid "Last Modified"
+msgstr "Última Modificação"
+
+#: templates/products/products-listing.php:226
+#, fuzzy
+msgid "No product found"
+msgstr "Nenhuma etiqueta de produto foi encontrada"
+
+#: templates/settings/address-form.php:31
+#, fuzzy
+msgid "Street "
+msgstr "Av. Paulista, 123456"
+
+#: templates/settings/address-form.php:44
+#, fuzzy
+msgid "Street 2"
+msgstr "Av. Paulista, 123456"
+
+#: templates/settings/address-form.php:60
+#, fuzzy
+msgid "City"
+msgstr "Cidade"
+
+#: templates/settings/address-form.php:73
+#, fuzzy
+msgid "Post/ZIP Code"
+msgstr "CEPs permitidos"
+
+#: templates/settings/address-form.php:94
+#, fuzzy
+msgid "Country "
+msgstr "País"
+
+#: templates/settings/address-form.php:123
+#, fuzzy
+msgid "State "
+msgstr "Estado"
+
+#: templates/settings/store-form.php:75
+#, fuzzy
+msgid "Profile Picture"
+msgstr "Perfil"
+
+#: templates/settings/store-form.php:91
+#, fuzzy
+msgid "Store Name"
+msgstr ""
+"Por favor, envie seu cheque para Nome da loja, Rua da loja, Cidade da loja, "
+"Estado/País da loja, CEP da loja."
+
+#: templates/settings/store-form.php:94
+#, fuzzy
+msgid "store name"
+msgstr ""
+"Por favor, envie seu cheque para Nome da loja, Rua da loja, Cidade da loja, "
+"Estado/País da loja, CEP da loja."
+
+#: templates/settings/store-form.php:99
+#, fuzzy
+msgid "Store Product Per Page"
+msgstr "Quantia fixa por produto"
+
+#: templates/settings/store-form.php:122
+#, fuzzy
+msgid "Phone No"
+msgstr "Telefone"
+
+#: templates/settings/store-form.php:124
+msgid "+123456.."
+msgstr ""
+
+#: templates/settings/store-form.php:129
+#, fuzzy
+msgid "Email"
+msgstr "E-mail"
+
+#: templates/settings/store-form.php:134
+#, fuzzy
+msgid "Show email address in store"
+msgstr "Endereço de e-mail inválido."
+
+#: templates/settings/store-form.php:141
+msgid "Map"
+msgstr ""
+
+#: templates/settings/store-form.php:148
+#, fuzzy
+msgid "Type an address to find"
+msgstr "Encontre-nos"
+
+#: templates/settings/store-form.php:149
+#, fuzzy
+msgid "Find Address"
+msgstr "Procurar"
+
+#: templates/settings/store-form.php:167
+msgid "Show terms and conditions in store page"
+msgstr ""
+
+#: templates/settings/store-form.php:173
+#, fuzzy
+msgid "TOC Details"
+msgstr "Seus Detalhes"
+
+#: templates/store-toc.php:65
+#, fuzzy
+msgid "Terms And Conditions"
+msgstr "Termos e Condições"
+
+#: templates/store.php:85
+#, fuzzy
+msgid "No products were found of this seller!"
+msgstr "Nenhum produto foi encontrado para a sua seleção."
+
+#: templates/sub-orders.php:12
+#, fuzzy
+msgid "Sub Orders"
+msgstr "pedidos"
+
+#: templates/sub-orders.php:16
+#, fuzzy
+msgid "Note:"
+msgstr "Nota:"
+
+#: templates/sub-orders.php:17
+msgid ""
+"This order has products from multiple vendors/sellers. So we divided this "
+"order into multiple seller orders.\n"
+"    Each order will be handled by their respective seller independently."
+msgstr ""
+
+#: templates/widgets/widget-content-product.php:26
+#, fuzzy
+msgid "No products found"
+msgstr "Nenhum produto encontrado"
+
+#: templates/withdraw/request-form.php:13
+#, fuzzy
+msgid "Withdraw Amount"
+msgstr "Valor de entrega"
+
+#: templates/withdraw/request-form.php:26
+#, fuzzy
+msgid "Payment Method"
+msgstr "Método de pagamento"
+
+#: templates/withdraw/request-form.php:41
+#, fuzzy
+msgid "Submit Request"
+msgstr "Enviar"
+
+#: templates/withdraw/status-listing.php:12
+#, fuzzy
+msgid "Withdraw Request"
+msgstr "Requisição"
+
+#: templates/withdraw/status-listing.php:15
+#, fuzzy
+msgid "Approved Requests"
+msgstr "Aprovado"
+
+#. Plugin Name of the plugin/theme
+msgid "Dokan (Lite) - Multi-vendor Marketplace"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/dokan-lite/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"An e-commerce marketplace plugin for WordPress. Powered by WooCommerce and "
+"weDevs."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "weDevs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "http://wedevs.com/"
+msgstr "http://"
+
+#: includes/pro/includes/shipping-gateway/shipping.php:75
+#: includes/pro/templates/products/edit/inventory.php:69
+#: includes/pro/templates/products/product-shipping-content.php:127
+#, fuzzy
+msgctxt "Tax status"
+msgid "None"
+msgstr "Nenhum"
+
+#: includes/template-tags.php:45
+#, fuzzy
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr; Escolha um produto para ver as estatísticas"
+
+#: includes/template-tags.php:48
+#, fuzzy
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "Endpoint para a página minha conta &rarr; downloads"
+
+#: includes/wc-functions.php:1901
+#, fuzzy
+msgctxt "Order date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr " %d de %b de %Y às %R:%M"
+
+#: includes/woo-views/variation-admin-html.php:101
+#, fuzzy
+msgctxt "placeholder"
+msgid "From&hellip;"
+msgstr "De&hellip;"
+
+#: includes/woo-views/variation-admin-html.php:105
+#, fuzzy
+msgctxt "placeholder"
+msgid "To&hellip;"
+msgstr "Para&hellip;"

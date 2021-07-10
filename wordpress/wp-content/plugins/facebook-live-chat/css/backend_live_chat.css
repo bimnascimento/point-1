@@ -1,0 +1,12 @@
+.live_chat_facebook_show_page {
+    max-height: 150px;
+    overflow-y: scroll;
+    background: #fff;
+    padding: 15px;
+}
+#fb-checkall, #fb-checkall1 {
+    margin-left: 15px;
+}
+.hide {
+    display: none;
+}

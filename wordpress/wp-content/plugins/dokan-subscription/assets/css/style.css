@@ -1,0 +1,193 @@
+.pack_content_wrapper{
+    margin-top: 35px;
+    height: 100%;
+}
+
+.pack_content_wrapper p{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.product_pack_item{
+    background: #eee;
+    padding: 15px 30px;
+    width: 250px;
+    float: left;
+    margin-right: 23px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.product_pack_item.current_pack{
+    border: 1px solid #f05025;
+    cursor: pointer;
+}
+
+.product_pack_item:hover{
+    -webkit-box-shadow: 0 0 15px 1px #BFBFBF;
+    -moz-box-shadow: 0 0 15px 1px #BFBFBF;
+    -o-box-shadow: 0 0 15px 1px #BFBFBF;
+    box-shadow: 0 0 15px 1px #BFBFBF;
+}
+
+.product_pack_item:hover .pack_price{
+    -webkit-box-shadow: 0 0 15px 1px #BFBFBF;
+    -moz-box-shadow: 0 0 15px 1px #BFBFBF;
+    -o-box-shadow: 0 0 15px 1px #BFBFBF;
+    box-shadow: 0 0 15px 1px #BFBFBF;
+}
+
+.product_pack_item .pack_price{
+    background: #f05025;
+    width: 80px;
+    padding: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    margin-top: -50px;
+    height: 80px;
+    margin: -50px auto 0px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -o-border-radius:50px;
+    border-radius: 50px;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+
+.product_pack_item .dps-amount {
+    display: block;
+    font-size: 22px;
+    line-height: 1.5;
+    padding-top: 17px;
+}
+
+.product_pack_item .dps-rec-period {
+    display: block;
+    font-size: 12px;
+    color: #f9f9f9;
+}
+
+.product_pack_item .pack_content {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    color:#666;
+}
+
+.product_pack_item .pack_content .dps-rec-period {
+    border: 1px solid #ccc;
+    color: #333;
+    font-style: italic;
+}
+
+.product_pack_item .buy_pack_button{
+    background: #f05025;
+    color: #fff;
+    width: auto;
+    height: 30px;
+    padding: 10px;
+    line-height: 10px;
+    text-align: center;
+    margin: 0px auto -29px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius: 5px
+}
+
+.product_pack_item .buy_pack_button a{
+    color:#fff;
+}
+
+
+.seller_subs_info{
+    background: #eee;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.seller_subs_info span{
+    color:#f05025;
+    font-weight: bold;
+    font-style: italic;
+}
+.fp_already_taken{
+    opacity: 0.5 !important;
+    box-shadow: none !important;
+    cursor: default !important;
+}
+
+.woocommerce_options_panel .subscription_pricing {
+    float: left;
+    clear: both;
+    height: 100%;
+    width: 100%;
+}
+.woocommerce_options_panel .subscription_pricing .description {
+    font-style: normal;
+}
+.subscription_pricing .form-field,
+.subscription_pricing .form-field *,
+.variable_subscription_pricing .form-field,
+.variable_subscription_pricing .form-field *,
+.variable_subscription_trial .form-field,
+.variable_subscription_trial .form-field * {
+    float:left;
+}
+p._subscription_price_field,
+p._subscription_period_field,
+p._subscription_length_field,
+p._subscription_sign_up_fee_field {
+    display: inline-block;
+}
+
+._subscription_period_field{
+    width:140px !important;
+    padding-left:10px !important;
+}
+
+
+
+.dokan-billing-cycle-wrap P {
+    float: left;
+}
+
+.dokan-billing-cyle-clear {
+    clear: both;
+}
+._subscription_period_field  {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.dps-pack{
+    background: #eee;
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.dps-pack-price{
+    text-align: center;
+}
+.dps-pack-wrappper{
+    border: 1px solid #D3CED2;
+    text-align: center;
+}
+.pack_content > p{
+    margin-bottom: 10px;
+}
+#dokan-subscription-pack{
+    margin-top: 5px;
+}

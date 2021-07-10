@@ -1,0 +1,169 @@
+** See history_archived.txt for older version history. Most recent updates at bottom.
+
+
+8.0.0.0 - 2017-06-13 - Dustin Bolton
+	PROFILES
+		New "Smart Profiles" Themes, Plugins, Media for backing up files of each respective type/location:
+			SCREENSHOT: http://image.prntscr.com/image/c866aeb96c8d47dd86d44dbd66b3274b.png
+			Use the new default smart profiles or create your own for further customizing. These new profile types allow you to automatically only backup this section of the site, allowing for more granular control over what is backed up by a profile. Paired with scheduling this allows you to easily break up backup processes into smaller portions for better spreading server load or timeout issues, especially for larger sites. Smart profiles also support directory and file exclusions.
+		New "Custom backup root" option for all profile types (except database):
+			SCREENSHOT: http://image.prntscr.com/image/af2c0f714183423eb8b04d4c146ad1e6.png
+			You can now configure which directory BackupBuddy backs up on a per-profile basis. Prior to this feature you could only backup the entire site and select directories to exclude. You can now select any directory to be backed up, even directories ABOVE the WordPress root (abspath) by using "/../" in the path. This is useful for backing up individual directories, 3rd party applications, or directories outside the WordPress root. This can also be used for more granular control when breaking up backups across multiple profiles for spreading server load or working around timeout issues.
+			Global exclusions apply but default but exclusions may be set for just this profile relative to this custom path manually or with the exclusion picker.
+		"Full" and "Files" profiles now have three SMART exclusion options: Auto-exclude Media Directory, Auto-exclude Themes Directory, Auto-exclude Plugins Directory for making it easier to exclude directories which can be backed up by other default Profile types.
+			SCREENSHOT: http://image.prntscr.com/image/5a2b85de30ad4ab281a362630fc038c6.png
+		Backup profiles can now individually override the default global backup mode (classic vs modern) on a per-profile basis.
+			SCREENSHOT: http://image.prntscr.com/image/b42fdd4ff549416fa9a25be28f1643e0.png
+	STASH LIVE
+		Significant performance improvements, especially for larger sites. Sites which in the past would run out of memory due to hosting limits are very likely to now operate within server limits.
+		A troubleshooting scan is now regularly performed detecting common problems and alerting the user and also providing solutions.
+		A new "Troubleshooting Scan" button to upper right of page of Stash Live page is available for manually troubleshooting.
+			SCREENSHOT: http://image.prntscr.com/image/b80166b92ce24f77986b4892150ee325.png
+	IMPORTBUDDY:
+		New "Search Engine Visibility" setting to Step 6 of restore process, allowing you to either keep the setting as it was on the source site, turn on search engine visibility, or turn it off. Useful for moving sites between development, staging, and live locations.
+			SCREENSHOT: http://image.prntscr.com/image/a10ff6ca440c4d6a8658eb3ed49c9e33.png
+		Added "Forgot password" feature which allows you to generate a new password hash. This hash can then be placed inside the importbuddy.php file to make it usable even if you forgot its password.
+			SCREENSHOT: http://image.prntscr.com/image/7786f5d6199040ea97eae3930526f226.png
+			SCREENSHOT: http://image.prntscr.com/image/66d8c06337d6474da1c2e9609f4b14d4.png
+			SCREENSHOT: http://image.prntscr.com/image/be93a67018f440f0910cee758152d8b8.png
+		Javascript errors are now automatically detected and brought to the user's attention as well as logged to aid in troubleshooting. Sometimes various browser plugins running javascript fail causing importbuddy.php's javascript to halt.
+		Improved look and feel with animated progress as well as highlights to areas that require user attention.
+		importbuddy.php file size has been reduced for faster uploading during restore process.
+	GENERAL
+		Directory exclusions (both global and profiles) support three new variables: {media}, {theme}, and {plugins} to exclude those specific WordPress directories.
+		Added advanced option to hide the BackupBuddy Status widget from the dashboard, including the dashboard option to hide or display it.
+		Reduced plugin file size by removing unneeded remote destination library files.
+		Backup and restore of databases containing foreign key constraints are now fully supported and possible.
+	DEPLOYMENT:
+		Differences in plugins between source and destination are now highlighted. Plugins not on the other site a colored RED while plugins on the other site but with a different version are colored BLUE.
+		You can now click on the number of files to Push/Pull for Plugins, Themes, and Media, to display a listing of all files to transfer of that type.
+		Selection listings for database tables and plugins to transfer are now larger and resizable.
+		Selection of plugins to push/pull now only lists plugins that either do not exist on the destination or differ in version.
+	DROPBOX:
+		Added support for Google "Service Accounts" which allows for more than 50 tokens per account for users with large numbers of sites. Previously users with more than 50 sites would hit a Google Account token limit.
+			SCREENSHOT: http://image.prntscr.com/image/4d72825fdb524b42a764f30a48a62f12.png
+			SCREENSHOT: http://image.prntscr.com/image/d217ded5208241ba8287b6da4e5d95e3.png
+	AMAZON S3:
+		Added support for Amazon S3 Glacier Storage Class (less cost but slow to restore files for access) for both v2 and v3 remote destinations.
+		Added support for Amazon S3 Infrequent Access Storage Class (less cost but slow to restore files for access) for both v2 and v3 remote destinations.
+		Amazon S3 (v3) Remote Destination is now compatible with ALL standard geographical locations:
+			US East 1 (US Standard; N. Virginia)
+			US East 2 (Ohio)
+			US West 1 (N. California)
+			US West 2 (Oregon)
+			Canada Central 1
+			Asia Pacific South 1 (Mumbai)
+			Asia Pacific Northeast 1 (Tokyo)
+			Asia Pacific Northeast 2 (Seoul)
+			Asia Pacific Southeast 1 (Singapore)
+			Asia Pacific Southeast 2 (Sydney)
+			EU Central 1 (Frankfurt)
+			EU West 1 (Ireland)
+			EU West 2 (London)
+			South America East 1 (Sao Paulo)
+			China North 1 (Beijing)
+	MISC:
+		Remote destinations unavailable due to not meeting PHP version requirements are now displayed and greyed out, displaying PHP requirements.
+		Dropbox v2 remote destination no longer allows changing the storage directory when editing for enhanced security.
+		Directory exclusion picker now takes into account custom root profile and shows directories/files from the custom root path.
+		Stash Live: Significant memory usage reduction on sites with a large number of individual files.
+		Added support for Google "Service Accounts" which allows for more than 50 tokens per account for users with large numbers of sites. Use p12 type key files.
+		Stash Live now stores less metadata in catalog to reduce memory and I/O footprint.
+			Removed default catalog entries for h (hash), t (send tries), and d (delete) if at defaults.
+			b (backed up), and v (verified during audit) no longer store microtime(true) instead storing simple time for reduced size.
+			Removed a (added) timestamp entirely.
+		Stash Live: Troubleshooting scan now automatically detects and alerts about possible files or database tables being unable to be transferred. This aids in determining the cause of Stash Live being unable to reach 100%. This alert it shown at the top of the screen.
+		Custom backup root profile option now supports directory exclusions. Exclusions in profile should be entered relative to custom root. Global profiles will automatically be applied if their relative to ABSPATH root resides within the custom root.
+		Custom backup root profile option now supports going "up" into parent directories above the WordPress site directory (ABSPATH) by using the dot dot ('/..') directory format.  For instance to back up a directory above the WordPress installation named "myapp" you could enter "/../myapp/" as the custom directory.
+		Improved profile selector styling to handle varying screen widths better.
+		Reduced fileoptions lock timeout from deduced max execution time + 60 seconds to deduced max execution time + 30 for faster potential recovery.
+		Renamed phpinfo.php to pinfo.php to avoid Sucuri false positive.
+		Now clearing stat cache prior to getting current database file size in _getBackupStatus.php.
+		truncate_file_beginning() now clears stat cache prior to testing file size.
+		Updated WordPress PHP and mysql version recommendations on Server Tools page. Tests reports fail if php older than 5.2.4, warning if older than 5.6.  Warning is mysql older than 5.6. Recommends PHP v7 as per WordPress suggestion.
+		Fixed fileoptions illegal string offset for Stash Live $this->options assignment by key.
+		Added importbuddy.php cleanup note about custom file permissions possibly needing re-applied.
+		Zipbuddy libraries: _render_exclusions_file() now accepts optional third parameter ($root) which allows for defining directory which exclusions are relative too. Previously hardcoded exclusion relative to ABSPATH.
+		Updated default email error message to put emphasis that error is due to server not BackupBuddy itself.
+		Added warning if Wordfence is installed as a potential source of conficts.
+		Added Google Drive note: If re-using a project for multiple sites, do NOT exceed 50 sites per project. Google limits tokens to 50 or FEWER per project.
+		Trimmed remote destination libraries to reduce plugin size.
+		Removed unused images to reduce plugins size.
+		ImportBuddy: Improved styling and animations for clarity and improved look & feel.
+		Overall plugin file size reduced.
+		backup_mode setting moved from root into default profile (profile 0).
+		After displaying error message about backup zip file not growing if it then begins to grow again the error is hidden from view since it is no longer applicable.
+		Added additional logging to destination init Error #8548833.
+		Fixed typo in destination send failure email message.
+		Bug: Fixed rare situation where days since last Stash Live snapshot could incorrectly be very large due to state being cached and cached value not being returned by _load_state().
+		Added availability, durability, and description information to Amazon S3 storage class types.
+		ImportBuddy: Now detecting javascript errors and alerting if any are encountered. Useful for detecting browser plugin errors or bugs.
+		Moved S3 (v2) and (v3) storage class from advanced options to standard options configuration.
+		Quick Setup wizard fixed to show option for scheduling by default.
+		Backup process javascript errors now also log a stack trace and column into the Status Log.
+		Added animate.css.
+		ImportBuddy:
+			restore.php connectDatabase() only runs once per PHP instance.
+			Detected javascript errors now also log full troubleshooting details into the Status Log.
+			The database settings form will no longer submit if javascript has failed to prevent it from reloading the page without submitting restoreData, resulting in an error about being unable to decode submitted data.
+			Added additional logging if state data decoding is failing logging the exact decoding failure.
+			Added animate.css for animations to draw attention and improve look.
+			Removed multiple unused assets including javascript, css, and images to reduce file size.
+			Fixed undefined variable $importbuddy_file during cleanup if skipping deletion of importbuddy.php.
+		Fixed total aggregate database size resetting.
+		Fixed maximum log file size not being enforced.
+		Fixed could not connect to stash error on remote destinations page. - Josh Benham
+		Fixed remote destinations page displaying scrollbar placeholders on some systems. - Josh Benham
+		.sql files now temporarily disable foreign key and unique index checks prior to other sql statements to help avoid temporary errors due to foreign key constraints.
+		Better handling for Error #3297392 fileoptions lock in Stash Live
+		Fixed PHP memory calculation on PHP 7.x+ due to changes in memory usage. - Jeremy Trask
+		Merged Restore / Migrate page into Backup & Restore page.
+		Renamed "Remote Destinations" page to "Destinations"
+		When no destinations exist added explanation text to explain that by default all backups are stored locally but additional destinations may be added for redundancy or remote storage.
+		Destinations page now displays local storage directory.
+		Added additional importbuddy logging to step 4 for troubleshooting.
+		Fixed error if importbuddy database test fails to connect when using mysqli.
+		Remove call to backupbuddy_core::addNotification inside sync API function. - Glenn Ansley.
+		Fixed Stash Live backup type display being blank.
+		Fixed CSS styling issues on mobile.
+		Fixed CSS profiles when name very long.
+		Fixed tooltip not wrapping if contents are too long.
+		Prevent "Warning: Cannot assign an empty string to a string offset" in PHP 7.1 in _migrate_database.php line 693 due to array possibly not being set before setting migrateResumePoint = ''.
+		Unchecking or changing send to remote destination after backup clears previously selected destination title.
+		Fixed directory exclusions not handling custom roots above the ABSPATH.
+		Added note that restored files will be restored to ABSPATH, not necessarily their original location.
+		Defaulting missing profile mode to modern (2). Added warning if this occurs.
+		Added PHP version into DAT file as 'php_version'.
+		Added PHP version into first line of status log.
+		Fixed links in table on Restore / Migrate page not working as of last quick release.
+		Fixed inconsistencies in exclusions between zipbuddy and xzipbuddy.
+		Fixed inaccurate exclusion creation during zip generation when using parent path in custom root (/../) although directory listing preview was accurate. Caused by defaults overwriting exclusions prior to calculation of parent root prefix.
+		Fixed exclusions picker prepending /./ when using parent directory path (/../) in custom root.
+		Fixed "Browse & Restore Files" link on backup page as of 7.3.1.5.
+		Re-wrote backup exclusion function to be more robust.
+		Fixed directory size listing not properly taking into account exclusions on some profiles.
+		Fixed directory size listing not loading from proper root path for smart profile types.
+		Now enforcing trailing slash on get_themes_root(), get_media_root().
+		Fixed global profile not merging over plugin defaults. This could cause missing default parameters on existing installs.
+		Media exclusion tooltip typo fixed.
+		Misc minor fixes.
+		Misc UI tweaks for screen size compatibility.
+		Fixed unexpected [ in core.php.
+		Added v8 welcome dismissable banner.
+		New v8 welcome banner look and feel.
+		Cleaned Stash Live UI.
+		live_periodic-shrunk testing variable replacements for common paths in catalog for shrinking catalog file size and memory usage.
+		Call to a member function save() on string in live_periodic fixed. Only saving if object.
+		Fixed media, theme, and plugin profile types not having exclusions 'bubble up' into them resulting in some files not being excluded.
+		Updated warning about possibly conflicting plugin being detected not being caching-plugin-only specific.
+		Stash Live: New "View Unsent Files" in Raw Data Advanced Troubleshooting Options lists all files that are still pending transfer.
+8.0.0.1 - 2017-06-16 - Dustin Bolton
+	mysqlbuddy now logs if $ignore_existing is enabled for troubleshooting as this suppresses error logging.
+	Added additional logging of zip time elapsed to periodic status display to better see how much time has passed: Ex: "Temporary ZIP file size: 34.64 MB. Approximate speed: 12.24 MB/sec. Elapsed: 2.83 secs."
+	Extended archive limits of destinations supporting full and database archive limits to also include themes, plugins, media, and files.
+	ImportBuddy password hash now using underscores "_" instead of right parentheses ")" due to false positives with ModSecurity. Ticket #70795.
+8.0.0.2 - 2017-06-19 - Dustin Bolton
+	Renamed temporarily created recurse() function to bb_recurse() to avoid conflict.
+8.0.0.3 - 2017-06-20 - Dustin Bolton
+	Full backup types can no longer auto-exclude media due to current technical limitations.
+	

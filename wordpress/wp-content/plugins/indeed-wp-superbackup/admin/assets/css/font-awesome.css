@@ -1,0 +1,113 @@
+/*!
+ *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+	  font-family: 'FontAwesome-ibk';
+	  src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+	  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+}
+.fa-ibk {
+	  display: inline-block;
+	  font: normal normal normal 14px/1 FontAwesome-ibk;
+	  font-size: inherit;
+	  text-rendering: auto;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	  transform: translate(0, 0);
+}
+.fa-ibk-menu{
+	font-size: 30px;
+	display: block;
+	margin-bottom: 5px;
+}
+.fa-general_settings-ibk:before {
+	content: "\f013";
+}
+.fa-system-ibk:before {
+  content: "\f0e4";
+}
+.fa-manage_backups-ibk:before {
+  	content: "\f07b";
+	content: "\f0ed";
+}
+.fa-destinations-ibk:before {
+  	content: "\f124";
+}
+.fa-help-ibk:before {
+  	content: "\f059";
+}
+.fa-logs-ibk:before {
+  	content: "\f03a";
+}
+.fa-restore-ibk:before {
+  	content: "\f07d";
+    content: "\f0ee";
+}
+.fa-files-ibk:before {
+  content: "\f15b";
+}
+.fa-db-ibk:before {
+   content: "\f1c0";
+}
+.fa-scheduled-ibk:before {
+   content: "\f017";
+}
+.fa-periodically-ibk:before {
+  content: "\f1da";
+}
+.fa-add-backup-ibk:before {
+  content: "\f0ed";
+}
+.fa-info-circle-ibk:before {
+  content: "\f05a";
+}
+.fa-check-circle-bk:before {
+  content: "\f058";
+}
+.fa-error-circle-bk:before {
+	  content: "\f06a";
+}
+.fa-stopped-circle-bk:before {
+	content: "\f071";
+}
+.fa-folder-ibk:before {
+  content: "\f07b";
+}
+.fa-theme-ibk:before {
+  content: "\f009";
+}
+.fa-stats-shanp-ibk:before {
+    content: "\f01c";
+}
+.fa-plugin-ibk:before {
+  content: "\f219";
+}
+.fa-uploads-ibk:before {
+    content: "\f03e";
+}
+.fa-restore-btn-ibk:before {
+    content: "\f0ee";
+}
+.fa-migrate-btn-ibk:before  {
+  content: "\f079";
+}
+.fa-migrate-ibk:before  {
+  content: "\f079";
+}
+.fa-cloud-ibk:before {
+    content: "\f1cc";
+}
+.fa-version-ibk:before{
+	content: "\f00c";
+}
+.fa-download-ibk:before{
+	content: "\f019";
+}
+.fa-close-ibk:before {
+    content: "\f0d7";
+}

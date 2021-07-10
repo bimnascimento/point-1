@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/* FRONT-END STYLES */
+.hmapsprem_container{
+}
+.hmapsprem_container .hmapsprem_map_container{
+    clear:both;
+}
+.hmapsprem_container .hmapsprem_map_container img{
+	max-width:none !important;
+}
+.hmapsprem_container .hmapsprem_map_container .gm-style-iw{
+	min-width:150px !important;
+}
+.hmapsprem_container .hmapsprem_map_container .gm-style-iw div{
+    -webkit-overflow-scrolling: touch;
+}
+.hmapsprem_container .hmapsprem_map_container .hmapsprem_info_window{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:15px;
+	color:#000;
+}
+.hmapsprem_container .hmapsprem_map_container .hmapsprem_info_window h3{
+	font-size:16px;
+	line-height:22px;
+	margin:0;
+	padding-bottom:8px;
+}
+.hmapsprem_container .hmapsprem_map_container .hmapsprem_info_window p{
+	font-size:14px;
+	line-height:17px;
+	color:#999;
+	padding-bottom:10px;
+	margin:0;
+}
+.hmapsprem_container .hmapsprem_map_container .hmapsprem_info_window a{
+	text-decoration:none;
+}
+.hmapsprem_container .hmapsprem_map_container .hmapsprem_info_window a:hover{
+	text-decoration:underline;
+}
+.hmapsprem_container .hmapsprem_map_container  .hero_map_search_bar{
+    position:absolute;
+    top:12px;
+    left:12px;
+    width:350px;
+    height:48px !important;
+    background-color:#FFF;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px;
+    z-index:99999;
+}
+.hmapsprem_container .hmapsprem_map_container  .hero_map_search_bar .location_search_input{
+    width:100%;
+    margin:10px 0 0 10px !important;
+    border:none;
+    background-color:transparent;
+    outline:none;
+    box-shadow:none;
+    color:#666;
+    font-size:14px !important;
+    line-height:28px !important;
+    padding:0 55px 0 0 !important;
+}
+.hmapsprem_container .hmapsprem_map_container  .location_search_input::-webkit-input-placeholder{
+    color:#666;
+}
+.hmapsprem_container .hmapsprem_map_container  .location_search_input:-moz-placeholder{
+    color:#666;
+    opacity:1;
+}
+.hmapsprem_container .hmapsprem_map_container  .location_search_input::-moz-placeholder{
+    color:#666;
+    opacity:1;
+}
+.hmapsprem_container .hmapsprem_map_container  .location_search_input:-ms-input-placeholder{
+    color:#666;
+}
+.hmapsprem_container .hmapsprem_map_container .hero_map_search_bar .search_icon{
+    position:absolute;
+    top:16px;
+    right:16px;
+    width:18px;
+    height:18px;
+    background-image:url(../images/admin/map_search.png);
+    background-repeat:no-repeat;
+}
+.pac-container{
+    position:absolute;
+    margin:9px 0 0 -10px !important;
+    box-shadow:none;
+}
+.pac-container .pac-item{
+    padding-left:29px;
+}
+.hmapsprem_container .category_selector{
+	outline:none !important;
+	border:1px solid #CCC;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	padding:7px 14px;
+	opacity:0;
+}
+.hmapsprem_container .category_selector.TOP_LEFT{
+	float:left;
+	margin-bottom:3px;
+}
+.hmapsprem_container .category_selector.TOP_RIGHT{
+	float:right;
+	margin-bottom:3px;
+}
+.hmapsprem_container .category_selector.BOTTOM_LEFT{
+	float:left;
+	margin-top:3px;
+}
+.hmapsprem_container .category_selector.BOTTOM_RIGHT{
+	float:right;
+	margin-top:3px;
+}
+.hmapsprem_container .get_directions_btn{
+	width:100%;
+	background-color:#666;
+	text-align:center;
+	cursor:pointer;
+}
+.hmapsprem_container .get_directions_btn:hover{
+	background-color:#999;
+}
+.hmapsprem_container .get_directions_btn a{
+	margin:0px 15px;
+	line-height:30px;
+	color:#FFF;
+	text-decoration:none;
+}
+.hmapsprem_container .get_directions_btn a:hover{
+	text-decoration:none;
+}
+/* MARKER CATEGORY TABS */
+.hmapsprem_container .hmapsprem_cat_tab{
+    -webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;
+    float:left;
+    display:block;
+}
+.hmapsprem_container .hmapsprem_cat_tab a{
+    padding:0;
+    margin:0;
+    border:0;
+    text-decoration:none;
+    cursor:pointer;
+}
