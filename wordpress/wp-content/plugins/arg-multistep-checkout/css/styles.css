@@ -1,0 +1,375 @@
+/**
+ * Table of Contents
+ *
+ *Wizard general
+ *Woocommerce Login Form
+ *Woocommerce Coupon Form
+ *Woocommerce Form Validation
+ *Wizard general > 767px
+ *Wizard general > 1200px
+ */
+
+
+/*Wizard general*/
+
+.argmc-wrapper {
+    margin: 0 auto;
+    max-width: 900px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.argmc-wrapper .tab-completed-icon.preload-icon {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -9999px;
+}
+
+.argmc-wrapper .argmc-tabs-list {
+    display: table;
+    font-weight: 600;
+    width: 100%;
+
+    list-style: outside none none;
+    margin: 10px 0 55px;
+    padding: 0;
+}
+
+.argmc-wrapper .argmc-tabs-list:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.argmc-tabs-list.six-tabs .argmc-tab-item {
+    width: 16.66666666%;
+}
+
+.argmc-tabs-list.five-tabs .argmc-tab-item {
+    width: 20%;
+}
+
+.argmc-tabs-list.four-tabs .argmc-tab-item {
+    width: 25%;
+}
+
+.argmc-tabs-list.three-tabs .argmc-tab-item {
+    width: 33.3333333333%;
+}
+
+.argmc-tabs-list.two-tabs .argmc-tab-item {
+    width: 50%;
+}
+
+.argmc-wrapper .argmc-tab-text {
+    display: none;
+}
+
+.argmc-wrapper .argmc-nav-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 2px solid #d9d9d9;
+
+    margin-bottom: 28px;
+    padding: 17px 2px;
+}
+
+.argmc-wrapper .argmc-nav-text:empty {
+    display: none;
+}
+
+.argmc-wrapper .argmc-nav-text a {
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1;
+    color: inherit;
+    border-bottom: medium none;
+    box-shadow: none !important;
+    cursor: pointer;
+    outline: 0 !important;
+}
+
+.woocommerce-checkout .woocommerce form .form-row textarea {
+    min-height: 80px;
+}
+
+.argmc-wrapper .argmc-nav-buttons .button {
+    display: inline-block;
+    margin: 0 0 10px !important;
+}
+
+.woocommerce-checkout .woocommerce .argmc-wrapper .argmc-nav-buttons .button {
+    width: 100%;
+}
+
+.argmc-wrapper .argmc-form-steps {
+    position: relative;
+   /* display: none;
+    opacity: 0;*/
+    padding: 0 1% 0;
+    margin: 0 0 55px;
+    z-index: -1;
+    position: absolute;
+    top: -9999px;
+    left: 0;
+}
+
+.select2Loaded .argmc-form-steps {
+    display: none;
+    opacity: 0;
+}
+
+.argmc-wrapper .argmc-form-steps.current {
+    display: block;
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+    left: 0;
+    top: 0;
+
+    animation-name: show-step;
+    animation-duration: 0.5s; 
+}
+
+.argmc-wrapper .argmc-form-steps.first {
+    animation: none;
+}
+
+.argmc-wrapper .argmc-form-steps.first.animate {
+    animation-name: show-step;
+    animation-duration: 0.5s; 
+}
+
+.woocommerce-checkout .woocommerce .argmc-wrapper #payment #place_order {
+    display: none !important;
+}
+
+@keyframes show-step {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+/*Woocommerce Login Form*/
+
+.argmc-wrapper .argmc-login-step .woocommerce-info {
+    display: none;
+}
+
+.argmc-wrapper .argmc-login-step form.login {
+    display: block !important;
+}
+
+
+
+/*Woocommerce Coupon Form*/
+
+.woocommerce-checkout .argmc-coupon-step .woocommerce-info {
+    display: none !important;
+}
+
+.woocommerce-checkout .argmc-coupon-step .checkout_coupon {
+    display: block !important;
+}
+
+
+
+/*Woocommerce Form Validation*/
+
+.woocommerce-checkout .woocommerce .argmc-wrapper form .form-row label.error {
+    display: block;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: normal;
+    text-transform: none;
+    margin: 6px 0 0;
+    padding-left: 3px;
+    position: relative;
+}
+
+.woocommerce-checkout .woocommerce .argmc-wrapper form .form-row label.error:before {
+    display: inline-block;
+    font-family: "arg-mc-icons" !important;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+
+    content: '\e803' !important;
+	opacity: 1 !important;
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    font-size: 11px;
+    line-height: 1;
+    width: auto;
+    height: auto;
+    margin-right: 4px;
+
+    position: relative;
+    top: -2px;
+}
+
+.woocommerce-checkout .woocommerce .argmc-wrapper form .form-row label.error abbr {
+    display: none;
+}
+
+.argmc-wrapper .checkout.validating .argmc-form-steps.current {
+    position: relative;
+}
+
+.argmc-wrapper .checkout.validating .argmc-form-steps.current:before {
+    display: block;
+    content: "";	
+
+    background: rgba(255,255,255,0.8);
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.argmc-wrapper .checkout.validating .argmc-form-steps.current:after {
+    display:block;
+    content:"";
+    font-size:2em;
+    line-height:1;
+    text-align:center;
+    color:rgba(0,0,0,.75);
+
+    height:1em;
+    width:1em;
+    background:url(../../woocommerce/assets/images/icons/loader.svg) center center;
+    background-size:cover;
+
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin-left:-.5em;
+    margin-top:-.5em;
+    z-index: 101;
+
+    -webkit-animation:spin 1s ease-in-out infinite;
+    -moz-animation:spin 1s ease-in-out infinite;
+    animation:spin 1s ease-in-out infinite;
+
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+
+/*Fixes Storefront Theme*/
+
+.woocommerce-checkout .woocommerce .argmc-wrapper #order_review,
+.woocommerce-checkout .woocommerce .argmc-wrapper #add_payment_method #payment, 
+.woocommerce-checkout .woocommerce .argmc-wrapper #payment,
+.woocommerce-checkout .woocommerce .argmc-wrapper #order_review table.shop_table {
+    float: none;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+@media screen and (min-width: 767px) {
+
+    /*Wizard general > 767px*/
+
+    .argmc-wrapper .argmc-form-steps {
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .argmc-wrapper .argmc-nav {
+        display: table;
+        width: 100%;
+    }
+
+    .argmc-wrapper .argmc-nav-text,
+    .argmc-wrapper .argmc-nav-buttons {
+        display: table-cell;
+
+        border-top: 1px solid #d9d9d9;
+        border-bottom: none;
+
+        padding: 25px 0;
+        vertical-align: middle;
+    }
+
+    .argmc-wrapper .argmc-nav-buttons .button {
+        display: inline-block;
+        margin: 0 !important;
+        width: 100%;
+    }
+
+    .woocommerce-checkout .woocommerce .argmc-wrapper .argmc-nav-buttons .button {
+        width: auto;
+    }
+
+    .argmc-wrapper .argmc-nav-text {
+        text-align: left;
+        width: 60%;
+
+        margin: 0;
+        padding: 17px 10% 20px 0;
+    }
+
+    .argmc-wrapper .argmc-nav-buttons {
+        white-space: nowrap;
+        text-align: right;
+    }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    /*Wizard general > 1200px*/
+
+    .argmc-wrapper .argmc-form-steps {
+        padding-left: 13.3%;
+        padding-right: 13.3%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

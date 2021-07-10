@@ -1,0 +1,133 @@
+# IGNORE --------------------------------------------------------------------
+
+# IGNORE --------------------------------------------------------------------
+
+# wordpress/.htaccess
+# wordpress/wp-config.php
+
+
+# --------------------------------------------------------------------------
+# /*
+# !wp-content/  
+
+# ignore all files starting with .
+.*
+
+# track this file .gitignore (i.e. do NOT ignore it)
+!.gitignore
+
+# track .editorconfig file (i.e. do NOT ignore it)
+!.editorconfig
+
+# track readme.md in the root (i.e. do NOT ignore it)
+!readme.md
+# !php.ini
+# info.php
+
+# ignore all files that start with ~
+~*
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins" directory
+# "plugins" directory
+# "themes" directory
+# wp-content/*
+# !wp-content/mu-plugins/
+# !wp-content/plugins/
+# !wp-content/themes/
+# !wp-content/languages
+# !Sunrise.php
+# !advanced-cache.php
+# !wp-cache-config.php
+
+
+# ignore these plugins
+# wp-content/plugins/hello.php
+
+# ignore specific themes
+# wp-content/themes/twenty*/
+
+# ignore node/grunt dependency directories
+# node_modules/
+# bower_components
+
+
+tmp/
+wordpress/importbuddy/
+# .htaccess
+# git update-index --assume-unchanged .htaccess (Ignore)
+# git update-index --no-assume-unchanged .htaccess (n ignore)
+# */.htaccess
+# !www/.htaccess
+# wp-config.php
+# git update-index --assume-unchanged wp-config.php
+
+# sitemap.xml
+# sitemap.xml.gz
+# ceps.txt
+# git update-index --assume-unchanged ceps.txt
+# -------------------------------------------------------------------------- #
+wordpress/wp-content/cache/
+wordpress/wp-content/advanced-cache.php
+
+# git update-index --assume-unchanged wp-content/advanced-cache.php
+
+wordpress/wp-content/plugins/wp-rocket/cache.json
+wordpress/wp-content/plugins/wp-rocket/*
+# ignore log files and databases
+*.log
+wordpress/wp-content/*.log
+wordpress/wp-content/debug.log
+wordpress/wp-admin/error_log
+wordpress/wp-content/uploads/sites/2/wc-logs/
+wordpress/wp-content/uploads/pb_backupbuddy/
+wordpress/wp-content/uploads/backupbuddy_temp/
+wordpress/wp-content/uploads/backupbuddy_backups/
+# *.sql
+*.sqlite
+wordpress/debug.log
+wordpress/wp-content/debug.log
+# wp-content/wp-rocket-config/
+# wp-content/wp-rocket-config/
+# wp-content/plugins/wp-rocket/
+wordpress/error_log
+wordpress/bkp_ftp
+wordpress/doc
+
+
+
+.vs/*.*
+.vs
+.history
+*.bkp

@@ -1,0 +1,744 @@
+# Copyright (C) 2013 the WordPress team
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Checkout v1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/twentyfourteen\n"
+"POT-Creation-Date: 2016-11-28 10:58+0200\n"
+"PO-Revision-Date: 2017-03-07 02:04-0300\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../class-arg-multistep-checkout.php:33
+#: ../class-arg-multistep-checkout.php:1091
+#, php-format
+msgid "%s %s requires WooCommerce Plugin to be installed and activated."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:33
+#, php-format
+msgid ""
+"Please <a href=\"%1$s\" target=\"_blank\">install WooCommerce Plugin</a>."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:285
+msgid "Next"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:286
+msgid "Previous"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:287
+msgid "Place Order"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:288
+msgid "Skip Login"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:289
+msgid "This field is required"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:290
+msgid "You must accept the terms and conditions"
+msgstr "Você deve aceitar os Termos e Condições."
+
+#: ../class-arg-multistep-checkout.php:291
+msgid "Invalid email address"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:295
+msgid "Login"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:299
+msgid "Coupon"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:303
+msgid "Billing & Shipping"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:307
+msgid "Billing"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:311
+msgid "Shipping"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:315
+msgid "Order & Payment"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:319
+msgid "Order"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:323
+msgid "Payment"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:327
+msgid ""
+"Far far away, behind the word mountains, far from the countries Vokalia and "
+"Consonantia."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:459
+#: ../class-arg-multistep-checkout.php:470
+msgid "General Settings"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:460
+msgid "Wizard Steps"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:461
+msgid "Wizard Styles"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:471
+msgid ""
+"Under the General Settings tab you'll find options like: changing buttons "
+"text, custom text, wizard width, secondary font family and error messages."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:473
+msgid "Buttons and Custom Text"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:479
+msgid "Skip Login Button Text"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:480
+msgid "Change the text of login button."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:486
+msgid "Next Button Text"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:487
+msgid "Change the text of next button."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:493
+msgid "Previous Button Text"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:494
+msgid "Change the text of the previous button."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:500
+msgid "Place Order Button Text"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:501
+msgid "Change the text of the place order button."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:507
+msgid "Custom Text"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:508
+msgid "Use this option to add an extra text to footer."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:515
+msgid "Wizard width and secondary font family"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:521
+msgid "Wizard Maximum Width"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:522
+msgid ""
+"Use this option to set the maximum width of the wizard layout. Set input "
+"value to <strong>none</strong> if you want the wizard to expand to the "
+"entire layout width."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:528
+msgid "Wizard Secondary Font Family"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:529
+msgid ""
+"Use this option to set the font family for wizard tabs, headings, lables, "
+"buttons, payment metods labels (example: 'Poppins',sans-serif). Leave it "
+"empty if your theme has only one font family."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:535
+msgid "Wizard Secondary Font Weight"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:536
+msgid ""
+"Use this option to set the font weight for wizard tabs, headings, buttons, "
+"payment metods labels."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:540
+msgid "400"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:541
+msgid "500"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:542
+msgid "600"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:543
+msgid "700"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:544
+msgid "800"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:545
+msgid "900"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:552
+msgid "Validation Error Messages"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:558
+msgid "Required Field"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:559
+msgid "Change the text of the required field error message."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:565
+msgid "Required Checkbox"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:566
+msgid "Change the text of the required checkbox error message."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:572
+msgid "Invalid Email Address"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:573
+msgid "Change the text of the invalid email address error message."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:585
+msgid "Wizard Steps Options"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:586
+msgid ""
+"These options refer to your checkout steps and all their content can be "
+"found here:"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:591
+msgid "Step Name"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:592
+msgid "Template"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:593
+msgid "Show/Hide Step"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:604
+#: ../class-arg-multistep-checkout.php:621
+#: ../class-arg-multistep-checkout.php:648
+#: ../class-arg-multistep-checkout.php:679
+#: ../class-arg-multistep-checkout.php:698
+msgid "Show"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:609
+#: ../class-arg-multistep-checkout.php:626
+#: ../class-arg-multistep-checkout.php:653
+#: ../class-arg-multistep-checkout.php:684
+#: ../class-arg-multistep-checkout.php:703
+msgid "Hide"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:672
+msgid "Additional Information"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:673
+msgid ""
+"Use this option to hide additional information block from <br> the shipping "
+"section.</br>"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:691
+msgid "Show/Hide Product Thumbnail"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:692
+msgid ""
+"Use this option to show/hide product thumbnail in the checkout order review "
+"table."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:716
+msgid "Combine Billing and Shipping Steps?"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:722
+#: ../class-arg-multistep-checkout.php:752
+msgid "Yes"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:727
+#: ../class-arg-multistep-checkout.php:757
+msgid "No"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:734
+#: ../class-arg-multistep-checkout.php:764
+msgid "If so, define your new step name:"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:746
+msgid "Combine Payment and Order Details Steps?"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:777
+msgid "Multistep Checkout Styles"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:778
+msgid "Here you can find the options to change your checkout steps styles:"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:781
+msgid "Wizard styles"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:787
+msgid "Wizard Text Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:788
+msgid "Change the color of wizard footer custom text."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:794
+msgid "Wizard Accent Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:795
+msgid "Change the accent color of the wizard."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:801
+msgid "Wizard Border Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:802
+msgid "Change the color of the wizard footer border line."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:809
+msgid "Wizard Error Text Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:810
+msgid "Change the color of the wizard text error."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:817
+msgid "Change Wizard Buttons Styles (skip login, next, previous, place order)"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:818
+msgid ""
+"By default your theme buttons styles will be applied. Enable this option if "
+"you want to change the text/background color of these buttons."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:824
+msgid "On"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:829
+msgid "Off"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:837
+msgid "Wizard Button Text Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:838
+msgid ""
+"Change the color of the button text. The theme button text color will be "
+"inherited if you leave the input empty."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:844
+msgid "Wizard Button Text Transparency on Hover"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:845
+#, php-format
+msgid ""
+"Change the opacity of the text button on hover. The opacity-level describes "
+"the transparency-level, where 1 is not transparent at all, 0.5 is 50% see-"
+"through, and 0 is completely transparent."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:851
+msgid "Wizard Next/Skip Login Buttons Background Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:852
+msgid "Change the background color of the next/skip login buttons."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:858
+msgid "Wizard Previous Button Background Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:859
+msgid "Change the background color of the previous button."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:865
+msgid "Wizard Place Order Button Background Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:866
+msgid "Change the background color of the place order button."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:874
+msgid "Tabs Styles"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:880
+msgid "Tabs Layouts"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:881
+msgid "Change the layout of your tabs."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:885
+msgid "Square"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:886
+msgid "Arrow"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:892
+msgid "Tabs Text Styles"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:893
+msgid "Change the text styles of your tabs."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:897
+msgid "Text Inline"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:898
+msgid "Text Under Number"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:899
+msgid "Hide Number on Tab"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:905
+msgid "Tabs Width"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:906
+msgid "Use this option to change your tabs width."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:910
+msgid "Equals"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:911
+msgid "Auto"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:917
+msgid "Tab Text Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:918
+msgid "Change tabs font color."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:924
+msgid "Tab Number Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:925
+msgid "Use this option to change tab number color."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:931
+msgid "Tab Background Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:932
+msgid "Change tabs background color."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:938
+msgid "Tab Border Left Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:939
+msgid "Change the border color between the tabs."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:945
+msgid "Tab Border Bottom Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:946
+msgid "Change the border color under the tabs."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:952
+msgid "Current / Completed / On Hover Tab Text Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:953
+msgid ""
+"Use this option to change the text color of the completed/current/hovered "
+"tab."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:959
+msgid "Current / Completed / On Hover Tab Background Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:960
+msgid ""
+"Use this option to change the background color of the completed/current/"
+"hovered tab."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:966
+msgid "Arrow Right Color (option applied only for the \"Arrow\" Tab Layout)"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:967
+msgid ""
+"Use this option to change the arrow right color. Usually it is the color of "
+"your page background, but you can choose any color."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:975
+msgid "Checkout Forms Styles"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:981
+msgid "Inherit Checkout Forms Styles From Your Theme or Plugin"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:982
+msgid ""
+"If you prefer the plugin checkout forms styles then select the \"Plugin\" "
+"option (the styles will be inherited from the plugin).\n"
+"                                    <br>If not, your theme checkout form "
+"styles will be inherited."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:989
+msgid "Plugin"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:994
+msgid "Theme"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1001
+msgid "Forms Text Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1002
+msgid "Use this option to change forms text color."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1008
+msgid "Forms Headings/Table Headings/Labels Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1009
+msgid ""
+"Change the color of the labels(used on form fields)/form headings/table "
+"headings."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1015
+msgid "Form Fields Border Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1016
+msgid "Use this option to change form fields border colors."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1022
+msgid "Form Fields Background Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1023
+msgid "Use this option to change form fields background colors."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1029
+msgid "Form Fields Border Radius"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1030
+msgid "With this option you can give any form field \"rounded corners\"."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1036
+msgid "Invalid Form Fields Border Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1037
+msgid "Change border color for invalid form fields."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1043
+msgid "Invalid Form Fields Background"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1044
+msgid "Change background color for invalid form fields."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1050
+msgid "Validated Form Fields Border"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1051
+msgid "Change border color for validated form fields."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1057
+msgid "Buttons Background Color"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1058
+msgid ""
+"Change the background color of the wizard buttons. Starting with version 1.8 "
+"this option is deprecated. Please use \"Wizard styles\" options instead to "
+"change buttons background colors."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1064
+msgid "Button Background Color on Login and Coupon Forms"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1065
+msgid ""
+"Use this option to change the background color of Login and Coupon buttons."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1076
+msgid "Save Changes"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1077
+msgid "Reset All"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1114
+msgid "Please enter a valid postcode/ZIP."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1128
+msgid "is not a valid phone number."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1143
+msgid "is not a valid email address."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1171
+msgid "is not valid. Please enter one of the following:"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1204
+msgid "Incorrect username/password"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1228
+msgid "Documentation"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1229
+msgid "Visit plugin site"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1245
+msgid "Settings"
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1258
+#, php-format
+msgid "If you like <strong> %s </strong> please leave us a ★★★★★ rating."
+msgstr ""
+
+#: ../class-arg-multistep-checkout.php:1258
+msgid "Thank you."
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:108
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:36
+msgid "Product"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:37
+#: ../woocommerce/checkout/review-order.php:123
+msgid "Total"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:76
+msgid "Subtotal"
+msgstr ""
+
+#~ msgid "You may also like..."
+#~ msgstr "You may also like ro..."

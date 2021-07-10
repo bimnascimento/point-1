@@ -1,0 +1,164 @@
+
+# --------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------
+
+# server {
+#     listen 80;
+#     listen [::]:80;
+#     server_name 127.0.0.1 localhost shots.hellosaks.com.br shots.hellosaks.com;
+
+#     location / {
+#         rewrite ^ https://shots.hellosaks.com$request_uri? permanent;
+#     }
+
+#     location ^~ /.well-known {
+#         allow all;
+#         root  /data/letsencrypt/;
+#     }
+# }
+
+# --------------------------------------------------------------------------------------------------------------------------
+
+# server {
+#     listen      443           ssl http2;
+#     listen [::]:443           ssl http2;
+#     server_name 127.0.0.1 localhost shots.hellosaks.com.br;
+
+#     ssl_certificate           /etc/letsencrypt/live/hellosaks.com.br/fullchain.pem;
+#     ssl_certificate_key       /etc/letsencrypt/live/hellosaks.com.br/privkey.pem;
+#     # ssl_trusted_certificate   /etc/letsencrypt/live/hellosaks.com.br/chain.pem;
+
+#     return         301 https://shots.hellosaks.com$request_uri;
+# }
+
+# --------------------------------------------------------------------------------------------------------------------------
+
+# server {
+#     listen      443           ssl http2;
+#     listen [::]:443           ssl http2;
+#     server_name 127.0.0.1 localhost shots.hellosaks.com;
+
+#     add_header                Strict-Transport-Security "max-age=31536000" always;
+
+#     ssl_session_cache         shared:SSL:20m;
+#     ssl_session_timeout       10m;
+
+#     ssl_protocols             TLSv1 TLSv1.1 TLSv1.2;
+#     ssl_prefer_server_ciphers on;
+#     ssl_ciphers               "ECDH+AESGCM:ECDH+AES256:ECDH+AES128:!ADH:!AECDH:!MD5;";
+
+#     ssl_stapling              on;
+#     ssl_stapling_verify       on;
+#     resolver                  8.8.8.8 8.8.4.4;
+
+#     root /var/www/html_blog;
+#     index index.php;
+
+#     access_log /var/log/nginx/access.log;
+#     error_log /var/log/nginx/error.log;
+
+#     ssl_certificate           /etc/letsencrypt/live/hellosaks.com/fullchain.pem;
+#     ssl_certificate_key       /etc/letsencrypt/live/hellosaks.com/privkey.pem;
+#     # ssl_trusted_certificate   /etc/letsencrypt/live/hellosaks.com/chain.pem;
+
+#     location / {
+#         try_files $uri $uri/ /index.php?$args;
+#     }
+
+#     client_max_body_size 200M;
+
+#     location ~ \.php$ {
+#         try_files $uri =404;
+#         fastcgi_split_path_info ^(.+\.php)(/.+)$;
+#         fastcgi_pass wordpress_blog:9000;
+#         fastcgi_index index.php;
+#         include fastcgi_params;
+#         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+#         fastcgi_param PATH_INFO $fastcgi_path_info;
+#     }
+# }
+
+# --------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name pointlave.com www.pointlave.com pointlave.com.br www.pointlave.com.br;
+
+    location / {
+        rewrite ^ https://pointlave.com$request_uri? permanent;
+    }
+
+    location ^~ /.well-known {
+        allow all;
+        root  /data/letsencrypt/;
+    }
+}
+
+# --------------------------------------------------------------------------------------------------------------------------
+
+server {
+    listen      443           ssl http2;
+    listen [::]:443           ssl http2;
+    server_name pointlave.com.br www.pointlave.com.br;
+
+    ssl_certificate           /etc/letsencrypt/live/pointlave.com.br/fullchain.pem;
+    ssl_certificate_key       /etc/letsencrypt/live/pointlave.com.br/privkey.pem;
+    ssl_trusted_certificate   /etc/letsencrypt/live/pointlave.com.br/chain.pem;
+
+    return         301 https://pointlave.com$request_uri;
+}
+
+# --------------------------------------------------------------------------------------------------------------------------
+
+server {
+    listen      443           ssl http2;
+    # listen [::]:443           ssl http2;
+    server_name pointlave.com www.pointlave.com;
+
+    add_header                Strict-Transport-Security "max-age=31536000" always;
+
+    ssl_session_cache         shared:SSL:20m;
+    ssl_session_timeout       10m;
+
+    ssl_protocols             TLSv1 TLSv1.1 TLSv1.2;
+    ssl_prefer_server_ciphers on;
+    ssl_ciphers               "ECDH+AESGCM:ECDH+AES256:ECDH+AES128:!ADH:!AECDH:!MD5;";
+
+    ssl_stapling              on;
+    ssl_stapling_verify       on;
+    resolver                  8.8.8.8 8.8.4.4;
+
+    root /var/www/html;
+    index index.php;
+
+    access_log /var/log/nginx/access.log;
+    error_log /var/log/nginx/error.log;
+
+    ssl_certificate           /etc/letsencrypt/live/pointlave.com/fullchain.pem;
+    ssl_certificate_key       /etc/letsencrypt/live/pointlave.com/privkey.pem;
+    ssl_trusted_certificate   /etc/letsencrypt/live/pointlave.com/chain.pem;
+
+    location / {
+        try_files $uri $uri/ /index.php?$args;
+    }
+
+    client_max_body_size 200M;
+
+    location ~ \.php$ {
+        try_files $uri =404;
+        fastcgi_split_path_info ^(.+\.php)(/.+)$;
+        fastcgi_pass wordpress:9000;
+        fastcgi_index index.php;
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_param PATH_INFO $fastcgi_path_info;
+    }
+}
+
+# --------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------

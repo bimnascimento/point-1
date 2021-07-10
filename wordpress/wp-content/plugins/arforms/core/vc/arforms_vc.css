@@ -1,0 +1,13 @@
+.arforms_vc_icon
+{
+	background-image:url(arforms-icon32x32.png) !important;
+}
+.vc_panel { left:25% !important; top:50px !important; width:750px !important;}
+
+
+
+
+.wpb_el_type_ARForms_Popup_Shortode{display:none;}
+
+.arfmodal_vc.fade{ opacity:1; }
+.colpick_hex{z-index:100000!important;}

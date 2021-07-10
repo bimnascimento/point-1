@@ -1,0 +1,82 @@
+version: '3.6'
+services:
+  
+  # ---------------------------------------------------------------------------------
+
+  wordpress:
+    # user: root
+    # env_file: .env
+    # image: wordpress:php7.3-fpm
+    image: wordpress:php5.6-fpm
+    container_name: wordpress
+    volumes:
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+      - ./wordpress:/var/www/html
+    environment:
+      - WORDPRESS_DB_NAME=db_mysql
+      - WORDPRESS_TABLE_PREFIX=box_
+      - WORDPRESS_DB_HOST=mysql
+      - WORDPRESS_DB_USER=user_mysql
+      - WORDPRESS_DB_PASSWORD=ZB67uctY5rXo
+    depends_on:
+      - mysql
+    networks:
+      - code-network-site
+    restart: always
+
+  mysql:
+    # user: root
+    # env_file: .env
+    # image: mariadb:10.5
+    image: bitnami/mysql:5.7
+    container_name: mysql
+    # command: "--skip-grant-tables"
+    volumes:
+      # - mysqldb_data:/var/lib/mysql
+      - mysqldb_data:/bitnami/mysql/data
+    environment:
+      - MYSQL_ROOT_USER=user_root
+      - MYSQL_ROOT_PASSWORD=dinpRghDcLah
+      - ALLOW_EMPTY_PASSWORD=no
+      - MYSQL_USER=user_mysql
+      - MYSQL_PASSWORD=ZB67uctY5rXo
+      - MYSQL_DATABASE=db_mysql
+    restart: always
+    healthcheck:
+      test: ['CMD', '/opt/bitnami/scripts/mysql/healthcheck.sh']
+      interval: 15s
+      timeout: 5s
+      retries: 6
+    networks:
+      - code-network-site
+    ports:
+      - '3306:3306'
+
+  nginx:
+    # user: root
+    # env_file: .env
+    image: nginx:1.19.6
+    container_name: nginx
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - ./logs/nginx:/var/log/nginx
+      - ./wordpress:/var/www/html
+      - ./certs:/etc/letsencrypt
+      - ./certs-data:/data/letsencrypt
+    depends_on:
+      - wordpress
+      - mysql
+    networks:
+      - code-network-site
+    restart: always
+
+networks:
+  code-network-site:
+    driver: bridge
+
+volumes:
+  mysqldb_data:
+    driver: local
