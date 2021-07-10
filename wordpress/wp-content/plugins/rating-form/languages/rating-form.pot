@@ -1,0 +1,1442 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rating Form\n"
+"POT-Creation-Date: 2016-01-11 01:47+0100\n"
+"PO-Revision-Date: 2016-01-11 01:47+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/rating_form_add.php:48 admin/rating_form_list.php:1181
+#: admin/rating_form_list.php:1499 admin/rating_form_list.php:1573
+#, php-format
+msgid "The following path is not writable: %s"
+msgstr ""
+
+#: admin/rating_form_add.php:54
+msgid ""
+"No 'empty icon' selected. <em>Don't forget to select all icons again.</em>"
+msgstr ""
+
+#: admin/rating_form_add.php:56 admin/rating_form_add.php:65
+#: admin/rating_form_add.php:74 admin/rating_form_list.php:254
+#: admin/rating_form_list.php:263 admin/rating_form_list.php:273
+msgid "The image you uploaded triggered the following error: "
+msgstr ""
+
+#: admin/rating_form_add.php:58 admin/rating_form_add.php:67
+#: admin/rating_form_add.php:76 admin/rating_form_list.php:256
+#: admin/rating_form_list.php:266 admin/rating_form_list.php:275
+#, php-format
+msgid ""
+"Only <strong>.png</strong> extension allowed. E.g. for transparency of image."
+"<br>You uploaded: %1$s.<strong>%2$s</strong>"
+msgstr ""
+
+#: admin/rating_form_add.php:63
+msgid ""
+"No 'full icon' selected. <em>Don't forget to select all icons again.</em>"
+msgstr ""
+
+#: admin/rating_form_add.php:72
+msgid ""
+"No'half icon' selected. <em>Don't forget to select all icons again.</em>"
+msgstr ""
+
+#: admin/rating_form_add.php:81 admin/rating_form_list.php:248
+#, php-format
+msgid "<strong>Name</strong> has %s characters. Allowed: 50 characters"
+msgstr ""
+
+#: admin/rating_form_add.php:437
+msgid "Successfully added!"
+msgstr ""
+
+#: admin/rating_form_add.php:441
+msgid "Error! Rating Form not added. One of these fields were not added: "
+msgstr ""
+
+#: admin/rating_form_add.php:478
+msgid "Icon Empty"
+msgstr ""
+
+#: admin/rating_form_add.php:482
+msgid "Upload an empty icon e.g. empty star"
+msgstr ""
+
+#: admin/rating_form_add.php:486
+msgid "Icon Full (Hover)"
+msgstr ""
+
+#: admin/rating_form_add.php:490
+msgid "Upload an full icon e.g. full star"
+msgstr ""
+
+#: admin/rating_form_add.php:494
+msgid "Icon Half"
+msgstr ""
+
+#: admin/rating_form_add.php:498
+msgid "Upload an half icon e.g. half star"
+msgstr ""
+
+#: admin/rating_form_add.php:503 admin/rating_form_list.php:1202
+msgid "Example"
+msgstr ""
+
+#: admin/rating_form_add.php:516 includes/shortcode.php:27
+msgid "Very bad!"
+msgstr ""
+
+#: admin/rating_form_add.php:517 includes/shortcode.php:28
+msgid "Bad"
+msgstr ""
+
+#: admin/rating_form_add.php:518 includes/shortcode.php:29
+msgid "Hmmm"
+msgstr ""
+
+#: admin/rating_form_add.php:519 includes/shortcode.php:30
+msgid "Oke"
+msgstr ""
+
+#: admin/rating_form_add.php:520 includes/shortcode.php:31
+msgid "Good!"
+msgstr ""
+
+#: admin/rating_form_add.php:521 includes/shortcode.php:32
+msgid "Very good!"
+msgstr ""
+
+#: admin/rating_form_add.php:522 includes/shortcode.php:33
+msgid "Excellent!"
+msgstr ""
+
+#: admin/rating_form_add.php:523 includes/shortcode.php:34
+msgid "Cool!"
+msgstr ""
+
+#: admin/rating_form_add.php:524 includes/shortcode.php:35
+msgid "Awesome!"
+msgstr ""
+
+#: admin/rating_form_add.php:525 includes/shortcode.php:36
+msgid "Spectaculair!"
+msgstr ""
+
+#: admin/rating_form_add.php:526 includes/shortcode.php:37
+msgid "Like!"
+msgstr ""
+
+#: admin/rating_form_add.php:527 includes/shortcode.php:38
+msgid "Dislike!"
+msgstr ""
+
+#: admin/rating_form_add.php:563 includes/shortcode.php:876
+msgid "ratings"
+msgstr ""
+
+#: admin/rating_form_add.php:575 admin/rating_form_list.php:62
+#: admin/rating_form_list.php:1196 admin/rating_form_list.php:1223
+#: includes/widget.php:96
+msgid "Style"
+msgstr ""
+
+#: admin/rating_form_add.php:582 admin/rating_form_add.php:619
+#: admin/rating_form_add.php:678 admin/rating_form_list.php:1231
+#: admin/rating_form_list.php:1268 admin/rating_form_list.php:1324
+msgid "Icon Size"
+msgstr ""
+
+#: admin/rating_form_add.php:584 admin/rating_form_add.php:591
+#: admin/rating_form_add.php:621 admin/rating_form_add.php:628
+#: admin/rating_form_add.php:680 admin/rating_form_add.php:687
+#: admin/rating_form_list.php:1233 admin/rating_form_list.php:1240
+#: admin/rating_form_list.php:1270 admin/rating_form_list.php:1277
+#: admin/rating_form_list.php:1326 admin/rating_form_list.php:1333
+msgid "Change"
+msgstr ""
+
+#: admin/rating_form_add.php:586 admin/rating_form_add.php:623
+#: admin/rating_form_add.php:682 admin/rating_form_list.php:1235
+#: admin/rating_form_list.php:1272 admin/rating_form_list.php:1328
+msgid "Set size of icon in px, em or precent"
+msgstr ""
+
+#: admin/rating_form_add.php:589 admin/rating_form_add.php:626
+#: admin/rating_form_add.php:685 admin/rating_form_list.php:1238
+#: admin/rating_form_list.php:1275 admin/rating_form_list.php:1331
+msgid "Text Font-Size"
+msgstr ""
+
+#: admin/rating_form_add.php:593 admin/rating_form_add.php:630
+#: admin/rating_form_add.php:689 admin/rating_form_list.php:1242
+#: admin/rating_form_list.php:1279 admin/rating_form_list.php:1335
+msgid "Set size of score, total votes text"
+msgstr ""
+
+#: admin/rating_form_add.php:598 admin/rating_form_add.php:642
+#: admin/rating_form_add.php:722 admin/rating_form_add.php:767
+#: admin/rating_form_list.php:1247 admin/rating_form_list.php:1291
+#: admin/rating_form_list.php:1372 admin/rating_form_list.php:1379
+msgid "Text Color"
+msgstr ""
+
+#: admin/rating_form_add.php:602 admin/rating_form_add.php:646
+#: admin/rating_form_add.php:726 admin/rating_form_add.php:771
+#: admin/rating_form_list.php:1251 admin/rating_form_list.php:1295
+#: admin/rating_form_list.php:1376 admin/rating_form_list.php:1383
+msgid "Set color of text"
+msgstr ""
+
+#: admin/rating_form_add.php:605 admin/rating_form_add.php:658
+#: admin/rating_form_add.php:731 admin/rating_form_add.php:776
+#: admin/rating_form_list.php:1254 admin/rating_form_list.php:1307
+#: admin/rating_form_list.php:1388 admin/rating_form_list.php:1395
+msgid "Text Background"
+msgstr ""
+
+#: admin/rating_form_add.php:609 admin/rating_form_add.php:662
+#: admin/rating_form_add.php:735 admin/rating_form_add.php:780
+#: admin/rating_form_list.php:1258 admin/rating_form_list.php:1311
+#: admin/rating_form_list.php:1392 admin/rating_form_list.php:1399
+msgid "Set background of text"
+msgstr ""
+
+#: admin/rating_form_add.php:635 admin/rating_form_add.php:704
+#: admin/rating_form_add.php:749 admin/rating_form_list.php:1284
+#: admin/rating_form_list.php:1340 admin/rating_form_list.php:1347
+msgid "Color"
+msgstr ""
+
+#: admin/rating_form_add.php:639 admin/rating_form_add.php:708
+#: admin/rating_form_add.php:753 admin/rating_form_list.php:1288
+#: admin/rating_form_list.php:1344 admin/rating_form_list.php:1351
+msgid "Set color of icon"
+msgstr ""
+
+#: admin/rating_form_add.php:651 admin/rating_form_add.php:713
+#: admin/rating_form_add.php:758 admin/rating_form_list.php:1300
+#: admin/rating_form_list.php:1356 admin/rating_form_list.php:1363
+msgid "Hover Color"
+msgstr ""
+
+#: admin/rating_form_add.php:655 admin/rating_form_add.php:717
+#: admin/rating_form_add.php:762 admin/rating_form_list.php:1304
+#: admin/rating_form_list.php:1360 admin/rating_form_list.php:1367
+msgid "Set color of hover"
+msgstr ""
+
+#: admin/rating_form_add.php:672
+msgid "Size"
+msgstr ""
+
+#: admin/rating_form_add.php:790 admin/rating_form_list.php:577
+msgid "Options"
+msgstr ""
+
+#: admin/rating_form_add.php:795 admin/rating_form_list.php:582
+msgid "Name"
+msgstr ""
+
+#: admin/rating_form_add.php:797 admin/rating_form_list.php:584
+msgid "Name of Rating Form"
+msgstr ""
+
+#: admin/rating_form_add.php:801 admin/rating_form_list.php:615
+msgid "Max"
+msgstr ""
+
+#: admin/rating_form_add.php:811
+msgid "Set max stars"
+msgstr ""
+
+#: admin/rating_form_add.php:817 admin/rating_form_list.php:43
+#: admin/rating_form_list.php:631
+msgid "Restrict IP"
+msgstr ""
+
+#: admin/rating_form_add.php:819 admin/rating_form_add.php:828
+#: admin/rating_form_list.php:604 admin/rating_form_list.php:608
+#: admin/rating_form_list.php:634 admin/rating_form_list.php:638
+#: admin/rating_form_list.php:647 admin/rating_form_list.php:651
+#: admin/rating_form_list.php:660 admin/rating_form_list.php:664
+#: admin/rating_form_list.php:685 admin/rating_form_list.php:689
+#: admin/rating_form_list.php:699 admin/rating_form_list.php:703
+#: admin/rating_form_list.php:738 admin/rating_form_list.php:742
+#: admin/rating_form_tools.php:179
+msgid "Yes"
+msgstr ""
+
+#: admin/rating_form_add.php:820 admin/rating_form_add.php:827
+#: admin/rating_form_list.php:605 admin/rating_form_list.php:607
+#: admin/rating_form_list.php:635 admin/rating_form_list.php:637
+#: admin/rating_form_list.php:648 admin/rating_form_list.php:650
+#: admin/rating_form_list.php:661 admin/rating_form_list.php:663
+#: admin/rating_form_list.php:686 admin/rating_form_list.php:688
+#: admin/rating_form_list.php:700 admin/rating_form_list.php:702
+#: admin/rating_form_list.php:739 admin/rating_form_list.php:741
+#: admin/rating_form_tools.php:180
+msgid "No"
+msgstr ""
+
+#: admin/rating_form_add.php:822 admin/rating_form_list.php:641
+msgid "Restrict the same IP address to rate multiple times"
+msgstr ""
+
+#: admin/rating_form_add.php:825 admin/rating_form_list.php:644
+msgid "User Login"
+msgstr ""
+
+#: admin/rating_form_add.php:830 admin/rating_form_list.php:654
+msgid "User must login to rate"
+msgstr ""
+
+#: admin/rating_form_add.php:838 admin/rating_form_list.php:939
+msgid "Messages"
+msgstr ""
+
+#: admin/rating_form_add.php:843 admin/rating_form_list.php:944
+msgid "Success"
+msgstr ""
+
+#: admin/rating_form_add.php:844 admin/rating_form_list.php:945
+#: includes/shortcode.php:267
+msgid "Thank you :)"
+msgstr ""
+
+#: admin/rating_form_add.php:845 admin/rating_form_list.php:946
+msgid "Set success message"
+msgstr ""
+
+#: admin/rating_form_add.php:848 admin/rating_form_list.php:949
+msgid "Rated"
+msgstr ""
+
+#: admin/rating_form_add.php:849 admin/rating_form_list.php:950
+#: includes/shortcode.php:289
+msgid "You already rated"
+msgstr ""
+
+#: admin/rating_form_add.php:850 admin/rating_form_list.php:951
+msgid "Set rated message"
+msgstr ""
+
+#: admin/rating_form_add.php:853 admin/rating_form_list.php:954
+msgid "Login"
+msgstr ""
+
+#: admin/rating_form_add.php:854 admin/rating_form_list.php:955
+#: includes/shortcode.php:294
+msgid "Login to rate"
+msgstr ""
+
+#: admin/rating_form_add.php:855 admin/rating_form_list.php:956
+msgid "Set login message"
+msgstr ""
+
+#: admin/rating_form_add.php:858 admin/rating_form_list.php:753
+#: admin/rating_form_list.php:959 includes/widget.php:58
+msgid "Limit"
+msgstr ""
+
+#: admin/rating_form_add.php:859 admin/rating_form_list.php:960
+#: includes/shortcode.php:300 includes/shortcode.php:303
+#, php-format
+msgid ""
+"Sorry, rating is limited. Try again in %4$d days %3$d hours %2$d minutes "
+"%1$d seconds."
+msgstr ""
+
+#: admin/rating_form_add.php:860 admin/rating_form_list.php:961
+msgid "Set limit message"
+msgstr ""
+
+#: admin/rating_form_add.php:861 admin/rating_form_list.php:962
+#, php-format
+msgid "<strong>%1$d</strong> = value of seconds"
+msgstr ""
+
+#: admin/rating_form_add.php:862 admin/rating_form_list.php:963
+#, php-format
+msgid "<strong>%2$d</strong> = value of minutes"
+msgstr ""
+
+#: admin/rating_form_add.php:863 admin/rating_form_list.php:964
+#, php-format
+msgid "<strong>%3$d</strong> = value of hours"
+msgstr ""
+
+#: admin/rating_form_add.php:864 admin/rating_form_list.php:965
+#, php-format
+msgid "<strong>%4$d</strong> = value of days"
+msgstr ""
+
+#: admin/rating_form_add.php:867 admin/rating_form_list.php:968
+msgid "Edit rating"
+msgstr ""
+
+#: admin/rating_form_add.php:868 admin/rating_form_list.php:969
+#: includes/shortcode.php:353
+#, php-format
+msgid "You find this post %2$s"
+msgstr ""
+
+#: admin/rating_form_add.php:869 admin/rating_form_list.php:970
+msgid "Set edit rating message"
+msgstr ""
+
+#: admin/rating_form_add.php:870 admin/rating_form_list.php:971
+#, php-format
+msgid "<strong>%1$d</strong> = value of user rating"
+msgstr ""
+
+#: admin/rating_form_add.php:871 admin/rating_form_list.php:972
+#, php-format
+msgid "<strong>%2$s</strong> = title of value"
+msgstr ""
+
+#: admin/rating_form_add.php:879 admin/rating_form_list.php:980
+#: rating-form.php:142 rating-form.php:155
+msgid "Titles"
+msgstr ""
+
+#: admin/rating_form_add.php:899 admin/rating_form_list.php:1001
+#: admin/rating_form_titles.php:42 admin/rating_form_titles.php:172
+#: admin/rating_form_titles.php:271
+msgid "Position"
+msgstr ""
+
+#: admin/rating_form_add.php:913 admin/rating_form_list.php:1020
+#: admin/rating_form_results.php:258 admin/rating_form_results.php:262
+msgid "Up"
+msgstr ""
+
+#: admin/rating_form_add.php:913 admin/rating_form_list.php:1020
+#: admin/rating_form_results.php:259 admin/rating_form_results.php:261
+msgid "Down"
+msgstr ""
+
+#: admin/rating_form_add.php:939 admin/rating_form_block_ip.php:165
+#: admin/rating_form_titles.php:285
+msgid "Add"
+msgstr ""
+
+#: admin/rating_form_add.php:945
+msgid "Choose form"
+msgstr ""
+
+#: admin/rating_form_add.php:965
+msgid "Choose a form to start"
+msgstr ""
+
+#: admin/rating_form_add.php:970
+msgid "Create"
+msgstr ""
+
+#: admin/rating_form_block_ip.php:42 admin/rating_form_results.php:55
+#: admin/rating_form_tools.php:33
+msgid "Date"
+msgstr ""
+
+#: admin/rating_form_block_ip.php:43 admin/rating_form_block_ip.php:164
+msgid "Reason"
+msgstr ""
+
+#: admin/rating_form_block_ip.php:55 admin/rating_form_list.php:528
+#: admin/rating_form_list.php:1118 admin/rating_form_list.php:1415
+#: admin/rating_form_results.php:323 admin/rating_form_tools.php:135
+msgid "Save"
+msgstr ""
+
+#: admin/rating_form_block_ip.php:55 admin/rating_form_results.php:84
+#: admin/rating_form_results.php:91 admin/rating_form_results.php:216
+#: admin/rating_form_titles.php:56
+msgid "Edit"
+msgstr ""
+
+#: admin/rating_form_block_ip.php:55 admin/rating_form_list.php:64
+#: admin/rating_form_results.php:84 admin/rating_form_results.php:91
+msgid "Are you sure you want to delete this?"
+msgstr ""
+
+#: admin/rating_form_block_ip.php:59
+msgid "None"
+msgstr ""
+
+#: admin/rating_form_block_ip.php:155
+msgid "Successfully blocked!"
+msgstr ""
+
+#: admin/rating_form_block_ip.php:157 admin/rating_form_results.php:342
+msgid "Successfully deleted!"
+msgstr ""
+
+#: admin/rating_form_block_ip.php:163 admin/rating_form_results.php:46
+#: admin/rating_form_results.php:232 admin/rating_form_tools.php:30
+msgid "IP"
+msgstr ""
+
+#: admin/rating_form_list.php:41 admin/rating_form_results.php:51
+msgid "ID"
+msgstr ""
+
+#: admin/rating_form_list.php:42 admin/rating_form_list.php:587
+#: includes/widget.php:75
+msgid "Type"
+msgstr ""
+
+#: admin/rating_form_list.php:45
+msgid "Created On"
+msgstr ""
+
+#: admin/rating_form_list.php:61 admin/rating_form_list.php:526
+#: admin/rating_form_results.php:90 admin/rating_form_results.php:293
+msgid "Settings"
+msgstr ""
+
+#: admin/rating_form_list.php:63
+msgid "Duplicate"
+msgstr ""
+
+#: admin/rating_form_list.php:280
+msgid ""
+"<strong>Limit</strong> is set to %1$d and <strong>Time</strong> set to %2$d "
+"seconds. To rate atleast 1 time in %2$s seconds, set <strong>Limit</strong> "
+"to 1."
+msgstr ""
+
+#: admin/rating_form_list.php:284
+#, php-format
+msgid ""
+"<strong>Time</strong> is set to %d seconds. This will not work, because "
+"<strong>Restrict IP</strong> is enabled."
+msgstr ""
+
+#: admin/rating_form_list.php:288
+#, php-format
+msgid ""
+"<strong>Limit</strong> is set to %1$d and <strong>Time</strong> set to %2$s "
+"seconds. You have two options:<br>- Enable <strong>Restrict IP</strong> to "
+"rate %1$d times with no time duration<br>- Set <strong>Time</strong> "
+"duration above 0 seconds"
+msgstr ""
+
+#: admin/rating_form_list.php:504 admin/rating_form_list.php:1173
+#: admin/rating_form_results.php:198 admin/rating_form_titles.php:139
+#: includes/ajax.php:193
+msgid "Successfully updated!"
+msgstr ""
+
+#: admin/rating_form_list.php:509
+msgid "Error! Rating form not updated."
+msgstr ""
+
+#: admin/rating_form_list.php:527
+msgid "Edit Style"
+msgstr ""
+
+#: admin/rating_form_list.php:533
+msgid "Change Icon Empty"
+msgstr ""
+
+#: admin/rating_form_list.php:538 admin/rating_form_list.php:552
+#: admin/rating_form_list.php:566
+msgid "Image not found! To fix this error, upload below."
+msgstr ""
+
+#: admin/rating_form_list.php:541 admin/rating_form_list.php:555
+#: admin/rating_form_list.php:569
+msgid "Choose an image to change icon"
+msgstr ""
+
+#: admin/rating_form_list.php:547
+msgid "Change Icon Full (Hover)"
+msgstr ""
+
+#: admin/rating_form_list.php:561
+msgid "Change Icon Half"
+msgstr ""
+
+#: admin/rating_form_list.php:598
+msgid "Change type"
+msgstr ""
+
+#: admin/rating_form_list.php:598
+msgid "Do not forget to upload images after saving settings."
+msgstr ""
+
+#: admin/rating_form_list.php:601
+msgid "Active"
+msgstr ""
+
+#: admin/rating_form_list.php:611
+msgid "Disable or enable Rating Form"
+msgstr ""
+
+#: admin/rating_form_list.php:625
+msgid "Set max icons"
+msgstr ""
+
+#: admin/rating_form_list.php:657
+msgid "Ajax Load"
+msgstr ""
+
+#: admin/rating_form_list.php:667
+msgid "Useful when using cache plugins"
+msgstr ""
+
+#: admin/rating_form_list.php:677
+msgid "Optional"
+msgstr ""
+
+#: admin/rating_form_list.php:682
+msgid "Rich Snippet"
+msgstr ""
+
+#: admin/rating_form_list.php:692
+msgid "Show rating result in search engines"
+msgstr ""
+
+#: admin/rating_form_list.php:695
+msgid "Spinner"
+msgstr ""
+
+#: admin/rating_form_list.php:732
+msgid "Set spinner animation on update rating"
+msgstr ""
+
+#: admin/rating_form_list.php:735
+msgid "RTL"
+msgstr ""
+
+#: admin/rating_form_list.php:745
+msgid "Set form direction to rtl (right to left)"
+msgstr ""
+
+#: admin/rating_form_list.php:748
+msgid "Round"
+msgstr ""
+
+#: admin/rating_form_list.php:750
+msgid "Set decimal of average rounding"
+msgstr ""
+
+#: admin/rating_form_list.php:755
+msgid "Set rating limit for each User or IP"
+msgstr ""
+
+#: admin/rating_form_list.php:772
+msgid "Time"
+msgstr ""
+
+#: admin/rating_form_list.php:774
+msgid "All Time"
+msgstr ""
+
+#: admin/rating_form_list.php:775 rating-form.php:269
+msgid "Custom"
+msgstr ""
+
+#: admin/rating_form_list.php:776
+msgid "1 Hour"
+msgstr ""
+
+#: admin/rating_form_list.php:777
+msgid "1 Day"
+msgstr ""
+
+#: admin/rating_form_list.php:778
+msgid "1 Week"
+msgstr ""
+
+#: admin/rating_form_list.php:779
+msgid "1 Month"
+msgstr ""
+
+#: admin/rating_form_list.php:781
+msgid "Set time duration for limit in seconds"
+msgstr ""
+
+#: admin/rating_form_list.php:792
+msgid "Include Post Ids"
+msgstr ""
+
+#: admin/rating_form_list.php:794
+msgid "Set which post ids are allowed.<br>Multiple posts possible like 1,5,34"
+msgstr ""
+
+#: admin/rating_form_list.php:797
+msgid "Exclude Post Ids"
+msgstr ""
+
+#: admin/rating_form_list.php:799
+msgid ""
+"Set which post ids are not allowed.<br>Multiple posts possible like 1,5,34"
+msgstr ""
+
+#: admin/rating_form_list.php:807
+msgid "Extra's"
+msgstr ""
+
+#: admin/rating_form_list.php:814
+msgid "Up (3) - Down (1) = Difference (2)"
+msgstr ""
+
+#: admin/rating_form_list.php:817
+msgid "Display Empty shapes"
+msgstr ""
+
+#: admin/rating_form_list.php:820
+msgid "Allow to edit rating (through button)"
+msgstr ""
+
+#: admin/rating_form_list.php:821
+msgid "Allow to edit rating (straight)"
+msgstr ""
+
+#: admin/rating_form_list.php:822
+msgid "Show \"Edit Rating\" message"
+msgstr ""
+
+#: admin/rating_form_list.php:823
+msgid "Remove Blocked IP Votes"
+msgstr ""
+
+#: admin/rating_form_list.php:824
+msgid "Update top ratings on vote"
+msgstr ""
+
+#: admin/rating_form_list.php:825
+msgid "Don't load stylesheet"
+msgstr ""
+
+#: admin/rating_form_list.php:826 admin/rating_form_list.php:852
+msgid "Multiple selection possible"
+msgstr ""
+
+#: admin/rating_form_list.php:834 includes/widget.php:62
+msgid "Show / Hide"
+msgstr ""
+
+#: admin/rating_form_list.php:841
+msgid "Display only Up"
+msgstr ""
+
+#: admin/rating_form_list.php:842
+msgid "Display only Down"
+msgstr ""
+
+#: admin/rating_form_list.php:843
+msgid "Hide total Up ratings"
+msgstr ""
+
+#: admin/rating_form_list.php:844
+msgid "Hide total Down ratings"
+msgstr ""
+
+#: admin/rating_form_list.php:846
+msgid "Remove Rating Form from Home"
+msgstr ""
+
+#: admin/rating_form_list.php:847
+msgid "Remove Rating Form from RSS"
+msgstr ""
+
+#: admin/rating_form_list.php:848
+msgid "Hide \"Success\" message"
+msgstr ""
+
+#: admin/rating_form_list.php:849
+msgid "Show Rating Form only in posts"
+msgstr ""
+
+#: admin/rating_form_list.php:850
+msgid "Show Rating Form only in pages"
+msgstr ""
+
+#: admin/rating_form_list.php:851
+msgid "Show Rating Form only in categories"
+msgstr ""
+
+#: admin/rating_form_list.php:860
+msgid "Redirect"
+msgstr ""
+
+#: admin/rating_form_list.php:873 admin/rating_form_list.php:908
+msgid "Enable"
+msgstr ""
+
+#: admin/rating_form_list.php:877
+msgid "URL"
+msgstr ""
+
+#: admin/rating_form_list.php:879
+msgid "After voting go to URL"
+msgstr ""
+
+#: admin/rating_form_list.php:882
+msgid "Target"
+msgstr ""
+
+#: admin/rating_form_list.php:884
+msgid "Choose between:<br>_blank (default)<br>_parent<br>_self<br>_top"
+msgstr ""
+
+#: admin/rating_form_list.php:892
+msgid "User Stats"
+msgstr ""
+
+#: admin/rating_form_list.php:912
+msgid "Row"
+msgstr ""
+
+#: admin/rating_form_list.php:914
+msgid "Number of rows"
+msgstr ""
+
+#: admin/rating_form_list.php:917
+msgid "Per row"
+msgstr ""
+
+#: admin/rating_form_list.php:919
+msgid "Items per row"
+msgstr ""
+
+#: admin/rating_form_list.php:922
+msgid "Avatar Size"
+msgstr ""
+
+#: admin/rating_form_list.php:928
+msgid "Remove avatar"
+msgstr ""
+
+#: admin/rating_form_list.php:929
+msgid "Display rating"
+msgstr ""
+
+#: admin/rating_form_list.php:930
+msgid "User must login"
+msgstr ""
+
+#: admin/rating_form_list.php:1049
+msgid "Change titles"
+msgstr ""
+
+#: admin/rating_form_list.php:1053 includes/widget.php:134
+msgid "Post Type"
+msgstr ""
+
+#: admin/rating_form_list.php:1079
+msgid "Allowed post types"
+msgstr ""
+
+#: admin/rating_form_list.php:1084
+msgid "User Role"
+msgstr ""
+
+#: admin/rating_form_list.php:1112
+msgid "Allowed user roles"
+msgstr ""
+
+#: admin/rating_form_list.php:1169
+msgid "Unable to open file for writing! Check file permission."
+msgstr ""
+
+#: admin/rating_form_list.php:1170
+msgid "Unable to write file! Check folder permission."
+msgstr ""
+
+#: admin/rating_form_list.php:1178
+msgid "Error! Style not updated."
+msgstr ""
+
+#: admin/rating_form_list.php:1210
+msgid "No titles assigned to this form."
+msgstr ""
+
+#: admin/rating_form_list.php:1212
+#, php-format
+msgid "Created on %s"
+msgstr ""
+
+#: admin/rating_form_list.php:1219
+#, php-format
+msgid "Last edited on %s"
+msgstr ""
+
+#: admin/rating_form_list.php:1407
+msgid "Search for class name and replace CSS values"
+msgstr ""
+
+#: admin/rating_form_list.php:1493
+msgid "Successfully duplicated!"
+msgstr ""
+
+#: admin/rating_form_list.php:1496 admin/rating_form_list.php:1509
+#, php-format
+msgid "Rating Form ID <strong>%d</strong> not found!"
+msgstr ""
+
+#: admin/rating_form_list.php:1560
+#, php-format
+msgid ""
+"Unable to delete this file: %s<br>Check folder permission or delete manually."
+msgstr ""
+
+#: admin/rating_form_list.php:1566
+#, php-format
+msgid ""
+"Unable to delete this folder: %s<br>Check folder permission or delete "
+"manually."
+msgstr ""
+
+#: admin/rating_form_list.php:1570
+msgid "Succesfully deleted!"
+msgstr ""
+
+#: admin/rating_form_results.php:43 admin/rating_form_results.php:304
+msgid "Total Votes"
+msgstr ""
+
+#: admin/rating_form_results.php:44
+msgid "Latest Rating"
+msgstr ""
+
+#: admin/rating_form_results.php:47 admin/rating_form_results.php:216
+#: admin/rating_form_results.php:239 admin/rating_form_results.php:254
+#: admin/rating_form_tools.php:31
+msgid "Rating"
+msgstr ""
+
+#: admin/rating_form_results.php:52
+msgid "Post (ID)"
+msgstr ""
+
+#: admin/rating_form_results.php:83 admin/rating_form_results.php:89
+msgid "See All"
+msgstr ""
+
+#: admin/rating_form_results.php:87
+msgid "Not Found"
+msgstr ""
+
+#: admin/rating_form_results.php:97
+msgid "IP Blocked"
+msgstr ""
+
+#: admin/rating_form_results.php:97 rating-form.php:143 rating-form.php:156
+msgid "Block IP"
+msgstr ""
+
+#: admin/rating_form_results.php:175
+msgid "Latest Ratings"
+msgstr ""
+
+#: admin/rating_form_results.php:202
+msgid "Error! Rating not updated"
+msgstr ""
+
+#: admin/rating_form_results.php:217
+#, php-format
+msgid "Rated on %1$s by %2$s."
+msgstr ""
+
+#: admin/rating_form_results.php:225 admin/rating_form_tools.php:32
+msgid "User"
+msgstr ""
+
+#: admin/rating_form_results.php:270 admin/rating_form_titles.php:186
+msgid "Update"
+msgstr ""
+
+#: admin/rating_form_results.php:274
+#, php-format
+msgid "Rating %d not found!"
+msgstr ""
+
+#: admin/rating_form_results.php:289
+msgid "Successfully saved!"
+msgstr ""
+
+#: admin/rating_form_results.php:293 admin/rating_form_tools.php:26
+msgid "Post ID"
+msgstr ""
+
+#: admin/rating_form_results.php:298
+msgid "Average Result"
+msgstr ""
+
+#: admin/rating_form_results.php:310
+msgid "Up Votes"
+msgstr ""
+
+#: admin/rating_form_results.php:316
+msgid "Down Votes"
+msgstr ""
+
+#: admin/rating_form_titles.php:41
+msgid "Title ID"
+msgstr ""
+
+#: admin/rating_form_titles.php:43 includes/widget.php:54
+msgid "Title"
+msgstr ""
+
+#: admin/rating_form_titles.php:143
+msgid "Error! Title not updated."
+msgstr ""
+
+#: admin/rating_form_titles.php:156
+#, php-format
+msgid "Title ID %d not found!"
+msgstr ""
+
+#: admin/rating_form_titles.php:160
+msgid "Edit Title"
+msgstr ""
+
+#: admin/rating_form_titles.php:165 admin/rating_form_titles.php:264
+msgid "Text"
+msgstr ""
+
+#: admin/rating_form_titles.php:168 admin/rating_form_titles.php:267
+msgid "Type a new title, example: Wow, So bad, Cool, Super!"
+msgstr ""
+
+#: admin/rating_form_titles.php:181 admin/rating_form_titles.php:280
+msgid ""
+"Set position of title<br>Thumbs Up = position 1<br>Thumbs Down = position 2"
+msgstr ""
+
+#: admin/rating_form_titles.php:226
+msgid "Field <strong>Text</strong> is empty"
+msgstr ""
+
+#: admin/rating_form_titles.php:242
+#, php-format
+msgid "Successfully added title: <strong>%s</strong>"
+msgstr ""
+
+#: admin/rating_form_titles.php:246
+msgid "Error! Title not added. Forgot to fill a field?"
+msgstr ""
+
+#: admin/rating_form_titles.php:259
+msgid "Add Title"
+msgstr ""
+
+#: admin/rating_form_tools.php:6
+msgid "Successfully saved."
+msgstr ""
+
+#: admin/rating_form_tools.php:25
+msgid "Rating ID"
+msgstr ""
+
+#: admin/rating_form_tools.php:27
+msgid "Comment ID"
+msgstr ""
+
+#: admin/rating_form_tools.php:28
+msgid "Custom ID"
+msgstr ""
+
+#: admin/rating_form_tools.php:29
+msgid "Term ID"
+msgstr ""
+
+#: admin/rating_form_tools.php:64
+#, php-format
+msgid "No records found from %1$s to %2$s"
+msgstr ""
+
+#: admin/rating_form_tools.php:74
+msgid "No import file found"
+msgstr ""
+
+#: admin/rating_form_tools.php:78
+#, php-format
+msgid "Import file returned error code: %d"
+msgstr ""
+
+#: admin/rating_form_tools.php:80
+msgid "Wrong extension. Allowed extension: .csv"
+msgstr ""
+
+#: admin/rating_form_tools.php:94
+#, php-format
+msgid ""
+"Columns you have selected does not match from the imported file."
+"<br><strong>Columns (selected):</strong> %1$s<br><strong>Columns (imported):"
+"</strong> %2$s"
+msgstr ""
+
+#: admin/rating_form_tools.php:106
+#, php-format
+msgid "Successfully imported %d rows."
+msgstr ""
+
+#: admin/rating_form_tools.php:116
+msgid "Quick Add"
+msgstr ""
+
+#: admin/rating_form_tools.php:121
+msgid "Before Content"
+msgstr ""
+
+#: admin/rating_form_tools.php:122 admin/rating_form_tools.php:127
+msgid "Rating Form Shortcode"
+msgstr ""
+
+#: admin/rating_form_tools.php:123 admin/rating_form_tools.php:128
+msgid "Set paragraph position"
+msgstr ""
+
+#: admin/rating_form_tools.php:126
+msgid "After Content"
+msgstr ""
+
+#: admin/rating_form_tools.php:132
+msgid ""
+"<strong>Tip!</strong><br />You can select which post types are allowed on "
+"settings page.<br />Use before_content or after_content attribute to add "
+"custom before or after a rating form."
+msgstr ""
+
+#: admin/rating_form_tools.php:133
+msgid "Example shortcode: "
+msgstr ""
+
+#: admin/rating_form_tools.php:141 admin/rating_form_tools.php:188
+msgid "Import"
+msgstr ""
+
+#: admin/rating_form_tools.php:146
+msgid "CSV File"
+msgstr ""
+
+#: admin/rating_form_tools.php:149
+msgid "Select a .csv file"
+msgstr ""
+
+#: admin/rating_form_tools.php:153
+msgid "Columns"
+msgstr ""
+
+#: admin/rating_form_tools.php:167
+msgid "Select All"
+msgstr ""
+
+#: admin/rating_form_tools.php:172
+msgid ""
+"Rating ID will be auto incremented (no need to add)<br>Keep the columns in "
+"the same order as above<br>Select the columns you want to import"
+msgstr ""
+
+#: admin/rating_form_tools.php:176
+msgid "Skip first line"
+msgstr ""
+
+#: admin/rating_form_tools.php:182
+msgid "Do you want to skip first line? e.g. column titles"
+msgstr ""
+
+#: admin/rating_form_tools.php:194 admin/rating_form_tools.php:241
+msgid "Export"
+msgstr ""
+
+#: admin/rating_form_tools.php:199
+msgid "From"
+msgstr ""
+
+#: admin/rating_form_tools.php:200 admin/rating_form_tools.php:204
+msgid "yyyy-mm-dd"
+msgstr ""
+
+#: admin/rating_form_tools.php:203
+msgid "To"
+msgstr ""
+
+#: admin/rating_form_tools.php:207
+msgid "Rating Value"
+msgstr ""
+
+#: admin/rating_form_tools.php:210
+msgid "1 to 10"
+msgstr ""
+
+#: admin/rating_form_tools.php:211
+msgid "1 Up and 1 Down"
+msgstr ""
+
+#: admin/rating_form_tools.php:216
+msgid "Post / Pages"
+msgstr ""
+
+#: admin/rating_form_tools.php:219
+msgid "All Post / Pages"
+msgstr ""
+
+#: admin/rating_form_tools.php:239
+msgid "Select a date to export rating results to .csv"
+msgstr ""
+
+#: includes/ajax.php:152 includes/ajax.php:183
+msgid "Field IP is empty"
+msgstr ""
+
+#: includes/ajax.php:161
+msgid "IP is already blocked"
+msgstr ""
+
+#: includes/ajax.php:164
+msgid "Error! IP not added."
+msgstr ""
+
+#: includes/ajax.php:185
+msgid "Error! IP already exists."
+msgstr ""
+
+#: includes/ajax.php:197
+msgid "Error! IP not updated."
+msgstr ""
+
+#: includes/shortcode.php:211
+#, php-format
+msgid "Rating Form ID %d does not exist!"
+msgstr ""
+
+#: includes/shortcode.php:216
+#, php-format
+msgid "Post ID is empty in Rating Form ID %d"
+msgstr ""
+
+#: includes/shortcode.php:218
+#, php-format
+msgid "Post ID %1$d not found in Rating Form ID %2$d"
+msgstr ""
+
+#: includes/shortcode.php:222
+#, php-format
+msgid "User ID %1$d in Rating Form ID %2$d does not exists"
+msgstr ""
+
+#: includes/shortcode.php:380
+msgid "Loading..."
+msgstr ""
+
+#: includes/shortcode.php:603
+#, php-format
+msgid "%s users has voted"
+msgstr ""
+
+#: includes/shortcode.php:724
+#, php-format
+msgid "Your IP <strong>%s</strong> is banned."
+msgstr ""
+
+#: includes/shortcode.php:876
+msgid "rating"
+msgstr ""
+
+#: includes/shortcode.php:925
+#, php-format
+msgid ""
+"Custom ID has invalid characters. Allowed: a-z, A-Z, 0-9, - (dash), _ "
+"(underscore)<br><strong>Invalid:</strong> %1$s<br><strong>Valid:</strong> "
+"%2$s"
+msgstr ""
+
+#: includes/shortcode.php:981
+msgid "Post ID is empty"
+msgstr ""
+
+#: includes/shortcode.php:983
+#, php-format
+msgid "Post ID %d not found"
+msgstr ""
+
+#: includes/shortcode.php:1079
+#, php-format
+msgid "Up: %1$s Down: %3$s based on %2$s ratings"
+msgstr ""
+
+#: includes/shortcode.php:1081
+#, php-format
+msgid "%1$s average based on %2$s ratings"
+msgstr ""
+
+#: includes/shortcode.php:1370
+msgid "No results found."
+msgstr ""
+
+#: includes/widget.php:63
+msgid "Content"
+msgstr ""
+
+#: includes/widget.php:66
+msgid "Author"
+msgstr ""
+
+#: includes/widget.php:70
+msgid "Image"
+msgstr ""
+
+#: includes/widget.php:77
+msgid "Posts / Pages"
+msgstr ""
+
+#: includes/widget.php:78
+msgid "Comments"
+msgstr ""
+
+#: includes/widget.php:79
+msgid "Taxonomies"
+msgstr ""
+
+#: includes/widget.php:80
+msgid "Users"
+msgstr ""
+
+#: includes/widget.php:85
+msgid "Length"
+msgstr ""
+
+#: includes/widget.php:91
+msgid "Image Size"
+msgstr ""
+
+#: includes/widget.php:109
+msgid "No Rating Form was found. Create one."
+msgstr ""
+
+#: includes/widget.php:117
+msgid "Latest Posts"
+msgstr ""
+
+#: includes/widget.php:123
+msgid "Seconds"
+msgstr ""
+
+#: includes/widget.php:124
+msgid "Hours"
+msgstr ""
+
+#: includes/widget.php:125
+msgid "Days"
+msgstr ""
+
+#: includes/widget.php:126
+msgid "Weeks"
+msgstr ""
+
+#: includes/widget.php:127
+msgid "Months"
+msgstr ""
+
+#: rating-form.php:136 rating-form.php:138 rating-form.php:140
+msgid "Rating Form Results"
+msgstr ""
+
+#: rating-form.php:140 rating-form.php:153
+msgid "Results"
+msgstr ""
+
+#: rating-form.php:141
+msgid "Rating Forms"
+msgstr ""
+
+#: rating-form.php:141 rating-form.php:154
+msgid "Forms"
+msgstr ""
+
+#: rating-form.php:142
+msgid "Rating Form Titles"
+msgstr ""
+
+#: rating-form.php:143
+msgid "Rating Form Block IP List"
+msgstr ""
+
+#: rating-form.php:144
+msgid "Add New Rating Form"
+msgstr ""
+
+#: rating-form.php:144 rating-form.php:157
+msgid "Add New"
+msgstr ""
+
+#: rating-form.php:145
+msgid "Rating Form Tools"
+msgstr ""
+
+#: rating-form.php:145 rating-form.php:158
+msgid "Tools"
+msgstr ""
+
+#: rating-form.php:241
+msgid "Empty Term"
+msgstr ""
+
+#: rating-form.php:285
+msgid "Star"
+msgstr ""
+
+#: rating-form.php:313
+msgid "Thumbs Up &amp; Down"
+msgstr ""
+
+#: rating-form.php:317 rating-form.php:449
+msgid "Thumbs Up"
+msgstr ""
+
+#: rating-form.php:321 rating-form.php:453
+msgid "Thumbs Down"
+msgstr ""
+
+#: rating-form.php:341
+msgid "Smiley"
+msgstr ""
+
+#: rating-form.php:365
+msgid "Heart"
+msgstr ""
+
+#: rating-form.php:393
+msgid "Plus and Min"
+msgstr ""
+
+#: rating-form.php:397 rating-form.php:477
+msgid "Plus"
+msgstr ""
+
+#: rating-form.php:401 rating-form.php:481
+msgid "Min"
+msgstr ""
+
+#: rating-form.php:417
+msgid "Circle"
+msgstr ""
+
+#: rating-form.php:445
+msgid "Thumbs Up &amp; Down 2"
+msgstr ""
+
+#: rating-form.php:473
+msgid "Plus and Min 2"
+msgstr ""
+
+#: rating-form.php:508
+msgid "Rating Form needs to be reactivated! Database must be updated."
+msgstr ""

@@ -1,0 +1,121 @@
+/**
+ * General Style for Rating Form
+ */
+/* Top Rating Results Widget */
+.rf_top_ratings_widget a {
+	display: block;
+	overflow: hidden;
+	text-decoration: none;
+}
+.rf_top_ratings_widget .rf_place {
+	font-weight: bold;
+	padding-right: 5px;
+}
+.rf_top_ratings_widget .rf_avg_rating {
+	padding-left: 5px;
+}
+.rf_top_ratings_widget .rf_post_content {
+	display: block;
+}
+.rf_top_ratings_widget .rf_post_image {
+	float: left;
+    margin: 5px 10px 0 0;
+}
+.rf_top_ratings_widget .rf_widget_list {
+	list-style-type: none;
+	padding: 0;
+}
+.rf_top_ratings_widget .rf_widget_list li {
+	margin: 0;
+	overflow: hidden;
+}
+.rf_top_ratings_widget .rf_widget_list .rating_form li {
+	font-size: 13px;
+}
+.rf_top_ratings_widget .rf_widget_list li .rating_form img {
+	width: 13px;
+	height: 13px;
+}
+.rf_top_ratings_widget .rf_widget_list li [class^="rating_form_"] {
+	vertical-align: middle;
+}
+/* TuD */
+.rf_top_ratings_widget .rf_widget_list li .rating_form .up_rated,
+.rf_top_ratings_widget .rf_widget_list li .rating_form .down_rated {
+	font-size: 16px;
+}
+.rf_top_ratings_widget .rf_widget_list li .rating_form .up_rated_txt {
+	font-size: 10px;
+	padding: 3.5px;
+}
+.rf_top_ratings_widget .rf_widget_list li .rating_form .down_rated_txt {
+	font-size: 10px;
+	margin-right: 0;
+	padding: 3.5px;
+}
+.rf_top_ratings_widget .rf_widget_list li .rating_form li:last-child {
+	padding-right: 0;
+}
+/* Rating Form Total */
+.rf_total {
+	margin-top: 1em;
+}
+.rf_total .rf_total_content {
+	display: inline-block;
+	color: #777;
+	font-size: 1.2em;
+	line-height: 1em;
+	padding: 10px 15px;
+	text-align: center;
+	background: #ddd;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+/* User Stats */
+.rf_user_stats {
+	border-top: 1px solid #e2e2e2;
+}
+.rf_user_stats .rf_user_stats_header {
+	line-height: 1;
+	font-size: 12px;
+	padding: 5px 10px;
+	border-bottom: 1px solid #e2e2e2;
+	background-color: #f8f8f8;
+}
+.rf_user_stats .rf_user_stats_header .rf_stats_close {
+    margin-top: -2px;
+    margin-right: -5px;
+    padding: 2px 5px !important;
+	float: none !important;
+}
+.rf_user_stats .user_stats_name {
+	display: block;
+    font-size: 12px;
+    font-weight: normal;
+    color: #757575;
+}
+.rf_user_stats .user_stats_name.name_left {
+	text-align: left;
+    padding: 0 5px;
+}
+.rf_user_stats tr {
+	border-bottom: 1px solid #e2e2e2;
+}
+.rf_user_stats tr:last-child {
+	border-bottom: none;
+}
+/* Rating Stats */
+.rating_stats table {
+    width: 100%;
+}
+/* Spinner */
+@-moz-keyframes cyto-spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes cyto-spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes cyto-spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+.cyto-spin {
+    -webkit-animation: cyto-spin 2s linear infinite;
+    -moz-animation: cyto-spin 2s linear infinite;
+    animation: cyto-spin 2s linear infinite;
+	padding: 0 !important;
+}
