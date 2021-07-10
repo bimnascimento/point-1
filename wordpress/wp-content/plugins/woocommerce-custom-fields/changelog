@@ -1,0 +1,91 @@
+Version 2.0.1, 24 November 2016
+------------------------------------------------------------------------------------
+* Fix - Improved compatibility with outdated themes ("Missing argument 3" warning)
+* Fix - Field value validation issues
+* Fix - Regular price is not displayed next to sale price
+* Fix - Default values override empty order field and product property values
+* Tweak - Other minor bug fixes and improvements
+
+Version 2.0, 11 October 2016
+------------------------------------------------------------------------------------
+* Feature - Entire plugin rewritten to make it robust, flexible and extensible
+* Feature - Migration script implemented to migrate data from previous versions
+* Feature - Field values are now stored as regular meta for improved compatibility
+* Feature - New field context: user fields
+* Feature - New conditions: product attributes, product variations, coupons
+* Feature - New types of fees: percentage fee, compound percentage fee
+* Feature - New type of advanced fees: fee multiplied by field value
+* Feature - New type of discounts: percentage discount, compound percentage discount
+* Feature - Product prices in store can now be adjusted to default field values
+* Feature - Checkout fields now support pricing options (checkout fees and discounts)
+* Feature - Shop managers can now edit customer submitted field values
+* Feature - Multiple instances of product field can now be displayed based on quantity
+* Feature - Checkout, order and user field values now displayed in default WC emails
+* Feature - Default/predefined values now supported for more field types
+* Feature - Min and max number of selections for multiselect fields and checkboxes
+* Feature - Min and max value for number field
+* Feature - File upload fields now use Ajax file uploads
+* Feature - Multiple file uploads now supported per one upload field
+* Feature - File upload options: min size, max size, extension whitelist/blacklist
+* Feature - Options to duplicate, disable and archive fields
+* Feature - Support for two currency switcher extensions
+* Feature - Option to change Add To Cart button text only when required fields are set
+* Feature - Form builder validation to prevent losing data when settings are saved
+* Fix - Error when searching fields list in admin area
+* Fix - Quote escaping issue in cart item meta
+* Fix - Uploaded file path issue on Windows systems
+* Fix - Problems when adding HTML as field value
+* Fix - Incompatibility with other plugins that load jQuery Select2 library
+* Fix - Some themes make inline style tag visible
+* Tweak - Files in filesystem are now stored by month to avoid hitting server limits
+* Tweak - Ajax functionality improved to recover from PHP error display in response
+* Tweak - Changed checkbox concept to checkbox group for more consistency
+* Tweak - Changed radio button concept to radio button group for more consistency
+* Tweak - Optimized JS/CSS asset loading
+* Tweak - Other minor bug fixes and improvements
+* Dev - Set of new functions to print fields and retrieve field values
+* Dev - Set of new action and filter hooks to allow more flexibility
+* Dev - Product field values can now be passed in a preconfigured add-to-cart link
+* Dev - Some HTML element classes/ids were changed (CSS/JS selectors must be checked)
+
+Version 1.2.1, 12 April 2016
+------------------------------------------------------------------------------------
+* Fix - Select field option keys displayed instead of labels
+* Fix - Numbers in field keys cause issues
+* Tweak - Improved compatibility with Wordpress 4.5
+* Tweak - Other minor bug fixes and improvements
+
+Version 1.2, 21 December 2015
+------------------------------------------------------------------------------------
+* Feature - New pricing option for text fields: price per character
+* Feature - Character limit for text fields
+* Feature - Attach submitted files to New Order email
+* Feature - Customers can now download their own uploaded files
+* Feature - Support for automatic plugin updates
+* Fix - File upload field bug
+* Fix - Conditions method "All of selected" not working properly
+* Fix - Numeric condition bug
+* Fix - Warning related to products with no categories assigned
+* Fix - Bug related to fields with numeric unique keys
+* Fix - Admin unable to download product files in frontend
+* Tweak - Improved language file loading: now also looks in WP_LANG_DIR
+* Tweak - Improved file upload functionality
+* Tweak - Improved admin user interface
+* Tweak - Other minor bug fixes and improvements
+
+Version 1.1.1, 26 September 2015
+------------------------------------------------------------------------------------
+* Fix - Frontend JS error
+
+Version 1.1, 18 September 2015
+------------------------------------------------------------------------------------
+* Feature - Product add-on pricing is now displayed on product, checkout and order pages
+* Feature - Product price is now updated live when product add-ons are selected
+* Fix - Bad field labels in order confirmation email
+* Fix - Conditional field display bugs
+* Fix - File download capability check issues
+* Tweak - Other minor bug fixes and improvements
+
+Version 1.0, 1 May 2015
+------------------------------------------------------------------------------------
+* Initial release

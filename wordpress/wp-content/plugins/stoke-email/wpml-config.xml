@@ -1,0 +1,19 @@
+<wpml-config>
+    <admin-texts>
+        <key name="instock_get_notified_placeholder_text" />
+        <key name="instock_get_notified_form_caption" />
+        <key name="instock_get_notified_button_label" />
+        <key name="instock_error_empty_email" />
+        <key name="instock_error_email_format" />
+        <key name="instock_subscribe_email_success" />
+        <key name="instock_already_subscribed" />
+        <key name="instock_email_subject" />
+        <key name="instock_email_messages" />
+        <key name="instock_subscription_email_subject" />
+        <key name="instock_subscription_email_messages" />
+        <key name="footer_line_editor"/>
+        <key name="footer_link_editor"/>
+    </admin-texts>
+</wpml-config>
+
+

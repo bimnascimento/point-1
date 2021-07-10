@@ -1,0 +1,75 @@
+.swift-hidden {
+      display: none !important;
+}
+
+.swift-performance-actions-header {
+      background: #23282d;
+      padding: 6px 10px;
+      margin: 0 0 40px 0;
+}
+
+.swift-performance-actions-header h2 {
+      color: #fff;
+      margin: 0 !important;
+}
+
+.swift-performance-actions {
+      margin: 10px 0 60px 0;
+}
+
+.swift-performance-actions li {
+      display: inline-block;
+      margin: 0 10px;
+}
+
+.swift-performance-actions-message {
+      padding: 15px;
+      margin-bottom: 21px;
+      border: 1px solid transparent;
+      border-radius: 4px;
+}
+
+.swift-performance-actions-message:empty {
+      display: none;
+}
+
+.swift-performance-actions-message.critical {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    color: #ffffff;
+}
+
+.swift-performance-actions-message.success {
+    background-color: #00bc8c;
+    border-color: #00bc8c;
+    color: #ffffff;
+}
+
+.swift-performance-actions-message.warning {
+    background-color: #258cd1;
+    border-color: #258cd1;
+    color: #ffffff;
+}
+
+.swift-performance-actions-message.info{
+    background-color: #3498db;
+    border-color: #3498db;
+    color: #ffffff;
+}
+
+#swift-performance-rewrites {
+      min-height: 250px;
+      width: 100%;
+}
+
+.reduxsa-container #reduxsa-header .display_header {
+      margin: 0 !important;
+}
+
+#reduxsa-header h2 {
+      margin: 0 !important;
+}
+
+.reduxsa-container #reduxsa-header {
+      border-bottom: 0px !important;
+}

@@ -1,0 +1,126 @@
+.reduxsa-container {
+    .reduxsa-action_bar {
+        float: left;
+    }
+}
+
+.reduxsa-container #expand_options,
+.reduxsa-sidebar,
+.cb-enable,
+.cb-disable,
+.cb-enable span,
+.cb-disable span,
+#reduxsa-footer #reduxsa-share {
+    float: right;
+}
+
+.reduxsa-main {
+    border-left: 0px;
+    margin-left: 0px;
+    border-right: 1px solid #d8d8d8;
+    margin-right: 201px;
+}
+
+.reduxsa-group-tab-link-a {
+    padding-left: 0px;
+    padding-right: 30px;
+
+    i {
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+
+    span.group_title {
+        padding-left: 0px;
+        padding-right: 30px;
+    }
+}
+
+.reduxsa-container .expand_options,
+.reduxsa-sidebar,
+.cb-enable,
+.cb-disable,
+.cb-enable span,
+.cb-disable span,
+#reduxsa-footer #reduxsa-share{
+    float:right;
+}
+
+.reduxsa_slider {
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
+.reduxsa-action_bar {
+    float: left !important;
+}
+
+.expand_options {
+    float: right !important;
+    border:1px solid #f00;
+}
+
+.reduxsa_field_th{
+    padding:20px 0 20px 10px !important;
+}
+
+.field-desc {
+    text-align: right;
+}
+
+.reduxsa-container-ace_editor,
+.reduxsa-container-border,
+.reduxsa-container-spacing,
+.reduxsa-container-dimensions {
+    direction: ltr !important;
+}
+
+.reduxsa-container-border .field-border-input,
+.reduxsa-container-border .reduxsa-color-init,
+.reduxsa-container-border .reduxsa-border-style,
+.reduxsa-container-sorter,
+.reduxsa-container-border,
+.reduxsa-container-spacing,
+.reduxsa-container-spacing .field-spacing-input,
+.reduxsa-container-dimensions .reduxsa-dimensions-container,
+.reduxsa-container-text label,
+.reduxsa-container-checkbox input,
+.typography-font-bar,
+.typography-style-bar,
+.reduxsa-color.reduxsa-typography-color,
+.reduxsa-typography-subsets {
+    float:right !important;
+}
+
+.input-append{
+    margin-right:10px; direction:ltr !important;
+}
+
+.reduxsa-container-slider,
+.reduxsa-container-spinner,
+.reduxsa-container-switch {
+    direction:ltr !important;
+    float:right;
+    margin:0;
+}
+
+.reduxsa-main .reduxsa-typography-container .typography-preview {
+    text-align: center !important;
+    direction: ltr !important;
+}
+
+.reduxsa-info-field .reduxsa-info-icon {
+  margin-left: 15px;
+}
+
+#reduxsa-share {
+    float:right !important;
+}
+
+.reduxsa-sidebar {
+    .reduxsa-menu-warning,
+    .reduxsa-menu-error,
+    .hasSubSections .extraIconSubsections {
+        float: left;
+    }
+}

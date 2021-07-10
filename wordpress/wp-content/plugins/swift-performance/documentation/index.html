@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<meta name="keywords" content="">
+
+	<title>Swift Performance | Documentation by SWTE</title>
+
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/stroke.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+
+	<!-- COLORS -->
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+		
+</head>
+<body>
+
+	<div id="wrapper">
+		
+		<section id="top" class="section white">
+
+			<!-- Fixed navbar -->
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			            <span class="sr-only">Toggle navigation</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#top"><img src="images/logo-1.png"></a>
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav">
+					<li><a href="#line1">Installation</a></li>
+					<li><a href="#line2">General sttings</a></li>
+					<li><a href="#line3">Assets Manager</a></li>
+					<li><a href="#line4">Caching</a></li>					
+					<li><a href="#line5">CDN</a></li>					
+					<li><a href="#line6">Image Optimizer</a></li>					
+				  </ul>
+				  <ul class="nav navbar-nav navbar-right">
+					<li class="btn btn-info"><a target="_blank" href="http://codecanyon.net/user/swte/">Other Items</a></li>
+					<li class="btn btn-primary"><a target="_blank" href="http://swift-performance.swteplugins.com/support/">Support</a></li>
+				  </ul>
+		        </div><!--/.nav-collapse -->
+				</div>
+			</nav>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="big-title text-center">
+							<h1>Swift Performance</h1> 
+							<p class="lead">Swift Performance / plugin documentation version 1.0</p>
+						</div><!-- end title -->
+					</div><!-- end 12 -->
+				</div><!-- end row -->
+
+				<hr>
+
+		        <div class="row">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Table of Content<hr></h2>
+		                <div class="row">
+			                <div class="col-md-3">
+			                    <ol class="intro">
+			                        <li><a href="#line1">Installation</a></li>
+			                        <li><a href="#line2">Settings</a></li>
+									<li><a href="#line2">General sttings</a></li>
+									<li><a href="#line3">Assets Manager</a></li>
+									<li><a href="#line4">Caching</a></li>					
+									<li><a href="#line5">CDN</a></li>					
+									<li><a href="#line6">Image Optimizer</a></li>
+			                    </ol>
+			                </div>
+
+			                <div class="col-md-5 full">
+			                	<div class="intro1">
+				                    <ul>
+				                        <li><strong>Item Name : </strong> Swift Performance</li>
+				                        <li><strong>Item Version : </strong> Version 1.0</li>
+				                        <li><strong>Minumum Required : </strong> WordPress 4.0+, PHP 5.3+</li>
+				                        <li><strong>Author by : </strong> <a href="http://codecanyon.net/user/swte/">SWTE</a></li>
+				                        <li><strong>Support via Email : </strong> <a href="mailto:support@swte.ch">support@swte.ch</a></li>
+				                    </ul>
+			                    </div>
+			                	<hr>
+								<div class="alert alert-warning">
+								  <p>Generating critical CSS needs some CPU. If your site is running on low-end hosting, when your resources are very limited this function may won't work (depends on your theme/plugins)</p>
+								</div>
+			                </div>
+
+			                <div class="col-md-4">
+				                <img width="100%" src="upload/bg.png" alt="" class="img-responsive img-thumbnail">
+			                </div>
+
+		                </div><!-- end row -->
+		            </div>		
+		        </div>	
+			</div><!-- end container -->
+		</section><!-- end section -->
+
+		<section id="line1" class="section grey">
+			<div class="container">
+		        <div class="row">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Installation <a href="#top">#back to top</a><hr></h2>
+						<div class="col-md-6 left-align">
+							<h3>Install via WordPress</h3>
+							
+							You can install the downloaded ZIP file via WordPress admin. 
+							<ol>
+								<li>Go to Plugins > Add new > Upload plugin</li>
+								<li>Click to Browse and select the downloaded ZIP file</li>
+								<li>Click to install</li>
+								<li>Activate the plugin</li>
+							</ol>
+							<a href="images/download-zip.png" data-rel="prettyPhoto"><img src="images/download-zip.png" alt="" class="img-responsive img-thumbnail"></a><br><br>
+						</div>
+						<div class="col-md-6 left-align">
+							<h3>Install via FTP</h3>
+							You also can install the plugin via FTP
+							<ol>
+								<li>Unzip the downloaded ZIP file</li>
+								<li>Upload the swift-performance folder to wp-content/plugins</li>
+								<li>Login to WordPress admin</li>
+								<li>Go to Plugins and activate the plugin</li>
+							</ol>
+						</div><!-- end col -->
+					</div><!-- end col -->
+		        </div><!-- end row -->
+			</div><!-- end container -->
+		</section><!-- end section -->
+		
+		<section id="line2" class="section grey">
+			<div class="container">
+		        <div class="row">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">General settings <a href="#top">#back to top</a><hr></h2>
+						<div class="col-md-8 left-align">
+							
+							<p><strong>Envato Purchase Key</strong></p>
+							Optionally you can set your Envato purchase key, after this you will be able to update the plugin from WordPress admin, and you will be able to use the image optimizer API. You can find your purchase key in Downloads on CodeCanyon.
+							
+							<p><strong>Optimize Images</strong></p>
+							Enable if you would like to optimize the images during the upload using our Image Optimization API service.
+							
+							<p><strong>Lazy Load</strong></p>
+							Enable if you would like lazy load for images. Lazy load will work for every uploaded images. 
+							
+							<p><strong>Load Images on User Interaction</strong></p>
+							Enable if you would like to load full images only on user interaction (mouse move, sroll, device motion)
+							
+							<p><strong>Normalize Static Resources</strong></p>
+							Remove version number query string from CSS and JS files and it will remve every dynamic query string from some images as well.
+							
+							<p><strong>Whitelabel</strong></p>
+							Prevent to add Swift Performance response header and HTML comment. 
+							
+						</div><!-- end col -->
+					</div>
+		        </div><!-- end row -->
+			</div><!-- end container -->
+		</section><!-- end section -->
+		<section id="line3" class="section grey">
+			<div class="container">
+		        <div class="row">
+		            <div class="col-md-12 left-align">
+						<div class="col-md-8 left-align">
+							<h2 class="dark-text">Assets Manager <a href="#top">#back to top</a><hr></h2>
+							
+							<p><strong>Merge Scripts</strong></p>
+							With this option you can merge all javascript files to reduce number of HTML requests, and move them to footer to avoid "Render Blocking Script" issue  
+							
+							<p><strong>Exclude 3rd scripts</strong></p>
+							Exclude 3rd party scripts from merged scripts
+							
+							<p><strong>Exclude Scripts</strong></p>
+							Exclude scripts from being merged if one of these strings is found in the match.
+							
+							<p><strong>Minify Javascripts</strong></p>
+							Enable this function if you would like to minify the merged JS file. 
+							
+							<p><strong>Proxy 3rd Party Assets</strong></p>
+							Proxy 3rd party javascript and CSS files which created by javascript (eg: Google Analytics). It can be useful if you would like to override the expiry headers for 3rd party assets.
+							
+							<p><strong>Exclude 3rd Party Assets</strong></p>
+							Exclude scripts from being proxied if one of these strings is found in the match.
+							
+							<p><strong>Merge Styles</strong></p>
+							Merge CSS files to reduce number of HTML requests
+							
+							<p><strong>Print critical CSS inline</strong></p>
+							Enable if you would like to print the critical CSS into the header, instead of a seperated CSS file (recommended).
+							
+							<p><strong>Print full CSS inline</strong></p>
+							Enable if you would like to print the merged CSS into the footer, instead of a seperated CSS file.
+							
+							<p><strong>Minify CSS</strong></p>
+							Enable this function if you would like to minify the merged and critical CSS file. 
+							
+							<p><strong>Exclude 3rd Party CSS</strong></p>
+							Exclude 3rd party CSS files (eg: Google Fonts CSS) from merged styles
+							
+							<p><strong>Exclude Styles</strong></p>
+							Exclude style from being merged if one of these strings is found in the match. 
+							
+							<p><strong>Merge Assets for Logged in Users</strong></p>
+							Enable if you would like to merge styles and scripts for logged in users as well. You should enable this option only if the content won't be changed frequently, and/or you have small CSS. Otherwise it can affect the user experience.
+							
+							<p><strong>Merge Assets in Background</strong></p>
+							In some cases the generating the critical CSS takes some time. If you enable this option the plugin will generate it in the background. This option is available only if caching is enabled.
+
+							<p><strong>Minify HTML</strong></p>
+							Enable this function if you would like to minify HTML. 
+
+							<p><strong>Use Compute API</strong></p>
+							It can slow downn a bit the assets merging process, however on shared hosting and low-end environment you may should choose this option to decrease CPU usage.
+							
+						</div><!-- end col -->
+					</div>
+		        </div><!-- end row -->
+			</div><!-- end container -->
+		</section><!-- end section -->
+		<section id="line4" class="section grey">
+			<div class="container">
+		        <div class="row">
+		            <div class="col-md-12 left-align">
+						<div class="col-md-8 left-align">
+							<h2 class="dark-text">Caching <a href="#top">#back to top</a><hr></h2>
+							
+							<p><strong>Caching Mode</strong></p>
+							Disk cache with rewrites is faster, however sometimes you can't edit the .htaccess file or the Nginx config so Disk cache with PHP is also available as a fallback.
+							
+							<p><strong>Cache Path</strong></p>
+							You can specify a cache path. It will be wp-content/cache by default.
+							
+							<p><strong>Cache Expiry Mode</strong></p>
+							You can choose the traditional time-based cache expiry, however there is an Intelligent cache expiry option as well. If you choose the intelligent cache expiry the plugin will check the cache integrity after every pageload, and the cache will be regenerated only if there was some changes on your site.<br><br>
+														
+							<p><strong>Cache Expiry Time</strong></p>
+							If you choose the time-based cache expiry you can specify the expiry time here (in seconds).
+							
+							<p><strong>Resource saving mode</strong></p>
+							This option will reduce intelligent cache check requests. Recommended for limited resource severs. You also should use this option if there are dynamic generated parts (eg tokens) in the source.
+
+							<p><strong>Enable Caching for logged in users</strong></p>
+							This option is available only for intelligent cache expiry. Please note, that it can increase the total cache size, depending on the count of your users.
+							
+							<p><strong>Enable Mobile Device Support</strong></p>
+							You can create separate cache for mobile devices, it can be useful if your site not just responsive, but it has a separate mobile theme/layout.
+							
+							<p><strong>Enable Browser Cache</strong></p>
+							If you enable this option it will generate htacess/nginx rules for browser cache.
+							
+							<p><strong>Enable Gzip</strong></p>
+							If you enable this option it will generate htacess/nginx rules for gzip compression.
+							
+							<p><strong>Exclude Pages</strong></p>
+							You can exclude any pages from cache here. Some pages like WooCommerce cart, checkout, etc won't be cached by default.
+							
+							<p><strong>Exclude strings</strong></p>
+							URLs which contains any strings from this list won't be cached.
+							
+							<p><strong>Enable Dynamic Caching</strong></p>
+							If you enable this option you can specify cacheable $_GET and $_POST requests
+							
+							<p><strong>Cacheable Dynamic Requests</strong></p>
+							Specify $_GET and/or $_POST keys what should be cached. Eg: "s" to cache search requests
+							
+							<p><strong>Cacheable AJAX Actions</strong></p>
+							With this option you can cache resource-intensive AJAX requests (eg AJAX search). You should specify the action names here.
+							
+						</div><!-- end col -->
+						
+										
+					</div><!-- end col -->
+		        </div><!-- end row -->
+			</div><!-- end container -->
+		</section><!-- end section -->
+		<section id="line5" class="section grey">
+			<div class="container">
+		        <div class="row">
+		            <div class="col-md-12 left-align">
+						<div class="col-md-8 left-align">
+							<h2 class="dark-text">CDN <a href="#top">#back to top</a><hr></h2>
+							
+							<p><strong>CDN Hostname</strong></p>
+							You can specify a main CDN hostname. If you doesn't specify more hostnames it will be used for all static contents.
+							
+							<p><strong>CDN Hostname for Javascript </strong></p>
+							Use different hostname for javascript files
+							
+							<p><strong>CDN Hostname for Media files</strong></p>
+							Use different hostname for media files
+														
+							<p><strong>Enable CDN on SSL</strong></p>
+							You can specify different hostname(s) for SSL, or leave them blank for use the same host on HTTP and SSL
+							
+							<h3>MAXCDN Support</h3>
+							If you are using MAXCDN and set the API you will be able to purge CDN from wp-admin. If you are using a different CDN you can ignore these fields
+							
+							<p><strong>MAXCDN Alias</strong></p>
+							If you are using MAXCDN you can specify your Alias here
+
+							<p><strong>MAXCDN Consumer Key</strong></p>
+							If you are using MAXCDN you can specify your Consumer Key here
+							
+							<p><strong>MAXCDN Consumer Secret</strong></p>
+							If you are using MAXCDN you can specify your Consumer Secret here
+						</div><!-- end col -->
+						
+										
+					</div><!-- end col -->
+		        </div><!-- end row -->
+			</div><!-- end container -->
+		</section><!-- end section -->
+		<section id="line6" class="section grey">
+			<div class="container">
+		        <div class="row">
+		            <div class="col-md-12 left-align">
+						<div class="col-md-8 left-align">
+							<h2 class="dark-text">Image Optimizer <a href="#top">#back to top</a><hr></h2>
+							
+							<p>If you already activated your copy, you will be able to use our unlimited image optimizer API. With this service you can optimize your images without loss.</p>
+							<p>You can run the optimizer on your previously uploaded images in Media Library, however you can also optimize your images individually on the image edit page.</p>
+							
+							 
+						</div><!-- end col -->
+						
+										
+					</div><!-- end col -->
+		        </div><!-- end row -->
+			</div><!-- end container -->
+		</section><!-- end section -->
+		
+	</div><!-- end wrapper -->
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/retina.js"></script>
+	<script src="js/jquery.fitvids.js"></script>
+	<script src="js/wow.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+
+	
+
+    <!-- CUSTOM PLUGINS -->
+	<script src="js/custom.js"></script>
+	<script src="js/main.js"></script>
+
+
+
+
+	<script src="syntax-highlighter/scripts/shCore.js"></script>
+	<script src="syntax-highlighter/scripts/shBrushXml.js"></script>
+	<script src="syntax-highlighter/scripts/shBrushCss.js"></script>
+	<script src="syntax-highlighter/scripts/shBrushJScript.js"></script>
+
+</body>
+</html>

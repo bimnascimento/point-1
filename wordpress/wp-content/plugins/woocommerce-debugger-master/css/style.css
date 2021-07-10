@@ -1,0 +1,128 @@
+#wc_debugger {
+	border: 1px solid #D2DBF4;
+	color: #0D2054;
+	background: #F4F8FD;
+	padding: 1em 1em 1em 1.5em;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	font-family: monospace;
+	font-size: 13px;
+}
+#wc_debugger ul {
+	list-style: none outside;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	zoom: 1;
+}
+#wc_debugger ul li {
+	list-style: none outside;
+	margin: 0 9px 0 0;
+	padding: 0 9px 0 0;
+	line-height: 1.4em;
+	float: left;
+	color: #999;
+	border-right: 1px solid #ccc;
+}
+#wc_debugger ul li:last-child {
+	border-right: 0;
+	margin: 0;
+}
+
+.wc_template_path_hint {
+	position: absolute;
+	padding: 0;
+	border: 1px solid red;
+	opacity: 0.2;
+	margin: 0;
+	z-index: 100;
+}
+.wc_template_path_hint:hover {
+	opacity: 1;
+}
+.wc_template_file_name {
+	background: red;
+	position: absolute;
+	top:0;
+	left:0;
+	font-size: 12px;
+	color: #fff;
+	padding: 0 2px;
+	z-index: 101;
+	cursor: help;
+	line-height: 1.5em;
+	margin: -1.5em 0 0 -1px;
+	white-space: nowrap;
+}
+.wc_template_path_hint.overridden {
+	border: 1px solid green;
+}
+.wc_template_path_hint.overridden .wc_template_file_name {
+	background: green;
+}
+
+/* TipTip CSS - Version 1.2 */
+#tiptip_holder {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+}
+#tiptip_holder.tip_top {
+	padding-bottom: 5px;
+}
+#tiptip_holder.tip_bottom {
+	padding-top: 5px;
+}
+#tiptip_holder.tip_right {
+	padding-left: 5px;
+}
+#tiptip_holder.tip_left {
+	padding-right: 5px;
+}
+#tiptip_content {
+	font-size: 11px;
+	color: #fff;
+	padding: 4px 8px;
+	background:#000;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.10);
+	-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.10);
+	-moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.10);
+	text-align: center;
+}
+#tiptip_arrow, #tiptip_arrow_inner {
+	position: absolute;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 6px;
+	height: 0;
+	width: 0;
+}
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+	margin-top: -7px;
+	margin-left: -6px;
+	border-top-color: #000;
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+	margin-top: -5px;
+	margin-left: -6px;
+	border-bottom-color: #000;
+}
+
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -5px;
+	border-right-color: #000;
+}
+
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -7px;
+	border-left-color: #000;
+}

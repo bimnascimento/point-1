@@ -1,0 +1,76 @@
+/**
+ * Styles for RS System Diagnostic Plugin
+ */
+
+h2.rssd-title {
+	margin-bottom: 5em;
+	line-height: 140%;
+}
+
+#wrap-system-data-form {
+	width: 70% !important;
+	float:left;
+	clear:left;
+}
+
+#wrap-nav-form {
+	width: 16% !important;
+	float:left;
+	text-align: justify;
+	background-color: #d7d7d7;
+	padding: 15px;
+	margin-top: 15px;
+	margin-left: 30px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#444;
+}
+#rssd-nav-button {
+	width: 100% !important;
+}
+
+#rssd-text-description, .rssd-text-description {
+	width: 70% !important;
+	margin-bottom: .5em;
+}
+
+.instructions {
+	margins: 0 30px;
+}
+.warning{
+	font-weight: bold;
+	color: red;
+	}
+
+#rssd-textarea, .rssd-textarea {
+	height: 415px !important;
+	width: 100% !important;
+	padding: 15px;
+	margin-top: 15px;
+	background-color: #fff;
+	border-style:solid;
+	border-width:1px;
+	border-color:#444;
+	color: #111;
+	font-family: "Courier New", Courier, "Lucida Console", Monaco, monospace
+}
+
+.rssd-email-form .description, .form-table .rssd-email-form {
+	font-weight: normal;
+}
+
+#rssd-email-message.rssd-email-textarea {
+	width: 50% !important;
+	height: 200px;
+	margin-bottom: .5em;
+}
+
+input[type="text"].rssd-url {
+	font-family: 'Consolas', 'Monaco', monospace;
+	width: 600px;
+	color: #444;
+}
+
+.rssd-tiny {
+	font-size: .8em;
+}

@@ -1,0 +1,58 @@
+#vc_templates-editor-button {
+	border-right-width: 0;
+}
+
+#vc_undo,
+#vc_redo {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url('../images/buttons.png');
+	position: relative;
+	-webkit-transition-property: background-color;
+	   -moz-transition-property: background-color;
+	        transition-property: background-color;
+}
+
+#vc_undo.admin_page {
+	background-position: left top;
+}
+#vc_redo.admin_page {
+	background-position: right top;
+}
+#vc_undo.admin_frontend_editor {
+	background-position: left bottom;
+}
+#vc_redo.admin_frontend_editor {
+	background-position: right bottom;
+}
+
+#vc_undo.disabled,
+#vc_redo.disabled {
+	background-color: transparent;
+	opacity: 0.3;
+	cursor: default;
+	outline: 0 none;
+	-webkit-box-shadow: 0 0 0 transparent;
+	   -moz-box-shadow: 0 0 0 transparent;
+	        box-shadow: 0 0 0 transparent;
+	pointer-events: none;
+}
+
+#vc_undo.admin_frontend_editor.disabled,
+#vc_redo.admin_frontend_editor.disabled {
+	opacity: 0.5;
+}
+
+#vc_undo.working,
+#vc_redo.working {
+	background-image: url('../images/ajax-loader.gif');
+	background-size: 32px 32px;
+	background-position: center center;
+	pointer-events: none;
+}
+
+.vc_message.danger, .vc_message.type-danger {
+  background: #fdeaea;
+  border-bottom: 1px solid #fedede;
+  color: #a85959;
+}

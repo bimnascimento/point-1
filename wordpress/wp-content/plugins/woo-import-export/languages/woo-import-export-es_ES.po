@@ -1,0 +1,1695 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Import Export v2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-10-06 16:43:50+0000\n"
+"Last-Translator: admin <support@vjinfotech.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/classes/class-wpie-init.php:308
+#@ woo-import-export
+msgid "WooCommerce Import Export Dashboard"
+msgstr "WooCommerce de importación y exportación del tablero de instrumentos"
+
+#: includes/classes/class-wpie-init.php:308
+#@ woo-import-export
+msgid "Woo Imp Exp"
+msgstr "Woo Imp Exp"
+
+#: includes/classes/class-wpie-init.php:310
+#@ woo-import-export
+msgid "Dashboard"
+msgstr "Tablero"
+
+#: includes/classes/class-wpie-init.php:312
+#: includes/views/wpie-dashboard.php:32
+#: includes/views/wpie-products.php:34
+#: includes/views/wpie-products.php:46
+#: includes/views/wpie-products.php:62
+#@ woo-import-export
+msgid "Products"
+msgstr "productos"
+
+#: includes/classes/class-wpie-init.php:314
+#: includes/views/wpie-product-categories.php:30
+#: includes/views/wpie-product-categories.php:42
+#@ woo-import-export
+msgid "Product Categories"
+msgstr "Categorías de Producto"
+
+#: includes/classes/class-wpie-init.php:316
+#: includes/views/wpie-dashboard.php:52
+#: includes/views/wpie-orders.php:36
+#: includes/views/wpie-orders.php:48
+#: includes/views/wpie-orders.php:64
+#@ woo-import-export
+msgid "Orders"
+msgstr "Pedidos"
+
+#: includes/classes/class-wpie-init.php:318
+#: includes/views/wpie-dashboard.php:62
+#: includes/views/wpie-users.php:30
+#: includes/views/wpie-users.php:42
+#: includes/views/wpie-users.php:58
+#@ woo-import-export
+msgid "Users"
+msgstr "usuarios"
+
+#: includes/classes/class-wpie-init.php:320
+#: includes/views/wpie-coupons.php:30
+#: includes/views/wpie-coupons.php:42
+#: includes/views/wpie-coupons.php:58
+#: includes/views/wpie-dashboard.php:72
+#@ woo-import-export
+msgid "Coupons"
+msgstr "Cupones"
+
+#: includes/classes/class-wpie-init.php:360
+#@ woo-import-export
+msgid "User can manage Products"
+msgstr "El usuario puede gestionar los productos"
+
+#: includes/classes/class-wpie-init.php:361
+#@ woo-import-export
+msgid "User can manage Orders"
+msgstr "El usuario puede gestionar los pedidos"
+
+#: includes/classes/class-wpie-init.php:362
+#@ woo-import-export
+msgid "User can manage Users"
+msgstr "El usuario puede gestionar los usuarios"
+
+#: includes/classes/class-wpie-init.php:363
+#@ woo-import-export
+msgid "User can manage Product Categories"
+msgstr "El usuario puede gestionar las categorías de productos"
+
+#: includes/classes/class-wpie-init.php:364
+#@ woo-import-export
+msgid "User can manage Coupons"
+msgstr "El usuario puede gestionar Cupones"
+
+#: includes/views/wpie-dashboard.php:33
+#: includes/views/wpie-products.php:37
+#@ woo-import-export
+msgid "Available product in store."
+msgstr "producto disponible en tienda."
+
+#: includes/views/wpie-dashboard.php:42
+#@ woo-import-export
+msgid "Categories"
+msgstr "Categorías"
+
+#: includes/views/wpie-dashboard.php:43
+#@ woo-import-export
+msgid "Available Categories for products"
+msgstr "Categorías disponibles para los productos"
+
+#: includes/views/wpie-dashboard.php:53
+#@ woo-import-export
+msgid "Available orders in store"
+msgstr "órdenes disponibles en la tienda"
+
+#: includes/views/wpie-dashboard.php:63
+#@ woo-import-export
+msgid "Available users in store"
+msgstr "usuarios disponibles en la tienda"
+
+#: includes/views/wpie-dashboard.php:73
+#@ woo-import-export
+msgid "Available coupons in store"
+msgstr "cupones disponibles en la tienda"
+
+#: includes/views/wpie-coupons.php:29
+#: includes/views/wpie-coupons.php:220
+#: includes/views/wpie-orders.php:35
+#: includes/views/wpie-orders.php:278
+#: includes/views/wpie-product-categories.php:29
+#: includes/views/wpie-product-categories.php:204
+#: includes/views/wpie-products.php:33
+#: includes/views/wpie-products.php:275
+#: includes/views/wpie-users.php:29
+#: includes/views/wpie-users.php:260
+#@ woo-import-export
+msgid "Export"
+msgstr "Exportar"
+
+#: includes/views/wpie-coupons.php:41
+#: includes/views/wpie-coupons.php:391
+#: includes/views/wpie-orders.php:47
+#: includes/views/wpie-orders.php:450
+#: includes/views/wpie-product-categories.php:41
+#: includes/views/wpie-product-categories.php:374
+#: includes/views/wpie-products.php:45
+#: includes/views/wpie-products.php:465
+#: includes/views/wpie-users.php:41
+#: includes/views/wpie-users.php:430
+#@ woo-import-export
+msgid "Import"
+msgstr "Importar"
+
+#: includes/views/wpie-products.php:47
+#@ woo-import-export
+msgid "Import unlimited products."
+msgstr "Importar productos ilimitados."
+
+#: includes/views/wpie-coupons.php:49
+#: includes/views/wpie-orders.php:55
+#: includes/views/wpie-product-categories.php:49
+#: includes/views/wpie-products.php:53
+#: includes/views/wpie-users.php:49
+#@ woo-import-export
+msgid "Schedule"
+msgstr "Programar"
+
+#: includes/views/wpie-coupons.php:50
+#: includes/views/wpie-orders.php:56
+#: includes/views/wpie-product-categories.php:50
+#: includes/views/wpie-products.php:54
+#: includes/views/wpie-users.php:50
+#@ woo-import-export
+msgid "Management"
+msgstr "administración"
+
+#: includes/views/wpie-coupons.php:51
+#: includes/views/wpie-orders.php:57
+#: includes/views/wpie-product-categories.php:51
+#: includes/views/wpie-products.php:55
+#: includes/views/wpie-users.php:51
+#@ woo-import-export
+msgid "schedule import export."
+msgstr "importación y exportación de programación."
+
+#: includes/views/wpie-coupons.php:57
+#: includes/views/wpie-orders.php:63
+#: includes/views/wpie-product-categories.php:57
+#: includes/views/wpie-products.php:61
+#: includes/views/wpie-users.php:57
+#@ woo-import-export
+msgid "Advance"
+msgstr "Avanzar"
+
+#: includes/views/wpie-coupons.php:59
+#: includes/views/wpie-orders.php:65
+#: includes/views/wpie-product-categories.php:59
+#: includes/views/wpie-products.php:63
+#: includes/views/wpie-users.php:59
+#@ woo-import-export
+msgid "Configure import export"
+msgstr "Configurar importación y exportación"
+
+#: includes/views/wpie-orders.php:120
+#: includes/views/wpie-product-categories.php:72
+#: includes/views/wpie-products.php:76
+#@ woo-import-export
+msgid "Filter By Product Category"
+msgstr "Filtrar por Producto de la categoría"
+
+#: includes/views/wpie-orders.php:122
+#: includes/views/wpie-product-categories.php:74
+#: includes/views/wpie-products.php:78
+#@ woo-import-export
+msgid "Total Categories"
+msgstr "Total de categorías"
+
+#: includes/views/wpie-orders.php:127
+#: includes/views/wpie-product-categories.php:79
+#: includes/views/wpie-products.php:83
+#: includes/views/wpie-products.php:342
+#@ woo-import-export
+msgid "Select Product Categories"
+msgstr "Seleccione las categorías de productos"
+
+#: includes/views/wpie-orders.php:136
+#: includes/views/wpie-product-categories.php:88
+#: includes/views/wpie-products.php:92
+#@ woo-import-export
+msgid "Default : All Categories"
+msgstr "Por defecto: Todas las categorías"
+
+#: includes/views/wpie-orders.php:143
+#: includes/views/wpie-products.php:99
+#@ woo-import-export
+msgid "Filter By Product ID / Name"
+msgstr "Filtrar por Producto / Nombre de ID"
+
+#: includes/views/wpie-orders.php:145
+#: includes/views/wpie-products.php:101
+#@ woo-import-export
+msgid "Total Products"
+msgstr "Productos totales"
+
+#: includes/views/wpie-products.php:107
+#@ woo-import-export
+msgid "Select Products"
+msgstr "Seleccionar productos"
+
+#: includes/views/wpie-products.php:117
+#@ woo-import-export
+msgid "Default : All Products"
+msgstr "Por defecto: Todos los productos"
+
+#: includes/views/wpie-products.php:124
+#@ woo-import-export
+msgid "Filter By Product Author Name / Email"
+msgstr "Filtrar por Producto Nombre del Autor / Correo"
+
+#: includes/views/wpie-products.php:126
+#@ woo-import-export
+msgid "Total Authors"
+msgstr "Autores totales"
+
+#: includes/views/wpie-products.php:131
+#@ woo-import-export
+msgid "Select Product Author"
+msgstr "Elija un producto Autor"
+
+#: includes/views/wpie-products.php:141
+#@ woo-import-export
+msgid "Default : All Authors"
+msgstr "Por defecto: Todos los Autores"
+
+#: includes/views/wpie-coupons.php:93
+#: includes/views/wpie-product-categories.php:95
+#: includes/views/wpie-products.php:148
+#: includes/views/wpie-users.php:133
+#@ woo-import-export
+msgid "Limit Records"
+msgstr "Limit Records"
+
+#: includes/views/wpie-coupons.php:95
+#: includes/views/wpie-coupons.php:112
+#: includes/views/wpie-product-categories.php:97
+#: includes/views/wpie-product-categories.php:114
+#: includes/views/wpie-products.php:150
+#: includes/views/wpie-products.php:167
+#: includes/views/wpie-users.php:135
+#: includes/views/wpie-users.php:152
+#@ woo-import-export
+msgid "Total Records"
+msgstr "Total de Registros"
+
+#: includes/views/wpie-coupons.php:100
+#: includes/views/wpie-product-categories.php:102
+#: includes/views/wpie-products.php:155
+#: includes/views/wpie-users.php:140
+#@ woo-import-export
+msgid "Enter Limit Records"
+msgstr "Introduzca un límite de registros"
+
+#: includes/views/wpie-coupons.php:103
+#: includes/views/wpie-product-categories.php:105
+#: includes/views/wpie-products.php:158
+#: includes/views/wpie-users.php:143
+#@ woo-import-export
+msgid "Default : All Records"
+msgstr "Por defecto: Todas las fichas"
+
+#: includes/views/wpie-coupons.php:110
+#: includes/views/wpie-product-categories.php:112
+#: includes/views/wpie-products.php:165
+#: includes/views/wpie-users.php:150
+#@ woo-import-export
+msgid "Offset Records"
+msgstr "Los registros de desplazamiento"
+
+#: includes/views/wpie-coupons.php:117
+#: includes/views/wpie-coupons.php:162
+#: includes/views/wpie-coupons.php:334
+#: includes/views/wpie-orders.php:220
+#: includes/views/wpie-orders.php:393
+#: includes/views/wpie-product-categories.php:119
+#: includes/views/wpie-product-categories.php:146
+#: includes/views/wpie-product-categories.php:317
+#: includes/views/wpie-products.php:172
+#: includes/views/wpie-products.php:217
+#: includes/views/wpie-products.php:408
+#: includes/views/wpie-users.php:157
+#: includes/views/wpie-users.php:202
+#: includes/views/wpie-users.php:373
+#@ woo-import-export
+msgid "Enter Offset Records"
+msgstr "Escriba el desplazamiento Registros"
+
+#: includes/views/wpie-coupons.php:120
+#: includes/views/wpie-product-categories.php:122
+#: includes/views/wpie-products.php:175
+#: includes/views/wpie-users.php:160
+#@ woo-import-export
+msgid "Default : 0"
+msgstr "Por defecto: 0"
+
+#: includes/views/wpie-coupons.php:127
+#: includes/views/wpie-orders.php:185
+#: includes/views/wpie-products.php:182
+#: includes/views/wpie-users.php:167
+#@ woo-import-export
+msgid "Filter By Date"
+msgstr "Filtrar por Fecha"
+
+#: includes/views/wpie-coupons.php:132
+#: includes/views/wpie-orders.php:190
+#: includes/views/wpie-products.php:187
+#: includes/views/wpie-users.php:172
+#@ woo-import-export
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#: includes/views/wpie-coupons.php:133
+#: includes/views/wpie-orders.php:191
+#: includes/views/wpie-products.php:188
+#: includes/views/wpie-users.php:173
+#@ woo-import-export
+msgid "To"
+msgstr "A"
+
+#: includes/views/wpie-coupons.php:134
+#: includes/views/wpie-orders.php:192
+#: includes/views/wpie-products.php:189
+#: includes/views/wpie-users.php:174
+#@ woo-import-export
+msgid "End Date"
+msgstr "Fecha final"
+
+#: includes/views/wpie-coupons.php:138
+#: includes/views/wpie-orders.php:196
+#: includes/views/wpie-products.php:193
+#: includes/views/wpie-users.php:178
+#@ woo-import-export
+msgid "Date Format"
+msgstr "Formato de fecha"
+
+#: includes/views/wpie-coupons.php:158
+#: includes/views/wpie-coupons.php:163
+#: includes/views/wpie-orders.php:216
+#: includes/views/wpie-orders.php:221
+#: includes/views/wpie-product-categories.php:142
+#: includes/views/wpie-product-categories.php:147
+#: includes/views/wpie-products.php:213
+#: includes/views/wpie-products.php:218
+#: includes/views/wpie-users.php:198
+#: includes/views/wpie-users.php:203
+#@ woo-import-export
+msgid "Scheduled Export"
+msgstr "exportación programada"
+
+#: includes/views/wpie-coupons.php:167
+#: includes/views/wpie-orders.php:225
+#: includes/views/wpie-product-categories.php:151
+#: includes/views/wpie-products.php:222
+#: includes/views/wpie-users.php:207
+#@ woo-import-export
+msgid "Export Interval"
+msgstr "Intervalo de exportación"
+
+#: includes/views/wpie-coupons.php:169
+#: includes/views/wpie-coupons.php:341
+#: includes/views/wpie-orders.php:227
+#: includes/views/wpie-orders.php:400
+#: includes/views/wpie-product-categories.php:153
+#: includes/views/wpie-product-categories.php:324
+#: includes/views/wpie-products.php:224
+#: includes/views/wpie-products.php:415
+#: includes/views/wpie-users.php:209
+#: includes/views/wpie-users.php:380
+#@ woo-import-export
+msgid "Select Interval"
+msgstr "Seleccione Intervalo"
+
+#: includes/views/wpie-coupons.php:177
+#: includes/views/wpie-orders.php:235
+#: includes/views/wpie-product-categories.php:161
+#: includes/views/wpie-products.php:232
+#: includes/views/wpie-users.php:217
+#@ woo-import-export
+msgid "Export Interval Time"
+msgstr "Exportación de intervalo de tiempo"
+
+#: includes/views/wpie-coupons.php:179
+#: includes/views/wpie-orders.php:237
+#: includes/views/wpie-product-categories.php:163
+#: includes/views/wpie-products.php:234
+#: includes/views/wpie-users.php:219
+#@ woo-import-export
+msgid "Enter Time for export"
+msgstr "Introduzca Tiempo para la exportación"
+
+#: includes/views/wpie-coupons.php:184
+#: includes/views/wpie-coupons.php:356
+#: includes/views/wpie-coupons.php:410
+#: includes/views/wpie-coupons.php:450
+#: includes/views/wpie-orders.php:242
+#: includes/views/wpie-orders.php:415
+#: includes/views/wpie-orders.php:469
+#: includes/views/wpie-orders.php:508
+#: includes/views/wpie-product-categories.php:168
+#: includes/views/wpie-product-categories.php:339
+#: includes/views/wpie-product-categories.php:393
+#: includes/views/wpie-product-categories.php:432
+#: includes/views/wpie-products.php:239
+#: includes/views/wpie-products.php:430
+#: includes/views/wpie-products.php:484
+#: includes/views/wpie-products.php:523
+#: includes/views/wpie-users.php:224
+#: includes/views/wpie-users.php:395
+#: includes/views/wpie-users.php:449
+#: includes/views/wpie-users.php:488
+#@ woo-import-export
+msgid "Send E-mail"
+msgstr "Enviar correo electrónico"
+
+#: includes/views/wpie-coupons.php:187
+#: includes/views/wpie-coupons.php:359
+#: includes/views/wpie-orders.php:245
+#: includes/views/wpie-orders.php:418
+#: includes/views/wpie-product-categories.php:171
+#: includes/views/wpie-product-categories.php:342
+#: includes/views/wpie-products.php:242
+#: includes/views/wpie-products.php:433
+#: includes/views/wpie-users.php:227
+#: includes/views/wpie-users.php:398
+#@ woo-import-export
+msgid "Send E-mail with attachment"
+msgstr "Enviar por correo electrónico con datos adjuntos"
+
+#: includes/views/wpie-coupons.php:193
+#: includes/views/wpie-coupons.php:195
+#: includes/views/wpie-coupons.php:365
+#: includes/views/wpie-coupons.php:367
+#: includes/views/wpie-orders.php:251
+#: includes/views/wpie-orders.php:253
+#: includes/views/wpie-orders.php:424
+#: includes/views/wpie-orders.php:426
+#: includes/views/wpie-product-categories.php:177
+#: includes/views/wpie-product-categories.php:179
+#: includes/views/wpie-product-categories.php:348
+#: includes/views/wpie-product-categories.php:350
+#: includes/views/wpie-products.php:248
+#: includes/views/wpie-products.php:250
+#: includes/views/wpie-products.php:439
+#: includes/views/wpie-products.php:441
+#: includes/views/wpie-users.php:233
+#: includes/views/wpie-users.php:235
+#: includes/views/wpie-users.php:404
+#: includes/views/wpie-users.php:406
+#@ woo-import-export
+msgid "Enter Email Recipient(s)"
+msgstr "Introduzca destinatario (s) E-mail"
+
+#: includes/views/wpie-coupons.php:200
+#: includes/views/wpie-coupons.php:202
+#: includes/views/wpie-coupons.php:372
+#: includes/views/wpie-coupons.php:374
+#: includes/views/wpie-orders.php:258
+#: includes/views/wpie-orders.php:260
+#: includes/views/wpie-orders.php:431
+#: includes/views/wpie-orders.php:433
+#: includes/views/wpie-product-categories.php:184
+#: includes/views/wpie-product-categories.php:186
+#: includes/views/wpie-product-categories.php:355
+#: includes/views/wpie-product-categories.php:357
+#: includes/views/wpie-products.php:255
+#: includes/views/wpie-products.php:257
+#: includes/views/wpie-products.php:446
+#: includes/views/wpie-products.php:448
+#: includes/views/wpie-users.php:240
+#: includes/views/wpie-users.php:242
+#: includes/views/wpie-users.php:411
+#: includes/views/wpie-users.php:413
+#@ woo-import-export
+msgid "Enter Email Subject"
+msgstr "Introduzca Asunto del correo"
+
+#: includes/views/wpie-coupons.php:206
+#: includes/views/wpie-coupons.php:208
+#: includes/views/wpie-coupons.php:378
+#: includes/views/wpie-coupons.php:380
+#: includes/views/wpie-orders.php:264
+#: includes/views/wpie-orders.php:266
+#: includes/views/wpie-orders.php:437
+#: includes/views/wpie-orders.php:439
+#: includes/views/wpie-product-categories.php:190
+#: includes/views/wpie-product-categories.php:192
+#: includes/views/wpie-product-categories.php:361
+#: includes/views/wpie-product-categories.php:363
+#: includes/views/wpie-products.php:261
+#: includes/views/wpie-products.php:263
+#: includes/views/wpie-products.php:452
+#: includes/views/wpie-products.php:454
+#: includes/views/wpie-users.php:246
+#: includes/views/wpie-users.php:248
+#: includes/views/wpie-users.php:417
+#: includes/views/wpie-users.php:419
+#@ woo-import-export
+msgid "Enter Email message"
+msgstr "Entre su mensaje de correo electrónico"
+
+#: includes/views/wpie-coupons.php:219
+#: includes/views/wpie-orders.php:277
+#: includes/views/wpie-product-categories.php:203
+#: includes/views/wpie-products.php:274
+#: includes/views/wpie-users.php:259
+#@ woo-import-export
+msgid "Preview"
+msgstr "Avance"
+
+#: includes/views/wpie-coupons.php:221
+#: includes/views/wpie-coupons.php:392
+#: includes/views/wpie-orders.php:279
+#: includes/views/wpie-orders.php:451
+#: includes/views/wpie-product-categories.php:205
+#: includes/views/wpie-product-categories.php:375
+#: includes/views/wpie-products.php:276
+#: includes/views/wpie-products.php:466
+#: includes/views/wpie-users.php:261
+#: includes/views/wpie-users.php:431
+#@ woo-import-export
+msgid "Save Scheduled"
+msgstr "guardar Programado"
+
+#: includes/views/wpie-coupons.php:255
+#: includes/views/wpie-orders.php:313
+#: includes/views/wpie-product-categories.php:239
+#: includes/views/wpie-products.php:310
+#: includes/views/wpie-users.php:295
+#@ woo-import-export
+msgid "Drop CSV file here"
+msgstr "Suelte el archivo CSV aquí"
+
+#: includes/views/wpie-coupons.php:256
+#: includes/views/wpie-orders.php:314
+#: includes/views/wpie-product-categories.php:240
+#: includes/views/wpie-products.php:311
+#: includes/views/wpie-users.php:296
+#@ woo-import-export
+msgid "OR"
+msgstr "O"
+
+#: includes/views/wpie-coupons.php:257
+#: includes/views/wpie-orders.php:315
+#: includes/views/wpie-product-categories.php:241
+#: includes/views/wpie-products.php:312
+#: includes/views/wpie-users.php:297
+#@ woo-import-export
+msgid "Select Files"
+msgstr "Selecciona archivos"
+
+#: includes/views/wpie-coupons.php:270
+#: includes/views/wpie-orders.php:328
+#: includes/views/wpie-product-categories.php:254
+#: includes/views/wpie-products.php:325
+#: includes/views/wpie-users.php:310
+#@ woo-import-export
+msgid "Enter URL to Import"
+msgstr "Introducir URL para importar"
+
+#: includes/views/wpie-coupons.php:273
+#: includes/views/wpie-orders.php:331
+#: includes/views/wpie-product-categories.php:257
+#: includes/views/wpie-products.php:328
+#: includes/views/wpie-users.php:313
+#@ woo-import-export
+msgid "Enter URL"
+msgstr "Introducir URL"
+
+#: includes/views/wpie-coupons.php:277
+#: includes/views/wpie-orders.php:335
+#: includes/views/wpie-product-categories.php:261
+#: includes/views/wpie-products.php:332
+#: includes/views/wpie-users.php:317
+#@ woo-import-export
+msgid "Note : Leave blank if upload file."
+msgstr "Nota: Dejar en blanco si archivo de carga."
+
+#: includes/views/wpie-products.php:339
+#@ woo-import-export
+msgid "Select Category for Product"
+msgstr "Seleccione una categoría de producto"
+
+#: includes/views/wpie-products.php:351
+#@ woo-import-export
+msgid "Note : Category for new product imported."
+msgstr "Nota: Categoría para el nuevo producto importado."
+
+#: includes/views/wpie-products.php:358
+#@ woo-import-export
+msgid "Product Create / Update / Skip"
+msgstr "Producto Crear / actualizar / Salto"
+
+#: includes/views/wpie-products.php:361
+#@ woo-import-export
+msgid "Select Product Create"
+msgstr "Seleccionar producto Crear"
+
+#: includes/views/wpie-products.php:362
+#@ woo-import-export
+msgid "Skip Product if Exist."
+msgstr "Saltar producto si existen."
+
+#: includes/views/wpie-products.php:363
+#@ woo-import-export
+msgid "Create New Product and ignore if Exist."
+msgstr "Crear nuevos productos e ignorar si existe."
+
+#: includes/views/wpie-products.php:364
+#@ woo-import-export
+msgid "Update Product if Exist."
+msgstr "Actualización del producto si existen."
+
+#: includes/views/wpie-product-categories.php:277
+#: includes/views/wpie-products.php:368
+#@ woo-import-export
+msgid "Note : Imported product is skip, updated or created if already exist."
+msgstr "Nota: el producto importado es omitir, actualiza o crea si ya existen."
+
+#: includes/views/wpie-coupons.php:330
+#: includes/views/wpie-coupons.php:335
+#: includes/views/wpie-orders.php:389
+#: includes/views/wpie-orders.php:394
+#: includes/views/wpie-product-categories.php:313
+#: includes/views/wpie-product-categories.php:318
+#: includes/views/wpie-products.php:404
+#: includes/views/wpie-products.php:409
+#: includes/views/wpie-users.php:369
+#: includes/views/wpie-users.php:374
+#@ woo-import-export
+msgid "Scheduled Import"
+msgstr "importación programada"
+
+#: includes/views/wpie-coupons.php:339
+#: includes/views/wpie-orders.php:398
+#: includes/views/wpie-product-categories.php:322
+#: includes/views/wpie-products.php:413
+#: includes/views/wpie-users.php:378
+#@ woo-import-export
+msgid "Import Interval"
+msgstr "importación de intervalo"
+
+#: includes/views/wpie-coupons.php:349
+#: includes/views/wpie-orders.php:408
+#: includes/views/wpie-product-categories.php:332
+#: includes/views/wpie-products.php:423
+#: includes/views/wpie-users.php:388
+#@ woo-import-export
+msgid "Import Interval Time"
+msgstr "Importación de intervalo de tiempo"
+
+#: includes/views/wpie-coupons.php:408
+#: includes/views/wpie-coupons.php:448
+#: includes/views/wpie-orders.php:467
+#: includes/views/wpie-orders.php:506
+#: includes/views/wpie-product-categories.php:391
+#: includes/views/wpie-product-categories.php:430
+#: includes/views/wpie-products.php:482
+#: includes/views/wpie-products.php:521
+#: includes/views/wpie-users.php:447
+#: includes/views/wpie-users.php:486
+#@ woo-import-export
+msgid "Scheduled ID"
+msgstr "ID programado"
+
+#: includes/views/wpie-coupons.php:409
+#: includes/views/wpie-coupons.php:449
+#: includes/views/wpie-orders.php:468
+#: includes/views/wpie-orders.php:507
+#: includes/views/wpie-product-categories.php:392
+#: includes/views/wpie-product-categories.php:431
+#: includes/views/wpie-products.php:483
+#: includes/views/wpie-products.php:522
+#: includes/views/wpie-users.php:448
+#: includes/views/wpie-users.php:487
+#@ woo-import-export
+msgid "Recurrence Time"
+msgstr "Tiempo de recurrencia"
+
+#: includes/views/wpie-coupons.php:411
+#: includes/views/wpie-coupons.php:451
+#: includes/views/wpie-orders.php:470
+#: includes/views/wpie-orders.php:509
+#: includes/views/wpie-product-categories.php:394
+#: includes/views/wpie-product-categories.php:433
+#: includes/views/wpie-products.php:485
+#: includes/views/wpie-products.php:524
+#: includes/views/wpie-users.php:450
+#: includes/views/wpie-users.php:489
+#@ woo-import-export
+msgid "Recipients"
+msgstr "destinatarios"
+
+#: includes/views/wpie-coupons.php:412
+#: includes/views/wpie-coupons.php:452
+#: includes/views/wpie-orders.php:471
+#: includes/views/wpie-orders.php:510
+#: includes/views/wpie-product-categories.php:395
+#: includes/views/wpie-product-categories.php:434
+#: includes/views/wpie-products.php:486
+#: includes/views/wpie-products.php:525
+#: includes/views/wpie-users.php:451
+#: includes/views/wpie-users.php:490
+#@ woo-import-export
+msgid "Next event"
+msgstr "Próximo evento"
+
+#: includes/views/wpie-coupons.php:413
+#: includes/views/wpie-coupons.php:453
+#: includes/views/wpie-orders.php:472
+#: includes/views/wpie-orders.php:511
+#: includes/views/wpie-product-categories.php:396
+#: includes/views/wpie-product-categories.php:435
+#: includes/views/wpie-products.php:487
+#: includes/views/wpie-products.php:526
+#: includes/views/wpie-users.php:452
+#: includes/views/wpie-users.php:491
+#@ woo-import-export
+msgid "Actions"
+msgstr "Comportamiento"
+
+#: includes/classes/class-wpie-scheduled.php:187
+#: includes/classes/class-wpie-scheduled.php:285
+#: includes/classes/class-wpie-scheduled.php:343
+#: includes/classes/class-wpie-scheduled.php:401
+#: includes/classes/class-wpie-scheduled.php:459
+#: includes/classes/class-wpie-scheduled.php:517
+#: includes/classes/class-wpie-scheduled.php:575
+#: includes/classes/class-wpie-scheduled.php:635
+#: includes/classes/class-wpie-scheduled.php:1491
+#: includes/views/wpie-coupons.php:424
+#: includes/views/wpie-coupons.php:464
+#: includes/views/wpie-orders.php:483
+#: includes/views/wpie-orders.php:522
+#: includes/views/wpie-product-categories.php:407
+#: includes/views/wpie-product-categories.php:446
+#: includes/views/wpie-products.php:498
+#: includes/views/wpie-products.php:537
+#: includes/views/wpie-users.php:463
+#: includes/views/wpie-users.php:502
+#@ woo-import-export
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/classes/class-wpie-scheduled.php:189
+#: includes/classes/class-wpie-scheduled.php:287
+#: includes/classes/class-wpie-scheduled.php:345
+#: includes/classes/class-wpie-scheduled.php:403
+#: includes/classes/class-wpie-scheduled.php:461
+#: includes/classes/class-wpie-scheduled.php:519
+#: includes/classes/class-wpie-scheduled.php:577
+#: includes/classes/class-wpie-scheduled.php:637
+#: includes/classes/class-wpie-scheduled.php:1493
+#: includes/views/wpie-coupons.php:426
+#: includes/views/wpie-coupons.php:466
+#: includes/views/wpie-coupons.php:516
+#: includes/views/wpie-coupons.php:543
+#: includes/views/wpie-orders.php:485
+#: includes/views/wpie-orders.php:524
+#: includes/views/wpie-orders.php:577
+#: includes/views/wpie-orders.php:604
+#: includes/views/wpie-product-categories.php:409
+#: includes/views/wpie-product-categories.php:448
+#: includes/views/wpie-product-categories.php:497
+#: includes/views/wpie-product-categories.php:524
+#: includes/views/wpie-products.php:500
+#: includes/views/wpie-products.php:539
+#: includes/views/wpie-products.php:592
+#: includes/views/wpie-products.php:619
+#: includes/views/wpie-users.php:465
+#: includes/views/wpie-users.php:504
+#: includes/views/wpie-users.php:558
+#: includes/views/wpie-users.php:585
+#@ woo-import-export
+msgid "No"
+msgstr "No"
+
+#: includes/classes/class-wpie-coupon.php:256
+#: includes/classes/class-wpie-coupon.php:938
+#: includes/classes/class-wpie-order.php:425
+#: includes/classes/class-wpie-order.php:1018
+#: includes/classes/class-wpie-product-category.php:200
+#: includes/classes/class-wpie-product-category.php:701
+#: includes/classes/class-wpie-product.php:1111
+#: includes/classes/class-wpie-product.php:1899
+#: includes/classes/class-wpie-user.php:439
+#: includes/classes/class-wpie-user.php:880
+#: includes/views/wpie-coupons.php:532
+#: includes/views/wpie-coupons.php:574
+#: includes/views/wpie-orders.php:593
+#: includes/views/wpie-orders.php:635
+#: includes/views/wpie-product-categories.php:513
+#: includes/views/wpie-product-categories.php:555
+#: includes/views/wpie-products.php:608
+#: includes/views/wpie-products.php:650
+#: includes/views/wpie-users.php:574
+#: includes/views/wpie-users.php:616
+#@ woo-import-export
+msgid "Download"
+msgstr "Descargar"
+
+#: includes/classes/class-wpie-coupon.php:257
+#: includes/classes/class-wpie-coupon.php:939
+#: includes/classes/class-wpie-order.php:426
+#: includes/classes/class-wpie-order.php:1019
+#: includes/classes/class-wpie-product-category.php:201
+#: includes/classes/class-wpie-product-category.php:702
+#: includes/classes/class-wpie-product.php:1112
+#: includes/classes/class-wpie-product.php:1900
+#: includes/classes/class-wpie-user.php:440
+#: includes/classes/class-wpie-user.php:881
+#: includes/views/wpie-coupons.php:533
+#: includes/views/wpie-coupons.php:575
+#: includes/views/wpie-orders.php:594
+#: includes/views/wpie-orders.php:636
+#: includes/views/wpie-product-categories.php:514
+#: includes/views/wpie-product-categories.php:556
+#: includes/views/wpie-products.php:609
+#: includes/views/wpie-products.php:651
+#: includes/views/wpie-users.php:575
+#: includes/views/wpie-users.php:617
+#@ woo-import-export
+msgid "Delete"
+msgstr "Borrar"
+
+#: includes/classes/class-wpie-coupon.php:688
+#: includes/classes/class-wpie-order.php:843
+#: includes/classes/class-wpie-product-category.php:574
+#: includes/classes/class-wpie-product.php:1350
+#: includes/classes/class-wpie-user.php:1240
+#@ woo-import-export
+msgid "Changes Saved Successfully."
+msgstr "Los cambios se guardaron exitosamente."
+
+#: includes/classes/class-wpie-coupon.php:989
+#: includes/classes/class-wpie-order.php:1065
+#: includes/classes/class-wpie-product-category.php:748
+#: includes/classes/class-wpie-product.php:1949
+#: includes/classes/class-wpie-user.php:927
+#@ woo-import-export
+msgid "Could not open file."
+msgstr "No se pudo abrir el archivo."
+
+#: includes/classes/class-wpie-init.php:359
+#@ woo-import-export
+msgid "User can manage Woo Imp Exp Dashboard"
+msgstr "El usuario puede gestionar Woo Imp Exp tablero de instrumentos"
+
+#: includes/classes/class-wpie-order.php:1389
+#@ woo-import-export
+msgid "Backordered"
+msgstr "Pedido pendiente"
+
+#: includes/classes/class-wpie-product-category.php:983
+#: includes/classes/class-wpie-product.php:2739
+#: includes/classes/class-wpie-product.php:2949
+#, php-format
+#@ woo-import-export
+msgid "A valid file extension wasn't found in %s. Extension found was %s. Allowed extensions are: %s."
+msgstr "Una extensión de archivo válido no se ha encontrado en %s. Extensión encontrado fue %s. extensiones permitidas son: %s."
+
+#: includes/classes/class-wpie-product-category.php:1000
+#: includes/classes/class-wpie-product.php:2756
+#: includes/classes/class-wpie-product.php:2963
+#, php-format
+#@ woo-import-export
+msgid "%s encountered while attempting to download %s"
+msgstr "%s encontró al intentar descargar %s"
+
+#: includes/classes/class-wpie-product-category.php:1028
+#: includes/classes/class-wpie-product.php:2784
+#: includes/classes/class-wpie-product.php:2991
+#, php-format
+#@ woo-import-export
+msgid "HTTP status %s encountered while attempting to download %s"
+msgstr "estado HTTP %s encontró al intentar descargar %s"
+
+#: includes/classes/class-wpie-product-category.php:1032
+#: includes/classes/class-wpie-product.php:2788
+#: includes/classes/class-wpie-product.php:2995
+#, php-format
+#@ woo-import-export
+msgid "Looks like %s is off and %s is not enabled. No images were imported."
+msgstr "Parece %s es apagado y %s no está habilitado. No hay imágenes fueron importados."
+
+#: includes/classes/class-wpie-product-category.php:1039
+#: includes/classes/class-wpie-product.php:2795
+#: includes/classes/class-wpie-product.php:3002
+#, php-format
+#@ woo-import-export
+msgid "Couldn't download file %s."
+msgstr "No se pudo descargar el archivo %s."
+
+#: includes/classes/class-wpie-product-category.php:1056
+#: includes/classes/class-wpie-product.php:2842
+#, php-format
+#@ woo-import-export
+msgid "Couldn't find local file %s."
+msgstr "No se pudo encontrar archivo local %s."
+
+#: includes/classes/class-wpie-product.php:2060
+#, php-format
+#@ woo-import-export
+msgid "Product #%s already Exist."
+msgstr "Producto #%s ya existe."
+
+#: includes/classes/class-wpie-product.php:2834
+#, php-format
+#@ woo-import-export
+msgid "Skipping import of duplicate image %s."
+msgstr "Saltarse importación de duplicado de imagen %s."
+
+#: includes/classes/class-wpie-product.php:3151
+#@ woo-import-export
+msgid "Successfully Deleted."
+msgstr "Eliminado correctamente."
+
+#: includes/classes/class-wpie-scheduled.php:81
+#@ woo-import-export
+msgid "2 minutes"
+msgstr "2 minutos"
+
+#: includes/classes/class-wpie-scheduled.php:85
+#@ woo-import-export
+msgid "30 minutes"
+msgstr "30 minutos"
+
+#: includes/classes/class-wpie-scheduled.php:89
+#@ woo-import-export
+msgid "Once Weekly"
+msgstr "Una vez a la semana"
+
+#: includes/classes/class-wpie-scheduled.php:184
+#: includes/classes/class-wpie-scheduled.php:241
+#: includes/classes/class-wpie-scheduled.php:282
+#: includes/classes/class-wpie-scheduled.php:340
+#: includes/classes/class-wpie-scheduled.php:398
+#: includes/classes/class-wpie-scheduled.php:456
+#: includes/classes/class-wpie-scheduled.php:514
+#: includes/classes/class-wpie-scheduled.php:572
+#: includes/classes/class-wpie-scheduled.php:632
+#: includes/classes/class-wpie-scheduled.php:1488
+#@ woo-import-export
+msgid "Scheduled Saved Successfully"
+msgstr "Guardado programado con éxito"
+
+#: includes/classes/class-wpie-scheduled.php:770
+#: includes/classes/class-wpie-scheduled.php:797
+#: includes/classes/class-wpie-scheduled.php:824
+#: includes/classes/class-wpie-scheduled.php:851
+#: includes/classes/class-wpie-scheduled.php:878
+#: includes/classes/class-wpie-scheduled.php:905
+#: includes/classes/class-wpie-scheduled.php:932
+#: includes/classes/class-wpie-scheduled.php:959
+#: includes/classes/class-wpie-scheduled.php:986
+#: includes/classes/class-wpie-scheduled.php:1013
+#: includes/classes/class-wpie-scheduled.php:1040
+#: includes/classes/class-wpie-scheduled.php:1124
+#@ woo-import-export
+msgid "Scheduled Deleted Successfully"
+msgstr "Programado eliminado correctamente"
+
+#: includes/views/wpie-coupons.php:22
+#: includes/views/wpie-coupons.php:24
+#: includes/views/wpie-dashboard.php:25
+#: includes/views/wpie-orders.php:28
+#: includes/views/wpie-orders.php:30
+#: includes/views/wpie-product-categories.php:22
+#: includes/views/wpie-product-categories.php:24
+#: includes/views/wpie-products.php:26
+#: includes/views/wpie-products.php:28
+#: includes/views/wpie-users.php:22
+#: includes/views/wpie-users.php:24
+#@ woo-import-export
+msgid "Please Wait..."
+msgstr "Por favor espera..."
+
+#: includes/views/wpie-coupons.php:33
+#@ woo-import-export
+msgid "Available coupons in store."
+msgstr "cupones disponibles en la tienda."
+
+#: includes/views/wpie-coupons.php:43
+#@ woo-import-export
+msgid "Import unlimited coupons."
+msgstr "Importación cupones ilimitadas."
+
+#: includes/views/wpie-coupons.php:72
+#@ woo-import-export
+msgid "Filter By Coupons ID / Code"
+msgstr "Filtrar por Cupones ID / Código"
+
+#: includes/views/wpie-coupons.php:74
+#@ woo-import-export
+msgid "Total Coupons"
+msgstr "Cupones totales"
+
+#: includes/views/wpie-coupons.php:79
+#@ woo-import-export
+msgid "Select Coupons"
+msgstr "Seleccione Cupones"
+
+#: includes/views/wpie-coupons.php:81
+#: includes/views/wpie-products.php:380
+#@ woo-import-export
+msgid "ID"
+msgstr "ID"
+
+#: includes/views/wpie-coupons.php:86
+#@ woo-import-export
+msgid "Default : All Coupons."
+msgstr "Por defecto: Todos los cupones."
+
+#: includes/views/wpie-coupons.php:180
+#: includes/views/wpie-coupons.php:352
+#: includes/views/wpie-orders.php:238
+#: includes/views/wpie-orders.php:411
+#: includes/views/wpie-product-categories.php:164
+#: includes/views/wpie-product-categories.php:335
+#: includes/views/wpie-products.php:235
+#: includes/views/wpie-products.php:426
+#: includes/views/wpie-users.php:220
+#: includes/views/wpie-users.php:391
+#@ woo-import-export
+msgid "Value : 00:00:01 to 23:59:59, Default : Current time"
+msgstr "Valor: 00:00:01 a 23:59:59, por defecto: Hora"
+
+#: includes/views/wpie-coupons.php:284
+#@ woo-import-export
+msgid "Coupon Update / Skip"
+msgstr "Cupón de actualización / Salto"
+
+#: includes/views/wpie-coupons.php:287
+#@ woo-import-export
+msgid "Select Coupon Create"
+msgstr "Seleccione Crear Cupón"
+
+#: includes/views/wpie-coupons.php:288
+#@ woo-import-export
+msgid "Skip Coupon if Exist."
+msgstr "Saltar Cupón si existen."
+
+#: includes/views/wpie-coupons.php:289
+#@ woo-import-export
+msgid "Update Coupon if Exist."
+msgstr "Actualización de descuento si existen."
+
+#: includes/views/wpie-coupons.php:294
+#@ woo-import-export
+msgid "Note : Imported Coupon is skip or updated if already exist."
+msgstr "Nota: Cupón importado es omitir ni actualiza si ya existen."
+
+#: includes/views/wpie-coupons.php:351
+#: includes/views/wpie-orders.php:410
+#: includes/views/wpie-product-categories.php:334
+#: includes/views/wpie-products.php:425
+#: includes/views/wpie-users.php:390
+#@ woo-import-export
+msgid "Enter Time for import"
+msgstr "Introduzca Tiempo para la importación"
+
+#: includes/views/wpie-coupons.php:403
+#: includes/views/wpie-orders.php:462
+#: includes/views/wpie-product-categories.php:386
+#: includes/views/wpie-products.php:477
+#: includes/views/wpie-users.php:442
+#@ woo-import-export
+msgid "Scheduled Export List"
+msgstr "Lista de exportación programada"
+
+#: includes/views/wpie-coupons.php:443
+#: includes/views/wpie-orders.php:501
+#: includes/views/wpie-product-categories.php:425
+#: includes/views/wpie-products.php:516
+#: includes/views/wpie-users.php:481
+#@ woo-import-export
+msgid "Scheduled Import List"
+msgstr "Lista de importación previsto"
+
+#: includes/views/wpie-coupons.php:483
+#: includes/views/wpie-orders.php:541
+#: includes/views/wpie-product-categories.php:465
+#: includes/views/wpie-products.php:556
+#: includes/views/wpie-users.php:522
+#@ woo-import-export
+msgid "Manage Fields"
+msgstr "administrar campos"
+
+#: includes/views/wpie-coupons.php:504
+#: includes/views/wpie-orders.php:565
+#: includes/views/wpie-product-categories.php:485
+#: includes/views/wpie-products.php:580
+#: includes/views/wpie-users.php:546
+#@ woo-import-export
+msgid "Save"
+msgstr "Salvar"
+
+#: includes/views/wpie-coupons.php:511
+#: includes/views/wpie-orders.php:572
+#: includes/views/wpie-product-categories.php:492
+#: includes/views/wpie-products.php:587
+#: includes/views/wpie-users.php:553
+#@ woo-import-export
+msgid "Import Log"
+msgstr "Importar registro"
+
+#: includes/views/wpie-coupons.php:517
+#: includes/views/wpie-coupons.php:544
+#: includes/views/wpie-coupons.php:559
+#: includes/views/wpie-coupons.php:586
+#: includes/views/wpie-orders.php:578
+#: includes/views/wpie-orders.php:605
+#: includes/views/wpie-orders.php:620
+#: includes/views/wpie-orders.php:647
+#: includes/views/wpie-product-categories.php:498
+#: includes/views/wpie-product-categories.php:525
+#: includes/views/wpie-product-categories.php:540
+#: includes/views/wpie-product-categories.php:567
+#: includes/views/wpie-products.php:593
+#: includes/views/wpie-products.php:620
+#: includes/views/wpie-products.php:635
+#: includes/views/wpie-products.php:662
+#: includes/views/wpie-users.php:559
+#: includes/views/wpie-users.php:586
+#: includes/views/wpie-users.php:601
+#: includes/views/wpie-users.php:628
+#@ woo-import-export
+msgid "File Name"
+msgstr "Nombre del archivo"
+
+#: includes/views/wpie-coupons.php:518
+#: includes/views/wpie-coupons.php:545
+#: includes/views/wpie-coupons.php:560
+#: includes/views/wpie-coupons.php:587
+#: includes/views/wpie-orders.php:579
+#: includes/views/wpie-orders.php:606
+#: includes/views/wpie-orders.php:621
+#: includes/views/wpie-orders.php:648
+#: includes/views/wpie-product-categories.php:499
+#: includes/views/wpie-product-categories.php:526
+#: includes/views/wpie-product-categories.php:541
+#: includes/views/wpie-product-categories.php:568
+#: includes/views/wpie-products.php:594
+#: includes/views/wpie-products.php:621
+#: includes/views/wpie-products.php:636
+#: includes/views/wpie-products.php:663
+#: includes/views/wpie-users.php:560
+#: includes/views/wpie-users.php:587
+#: includes/views/wpie-users.php:602
+#: includes/views/wpie-users.php:629
+#@ woo-import-export
+msgid "Date"
+msgstr "Fecha"
+
+#: includes/views/wpie-coupons.php:519
+#: includes/views/wpie-coupons.php:546
+#: includes/views/wpie-coupons.php:561
+#: includes/views/wpie-coupons.php:588
+#: includes/views/wpie-orders.php:580
+#: includes/views/wpie-orders.php:607
+#: includes/views/wpie-orders.php:622
+#: includes/views/wpie-orders.php:649
+#: includes/views/wpie-product-categories.php:500
+#: includes/views/wpie-product-categories.php:527
+#: includes/views/wpie-product-categories.php:542
+#: includes/views/wpie-product-categories.php:569
+#: includes/views/wpie-products.php:595
+#: includes/views/wpie-products.php:622
+#: includes/views/wpie-products.php:637
+#: includes/views/wpie-products.php:664
+#: includes/views/wpie-users.php:561
+#: includes/views/wpie-users.php:588
+#: includes/views/wpie-users.php:603
+#: includes/views/wpie-users.php:630
+#@ woo-import-export
+msgid "Action"
+msgstr "Acción"
+
+#: includes/views/wpie-coupons.php:553
+#: includes/views/wpie-orders.php:614
+#: includes/views/wpie-product-categories.php:534
+#: includes/views/wpie-products.php:629
+#: includes/views/wpie-users.php:595
+#@ woo-import-export
+msgid "Export Log"
+msgstr "Registro de exportación"
+
+#: includes/views/wpie-coupons.php:558
+#: includes/views/wpie-coupons.php:585
+#: includes/views/wpie-orders.php:619
+#: includes/views/wpie-orders.php:646
+#: includes/views/wpie-product-categories.php:539
+#: includes/views/wpie-product-categories.php:566
+#: includes/views/wpie-products.php:634
+#: includes/views/wpie-products.php:661
+#: includes/views/wpie-users.php:600
+#: includes/views/wpie-users.php:627
+#@ woo-import-export
+msgid "No."
+msgstr "No."
+
+#: includes/views/wpie-orders.php:39
+#@ woo-import-export
+msgid "Available orders in store."
+msgstr "órdenes disponibles en la tienda."
+
+#: includes/views/wpie-orders.php:49
+#@ woo-import-export
+msgid "Import unlimited orders."
+msgstr "Importación órdenes ilimitadas."
+
+#: includes/views/wpie-orders.php:78
+#@ woo-import-export
+msgid "Filter By Order Status"
+msgstr "Filtrar por estado del pedido"
+
+#: includes/views/wpie-orders.php:80
+#@ woo-import-export
+msgid "Total Status"
+msgstr "Estado total"
+
+#: includes/views/wpie-orders.php:85
+#@ woo-import-export
+msgid "Select Order Status"
+msgstr "Seleccione Estado del pedido"
+
+#: includes/views/wpie-orders.php:113
+#@ woo-import-export
+msgid "Default : All Status"
+msgstr "Por defecto: Todo Estado"
+
+#: includes/views/wpie-orders.php:150
+#@ woo-import-export
+msgid "Select Product"
+msgstr "Seleccionar producto"
+
+#: includes/views/wpie-orders.php:157
+#@ woo-import-export
+msgid "Default : All Products."
+msgstr "Por defecto: Todos los productos."
+
+#: includes/views/wpie-orders.php:164
+#@ woo-import-export
+msgid "Filter By Order Id"
+msgstr "Filtrar por ID del pedido"
+
+#: includes/views/wpie-orders.php:166
+#@ woo-import-export
+msgid "Total Order"
+msgstr "Orden total"
+
+#: includes/views/wpie-orders.php:171
+#@ woo-import-export
+msgid "Select Order ID"
+msgstr "Seleccione ID de pedido"
+
+#: includes/views/wpie-orders.php:178
+#@ woo-import-export
+msgid "Default : All Order ID."
+msgstr "Por defecto: Todos ID de pedido."
+
+#: includes/views/wpie-orders.php:342
+#@ woo-import-export
+msgid "Order Create / Update / Skip"
+msgstr "Orden Crear / actualizar / Salto"
+
+#: includes/views/wpie-orders.php:345
+#@ woo-import-export
+msgid "Select order create option"
+msgstr "Seleccione la opción para crear"
+
+#: includes/views/wpie-orders.php:346
+#@ woo-import-export
+msgid "Skip Order if Exist."
+msgstr "Saltar orden si existe."
+
+#: includes/views/wpie-orders.php:347
+#@ woo-import-export
+msgid "Create New Order and ignore if Exist."
+msgstr "Crear nuevo orden e ignorar si existe."
+
+#: includes/views/wpie-orders.php:348
+#@ woo-import-export
+msgid "Update Order if Exist."
+msgstr "Actualizar Orden si existen."
+
+#: includes/views/wpie-orders.php:353
+#@ woo-import-export
+msgid "Note : Imported order is created, updated or skip if already exist."
+msgstr "Nota: Se crea el fin importado, actualiza o saltar si ya existen."
+
+#: includes/views/wpie-product-categories.php:33
+#@ woo-import-export
+msgid "Available product categories in store."
+msgstr "Categorías de productos disponibles en la tienda."
+
+#: includes/views/wpie-product-categories.php:43
+#@ woo-import-export
+msgid "Import unlimited product categories."
+msgstr "Importación categorías de productos ilimitada."
+
+#: includes/views/wpie-product-categories.php:58
+#@ woo-import-export
+msgid "Products Categories"
+msgstr "productos Categorías"
+
+#: includes/views/wpie-product-categories.php:268
+#@ woo-import-export
+msgid "Product Category Update / Skip"
+msgstr "Categoría de producto Actualización / Salto"
+
+#: includes/views/wpie-product-categories.php:271
+#@ woo-import-export
+msgid "Select Product Category Create"
+msgstr "Seleccione una categoría de producto Crear"
+
+#: includes/views/wpie-product-categories.php:272
+#@ woo-import-export
+msgid "Skip Product Category if Exist."
+msgstr "Saltar Categoría de producto si existen."
+
+#: includes/views/wpie-product-categories.php:273
+#@ woo-import-export
+msgid "Update Product Category if Exist."
+msgstr "Categoría de la actualización del producto si existen."
+
+#: includes/views/wpie-users.php:33
+#@ woo-import-export
+msgid "Available users in store."
+msgstr "usuarios disponibles en la tienda."
+
+#: includes/views/wpie-users.php:43
+#@ woo-import-export
+msgid "Import unlimited users."
+msgstr "Importar usuarios ilimitados."
+
+#: includes/views/wpie-users.php:72
+#@ woo-import-export
+msgid "Filter By User ID / Username / Email"
+msgstr "Filtro por ID de usuario / nombre de usuario / Correo"
+
+#: includes/views/wpie-users.php:74
+#@ woo-import-export
+msgid "Total Users"
+msgstr "Total de usuarios"
+
+#: includes/views/wpie-users.php:79
+#@ woo-import-export
+msgid "Select User"
+msgstr "Seleccionar usuario"
+
+#: includes/views/wpie-users.php:92
+#@ woo-import-export
+msgid "Default : All Users."
+msgstr "Por defecto: Todos los usuarios."
+
+#: includes/views/wpie-users.php:99
+#@ woo-import-export
+msgid "Filter By User Role"
+msgstr "Filtrar por rol de usuario"
+
+#: includes/views/wpie-users.php:106
+#@ woo-import-export
+msgid "Select User Role"
+msgstr "Seleccionar función de usuario"
+
+#: includes/views/wpie-users.php:112
+#@ woo-import-export
+msgid "Default : All User Roles."
+msgstr "Por defecto: Todas las funciones de usuario."
+
+#: includes/views/wpie-users.php:119
+#@ woo-import-export
+msgid "Filter By User Minimum Spend"
+msgstr "Filtro por usuario gasto mínimo"
+
+#: includes/views/wpie-users.php:123
+#@ woo-import-export
+msgid "Enter Amount"
+msgstr "Ingrese monto:"
+
+#: includes/views/wpie-users.php:126
+#@ woo-import-export
+msgid "Default"
+msgstr "Defecto"
+
+#: includes/views/wpie-users.php:324
+#@ woo-import-export
+msgid "User Create / Update / Skip"
+msgstr "Usuario Crear / actualizar / Salto"
+
+#: includes/views/wpie-users.php:327
+#@ woo-import-export
+msgid "Select user create option"
+msgstr "Seleccione la opción de usuario crear"
+
+#: includes/views/wpie-users.php:328
+#@ woo-import-export
+msgid "Skip User if Exist."
+msgstr "Saltar usuario si existe."
+
+#: includes/views/wpie-users.php:329
+#@ woo-import-export
+msgid "Update User if Exist."
+msgstr "Actualizar usuario si existe."
+
+#: includes/views/wpie-users.php:333
+#@ woo-import-export
+msgid "Note : Imported user is created, updated or skip if already exist."
+msgstr "Nota: se crea el usuario importado, actualiza o saltar si ya existen."
+
+#: includes/classes/class-wpie-init.php:488
+#: includes/classes/class-wpie-init.php:572
+#@ woo-import-export
+msgid "Invalid Request Data."
+msgstr "Solicitud de datos válido."
+
+#: includes/views/wpie-dashboard.php:81
+#@ woo-import-export
+msgid "You're almost finished!"
+msgstr "Ya casi ha terminado!"
+
+#: includes/views/wpie-dashboard.php:83
+#@ woo-import-export
+msgid "Please notice that purchase code is required to enable automatic updates notification and download."
+msgstr "Por favor, observe que se requiere código de compra para activar las actualizaciones automáticas de notificación y descarga."
+
+#: includes/views/wpie-dashboard.php:84
+#@ woo-import-export
+msgid "Enter Code - Hit ENTER"
+msgstr "Introduzca el código - pulsa enter"
+
+#: includes/views/wpie-dashboard.php:91
+#@ woo-import-export
+msgid "You're Done! Enjoy"
+msgstr "Ya está! Disfruta"
+
+#: includes/views/wpie-dashboard.php:93
+#@ woo-import-export
+msgid "Deactivate License"
+msgstr "desactivar licencia"
+
+#: includes/classes/class-wpie-product.php:1865
+#@ woo-import-export
+msgid "Data Successfully Imported"
+msgstr "Los datos importados con éxito"
+
+#: includes/views/wpie-coupons.php:145
+#: includes/views/wpie-coupons.php:317
+#: includes/views/wpie-orders.php:203
+#: includes/views/wpie-orders.php:376
+#: includes/views/wpie-product-categories.php:129
+#: includes/views/wpie-product-categories.php:300
+#: includes/views/wpie-products.php:200
+#: includes/views/wpie-products.php:391
+#: includes/views/wpie-users.php:185
+#: includes/views/wpie-users.php:356
+#@ woo-import-export
+msgid "CSV Field Separator"
+msgstr "Separador de campos CSV"
+
+#: includes/views/wpie-coupons.php:148
+#: includes/views/wpie-coupons.php:320
+#: includes/views/wpie-orders.php:206
+#: includes/views/wpie-orders.php:379
+#: includes/views/wpie-product-categories.php:132
+#: includes/views/wpie-product-categories.php:303
+#: includes/views/wpie-products.php:203
+#: includes/views/wpie-users.php:188
+#: includes/views/wpie-users.php:359
+#@ woo-import-export
+msgid "Enter Field Separator"
+msgstr "Introduzca Separador de campo"
+
+#: includes/views/wpie-coupons.php:151
+#: includes/views/wpie-coupons.php:323
+#: includes/views/wpie-orders.php:209
+#: includes/views/wpie-orders.php:382
+#: includes/views/wpie-product-categories.php:135
+#: includes/views/wpie-product-categories.php:306
+#: includes/views/wpie-products.php:206
+#: includes/views/wpie-products.php:397
+#: includes/views/wpie-users.php:191
+#: includes/views/wpie-users.php:362
+#@ woo-import-export
+msgid "Default : comma ( , )"
+msgstr "Por defecto: coma (,)"
+
+#: includes/views/wpie-coupons.php:301
+#@ woo-import-export
+msgid "Coupon Search based on"
+msgstr "Cupón de búsqueda basado en"
+
+#: includes/views/wpie-coupons.php:304
+#@ woo-import-export
+msgid "Select Coupon Search Option"
+msgstr "Seleccionar la opción Buscar Cupón"
+
+#: includes/views/wpie-coupons.php:305
+#@ woo-import-export
+msgid "Coupon Code"
+msgstr "Código promocional"
+
+#: includes/views/wpie-coupons.php:306
+#@ woo-import-export
+msgid "Coupon ID"
+msgstr "Identificación de cupón"
+
+#: includes/views/wpie-coupons.php:310
+#@ woo-import-export
+msgid "Default : Coupon Code"
+msgstr "Por defecto: código de cupón"
+
+#: includes/views/wpie-dashboard.php:100
+#: includes/views/wpie-orders.php:662
+#: includes/views/wpie-product-categories.php:582
+#: includes/views/wpie-products.php:677
+#: includes/views/wpie-users.php:643
+#@ woo-import-export
+msgid "Documentation"
+msgstr "Documentación"
+
+#: includes/views/wpie-dashboard.php:100
+#: includes/views/wpie-orders.php:662
+#: includes/views/wpie-product-categories.php:582
+#: includes/views/wpie-products.php:677
+#: includes/views/wpie-users.php:643
+#@ woo-import-export
+msgid "Support"
+msgstr "Apoyo"
+
+#: includes/views/wpie-orders.php:360
+#@ woo-import-export
+msgid "Order Search based on"
+msgstr "Orden de búsqueda basado en"
+
+#: includes/views/wpie-orders.php:363
+#@ woo-import-export
+msgid "Select Order Search Option"
+msgstr "Seleccione Orden Opción de búsqueda"
+
+#: includes/views/wpie-orders.php:364
+#@ woo-import-export
+msgid "Order Key"
+msgstr "Solicitar clave"
+
+#: includes/views/wpie-orders.php:365
+#@ woo-import-export
+msgid "Order ID"
+msgstr "Solicitar ID"
+
+#: includes/views/wpie-orders.php:369
+#@ woo-import-export
+msgid "Default : Order Key"
+msgstr "Por defecto: Solicitar Clave"
+
+#: includes/views/wpie-product-categories.php:284
+#@ woo-import-export
+msgid "Product Categories Search based on"
+msgstr "Las categorías de productos de búsqueda basados en"
+
+#: includes/views/wpie-product-categories.php:287
+#@ woo-import-export
+msgid "Select Product Categories Search Option"
+msgstr "Seleccionar producto categorías Búsqueda Opción"
+
+#: includes/views/wpie-product-categories.php:288
+#@ woo-import-export
+msgid "Category Slug"
+msgstr "Categoría Slug"
+
+#: includes/views/wpie-product-categories.php:289
+#@ woo-import-export
+msgid "Category ID"
+msgstr "categoria ID"
+
+#: includes/views/wpie-product-categories.php:293
+#@ woo-import-export
+msgid "Default : Category Slug"
+msgstr "Por defecto: Categoría Slug"
+
+#: includes/views/wpie-products.php:375
+#@ woo-import-export
+msgid "Product Search based on"
+msgstr "Búsqueda de productos sobre la base de"
+
+#: includes/views/wpie-products.php:378
+#@ woo-import-export
+msgid "Select Product Search Option"
+msgstr "Seleccionar producto Opción de búsqueda"
+
+#: includes/views/wpie-products.php:379
+#@ woo-import-export
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/views/wpie-products.php:384
+#@ woo-import-export
+msgid "Default : SKU"
+msgstr "Por defecto: SKU"
+
+#: includes/views/wpie-products.php:394
+#@ woo-import-export
+msgid "Enter  Field Separator"
+msgstr "Introduzca Separador de campo"
+
+#: includes/views/wpie-users.php:101
+#@ woo-import-export
+msgid "Total User Role"
+msgstr "Total de rol de usuario"
+
+#: includes/views/wpie-users.php:340
+#@ woo-import-export
+msgid "User Search based on"
+msgstr "Búsqueda de usuario basado en"
+
+#: includes/views/wpie-users.php:343
+#@ woo-import-export
+msgid "Select User Search Option"
+msgstr "Seleccionar usuario la opción de búsqueda"
+
+#: includes/views/wpie-users.php:344
+#@ woo-import-export
+msgid "User Email"
+msgstr "user Correo electrónico"
+
+#: includes/views/wpie-users.php:345
+#@ woo-import-export
+msgid "User ID"
+msgstr "Identidad de usuario"
+
+#: includes/views/wpie-users.php:349
+#@ woo-import-export
+msgid "Default : User Email"
+msgstr "Por defecto: User Correo electrónico"
+

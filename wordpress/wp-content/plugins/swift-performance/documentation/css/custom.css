@@ -1,0 +1,13 @@
+.navbar-brand > img {
+      width: auto;
+      height: 50px;
+}
+
+.navbar-brand {
+      padding-top: 0;
+}
+
+section {
+      padding-top: 40px !important;
+      padding-bottom: 40px !important;
+}

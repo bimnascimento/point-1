@@ -1,0 +1,59 @@
+.reduxsa-main {
+    .reduxsa-container-background {
+        .reduxsa-background-position,
+        .reduxsa-background-position select,
+        .reduxsa-background-attachment,
+        .reduxsa-background-attachment select,
+        .reduxsa-background-clip,
+        .reduxsa-background-clip select,
+        .reduxsa-background-origin,
+        .reduxsa-background-origin select,
+        .reduxsa-background-size,
+        .reduxsa-background-size select,
+        .reduxsa-background-repeat,
+        .reduxsa-background-repeat select {
+            width:200px !important;
+            margin-right: 10px;
+            margin-bottom: 7px;
+        }
+
+        .background-preview {
+            display:block;
+            width: 100%;
+            margin: 5px 0 10px;
+            border:1px dotted lightgray;
+        }
+
+        .select2-container {
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .wp-picker-container {
+            margin-bottom: 10px;
+        }
+
+        .upload {
+            width: 100%;
+            margin-bottom: 8px;
+        }
+    }
+
+    .reduxsa-container-select {
+        li.ui-state-highlight {
+            height: 20px;
+            margin-top:2px;
+            margin-left: 5px;
+            width: 64px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.wp-customizer {
+    .reduxsa-container-background {
+        .reduxsa-background-position, .reduxsa-background-position select, .reduxsa-background-attachment, .reduxsa-background-attachment select, .reduxsa-background-clip, .reduxsa-background-clip select, .reduxsa-background-origin, .reduxsa-background-origin select, .reduxsa-background-size, .reduxsa-background-size select, .reduxsa-background-repeat, .reduxsa-background-repeat select {
+            width: 100% !important;
+        }
+    }
+}

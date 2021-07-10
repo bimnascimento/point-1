@@ -1,0 +1,215 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: backinstocknotifier\n"
+"POT-Creation-Date: 2014-04-12 10:30+0530\n"
+"PO-Revision-Date: 2014-04-15 14:23+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: backinstocknotifier.php:229
+msgid "Email List for Variation id"
+msgstr ""
+
+#: backinstocknotifier.php:235 backinstocknotifier.php:385
+msgid "Select All"
+msgstr ""
+
+#: backinstocknotifier.php:237 backinstocknotifier.php:387
+msgid "Deselect All"
+msgstr ""
+
+#: backinstocknotifier.php:240 backinstocknotifier.php:390
+msgid "Only Selected Email IDs will recieve In Stock Notification Email"
+msgstr ""
+
+#: backinstocknotifier.php:829 backinstocknotifier.php:850
+msgid "Back In Stock Notifier"
+msgstr ""
+
+#: backinstocknotifier.php:856
+msgid "Clear Email List After Back In Stock Notification"
+msgstr ""
+
+#: backinstocknotifier.php:865
+msgid "Subscribe Form Title"
+msgstr ""
+
+#: backinstocknotifier.php:866
+msgid "Please enter info for email subscription"
+msgstr ""
+
+#: backinstocknotifier.php:876
+msgid "Get Notified Text Box Placeholder Text"
+msgstr ""
+
+#: backinstocknotifier.php:877
+msgid "Please enter the text for the get notified placeholder text box"
+msgstr ""
+
+#: backinstocknotifier.php:887
+msgid "Show Button in new line"
+msgstr ""
+
+#: backinstocknotifier.php:896
+msgid "Get Notified Button Label"
+msgstr ""
+
+#: backinstocknotifier.php:897
+msgid "Please enter the label for the get notified button"
+msgstr ""
+
+#: backinstocknotifier.php:907
+msgid "Email Empty Field Error Message"
+msgstr ""
+
+#: backinstocknotifier.php:908
+msgid "Please enter error message if email id is empty"
+msgstr ""
+
+#: backinstocknotifier.php:918
+msgid "Email Field Format Error Message"
+msgstr ""
+
+#: backinstocknotifier.php:919
+msgid "Please enter error message if email id is not in valid format"
+msgstr ""
+
+#: backinstocknotifier.php:929
+msgid "Success Subscription Message"
+msgstr ""
+
+#: backinstocknotifier.php:930
+msgid "Please enter success message after user subscribed successfully"
+msgstr ""
+
+#: backinstocknotifier.php:940
+msgid "Already Subscribed Message"
+msgstr ""
+
+#: backinstocknotifier.php:941
+msgid "Please enter Message to show if the user is already subscribed"
+msgstr ""
+
+#: backinstocknotifier.php:952
+msgid "Mail Settings"
+msgstr ""
+
+#: backinstocknotifier.php:958 backinstocknotifier.php:1008
+msgid "In Stock Email Subject"
+msgstr ""
+
+#: backinstocknotifier.php:959
+msgid "Please enter subject of your mail"
+msgstr ""
+
+#: backinstocknotifier.php:969 backinstocknotifier.php:1019
+msgid "In Stock Email Message"
+msgstr ""
+
+#: backinstocknotifier.php:970
+msgid "Enter custom email message"
+msgstr ""
+
+#: backinstocknotifier.php:981
+msgid "Advanced Settings"
+msgstr ""
+
+#: backinstocknotifier.php:987
+msgid "Custom CSS"
+msgstr ""
+
+#: backinstocknotifier.php:988
+msgid ""
+"Use #backinstock_textbox for customising textbox and #backinstock_button for "
+"customising button"
+msgstr ""
+
+#: backinstocknotifier.php:1009
+msgid "Please Enter Subject of your Mail"
+msgstr ""
+
+#: backinstocknotifier.php:1020
+msgid "Enter Custom Email Message"
+msgstr ""
+
+#: backinstocknotifier.php:1053
+msgid "Notify List"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:20
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:20
+msgid "n/a"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:28
+msgid "Weight"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:37
+msgid "Dimensions"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:23
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:25
+#: woocommerce/single-product/review.php:27
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/single-product/related.php:36
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/review.php:26
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:34
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review.php:43
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/sale-flash.php:16
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:39
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:27
+msgid "Choose an option"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:74
+msgid "Clear selection"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:104
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/tabs/additional-information.php:14
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr ""

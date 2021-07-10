@@ -1,0 +1,402 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2015-06-02 12:01+0000\n"
+"PO-Revision-Date: 2015-06-02 12:01+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/woocommmerce-deposits.php:242
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-orders.php:131
+msgid "Partially Paid"
+msgstr "Partiellement payé"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-orders.php:177
+msgid "To Pay:"
+msgstr "À payer :"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-orders.php:177
+msgid "Amount Paid:"
+msgstr "Montant payé :"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-orders.php:180
+msgid "Order Total:"
+msgstr "Total de la commande :"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-orders.php:190
+msgid "Remaining Amount:"
+msgstr "Montant résiduel :"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-orders.php:210
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-cart.php:128
+msgid "Deposit"
+msgstr "Acompte"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-orders.php:211
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-cart.php:129
+msgid "Remaining"
+msgstr "Restant"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-orders.php:225
+#, php-format
+msgid "%s (%s unpaid)"
+msgstr "%s (%s impayés)"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-orders.php:227
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-add-to-cart.php:117
+msgid "per person"
+msgstr "par personne"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-add-to-cart.php:119
+msgid "per booking"
+msgstr "par réservation"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-add-to-cart.php:121
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-add-to-cart.php:141
+msgid "per item"
+msgstr "par article"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-add-to-cart.php:128
+msgid "of total value"
+msgstr "de la valeur totale"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-add-to-cart.php:151
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:62
+msgid "Pay Deposit"
+msgstr "Payer un acompte"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-add-to-cart.php:152
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:63
+msgid "Full Amount"
+msgstr "Montant total"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/class-wc-deposits-add-to-cart.php:159
+msgid "Deposit Option:"
+msgstr "Option de l'acompte :"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/emails/class-wc-deposits-email-full-payment.php:23
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:80
+msgid "Full Payment"
+msgstr "Paiement intégral"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/emails/class-wc-deposits-email-full-payment.php:24
+msgid "Full payment emails are sent when an order is fully paid."
+msgstr "Les courriels relatifs au paiement intégral sont envoyés lorsqu'une commande est payée intégralement."
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/emails/class-wc-deposits-email-full-payment.php:26
+msgid "Order fully paid"
+msgstr "Commande payée intégralement"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/emails/class-wc-deposits-email-full-payment.php:27
+msgid "[{site_title}] Order fully paid ({order_number}) - {order_date}"
+msgstr "[{site_title}] Commande payée intégralement ({order_number}) - {order_date}"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/emails/class-wc-deposits-email-full-payment.php:115
+msgid "Enable/Disable"
+msgstr "Activer/Désactiver"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/emails/class-wc-deposits-email-full-payment.php:117
+msgid "Enable this email notification"
+msgstr "Activer cette notification par courriel"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/emails/class-wc-deposits-email-full-payment.php:121
+msgid "Recipient(s)"
+msgstr "Destinataire(s)"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/emails/class-wc-deposits-email-full-payment.php:123
+#, php-format
+msgid "Enter recipients (comma separated) for this email. Defaults to <code>%s</code>."
+msgstr "Saisir les destinataires (séparés par une virgule) de ce courriel. Par défaut <code>%s</code>."
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/emails/class-wc-deposits-email-full-payment.php:128
+msgid "Subject"
+msgstr "Objet"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/emails/class-wc-deposits-email-full-payment.php:130
+#, php-format
+msgid "This controls the email subject line. Leave blank to use the default subject: <code>%s</code>."
+msgstr "Ce paramètre permet de contrôler le champ de l'objet du courriel. Laissez le champ en blanc pour utiliser l'objet par défaut : <code>%s</code>."
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/emails/class-wc-deposits-email-full-payment.php:135
+msgid "Email Heading"
+msgstr "En-tête du courriel"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/emails/class-wc-deposits-email-full-payment.php:137
+#, php-format
+msgid "This controls the main heading contained within the email notification. Leave blank to use the default heading: <code>%s</code>."
+msgstr "Ce paramètre permet de contrôler l'en-tête principal contenu dans la notification du courriel. Laissez le champ en blanc pour utiliser l'en-tête par défaut : <code>%s</code>."
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/emails/class-wc-deposits-email-full-payment.php:142
+msgid "Email type"
+msgstr "Type de courriel"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/emails/class-wc-deposits-email-full-payment.php:144
+msgid "Choose which format of email to send."
+msgstr "Choisissez le format du courriel à envoyer"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/emails/class-wc-deposits-email-full-payment.php:148
+msgid "Plain text"
+msgstr "Texte brut"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/emails/class-wc-deposits-email-full-payment.php:149
+msgid "HTML"
+msgstr "HTML"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/emails/class-wc-deposits-email-full-payment.php:150
+msgid "Multipart"
+msgstr "Multipart"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:26
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-reports.php:26
+msgid "Deposits"
+msgstr "Acomptes"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:45
+msgid "Site-wide Settings"
+msgstr "Paramètres de tout le site"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:51
+msgid "Disable Deposits"
+msgstr "Désactiver les acomptes"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:53
+msgid "Check this to disable all deposit functionality with one click."
+msgstr "Cochez ceci pour désactiver toutes les fonctionnalités des acomptes en un clic."
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:57
+msgid "Default Selection"
+msgstr "Sélection par défaut"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:59
+msgid "Select the default deposit option."
+msgstr "Sélectionnez l'option d'acompte par défaut."
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:68
+msgid "Display Taxes"
+msgstr "Afficher les taxes"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:70
+msgid "Check this to count taxes as part of deposits for purposes of display to the customer. (Taxes are always collected upfront)"
+msgstr "Cochez ceci pour compter les taxes en tant que parties des acomptes par souci de clarté d'affichage pour le client. (Les taxes sont toujours collectées à la source) "
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:74
+msgid "Reduce Stocks On"
+msgstr "Réduire les stocks de"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:76
+msgid "Choose when to reduce stocks."
+msgstr "Choisir quand réduire les stocks."
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:79
+msgid "Deposit Payment"
+msgstr "Paiement de l'acompte"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:85
+msgid "Enable Second Payment"
+msgstr "Activer le deuxième paiement"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:87
+msgid "Uncheck this to prevent the customer from making the second payment. (You'll be have to manually mark the order as completed)"
+msgstr "Décochez ceci pour empêcher un client d'effectuer un deuxième paiement. (Vous devrez indiquer manuellement que la commande a été finalisée)"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:102
+msgid "Buttons"
+msgstr "Boutons"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:104
+msgid "No HTML allowed. Text will be translated to the user if a translation is available.<br/>Please note that any overflow will be hidden, since button width is theme-dependent."
+msgstr "Le HTML n'est pas autorisé. Le texte sera traduit à l'utilisateur si une traduction est disponible.<br/>Veuillez noter que tout excès sera masqué, la largeur du bouton étant dépendante du thème."
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:108
+msgid "Deposit Button Text"
+msgstr "Texte du bouton de l'acompte"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:110
+msgid "Text displayed in the 'Pay Deposit' button."
+msgstr "Texte affiché sur le bouton « Payer un acompte  »."
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:115
+msgid "Full Amount Button Text"
+msgstr "Texte du bouton « Montant intégral  »"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:117
+msgid "Text displayed in the 'Full Amount' button."
+msgstr "Texte affiché sur le bouton « Montant intégral  »"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:131
+msgid "Messages"
+msgstr "Messages"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:133
+msgid "Please check the documentation for allowed HTML tags."
+msgstr "Veuillez vérifier la documentation relative aux balises HTML autorisées."
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:137
+msgid "Deposit Message"
+msgstr "Message de l'acompte"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:139
+msgid "Message to show when 'Pay Deposit' is selected on the product's page."
+msgstr "Message à afficher lorsque « Payer un acompte » est sélectionné sur la page du produit."
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:143
+msgid "Full Amount Message"
+msgstr "Message du montant intégral"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:145
+msgid "Message to show when 'Full Amount' is selected on the product's page."
+msgstr "Message à afficher lorsque « Montant intégral » est sélectionné sur la page du produit."
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:163
+msgid "Disallowed Gateways"
+msgstr "Portails non autorisés"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:165
+msgid "Disallow the following gateways when there is a deposit in the cart."
+msgstr "Ne pas autoriser les portails suivants lorsqu'un acompte est présent dans le panier."
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-settings.php:178
+msgid "Disallowed For Deposits"
+msgstr "Non autorisé pour les acomptes"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:54
+msgid "Enable deposit"
+msgstr "Activez l'acompte"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:55
+msgid "Enable this to require a deposit for this item."
+msgstr "Activez ce paramètre pour exiger un acompte pour cet article."
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:60
+msgid "Force deposit"
+msgstr "Forcer l'acompte"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:61
+msgid "If you enable this, the customer will not be allowed to make a full payment."
+msgstr "En activant ce paramètre, le client ne sera pas autorisé à effectuer un paiement intégral."
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:72
+msgid "Specify the type of deposit:"
+msgstr "Spécifier le type d'acompte :"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:74
+msgid "Fixed value"
+msgstr "Valeur fixe"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:75
+msgid "Percentage of price"
+msgstr "Pourcentage du prix"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:81
+msgid "Despoit amount"
+msgstr "Déposer le montant"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:82
+msgid "This is the minimum deposited amount.<br/>Note: Tax will be added to the deposit amount you specify here."
+msgstr "Il s'agit du montant minimum de l'acompte à verser.<br/>Remarque : une taxe sera ajoutée au montant de l'acompte spécifié ici. "
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:100
+msgid "Multiply by persons"
+msgstr "Multiplié par le nombre de personnes"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:101
+msgid "Enable this to multiply the deposit by person count. (Only works when Fixed Value is active)"
+msgstr "Activez ce paramètre pour multiplier l'acompte par nombre de personnes. (ne fonctionne que lorsque la valeur fixe est active)"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:159
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:177
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:195
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:213
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:232
+msgid "— No Change —"
+msgstr "— Aucun Changement —"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:160
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:178
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:196
+msgid "Yes"
+msgstr "Oui"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:161
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:179
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:197
+msgid "No"
+msgstr "Non"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:214
+msgid "Fixed"
+msgstr "Fixe"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:215
+msgid "Percentage"
+msgstr "Pourcentage"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:233
+msgid "Change to:"
+msgstr "Changer en :"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:234
+msgid "Increase by (fixed amount or %):"
+msgstr "Augmenter de (montant fixe ou %) :"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:235
+msgid "Decrease by (fixed amount or %):"
+msgstr "Diminuer de (montant fixe ou %) :"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-product.php:246
+#, php-format
+msgid "Enter Deposit Amount (%s)"
+msgstr "Saisissez le montant de l'acompte (%s)"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-reports.php:50
+msgid "Year"
+msgstr "Année"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-reports.php:51
+msgid "Last Month"
+msgstr "Le mois dernier"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-reports.php:52
+msgid "This Month"
+msgstr "Ce mois-ci"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-reports.php:53
+msgid "Last 7 Days"
+msgstr "7 derniers jours"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-reports.php:144
+#, php-format
+msgid "%s deposits in total"
+msgstr "%s acomptes au total"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-reports.php:152
+#, php-format
+msgid "%s remaining in total"
+msgstr "%s restants au total"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-reports.php:160
+#, php-format
+msgid "%s partially-paid in total"
+msgstr "%s partiellement payés au total"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-reports.php:269
+msgid "Number of deposits"
+msgstr "Nombre d'acomptes"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-reports.php:277
+msgid "Paid deposits"
+msgstr "Acomptes payés"
+
+#: /var/www/html.old/wp-content/plugins/woocommerce-deposits/includes/admin/class-wc-deposits-admin-reports.php:286
+msgid "Order Remaining in Total"
+msgstr "Commandes restantes au total"
+
