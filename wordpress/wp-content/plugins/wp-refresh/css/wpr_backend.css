@@ -1,0 +1,58 @@
+.form-table tr + tr th,
+.form-table tr + tr td
+{
+	border-top: 1px solid #ccc;
+}
+
+.form-table input[type="text"],
+.form-table select
+{
+	width: 300px;
+}
+.form-table input[type="checkbox"] + label
+{
+	margin-left: 5px;
+}
+.form-table br + input[type="checkbox"],
+.form-table br + input[type="checkbox"] + label
+{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.form-table p.msg
+{
+	display: none;
+	padding: 10px 20px 10px 0;
+}
+.form-table tr.msg p.msg
+{
+	display: block;
+}
+.form-table tr.warning th,
+.form-table tr.warning td
+{
+	background: #fdd;
+}
+
+.form-table p.submit
+{
+	margin: 20px 0 30px 0;
+}
+
+@media screen and (max-width: 782px) {
+	.form-table tr + tr th
+	{
+		padding-top: 25px;
+	}
+	.form-table tr + tr td
+	{
+		border-top: none;
+		padding-bottom: 20px;
+	}
+
+	.form-table p.submit
+	{
+		margin: 0;
+	}
+}

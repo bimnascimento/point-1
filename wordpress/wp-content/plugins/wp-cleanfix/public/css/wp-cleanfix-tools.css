@@ -1,0 +1,133 @@
+/**
+ * Dashboard style
+ *
+ * You can keep a bound between css class and plugin name/namespace.
+ * To do this, you have to use the right naming for the css id and class.
+ *
+ */
+/**
+ * Less sample file.
+ *
+ * You can keep a bound between css class and plugin name/namespace.
+ * To do this, you have to use the right naming for the css id and class.
+ *
+ */
+.wp-cleanfix {
+  display: block;
+}
+.wp-cleanfix-align {
+  display: block;
+  clear: both;
+}
+.wp-cleanfix-align-left {
+  text-align: left;
+}
+.clearfix {
+  *zoom: 1 !important;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table !important;
+  line-height: 0 !important;
+  content: "" !important;
+}
+.clearfix:after {
+  clear: both !important;
+}
+.wp-cleanfix-info {
+  border-left: 4px solid rgba(133, 180, 214, 0.5);
+  padding: 6px 0 6px 6px;
+  display: block;
+  font-style: italic;
+  color: #999;
+  position: relative;
+  vertical-align: middle;
+}
+.wp-cleanfix-tools-database thead th {
+  white-space: nowrap;
+  text-align: left;
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+.wp-cleanfix-tools-database thead th:nth-child(2) {
+  text-align: right;
+}
+.wp-cleanfix-tools-database thead th:last-child {
+  text-align: center;
+}
+.wp-cleanfix-tools-database tbody td {
+  white-space: nowrap;
+  width: 100%;
+  text-align: left;
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+.wp-cleanfix-tools-database tbody td:nth-child(2) {
+  text-align: right;
+  padding: 8px 16px;
+}
+.wp-cleanfix-tools-database tbody td:nth-child(2) img {
+  margin: 0 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.wp-cleanfix-tools-database tbody td:last-child {
+  text-align: center;
+}
+.wp-cleanfix-tools-posts-find-replace textarea {
+  width: 100%;
+}
+.wp-cleanfix-tools-posts-find-replace #wp-clearfix-tools-posts-feedback {
+  text-align: center;
+}
+.wp-cleanfix-tools-posts-find-replace #wp-clearfix-tools-posts-feedback div {
+  padding: 16px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: rgba(255, 118, 88, 0.51);
+}
+.wp-cleanfix-tools-posts-find-replace #wp-clearfix-tools-posts-feedback .wp-cleanfix-tools-posts-feedback-found {
+  background-color: rgba(93, 162, 255, 0.51);
+}
+.wp-cleanfix-tools-posts-find-replace #wp-clearfix-tools-posts-feedback .wp-cleanfix-tools-posts-feedback-after-replace {
+  background-color: rgba(185, 224, 116, 0.51);
+}
+.wp-cleanfix-tools-comments-find-replace textarea {
+  width: 100%;
+}
+.wp-cleanfix-tools-comments-find-replace #wp-clearfix-tools-comments-feedback {
+  text-align: center;
+}
+.wp-cleanfix-tools-comments-find-replace #wp-clearfix-tools-comments-feedback div {
+  padding: 16px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: rgba(255, 118, 88, 0.51);
+}
+.wp-cleanfix-tools-comments-find-replace #wp-clearfix-tools-comments-feedback .wp-cleanfix-tools-comments-feedback-found {
+  background-color: rgba(93, 162, 255, 0.51);
+}
+.wp-cleanfix-tools-comments-find-replace #wp-clearfix-tools-comments-feedback .wp-cleanfix-tools-comments-feedback-after-replace {
+  background-color: rgba(185, 224, 116, 0.51);
+}
+.wp-cleanfix-tools-postmeta-find-replace textarea {
+  width: 100%;
+}
+.wp-cleanfix-tools-postmeta-find-replace #wp-clearfix-tools-postmeta-feedback {
+  text-align: center;
+}
+.wp-cleanfix-tools-postmeta-find-replace #wp-clearfix-tools-postmeta-feedback div {
+  padding: 16px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: rgba(255, 118, 88, 0.51);
+}
+.wp-cleanfix-tools-postmeta-find-replace #wp-clearfix-tools-postmeta-feedback .wp-cleanfix-tools-postmeta-feedback-found {
+  background-color: rgba(93, 162, 255, 0.51);
+}
+.wp-cleanfix-tools-postmeta-find-replace #wp-clearfix-tools-postmeta-feedback .wp-cleanfix-tools-postmeta-feedback-after-replace {
+  background-color: rgba(185, 224, 116, 0.51);
+}

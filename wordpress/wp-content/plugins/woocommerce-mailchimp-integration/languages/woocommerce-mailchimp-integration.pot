@@ -1,0 +1,124 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-01-06 11:47+0000\n"
+"PO-Revision-Date: 2015-12-10 14:04+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-wc-mailchimp-api.php:50
+msgid "Invalid MailChimp API key, please check your key and enter it again."
+msgstr ""
+
+#: includes/class-wc-mailchimp-api.php:68
+msgid "Please enter an API Key"
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:41
+msgid "MailChimp"
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:42
+#, php-format
+msgid "MailChimp lets you manage your email campaigns. %sStart%s a MailChimp Campaign now!"
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:96 includes/class-wc-mailchimp.php:103
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:252
+msgid "MailChimp API Key"
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:253
+msgid "Enter your MailChimp API Key here"
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:261
+msgid "Debug Log"
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:262
+msgid "Enable Logging"
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:271
+#, php-format
+msgid "MailChimp API events will be logged in %s"
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:280
+msgid "MailChimp List"
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:281
+msgid "The MailChimp list to subscribe customers to at checkout."
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:288
+msgid "Checkout Subscription Text"
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:289
+msgid "This text will be shown above the subscription checkbox"
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:292
+msgid "Want updates about our products and promotions?"
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:296
+msgid "Checkbox Label Text"
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:297
+msgid "This text will be shown beside the checkbox"
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:300
+msgid "Subscribe"
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:303
+msgid "Double Opt-In"
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:304
+msgid "Enable Double Opt-In"
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:305
+msgid "Users who signup will receive an email first asking them to confirm their subscription."
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:316
+msgid "You must first create a mailing list in your MailChimp account."
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:337
+msgid "You have no MailChimp lists..."
+msgstr ""
+
+#: includes/class-wc-mailchimp.php:343
+msgid "Please select list"
+msgstr ""
+
+#: woocommerce-mailchimp-integration.php:91
+#, php-format
+msgid "WooCommerce MailChimp depends on the last version of %s to work!"
+msgstr ""
+
+#: woocommerce-mailchimp-integration.php:91
+msgid "WooCommerce"
+msgstr ""

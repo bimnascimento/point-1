@@ -1,0 +1,67 @@
+@media (min-width: 1px) and (max-width: 767px) {
+
+  .title-slogan h2{
+      text-align: center;
+  }
+  .title-roupas-lavadas{
+    margin-top: 30px;
+  }
+  .img-mobile,
+  .bloco-em-breve-msg{
+    display: none !important;
+  }
+
+
+}
+@media (min-width: 481px) and (max-width: 768px) {
+
+  body {
+      font-size: 1.4em;
+  }
+
+  .bloco-novo {
+        margin-top: 90px;
+  }
+
+
+}
+
+@media (min-width: 418px)  {
+
+  .title-apresentacao-animacao {
+      font-size: 2.7em !important;
+  }
+
+
+}
+@media (min-width: 768px)  {
+
+
+
+  .title-apresentacao-precisa {
+    line-height:49px !important;
+    letter-spacing:1px;
+  }
+
+  .bloco-aprecentacao-mensagem {
+      margin-top: 25px;
+      padding-top: 0px;
+  }
+  .bloco-voce-economiza > .wpb_wrapper{
+    background: rgba(38, 86, 41, 0.54);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .bloco-voce-economiza > .wpb_wrapper:hover{
+    background: rgba(81, 195, 87, 0.67);
+  }
+
+  .bloco-economiza {
+      /*margin-top: -50px;*/
+  }
+
+
+}

@@ -1,0 +1,138 @@
+
+#TB_closeWindowButton .screen-reader-text {
+    display: none;
+}
+#TB_window {
+    border-radius: 10px;
+}
+#TB_title {
+    background: #ececec;
+    border-bottom: 1px solid #ddd;
+    height: 35px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 3px;
+}
+.tb-close-icon:focus {
+        outline: none;
+}
+
+ #account_email, .form-row label[for="account_email"]{
+    display: none !important;
+ }
+
+ /*.no-login .product-loop-title,
+ .no-login .price,
+ .no-login .before-amount,
+ .no-login .after-amount,
+ .no-login .tmcp-field-wrap .price,
+ .no-login .tm-extra-product-options .tmcp-field-wrap .tc-price,
+ .no-login .quantity,
+ .no-login .tm-epo-totals,
+ .no-login .single_add_to_cart_button {*/
+
+.product-loop-title,
+/*.price,*/
+.no-login .before-amount,
+.no-login .after-amount,
+.no-login .tmcp-field-wrap .price,
+.no-login .tm-extra-product-options .tmcp-field-wrap .tc-price,
+.no-login .quantity,
+/*.no-login .tm-epo-totals,*/
+.no-login .single_add_to_cart_button,
+.no-login .cartcol,
+.no-login .btn-curriculo,
+.no-login .single_add_to_cart_button {
+
+
+    display: none !important;
+    /*color: #FFF !important;*/
+
+ }
+
+
+ .logged-in .price
+ /*.logged-in .before-amount,
+ .logged-in .after-amount,*/
+ /*.logged-in .tmcp-field-wrap .price,*/
+ /*.logged-in .tm-extra-product-options .tmcp-field-wrap .tc-price,*/
+ /*.logged-in .quantity,*/
+ /*.logged-in .tm-epo-totals,
+ .logged-in .single_add_to_cart_button*/
+  {
+    display: block !important;
+ }
+
+.post-774 .price{
+  display:none !important;
+}
+
+.mensagem-no-login {
+    /*display: none;*/
+}
+.no-login .mensagem-no-login {
+    /*display: block;*/
+    color:#e38787;
+}
+
+.no-login .mensagem-no-login {
+    color: #5d5a6e;
+    background: #f0f0f0;
+    padding: 18px 5px;
+    margin-bottom: 5px;
+    display: block;
+    border-radius: 10px;
+}
+
+.no-login .mensagem-no-login {
+    color: #5d5a6e;
+    background: #FFFFFF;
+    padding: 13px 20px 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.cadastro-desc-login{
+    line-height: 20px;
+}
+
+.woocommerce-password-strength {
+    text-align: center;
+    font-weight: 600;
+    padding: 3px 0px 3px 0px;
+    border-radius: 20px;
+    color: #333;
+    line-height: 1.2;
+    margin-top: 6px;
+}
+
+.logged-in .remove-logged{
+    display: none;
+}
+
+.avatar-login-home img{
+    border-radius: 100%;
+    width: 30px;
+}
+
+.woocommerce .cart-empty {
+        font-size: 1.5em;
+    margin-top: 10px;
+    font-family: Cabin;
+    font-weight: 100;
+    font-style: italic;
+    padding: 15px 15px 0;
+}
+
+
+.no_subscriptions{
+        text-align: center;
+    margin-top: 20px;
+}
+
+.bloco-minha-lavanderia{
+        background: rgba(255, 255, 255, 0.89);
+    padding: 20px;
+    margin-bottom: 90px;
+    border-radius: 20px;
+}

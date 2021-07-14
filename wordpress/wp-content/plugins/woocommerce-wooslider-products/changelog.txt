@@ -1,0 +1,38 @@
+*** WooCommerce - WooSlider Products Slideshow Changelog ***
+
+2016.01.12 - version 1.0.10
+* Tweak - Make product images clickable.
+* Fix - Prevent strict static notice from displaying.
+
+2015.03.06 - version 1.0.9
+ * Fix - WooCommerce compatibility fix for fatal error on activation.
+
+2015.02.16 - version 1.0.8
+ * Fix - Fixes the strict standards PHP warning when loading the plugin textdomain language file.
+
+2014.03.04 - version 1.0.7
+ * Fix - Fixed filter sale products before query.
+   /includes/classes/class-wooslider-wc-products.php
+ * WooCommerce 2.1 compatibility.
+
+2013.02.25 - version 1.0.6
+ * WooCommerce 2.0 compatibility
+
+2012.12.11 - version 1.0.5
+ * Updated WooThemes Updater logic
+
+2012.12.11 - version 1.0.4
+ * New updater.
+
+2012.11.19 - version 1.0.3
+ * Fixed text top layout issue.
+
+2012.11.19 - version 1.0.2
+ * /includes/classes/class-wooslider-wc-products.php - Change "numberposts" to "posts_per_page" when setting the query's limit.
+
+2012.08.31 - version 1.0.1
+ * Fixed logic for in stock check
+ * Added on sale option
+
+2012.08.23 - version 1.0.0
+ * First Release

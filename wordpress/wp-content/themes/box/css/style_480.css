@@ -1,0 +1,34 @@
+@media (min-width: 0px) and (max-width: 480px) {
+
+
+    .bloco-apresentacao{
+      /*background: rgba(0, 0, 0, 0.17);*/
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-bottom: 10px;
+    }
+
+    .img-mobile{
+      display: none !important;
+    }
+
+    #header .mobile-toggle {
+        /*position: fixed;*/
+    }
+    .bloco-novo{
+      display: none;
+    }
+
+
+    .bloco-aprecentacao-mensagem{
+      background:#176193;
+      /*margin-top: 30px;*/
+    }
+
+    .icon-como-funciona .title {
+        font-size: 1.8em;
+            line-height: 30px;
+    }
+
+
+}

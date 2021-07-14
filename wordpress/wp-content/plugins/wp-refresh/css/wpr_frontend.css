@@ -1,0 +1,29 @@
+#wp-admin-bar-wprefresh .ab-icon:before
+{
+	content: "\f463";
+    top: 2px;
+}
+#wp-admin-bar-wprefresh .monitoring .ab-icon:before
+{
+	content: "\f523";
+}
+#wpadminbar .monitoring span.ab-icon:before,
+#wpadminbar .monitoring span.ab-label
+{
+	color: #0f0 !important;
+}
+
+html.wpr-responsive-wrapper
+{
+	margin-left: 320px;
+	position: relative;
+}
+iframe#wpr-mobile-window
+{
+	border: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 320px;
+	height: 100%;
+}

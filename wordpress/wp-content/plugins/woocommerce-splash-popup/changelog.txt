@@ -1,0 +1,19 @@
+*** WooCommerce Spash Popup ***
+
+2015.03.06 - version 1.2.1
+ * General code cleanup
+
+2015.01.05 - version 1.2.0
+ * Clicking a link in the splash content will now set the cookie as closed for the destination page.
+
+2014.03.12 - version 1.1.1
+ * Fixed issue where splash popup wouldn't initialise on first page view.
+
+2014.09.05 - version 1.1.0
+ * WooCommerce 2.2.0 compat
+
+2014.12.06 - version 1.0.1
+ * Stripped object pass by reference
+
+2013.05.02 - version 1.0
+ * First release

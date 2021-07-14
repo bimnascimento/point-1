@@ -1,0 +1,137 @@
+Id,Name,Slug,"Term Taxonomy Id",Taxonomy,"Parent Id","Parent Slug",Description,"Term Group",Count,"Category Image","Woocommerce Term Meta"
+18,Peças,itens,18,product_cat,0,,,0,0,,"a:5:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+23,Lavanderias,lavanderias,23,product_cat,0,,,0,8,,"a:5:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""7"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""89"";}}"
+55,Planos,planos,55,product_cat,0,,,0,0,,"a:4:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+56,Vendas,vendas,56,product_cat,0,,,0,0,,"a:4:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+58,"Acessórios em Geral",acessorios,58,product_cat,18,itens,,0,31,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+59,"Bichos de Pelúcia",bichos-de-pelucia,59,product_cat,18,itens,,0,0,,"a:5:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+60,Calçados,calcados,60,product_cat,18,itens,,0,6,,"a:5:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+61,"Especial Advogados(as)",especial-advogados,61,product_cat,18,itens,,0,0,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+62,"Especial Bebês / Enxoval",especial-bebes,62,product_cat,18,itens,,0,0,,"a:5:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+63,"Itens de Hotéis / Pousadas / Buffet / Restaurantes",itens-de-hoteis,63,product_cat,18,itens,,0,12,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+64,"Especial Noivas / Casamentos",especial-noivas,64,product_cat,18,itens,,0,0,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+65,"Especial Médicos / Enfermagem / Profissionais da Saúde",especial-saude,65,product_cat,18,itens,,0,18,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+67,"Itens de Automóveis / Roupas de Moto",itens-de-automoveis,67,product_cat,18,itens,,0,0,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+68,"Itens de Cozinha",itens-de-cozinha,68,product_cat,18,itens,,0,12,,"a:5:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+69,"Itens de Casa / Domésticos",itens-de-casa,69,product_cat,18,itens,,0,18,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+70,"Itens de Empresas / Indústria / Condomínios",itens-de-empresa,70,product_cat,18,itens,,0,0,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+71,"Lavagem a Seco",lavagem-a-seco,71,product_cat,18,itens,,0,0,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+72,"Malas e Mochilas / Camping / Acampamento",malas-e-mochilas,72,product_cat,18,itens,,0,0,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+73,Promoções,promocoes,73,product_cat,18,itens,,0,1,,"a:5:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+74,"Roupas de Banho",roupas-de-banho,74,product_cat,18,itens,,0,18,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+75,"Roupas de Cama",roupas-de-cama,75,product_cat,18,itens,,0,72,,"a:5:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+76,"Roupas de Couro",roupas-de-couro,76,product_cat,18,itens,,0,0,,"a:5:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+77,"Roupas de Esportes ou Ginástica",roupas-de-esportes,77,product_cat,18,itens,,0,18,,"a:5:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+78,"Roupas de Festas / Baile / Formatura",roupas-de-festas,78,product_cat,18,itens,,0,12,,"a:5:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+79,"Roupas de Frio / Jaquetas / Casacos",roupas-de-frio,79,product_cat,18,itens,,0,30,,"a:5:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+80,"Roupas de Grife / Especiais",roupas-de-grife,80,product_cat,18,itens,,0,0,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+81,"Roupas de Praia / Piscina",roupas-de-praia,81,product_cat,18,itens,,0,0,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+82,"Roupas do Dia-a-Dia",roupas-do-dia-a-dia,82,product_cat,18,itens,,0,54,,"a:5:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+83,"Roupas de Religiões",roupas-de-religioes,83,product_cat,18,itens,,0,6,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+84,"Roupas Femininas",roupas-femininas,84,product_cat,18,itens,,0,24,,"a:5:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+85,"Roupas Íntimas &amp; Delicadas (Unisex)",roupas-intimas-delicadas,85,product_cat,18,itens,,0,12,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+86,"Roupas Sociais (Unisex)",roupas-sociais,86,product_cat,18,itens,,0,30,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+87,"Tapetes / Cortinas / Carpetes",tapetes-cortinas,87,product_cat,18,itens,,0,30,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+88,"Uniformes / Escolar",uniformes,88,product_cat,18,itens,,0,12,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+89,"Acessórios Femininos",acessorios-femininos,89,product_cat,18,itens,,0,0,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+90,"Acessórios Masculinos",acessorios-masculinos,90,product_cat,18,itens,,0,6,,"a:5:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+92,"Roupas Infantis",roupas-infantis,92,product_cat,18,itens,,0,6,,"a:5:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+106,TEMP-LAVANDERIAS,temp-lavanderias,106,product_cat,0,,,0,1,,"a:5:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""89"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""1"";}}"
+115,"_Informar Marca (Opcional)",servcliente_informar-marca,115,product_cat,18,itens,,0,397,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+116,"_Informar Defeitos (Opcional)",servcliente_informar-defeitos,116,product_cat,18,itens,,0,397,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+117,"_Informar Caracteristicas (Opcional)",servcliente_informar-caracteristicas,117,product_cat,18,itens,,0,397,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+118,"_Informar Cores (Opcional)",servcliente_informar-cores,118,product_cat,18,itens,,0,397,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+120,"_Lavar e Passar ou Somente Lavar (-15%) (Obrigatório)",servcliente_lavar-passar,120,product_cat,18,itens,"lavanderia-modelo;
+lavanderia-sul-america-matriz;
+lavanderia-sul-america-morro-da-gloria;
+lavanderia-sul-america-rua-sao-joao;
+lavanderia-sul-america-sao-mateus;
+lavanderia-sul-america-olegario;
+lavanderia-sul-america-altos-passos;",0,2,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+143,"_Desinfecção ou Higienização",servcliente_higienizacao,143,product_cat,18,itens,"lavanderia-modelo;
+lavanderia-sul-america-matriz;
+lavanderia-sul-america-morro-da-gloria;
+lavanderia-sul-america-rua-sao-joao;
+lavanderia-sul-america-sao-mateus;
+lavanderia-sul-america-olegario;
+lavanderia-sul-america-altos-passos;",0,3,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+144,_Hidratação,servcliente_hidratacao,144,product_cat,18,itens,"lavanderia-modelo;
+lavanderia-sul-america-matriz;
+lavanderia-sul-america-morro-da-gloria;
+lavanderia-sul-america-rua-sao-joao;
+lavanderia-sul-america-sao-mateus;
+lavanderia-sul-america-olegario;
+lavanderia-sul-america-altos-passos;",0,2,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+145,_Impermeabilização,servcliente_impermeabilizacao,145,product_cat,18,itens,"lavanderia-modelo;
+lavanderia-sul-america-matriz;
+lavanderia-sul-america-morro-da-gloria;
+lavanderia-sul-america-rua-sao-joao;
+lavanderia-sul-america-sao-mateus;
+lavanderia-sul-america-olegario;
+lavanderia-sul-america-altos-passos;",0,2,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+146,"_Esterilização 99,9%",servcliente_esterilizacao,146,product_cat,18,itens,"lavanderia-modelo;
+lavanderia-sul-america-matriz;
+lavanderia-sul-america-morro-da-gloria;
+lavanderia-sul-america-rua-sao-joao;
+lavanderia-sul-america-sao-mateus;
+lavanderia-sul-america-olegario;
+lavanderia-sul-america-altos-passos;",0,2,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+147,_Recuperação,servcliente_recuperacao,147,product_cat,18,itens,"lavanderia-modelo;
+lavanderia-sul-america-matriz;
+lavanderia-sul-america-morro-da-gloria;
+lavanderia-sul-america-rua-sao-joao;
+lavanderia-sul-america-sao-mateus;
+lavanderia-sul-america-olegario;
+lavanderia-sul-america-altos-passos;",0,2,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+148,_Tingimento,servcliente_tingimento,148,product_cat,18,itens,"lavanderia-modelo;
+lavanderia-sul-america-matriz;
+lavanderia-sul-america-morro-da-gloria;
+lavanderia-sul-america-rua-sao-joao;
+lavanderia-sul-america-sao-mateus;
+lavanderia-sul-america-olegario;
+lavanderia-sul-america-altos-passos;",0,2,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+149,"_Remoção de Gordura",servcliente_remocao-de-gordura,149,product_cat,18,itens,"lavanderia-modelo;
+lavanderia-sul-america-matriz;
+lavanderia-sul-america-morro-da-gloria;
+lavanderia-sul-america-rua-sao-joao;
+lavanderia-sul-america-sao-mateus;
+lavanderia-sul-america-olegario;
+lavanderia-sul-america-altos-passos;",0,2,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+150,"_Remoção de Pelos",servcliente_remocao-de-pelos,150,product_cat,18,itens,"lavanderia-modelo;
+lavanderia-sul-america-matriz;
+lavanderia-sul-america-morro-da-gloria;
+lavanderia-sul-america-rua-sao-joao;
+lavanderia-sul-america-sao-mateus;
+lavanderia-sul-america-olegario;
+lavanderia-sul-america-altos-passos;",0,2,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+151,"_Remoção de Manchas",servcliente_remocao-de-manchas,151,product_cat,18,itens,"lavanderia-modelo;
+lavanderia-sul-america-matriz;
+lavanderia-sul-america-morro-da-gloria;
+lavanderia-sul-america-rua-sao-joao;
+lavanderia-sul-america-sao-mateus;
+lavanderia-sul-america-olegario;
+lavanderia-sul-america-altos-passos;",0,2,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+154,"_Remoção de Bolinhas",servcliente_remocao-de-bolinhas,154,product_cat,18,itens,"lavanderia-modelo;
+lavanderia-sul-america-matriz;
+lavanderia-sul-america-morro-da-gloria;
+lavanderia-sul-america-rua-sao-joao;
+lavanderia-sul-america-sao-mateus;
+lavanderia-sul-america-olegario;
+lavanderia-sul-america-altos-passos;",0,2,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+155,"_Renovar Cor",servcliente_renovar-cor,155,product_cat,18,itens,"lavanderia-modelo;
+lavanderia-sul-america-matriz;
+lavanderia-sul-america-morro-da-gloria;
+lavanderia-sul-america-rua-sao-joao;
+lavanderia-sul-america-sao-mateus;
+lavanderia-sul-america-olegario;
+lavanderia-sul-america-altos-passos;",0,2,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}}"
+156,"_Lavagem a Seco",servcliente_lavagem-a-seco,156,product_cat,18,itens,"lavanderia-modelo;
+lavanderia-sul-america-matriz;
+lavanderia-sul-america-morro-da-gloria;
+lavanderia-sul-america-rua-sao-joao;
+lavanderia-sul-america-sao-mateus;
+lavanderia-sul-america-olegario;
+lavanderia-sul-america-altos-passos;",0,2,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+157,"Itens de Animais",itens-de-animais,157,product_cat,18,itens,,0,0,,"a:6:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+158,"Itens de Hospitais / Emergência / Ambulatórios",itens-de-hospitais,158,product_cat,18,itens,,0,0,,"a:6:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"
+159,"Itens de Banheiro / Lavabo",itens-de-banheiro,159,product_cat,18,itens,,0,0,,"a:7:{s:5:""order"";a:1:{i:0;s:1:""0"";}s:17:""group_of_quantity"";a:1:{i:0;s:0:"""";}s:12:""display_type"";a:1:{i:0;s:0:"""";}s:12:""thumbnail_id"";a:1:{i:0;s:1:""0"";}s:11:""pur_control"";a:1:{i:0;s:5:""allow"";}s:25:""dhvc_woo_page_cat_product"";a:1:{i:0;s:2:""87"";}s:25:""product_count_product_cat"";a:1:{i:0;s:1:""0"";}}"

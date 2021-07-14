@@ -1,0 +1,431 @@
+
+
+.registration-form.woocommerce h4{
+  margin: 3px 0 4px 0px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.14);
+    color: rgba(89, 148, 57, 0.81);
+    font-size: 1.3em;
+}
+.registration-form.woocommerce h4 span{
+  font-size: 0.5em;
+}
+
+.registration-form.woocommerce .msg-verificacao-email{
+  color: red;
+}
+
+.wc-setup-content .form-table th {
+    padding: 3px 0 !important;
+    margin: 0;
+    border: 0;
+}
+.bloco-minha-lavanderia {
+    background: top 130% right 100% no-repeat,linear-gradient(hsla(0, 0%, 100%, 0.65),rgba(251, 251, 251, 0.31) 33.19%,rgba(253, 253, 253, 0.48) 81.51%,hsl(0, 0%, 96%));
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 16px -1px rgba(0, 0, 0, 0.07);
+}
+.dokan-info {
+    background-color: rgba(226, 226, 226, 0.25);
+}
+.dokan-message, .dokan-info, .dokan-error {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border-top: 0;
+}
+
+.img-logo-login{
+  width: 220px;
+  height: 68px;
+}
+
+
+.dokan-message:before, .dokan-info:before, .dokan-error:before {
+    position: absolute;
+    top: 14px;
+    left: 8px;
+    padding-top: 4px;
+    font-family: sans-serif;
+    color: #fff;
+    width: 30px;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 42px;
+}
+
+.meus-pedidos td {
+    padding: 3px 7px !important;
+    line-height: inherit !important;
+    vertical-align: middle !important;
+}
+.meus-pedidos td.order-total {
+    font-size: 1em !important;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a {
+    -webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    transition: background 0.1s;
+    border-bottom: 2px solid #ffffff;
+    padding: 8px 0 8px 20px;
+    display: block;
+    color: #ffffff;
+    font-size: 0.9em;
+    text-decoration: none;
+    background: #4b408c;
+    border-radius: 8px;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a:hover:before {
+    border-left: 4px solid #000;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active > a {
+    font-weight: bold;
+    background-color: #e6e6e6;
+    color: #000;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a:before {
+    border-left: 4px solid #FFF;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a:hover {
+    background-color: #eee;
+    text-decoration: none;
+    color: #000;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul {
+    list-style: none;
+    padding: 0;
+    /*background: rgba(177, 211, 255, 0.84);*/
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation {
+    display: inline-block;
+    margin: 18px auto 0;
+}
+
+.woocommerce .dokan-support-customer-listing{
+  margin-top: 15px;
+}
+
+.white-popup {
+    border-radius: 20px;
+}
+.dokan-store-support-btn{
+  display: inline-block !important;
+  position: relative !important;
+  width: inherit !important;
+  border-radius: 35px !important;
+  color: #ffffff;
+  background-color: rgba(240, 80, 37, 0.78);
+  border-color: #f05025;
+  padding: 3px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 8px auto 0;
+}
+.dokan-store-support-btn:hover, .dokan-store-support-btn:focus, .dokan-store-support-btn:active{
+  background-color: #f05025;
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.17);
+}
+
+
+.mfp-bg {
+    z-index: 9 !important;
+}
+.mfp-wrap {
+    z-index: 10 !important;
+}
+
+.dokan-support-topics-list td{
+  vertical-align: middle !important;
+}
+.dokan-support-table{
+  font-size: 0.9em;
+}
+
+.access-panel{
+    background: #FFF;
+    padding: 0px 15px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 40px auto 40px !important;
+    /* width: 350px; */
+    -webkit-box-shadow: 4px 4px 26px -3px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 4px 4px 26px -3px rgba(0, 0, 0, 0.28);
+    box-shadow: 4px 4px 26px -3px rgba(0, 0, 0, 0.28);
+    transition: all 0.8s ease-in-out !important;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+}
+.access-panel:hover{
+    -webkit-box-shadow: 2px 4px 31px -3px rgba(8, 6, 123, 0.75) !important;
+    -moz-box-shadow: 2px 4px 31px -3px rgba(8, 6, 123, 0.75) !important;
+    box-shadow: 2px 4px 31px -3px rgba(8, 6, 123, 0.75) !important;
+    transition: all 0.8s ease-in-out !important;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+}
+.cp_id_2cf11 .access-panel:hover{
+  box-shadow: none !important;
+}
+.access-panel-login{
+    /* width: 100% !important; */
+    max-width: 260px !important;
+    margin-top: 20px !important;
+}
+.access-panel-login{
+    /*margin-top: 60px !important;*/
+}
+.access-panel-cadastro .woocommerce-FormRow label{
+  display: none;
+}
+.access-panel-cadastro{
+  margin-top: 60px !important;
+}
+
+.cp-modal-body .access-panel{
+    margin: auto !important;
+}
+.cp-modal-body .cp-row .col-md-12{
+  padding: 0;
+}
+
+
+
+.desc-cadastro-termo, .desc-cadastro-login{
+    margin: 5px 0;
+    font-size: 0.8em;
+    line-height: 15px;
+    color: #a0a0a0;
+}
+.cadastro-simple-register{
+  margin: 0;
+}
+.cadastro-simple-register a{
+  text-decoration: none;
+}
+
+.lwa-info {
+     text-transform: capitalize;
+}
+.lwa td {
+    vertical-align: middle;
+}
+
+
+.show_if_seller{
+  position: relative;
+}
+.woocommerce-password-strength{
+  /* color: transparent; */
+  /* height: 13px; */
+  /* line-height: 0; */
+  /* padding: 0; */
+  border-radius: 100px;
+  position: relative;
+  width: 86%;
+  margin: 3px auto -6px !important;
+  text-align: center;
+  clear: both;
+  float: none;
+  font-size: 0.8em;
+  padding: 2px 5px 3px;
+}
+.woocommerce-password-hint{
+  display: none;
+}
+
+
+.form-row.user-role {
+  display: table;
+  background: #00618f;
+  box-shadow: 5px 6px 10px -2px rgba(0, 0, 0, 0.12);
+  padding: 5px 15px 5px 15px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  margin: 10px auto 5px;
+  color: #FFF;
+}
+.form-row.user-role label{
+  display: inline-table;
+  margin: 0 10px;
+  font-size: 0.9em;
+}
+
+.form-row.user-role label input{
+  margin:4px 5px 0 0;
+  padding: 0;
+}
+
+.btn-criar-conta, #formcadastro input[type="submit"].button{
+  margin: 10px 10px 10px !important
+}
+
+.desc-cadastro-termo{
+  margin-right: 10px;
+      margin-top: 12px;
+}
+.lwa{
+  width: 220px;
+  min-width: 220px;
+}
+.lwa-input {
+  text-align: center;
+}
+.lwa-input input{
+  width: 100%;
+}
+
+.lwa-links-remember{
+  clear: both;
+  display: block;
+  font-size: 0.9em;
+}
+.lwa-links-remember-cancel{
+  font-size: 0.9em;
+  margin: 0 10px;
+}
+.lwa-submit-links label{
+  margin-bottom: 10px;
+}
+.lwa-rememberme {
+    display: inline-block !important;
+    position: relative;
+    margin: 0 0 0 0 !important;
+    padding: 0 0 0 0 !important;
+    width: auto !important;
+}
+.access-panel a{
+  text-decoration: none !important;
+}
+
+.cp-modal-body .lwa-links-remember, .cp-modal-body .lwa-status a{
+  /*display: none;*/
+}
+
+.social-networks{
+  text-align: center;
+}
+.login-social{
+  margin: 0 auto;
+}
+.login-social .apsl-icon-block {
+    border: 0px solid #FFF !important;
+    border-radius: 20px !important;
+    line-height: 22px !important;
+    padding: 4px 15px !important;
+    vertical-align: middle !important;
+    display: inline-block !important;
+    transition:all 0.8s ease-in-out !important;
+    -webkit-transition:all 0.8s ease-in-out;
+    -moz-transition:all 0.8s ease-in-out;
+    -o-transition:all 0.8s ease-in-out;
+    margin: 5px auto 0 !important;
+}
+.login-social .apsl-icon-block .fa {
+    padding-right: 8px !important;
+}
+.login-social .apsl-icon-block:hover {
+      background-color: #01549a !important;
+      color: #ffffff !important;
+      border-color: #03104e !important;
+      box-shadow: 0px 4px 18px -6px rgba(0, 0, 0, 0.9) !important;
+      -webkit-transform: rotate(0deg) scale(1.08) skew(0deg) translate(0px);
+      -moz-transform: rotate(0deg) scale(1.08) skew(0deg) translate(0px);
+      -o-transform: rotate(0deg) scale(1.08) skew(0deg) translate(0px);
+      -ms-transform: rotate(0deg) scale(1.08) skew(0deg) translate(0px);
+      outline: none !important;
+}
+.login-social .apsl-icon-facebook {
+    background: #48629b none repeat scroll 0 0 !important;
+    color: #ffffff !important;
+}
+.theme-1 .login-social .apsl-icon-block {
+  padding: 0 !important;
+}
+.theme-1 .login-social .apsl-icon-block .fa {
+    padding-right: 1px !important;
+}
+
+.lwa-form .social{
+    /*
+    text-align: left;
+    margin-bottom: -46px;
+    */
+    padding: 0;
+}
+
+
+.cp-modal-body .access-panel .woocommerce-msg  ol,
+.cp-modal-body .access-panel .woocommerce-msg  ol li,
+.cp-modal-body .access-panel .woocommerce-msg  ul,
+.cp-modal-body .access-panel  .woocommerce-msg  ul li {
+    margin: 0 !important;
+}
+
+.cp-modal-body .access-panel .woocommerce-message ul,
+.cp-modal-body .access-panel .woocommerce-error ul,
+.cp-modal-body .access-panel .woocommerce-info ul {
+    width: 88%;
+}
+
+
+.meu-login{
+  background: #afd8ec;
+padding: 4px 15px;
+text-align: center;
+margin-bottom: 8px;
+border-radius: 15px;
+color: #000;
+}
+
+
+table.meus-pedidos.my_account_orders tbody tr td.order-actions a.button,
+.woocommerce-MyAccount-orders .woocommerce-orders-table__cell-order-actions a {
+   margin-right: 2px !important;
+   padding: 4px 9px !important;
+   font-size: 0.9em !important;
+   height: 17px !important;
+   line-height: 7px !important;
+}
+
+.order-actions .button.pay{
+  background: red;
+  border-color: red;
+}
+.order-actions .button.cancel{
+  background: #f57c7c;
+  border-color: #f57c7c;
+}
+.order-actions .button.invoice{
+  background: #898de2;
+  border-color: #898de2;
+}
+.remember-text {
+    float: right;
+    padding-top: 6px;
+    padding-left: 5px;
+}
+.cp-overlay {
+    z-index: 99;
+}
+
+
+.logged-in .btnLoginPrincipal,
+.logged-in .btnLoginPrincipal1,
+.logged-in .btn-lavanderias-principal-pb{
+  display: none;
+}
+
+
+#nav-panel #log-in-out-link {
+    text-align: center;
+    padding-top: 15px;
+}
+#log-in-out-link img{
+  border-radius: 100px;
+}

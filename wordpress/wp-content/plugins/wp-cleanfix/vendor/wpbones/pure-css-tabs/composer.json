@@ -1,0 +1,35 @@
+{
+  "name": "wpbones/pure-css-tabs",
+  "version": "1.0.11",
+  "homepage": "https://github.com/wpbones/pure-css-tabs",
+  "license": "MIT",
+  "type": "library",
+  "description": "Pure CSS tabs for WP Bones",
+  "keywords": [
+    "css",
+    "less",
+    "WP Bones"
+  ],
+  "authors": [
+    {
+      "name": "Giovambattista Fazioli",
+      "email": "giovambattista.fazioli@gmail.com",
+      "homepage": "http://undolog.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wpbones/pure-css-tabs.git"
+  },
+  "support": {
+    "email": "giovambattista.fazioli@gmail.com",
+    "issues": "https://github.com/wpbones/pure-css-tabs/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "WPCleanFix\\PureCSSTabs\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

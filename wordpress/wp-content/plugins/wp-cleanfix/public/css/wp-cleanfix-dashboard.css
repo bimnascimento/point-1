@@ -1,0 +1,202 @@
+/**
+ * Dashboard style
+ *
+ * You can keep a bound between css class and plugin name/namespace.
+ * To do this, you have to use the right naming for the css id and class.
+ *
+ */
+/**
+ * Less sample file.
+ *
+ * You can keep a bound between css class and plugin name/namespace.
+ * To do this, you have to use the right naming for the css id and class.
+ *
+ */
+.wp-cleanfix {
+  display: block;
+}
+.wp-cleanfix-align {
+  display: block;
+  clear: both;
+}
+.wp-cleanfix-align-left {
+  text-align: left;
+}
+.clearfix {
+  *zoom: 1 !important;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table !important;
+  line-height: 0 !important;
+  content: "" !important;
+}
+.clearfix:after {
+  clear: both !important;
+}
+.wp-cleanfix-info {
+  border-left: 4px solid rgba(133, 180, 214, 0.5);
+  padding: 6px 0 6px 6px;
+  display: block;
+  font-style: italic;
+  color: #999;
+  position: relative;
+  vertical-align: middle;
+}
+.wp-cleanfix-dashboard {
+  color: #f00;
+}
+.wp-cleanfix-toolbar {
+  background-color: #ccd;
+  height: 28px;
+  padding: 8px;
+  margin: -12px -12px 10px;
+}
+.wp-cleanfix-toolbar .dashicons {
+  vertical-align: middle;
+}
+.wp-cleanfix-table-module {
+  width: 100%;
+  border-collapse: collapse;
+}
+.wp-cleanfix-table-module td {
+  border-bottom: 1px solid #ccc;
+  height: 32px;
+  padding: 8px 0;
+  vertical-align: top;
+}
+.wp-cleanfix-table-module td details {
+  margin-top: 4px;
+}
+.wp-cleanfix-table-module .wp-cleanfix-hidle {
+  display: none;
+  text-align: center;
+}
+.wp-cleanfix-table-module .wp-cleanfix-title {
+  width: 220px;
+}
+.wp-cleanfix-table-module .wp-cleanfix-title details {
+  cursor: pointer;
+}
+.wp-cleanfix-table-module .wp-cleanfix-title small {
+  line-height: 0.8rem;
+  background-color: #fff7bf;
+  display: block;
+  padding: 8px 8px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.wp-cleanfix-table-module .dashicons-warning {
+  color: #f90;
+  margin-top: 4px;
+}
+.wp-cleanfix-table-module .dashicons-yes {
+  color: #8dc86d;
+}
+.wp-cleanfix-table-module .wp-cleanfix-status {
+  width: 32px;
+  text-align: center;
+}
+.wp-cleanfix-table-module .wp-cleanfix-refresh,
+.wp-cleanfix-table-module .wp-cleanfix-actions {
+  width: 60px;
+}
+.wp-cleanfix-table-module .wp-cleanfix-refresh button,
+.wp-cleanfix-table-module .wp-cleanfix-actions button {
+  cursor: pointer;
+}
+.wp-cleanfix-table-module .wp-cleanfix-refresh button .dashicons,
+.wp-cleanfix-table-module .wp-cleanfix-actions button .dashicons {
+  vertical-align: middle;
+}
+.wp-cleanfix-table-module .wp-cleanfix-actions {
+  text-align: right;
+}
+/* Database tables */
+/* Exept */
+#wpxcfdatabasemodule td {
+  vertical-align: top;
+}
+/* =====================================================================================================================
+* MORE INFO
+* =====================================================================================================================
+*/
+.wpxcf-table-more-info {
+  margin-top: 8px;
+  background-color: #fff;
+  border: 1px solid #bbb;
+  padding: 0;
+  font-size: 12px;
+}
+.wpxcf-table-more-info table {
+  border-collapse: collapse;
+}
+.wpxcf-table-more-info table th {
+  background-color: #ddd;
+  color: #444;
+}
+.wpxcf-table-more-info table th:first-child {
+  border-left: 4px solid #ddd;
+}
+.wpxcf-table-more-info table td {
+  height: auto !important;
+  border-bottom: 1px solid #ccc !important;
+}
+.wpxcf-table-more-info table td:first-child {
+  border-left: 4px solid #8dc86d;
+}
+.wpxcf-table-more-info table th,
+.wpxcf-table-more-info table td {
+  padding: 4px 8px;
+  white-space: nowrap;
+}
+.wpxcf-table-more-info .wpxcf-table-more-info-column-engine {
+  width: 64px;
+  min-width: 64px;
+  text-align: left;
+  border-right: 1px solid #ccc;
+}
+.wpxcf-table-more-info .wpxcf-table-more-info-column-name {
+  text-align: left;
+  border-right: 1px solid #ccc;
+}
+.wpxcf-table-more-info .wpxcf-table-more-info-column-gain {
+  width: 100px;
+  min-width: 100px;
+  text-align: right;
+  border-right: 1px solid #ccc;
+}
+.wpxcf-table-more-info .wpxcf-table-more-info-column-auto-increment {
+  width: 100px;
+  min-width: 100px;
+  text-align: right;
+  border-right: 1px solid #ccc;
+}
+.wpxcf-table-more-info tr.optimize td:first-child {
+  border-left: 4px solid #ff6b6a;
+  font-weight: bold;
+}
+.wpxcf-table-more-info tfoot td {
+  background-color: #eee;
+  font-weight: bold;
+}
+.wpxcf-table-more-info tfoot td:last-child {
+  text-align: right;
+}
+.wpxcf-table-more-info .wpxcf-table-more-info-header,
+.wpxcf-table-more-info .wpxcf-table-more-info-body,
+.wpxcf-table-more-info .wpxcf-table-more-info-footer {
+  width: 100%;
+}
+.wpxcf-table-more-info .wpxcf-table-more-info-header,
+.wpxcf-table-more-info .wpxcf-table-more-info-footer {
+  overflow-y: scroll;
+}
+.wpxcf-table-more-info .wpxcf-table-more-display-scroll {
+  overflow-y: scroll;
+}
+.wpxcf-table-more-info .wpxcf-table-more-info-content {
+  height: 200px;
+  overflow-y: scroll;
+}

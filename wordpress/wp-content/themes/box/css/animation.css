@@ -1,0 +1,56 @@
+
+
+.zoom img{
+   filter: none;
+   -webkit-filter: blur(0px);
+   -moz-filter: blur(0px);
+   -ms-filter: blur(0px);
+   filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+   image-rendering: optimizeSpeed;             /*                     */
+   image-rendering: -moz-crisp-edges;          /* Firefox             */
+   image-rendering: -o-crisp-edges;            /* Opera               */
+   image-rendering: -webkit-optimize-contrast; /* Chrome (and Safari) */
+   image-rendering: optimize-contrast;         /* CSS3 Proposed       */
+   -ms-interpolation-mode: nearest-neighbor;   /* IE8+                */
+}
+.zoom, .zoomImg img{
+   transition:all 0.3s ease-in-out !important;
+   -webkit-transition:all 0.3s ease-in-out;
+   -moz-transition:all 0.3s ease-in-out;
+   -o-transition:all 0.3s ease-in-out;
+   -ms-transition:all 0.3s ease-in-out;
+   transform: rotate(0deg) scale(1) skew(0deg) translate(0px) !important;
+   -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+   -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+   -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+   -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+   filter: none;
+   -webkit-filter: blur(0px);
+   -moz-filter: blur(0px);
+   -ms-filter: blur(0px);
+   filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+   image-rendering: optimizeSpeed;             /*                     */
+   image-rendering: -moz-crisp-edges;          /* Firefox             */
+   image-rendering: -o-crisp-edges;            /* Opera               */
+   image-rendering: -webkit-optimize-contrast; /* Chrome (and Safari) */
+   image-rendering: optimize-contrast;         /* CSS3 Proposed       */
+   -ms-interpolation-mode: nearest-neighbor;   /* IE8+                */
+}
+.zoom:hover,.zoom:focus,.zoomImg img:hover{
+   transform: rotate(0deg) scale(1.08) skew(0deg) translate(0px) !important;
+   -webkit-transform: rotate(0deg) scale(1.08) skew(0deg) translate(0px);
+   -moz-transform: rotate(0deg) scale(1.08) skew(0deg) translate(0px);
+   -o-transform: rotate(0deg) scale(1.08) skew(0deg) translate(0px);
+   -ms-transform: rotate(0deg) scale(1.08) skew(0deg) translate(0px);
+   filter: none;
+   -webkit-filter: blur(0px);
+   -moz-filter: blur(0px);
+   -ms-filter: blur(0px);
+   filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+   image-rendering: optimizeSpeed;             /*                     */
+   image-rendering: -moz-crisp-edges;          /* Firefox             */
+   image-rendering: -o-crisp-edges;            /* Opera               */
+   image-rendering: -webkit-optimize-contrast; /* Chrome (and Safari) */
+   image-rendering: optimize-contrast;         /* CSS3 Proposed       */
+   -ms-interpolation-mode: nearest-neighbor;   /* IE8+                */
+}

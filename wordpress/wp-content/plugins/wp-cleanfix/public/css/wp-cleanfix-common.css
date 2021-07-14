@@ -1,0 +1,38 @@
+/**
+ * Less sample file.
+ *
+ * You can keep a bound between css class and plugin name/namespace.
+ * To do this, you have to use the right naming for the css id and class.
+ *
+ */
+.wp-cleanfix {
+  display: block;
+}
+.wp-cleanfix-align {
+  display: block;
+  clear: both;
+}
+.wp-cleanfix-align-left {
+  text-align: left;
+}
+.clearfix {
+  *zoom: 1 !important;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table !important;
+  line-height: 0 !important;
+  content: "" !important;
+}
+.clearfix:after {
+  clear: both !important;
+}
+.wp-cleanfix-info {
+  border-left: 4px solid rgba(133, 180, 214, 0.5);
+  padding: 6px 0 6px 6px;
+  display: block;
+  font-style: italic;
+  color: #999;
+  position: relative;
+  vertical-align: middle;
+}

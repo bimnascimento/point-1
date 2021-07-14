@@ -1,0 +1,178 @@
+# Copyright (C) 2017 SkyVerge
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Minimum Advertised Price 1.8.0\n"
+"Report-Msgid-Bugs-To: https://woocommerce.com/my-account/tickets/\n"
+"POT-Creation-Date: 2014-06-15 22:41:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:132
+msgid "Minimum Advertised Pricing Options"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:139
+msgid "Display Actual Price"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:140
+msgid ""
+"Where to display the actual price: in the cart only, or in the cart and "
+"also in a popover on the catalog / product page when the \"Show Price\" "
+"button is clicked"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:145
+msgid "In Cart Only"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:146
+msgid "In Cart / On Gesture"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:152
+msgid "Minimum Advertised Price Label"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:153
+msgid ""
+"Change the text displayed next to the minimum advertised price on "
+"loop/single product pages"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:156
+msgid "See Price in Cart"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:161
+msgid "Show Savings"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:163
+msgid "Show a message with the savings when displaying the actual price"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:169
+msgid "Price Displayed to Search Engines"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:171
+msgid ""
+"Select which price should be included in rich snippets. This setting has no "
+"effect if your theme overrides the `single-product/price.php` template."
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:174
+msgid "Minimum Advertised Price"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:175
+msgid "Regular Price"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:176
+msgid "None"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:223
+msgid ""
+"The Minimum Advertised Price (or MAP), set this to hide the Regular Price "
+"unless the product is added to the cart"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:258
+#. translators: Minimum Advertised Price (acronym)
+msgid "Set MAP"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:302
+#. translators: MAP = Minimum Advertised Price; Placeholders: %s - currency
+#. symbol
+msgid "MAP: (%s)"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:309
+msgid "Variation MAP"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:421
+msgid "— No Change —"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:422
+msgid "Change to:"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:423
+msgid "Increase by (fixed amount or %):"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:424
+msgid "Decrease by (fixed amount or %):"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:439
+msgid "Enter MAP:"
+msgstr ""
+
+#: includes/class-wc-minimum-advertised-price-frontend.php:400
+#. translators: Placeholders: %s - amount saved
+msgid "You save: %s"
+msgstr ""
+
+#: includes/class-wc-minimum-advertised-price-frontend.php:550
+msgid "See Price"
+msgstr ""
+
+#: includes/wc-minimum-advertised-price-template-functions.php:51
+#. translators: Placeholders: %s - amount saved
+msgid "You Save: %s"
+msgstr ""
+
+#: templates/see-price-product-dialog.php:44
+#. translators: Placeholders: %s - Minimum advertised price
+msgid "Advertised Price: %s"
+msgstr ""
+
+#: templates/see-price-product-dialog.php:49
+#. translators: Placeholders: %s - Actual price
+msgid "Price: %s"
+msgstr ""
+
+#: templates/see-price-product-dialog.php:64
+#: templates/see-price-product-dialog.php:75
+msgid "Add to cart"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Minimum Advertised Price"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woocommerce.com/products/minimum-advertised-price/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Easily set a minimum advertised price and hide the regular price until the "
+"product is added to the cart"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SkyVerge"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.woocommerce.com"
+msgstr ""
+
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:222
+#: includes/admin/class-wc-minimum-advertised-price-admin.php:414
+msgctxt "Minimum Advertised Price (acronym)"
+msgid "MAP"
+msgstr ""

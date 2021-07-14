@@ -1,0 +1,3536 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TM WooCommerce Extra Product Options\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-27 02:24-0300\n"
+"PO-Revision-Date: 2017-02-27 02:24-0300\n"
+"Last-Translator: \n"
+"Language-Team: themecomplete <themecomplete@gmail.com>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-tm-epo-admin-base.php:90 include/tm-welcome.php:203
+msgid "Settings"
+msgstr ""
+
+#: admin/class-tm-epo-admin-base.php:91
+msgid "Docs"
+msgstr ""
+
+#: admin/class-tm-epo-admin-base.php:92
+msgid "Premium Support"
+msgstr ""
+
+#: admin/class-tm-epo-admin-base.php:197
+msgid "TM Extra Product Options"
+msgstr ""
+
+#: admin/class-tm-epo-admin-base.php:254
+#: admin/class-tm-epo-admin-global-base.php:1275
+msgid "There are no saved variations yet."
+msgstr ""
+
+#: admin/class-tm-epo-admin-base.php:255
+msgid "You cannot add any more extra options."
+msgstr ""
+
+#: admin/class-tm-epo-admin-base.php:256
+msgid "Are you sure you want to remove this option?"
+msgstr ""
+
+#: admin/class-tm-epo-admin-base.php:257
+msgid ""
+"Before adding Extra Product Options, add and save some attributes on the "
+"<strong>Attributes</strong> tab."
+msgstr ""
+
+#: admin/class-tm-epo-admin-base.php:258 admin/views/html-tm-epo-admin.php:147
+#: admin/views/html-tm-epo-admin.php:157 admin/views/html-tm-epo-admin.php:243
+#: admin/views/html-tm-epo-admin.php:253
+#: include/class-tm-epo-builder-base.php:1000
+#: include/class-tm-epo-builder-base.php:1023
+#: include/class-tm-epo-builder-base.php:1080
+#: include/class-tm-epo-builder-base.php:1097
+#: include/class-tm-epo-builder-base.php:1115
+#: include/class-tm-epo-builder-base.php:2913
+msgid "Fixed amount"
+msgstr ""
+
+#: admin/class-tm-epo-admin-base.php:259 admin/views/html-tm-epo-admin.php:148
+#: admin/views/html-tm-epo-admin.php:158 admin/views/html-tm-epo-admin.php:244
+#: admin/views/html-tm-epo-admin.php:254
+msgid "Percent of the orignal price"
+msgstr ""
+
+#: admin/class-tm-epo-admin-base.php:260
+#: admin/class-tm-epo-admin-global-base.php:1291
+msgid "Error"
+msgstr ""
+
+#: admin/class-tm-epo-admin-base.php:504
+#, php-format
+msgid "TM Extra Product Option #%s of %s"
+msgstr ""
+
+#: admin/class-tm-epo-admin-base.php:521
+msgid "Could not update post in the database"
+msgstr ""
+
+#: admin/class-tm-epo-admin-csv.php:105
+msgid ""
+"The php functions <code>mb_detect_encoding</code> and "
+"<code>mb_convert_encoding</code> are required to import and export CSV "
+"files. Please ask your hosting provider to enable this function."
+msgstr ""
+
+#: admin/class-tm-epo-admin-csv.php:137
+msgid "File imported."
+msgstr ""
+
+#: admin/class-tm-epo-admin-csv.php:148
+#: include/class-tm-extra-product-options.php:2901
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr ""
+
+#: admin/class-tm-epo-admin-csv.php:149
+#: include/class-tm-extra-product-options.php:2902
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form."
+msgstr ""
+
+#: admin/class-tm-epo-admin-csv.php:150
+#: include/class-tm-extra-product-options.php:2903
+msgid "The uploaded file was only partially uploaded."
+msgstr ""
+
+#: admin/class-tm-epo-admin-csv.php:151
+#: include/class-tm-extra-product-options.php:2904
+msgid "No file was uploaded."
+msgstr ""
+
+#: admin/class-tm-epo-admin-csv.php:153
+#: include/class-tm-extra-product-options.php:2906
+msgid "Missing a temporary folder."
+msgstr ""
+
+#: admin/class-tm-epo-admin-csv.php:154
+#: include/class-tm-extra-product-options.php:2907
+msgid "Failed to write file to disk."
+msgstr ""
+
+#: admin/class-tm-epo-admin-csv.php:155
+#: include/class-tm-extra-product-options.php:2908
+msgid "File upload stopped by extension."
+msgstr ""
+
+#: admin/class-tm-epo-admin-csv.php:164
+#: include/class-tm-extra-product-options.php:2917
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr ""
+
+#: admin/class-tm-epo-admin-csv.php:168
+msgid "No file found."
+msgstr ""
+
+#: admin/class-tm-epo-admin-csv.php:236
+msgid "Invalid import method used."
+msgstr ""
+
+#: admin/class-tm-epo-admin-csv.php:313
+#: include/class-tm-extra-product-options.php:2120
+#, php-format
+msgid "Trying to upload files larger than %s is not allowed!"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:137
+msgid "File manager is not supported on your server."
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:230
+msgid "Clone form"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:235
+msgid "Export form"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:244
+#: admin/views/html-tm-epo-fields.php:15
+msgid "TM Global Extra Product Options"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:296
+#: admin/class-tm-epo-admin-global-list-table.php:998
+msgid "Title"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:306
+msgid "Priority"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:307
+msgid "Categories"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:308
+#: admin/class-tm-epo-admin-global-base.php:467
+msgid "Products"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:377
+msgid "Disabled"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:439
+#: admin/class-tm-epo-admin-global-base.php:640
+msgid "Publish"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:470
+#: include/class-tm-epo-builder-base.php:3078
+msgid "Description"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:473
+msgid "Extra Product Options Form Builder"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:498
+msgid "Disable categories"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:501
+msgid "Select the Product(s) to apply the options"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:507
+#: admin/class-tm-epo-admin-global-base.php:527
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:567
+#: include/class-tm-epo-builder-base.php:1945
+msgid "Add section"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:568
+msgid "Style variations"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:573
+#: include/class-tm-extra-product-options.php:3800
+msgid "Close"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:574
+msgid "Fullsize"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:575
+msgid "Export CSV"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:576
+msgid "Import CSV"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:588
+msgid "Add element in a new section"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:603
+msgid "Save"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:626
+#: admin/class-tm-epo-admin-global-list-table.php:257
+#: admin/class-tm-epo-admin-global-list-table.php:719
+msgid "Delete Permanently"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:628
+#: admin/class-tm-epo-admin-global-list-table.php:259
+msgid "Move to Trash"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:644
+msgid "Submit for Review"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:700
+msgid "Something went wrong with WordPress."
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:708
+msgid "WooCommerce is not enabled!"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:711
+#: admin/class-tm-epo-admin-global-base.php:1001
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:758
+#: admin/class-tm-epo-admin-global-base.php:894
+msgid "You are not allowed to move this item to the Trash."
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:766
+#: admin/class-tm-epo-admin-global-base.php:903
+msgid "Error in moving to Trash."
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:778
+msgid "You are not allowed to restore this item from the Trash."
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:782
+#: admin/class-tm-epo-admin-global-base.php:926
+msgid "Error in restoring from Trash."
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:795
+#: admin/class-tm-epo-admin-global-base.php:945
+msgid "You are not allowed to delete this item."
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:800
+#: admin/class-tm-epo-admin-global-base.php:804
+#: admin/class-tm-epo-admin-global-base.php:952
+#: admin/class-tm-epo-admin-global-base.php:956
+msgid "Error in deleting."
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:886
+msgid "The item you are trying to move to the Trash no longer exists."
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:890
+#: admin/class-tm-epo-admin-global-base.php:918
+#: admin/class-tm-epo-admin-global-base.php:941
+#: admin/class-tm-epo-admin-global-base.php:987
+msgid "Unknown post type."
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:899
+#, php-format
+msgid "You cannot move this item to the Trash. %s is currently editing."
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:914
+msgid "The item you are trying to restore from the Trash no longer exists."
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:922
+msgid "You are not allowed to move this item out of the Trash."
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:937
+msgid "This item has already been deleted."
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:984
+msgid ""
+"You attempted to edit an item that doesn&#8217;t exist. Perhaps it was "
+"deleted?"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:990
+msgid "You are not allowed to edit this item."
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:994
+msgid ""
+"You can&#8217;t edit this item because it is in the Trash. Please restore it "
+"and try again."
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1039
+#, php-format
+msgid "%s post updated."
+msgid_plural "%s posts updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tm-epo-admin-global-base.php:1040
+#, php-format
+msgid "%s post not updated, somebody is editing it."
+msgid_plural "%s posts not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tm-epo-admin-global-base.php:1041
+#, php-format
+msgid "%s post permanently deleted."
+msgid_plural "%s posts permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tm-epo-admin-global-base.php:1042
+#, php-format
+msgid "%s post moved to the Trash."
+msgid_plural "%s posts moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tm-epo-admin-global-base.php:1043
+#, php-format
+msgid "%s post restored from the Trash."
+msgid_plural "%s posts restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tm-epo-admin-global-base.php:1049
+msgid "The selected form does not contain any sections"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1145
+msgid "Select a category"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1176
+#: admin/class-tm-epo-admin-settings.php:23
+#: include/class-tm-extra-product-options.php:1110
+msgid "Extra Product Options"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1269
+msgid "Are you sure you want to delete this file?"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1270
+msgid "Are you sure you want to delete this folder and all of its contents?"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1271
+msgid "Are you sure you want to delete this style?"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1272
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1273
+msgid "Are you sure you want to clone this item?"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1274
+#: admin/class-tm-epo-admin-global-list-table.php:1329
+#: admin/class-tm-epo-admin-global-list-table.php:1332
+msgid "Update"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1276
+#: admin/class-tm-epo-admin-global-list-table.php:1325
+#: include/class-tm-extra-product-options.php:3799
+msgid "Cancel"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1277
+msgid "Edit settings"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1278
+msgid "Element id"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1279
+msgid "is"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1280
+msgid "is not"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1281
+msgid "is empty"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1282
+msgid "is not empty"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1283
+msgid ""
+"Cannot apply rules on this element or section since there are not any value "
+"configured elements on other sections, or no other sections found. "
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1284
+msgid "Invalid request!"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1285
+msgid "Populate"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1286
+msgid "Invalid file extension"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1287
+msgid "Importing csv..."
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1288
+msgid "Saving... Please wait."
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1290
+msgid "Importing data"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1292
+#: include/class-tm-epo-builder-base.php:1959
+#: include/class-tm-epo-builder-base.php:1960
+msgid "Add element"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1353
+msgid "All"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-base.php:1674
+msgid "Copy"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:205
+#, php-format
+msgctxt "posts"
+msgid "Mine <span class=\"count\">(%s)</span>"
+msgid_plural "Mine <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:216
+#, php-format
+msgctxt "posts"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:238
+#, php-format
+msgctxt "posts"
+msgid "Sticky <span class=\"count\">(%s)</span>"
+msgid_plural "Sticky <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:252
+#: admin/class-tm-epo-admin-global-list-table.php:715
+msgid "Restore"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:254
+#: admin/class-tm-epo-admin-global-list-table.php:710
+#: tm-woo-extra-product-options.php:152
+msgid "Edit"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:275
+msgid "View all categories"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:295
+msgid "Filter"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:299
+msgid "Empty Trash"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:334
+msgctxt "column name"
+msgid "Title"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:337
+#: admin/class-tm-epo-admin-global-list-table.php:1035
+msgid "Author"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:373
+#: admin/class-tm-epo-admin-global-list-table.php:1011
+#: include/class-tm-epo-builder-base.php:118
+msgid "Date"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:640
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:683
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:697
+#, php-format
+msgid "%s is currently editing"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:710
+msgid "Edit this item"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:711
+msgid "Edit this item inline"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:711
+msgid "Quick&nbsp;Edit"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:715
+msgid "Restore this item from the Trash"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:717
+msgid "Move this item to the Trash"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:717
+msgid "Trash"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:719
+msgid "Delete this item permanently"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:726
+#, php-format
+msgid "Preview &#8220;%s&#8221;"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:726
+msgid "Preview"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:729
+#, php-format
+msgid "View &#8220;%s&#8221;"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:729
+msgid "View"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:773
+msgid "Unpublished"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:776
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:783
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:785
+msgid "Y/m/d"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:813
+#: admin/class-tm-epo-admin-global-list-table.php:1225
+msgid "Published"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:816
+msgid "Missed schedule"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:818
+#: admin/class-tm-epo-admin-global-list-table.php:1226
+msgid "Scheduled"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:820
+msgid "Last Modified"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:880
+msgid ", "
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:986
+msgid "Bulk Edit"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:986
+msgid "Quick Edit"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1003
+msgid "Slug"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1031
+#: admin/class-tm-epo-admin-global-list-table.php:1111
+#: admin/class-tm-epo-admin-global-list-table.php:1147
+#: admin/class-tm-epo-admin-global-list-table.php:1181
+#: admin/class-tm-epo-admin-global-list-table.php:1190
+#: admin/class-tm-epo-admin-global-list-table.php:1222
+#: admin/class-tm-epo-admin-global-list-table.php:1243
+#: admin/class-tm-epo-admin-global-list-table.php:1271
+msgid "&mdash; No Change &mdash;"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1050
+msgid "Password"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1057
+msgid "&ndash;OR&ndash;"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1062
+#: admin/class-tm-epo-admin-global-list-table.php:1228
+msgid "Private"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1099
+msgid "Parent"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1105
+msgid "Main Page (no parent)"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1134
+msgid "Order"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1144
+msgid "Template"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1149
+msgid "Default Template"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1179
+msgid "Comments"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1182
+#: admin/class-tm-epo-admin-global-list-table.php:1191
+msgid "Allow"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1183
+#: admin/class-tm-epo-admin-global-list-table.php:1192
+msgid "Do not allow"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1188
+msgid "Pings"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1204
+msgid "Allow Comments"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1209
+msgid "Allow Pings"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1219
+msgid "Status"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1231
+msgid "Pending Review"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1232
+msgid "Draft"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1241
+#: admin/class-tm-epo-admin-global-list-table.php:1244
+msgid "Sticky"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1245
+msgid "Not Sticky"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1253
+msgid "Make this post sticky"
+msgstr ""
+
+#: admin/class-tm-epo-admin-global-list-table.php:1269
+msgctxt "post format"
+msgid "Format"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:26
+msgid "General"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:27
+#: admin/class-tm-epo-admin-settings.php:292
+msgid "Display"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:28
+msgid "Cart"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:29
+msgid "Strings"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:30
+#: admin/class-tm-epo-admin-settings.php:712
+msgid "Style"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:31
+msgid "Global"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:33
+msgid "License"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:34
+msgid "Upload manager"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:111
+msgid "Extra Product Options Settings"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:151
+msgid "Dynamic Pricing & Discounts"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:169
+msgid "Enable discounts on extra options"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:170
+msgid ""
+"Enabling this will apply the product discounts to the extra options as well."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:177
+#: admin/class-tm-epo-admin-settings.php:384
+#: admin/class-tm-epo-admin-settings.php:401
+#: admin/class-tm-epo-admin-settings.php:705
+#: admin/class-tm-epo-admin-settings.php:806
+#: include/class-tm-epo-builder-base.php:609
+#: include/class-tm-epo-builder-base.php:1403
+#: include/class-tm-epo-builder-base.php:1785
+#: include/class-tm-epo-builder-base.php:2600
+msgid "Disable"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:178
+#: admin/class-tm-epo-admin-settings.php:402
+#: admin/class-tm-epo-admin-settings.php:706
+#: admin/class-tm-epo-admin-settings.php:805
+#: include/class-tm-epo-builder-base.php:2601
+msgid "Enable"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:183
+msgid "Prefix label"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:184
+msgid "Display a prefix label on product page."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:191
+msgid "Suffix label"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:192
+msgid "Display a suffix label on product page."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:220
+msgid "Enable for roles"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:221
+msgid "Select the roles that will have access to the extra options."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:231
+msgid "Final total box"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:232
+msgid "Select when to show the final total box"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:239
+#: admin/views/html-tm-global-epo.php:126
+msgid "Show Both Final and Options total box"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:240
+msgid "Show only Final total"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:241
+msgid "Show Final total and hide Options total if zero"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:242
+#: admin/views/html-tm-global-epo.php:129
+msgid "Hide Final total box if Options total is zero"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:243
+#: admin/views/html-tm-global-epo.php:130
+msgid "Hide Final total box"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:244
+#: admin/views/html-tm-global-epo.php:131
+msgid "Always show only Final total (Price x Quantity)"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:249
+msgid "Enable Final total box for all products"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:250
+msgid "Check to enable Final total box even when product has no extra options"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:257
+msgid "Strip html from emails"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:258
+msgid "Check to strip the html tags from emails"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:265
+msgid "Disable lazy load images"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:266
+msgid "Check to disable lazy loading images."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:273
+msgid "Enable plugin for WooCommerce shortcodes"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:274
+msgid ""
+"Enabling this will load the plugin files to all WordPress pages. Use with "
+"caution."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:293
+msgid ""
+"This controls how your fields are displayed on the front-end.<br />If you "
+"choose \"Show using action hooks\" you have to manually write the code to "
+"your theme or plugin to display the fields and the placement settings below "
+"will not work. <br />If you use Composite Products extension you must leave "
+"this setting to \"Normal\" otherwise the extra options cannot be displayed "
+"on the composite product bundles.<br />See more at the documentation."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:300
+#: admin/class-tm-epo-admin-settings.php:890
+#: include/class-tm-epo-builder-base.php:471
+#: include/class-tm-epo-builder-base.php:782
+msgid "Normal"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:301
+msgid "Show using action hooks"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:306
+msgid "Extra Options placement"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:307
+msgid "Select where you want the extra options to appear."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:314
+#: admin/class-tm-epo-admin-settings.php:349
+msgid "Before add to cart button"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:315
+#: admin/class-tm-epo-admin-settings.php:350
+msgid "After add to cart button"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:317
+#: admin/class-tm-epo-admin-settings.php:352
+msgid "Before cart form"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:318
+#: admin/class-tm-epo-admin-settings.php:353
+msgid "After cart form"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:320
+#: admin/class-tm-epo-admin-settings.php:355
+msgid "Before product"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:321
+#: admin/class-tm-epo-admin-settings.php:356
+msgid "After product"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:323
+#: admin/class-tm-epo-admin-settings.php:358
+msgid "Before product summary"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:324
+#: admin/class-tm-epo-admin-settings.php:359
+msgid "After product summary"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:326
+#: admin/class-tm-epo-admin-settings.php:361
+msgid "After product image"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:328
+#: admin/class-tm-epo-admin-settings.php:363
+msgid "Custom hook"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:333
+msgid "Extra Options placement custom hook"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:341
+msgid "Totals box placement"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:342
+msgid "Select where you want the Totals box to appear."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:368
+msgid "Totals box placement custom hook"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:376
+msgid "Floating Totals box"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:377
+msgid "This will enable a floating box to display your totals box."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:385
+msgid "Bottom right"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:386
+msgid "Bottom left"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:387
+msgid "Top right"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:388
+msgid "Top left"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:393
+msgid "Force Select Options"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:394
+msgid ""
+"This changes the add to cart button to display select options when the "
+"product has extra product options.<br />Enabling this will remove the ajax "
+"functionality."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:407
+msgid "Enable extra options in shop and category view"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:408
+msgid ""
+"Check to enable the display of extra options on the shop page and category "
+"view. This setting is theme dependent and some aspect may not work as "
+"expected."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:415
+msgid "Remove Free price label"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:416
+msgid "Check to remove Free price label when product has extra options"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:423
+msgid "Hide uploaded file path"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:424
+msgid "Check to hide the uploaded file path from users."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:431
+msgid "Show quantity selector only for elements with a value"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:432
+msgid "Check show quantity selector only for elements with a value."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:439
+msgid "Hide add-to-cart button until an option is chosen"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:440
+msgid ""
+"Check this to show the add to cart button only when at least one option is "
+"filled."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:447
+msgid "Auto hide price if zero"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:448
+msgid "Check this to globally hide the price display if it is zero."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:457
+msgid "Use translated values when possible on admin Order"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:458
+msgid ""
+"Please note that if the options on the Order change or get deleted you will "
+"get wrong results by enabling this!"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:477
+msgid "Clear cart button"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:478
+msgid "Enables or disables the clear cart button"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:485
+#: admin/class-tm-epo-admin-settings.php:516
+#: admin/class-tm-epo-admin-settings.php:531
+#: include/class-tm-epo-builder-base.php:1708
+#: include/class-tm-epo-builder-base.php:2661
+msgid "Hide"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:486
+#: admin/class-tm-epo-admin-settings.php:515
+#: admin/class-tm-epo-admin-settings.php:530
+#: include/class-tm-epo-builder-base.php:1708
+msgid "Show"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:492
+msgid "Cart Field Display"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:493
+msgid "Select how to display your fields in the cart"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:500
+msgid "Normal display"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:501
+msgid "Display a pop-up link"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:502
+msgid "Advanced display"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:507
+msgid "Hide extra options in cart"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:508
+msgid "Enables or disables the display of options in the cart."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:522
+msgid "Hide extra options prices in cart"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:523
+msgid "Enables or disables the display of prices of options in the cart."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:539
+msgid "Prevent negative priced products"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:540
+msgid "Prevent adding to the cart negative priced products."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:547
+msgid "Show image replacement in cart and checkout"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:548
+msgid ""
+"Enabling this will show the images of elements that have an image "
+"replacement."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:567
+msgid "Final total text"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:568
+msgid "Select the Final total text or leave blank for default."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:576
+msgid "Options total text"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:577
+msgid "Select the Options total text or leave blank for default."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:586
+msgid "Subscription fee text"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:587
+msgid "Select the Subscription fee text or leave blank for default."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:596
+msgid "Free Price text replacement"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:597
+msgid ""
+"Enter a text to replace the Free price label when product has extra options."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:604
+msgid "Reset Options text replacement"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:605
+msgid ""
+"Enter a text to replace the Reset options text when using custom variations."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:612
+msgid "Edit Options text replacement"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:613
+msgid "Enter a text to replace the Edit options text on the cart."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:620
+msgid "Additional Options text replacement"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:621
+msgid ""
+"Enter a text to replace the Additional options text when using the pop up "
+"setting on the cart."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:628
+msgid "Close button text replacement"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:629
+msgid ""
+"Enter a text to replace the Close button text when using the pop up setting "
+"on the cart."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:636
+msgid "Calendar close button text replacement"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:637
+msgid "Enter a text to replace the Close button text on the calendar."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:644
+msgid "Calendar today button text replacement"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:645
+msgid "Enter a text to replace the Today button text on the calendar."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:652
+msgid "Slider previous text"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:653
+msgid "Enter a text to replace the previous button text for slider."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:660
+msgid "Slider next text"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:661
+msgid "Enter a text to replace the next button text for slider."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:668
+msgid "Force Select options text"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:669
+msgid ""
+"Enter a text to replace the add to cart button text when using the Force "
+"select option."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:676
+msgid "Empty cart text"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:677
+msgid "Enter a text to replace the empty cart button text."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:697
+msgid "Enable checkbox and radio styles"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:698
+msgid "Enables or disables extra styling for checkboxes and radio buttons."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:713
+msgid "Select a style."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:720
+#: admin/class-tm-epo-admin-settings.php:737
+msgid "Round"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:721
+#: admin/class-tm-epo-admin-settings.php:736
+msgid "Square"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:727
+msgid "Select item border type"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:728
+msgid ""
+"Select a style for the selected border when using image replacements or "
+"swatches."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:735
+#: include/class-tm-epo-builder-base.php:2967
+#: include/class-tm-epo-builder-base.php:3030
+msgid "Default"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:738
+msgid "Shadow"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:739
+msgid "Thin line"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:757
+msgid "Enable validation"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:758
+msgid "Check to enable validation feature for builder elements"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:765
+msgid "Input decimal separator"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:766
+msgid " Choose how to determine the decimal separator for user inputs"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:773
+#: admin/class-tm-epo-admin-settings.php:788
+msgid "Use WooCommerce value"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:774
+#: admin/class-tm-epo-admin-settings.php:789
+msgid "Determine by browser local"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:780
+msgid "Displayed decimal separator"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:781
+msgid " Choose which decimal separator to display on currency prices"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:796
+msgid "Radio button undo button"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:804
+#: admin/class-tm-epo-admin-settings.php:858
+#: admin/class-tm-epo-admin-settings.php:873
+#: admin/class-tm-epo-admin-settings.php:889
+msgid "Use field value"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:812
+msgid "Required state indicator"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:813
+msgid "Enter a string to indicate the required state of a field."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:820
+msgid "Required state indicator position"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:828
+msgid "Left of the label"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:829
+msgid "Right of the label"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:835
+msgid "Include tax string suffix on totals box"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:842
+msgid "Load generated styles inline"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:843
+msgid ""
+"This will prevent some load flickering but it will produce invalid html."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:850
+msgid "Datepicker theme"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:851
+#: include/class-tm-epo-builder-base.php:759
+msgid "Select the theme for the datepicker."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:859
+#: include/class-tm-epo-builder-base.php:755
+msgid "Epo White"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:860
+#: include/class-tm-epo-builder-base.php:756
+msgid "Epo Black"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:865
+msgid "Datepicker size"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:866
+#: include/class-tm-epo-builder-base.php:773
+msgid "Select the size of the datepicker."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:874
+#: include/class-tm-epo-builder-base.php:768
+msgid "Small"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:875
+#: include/class-tm-epo-builder-base.php:769
+msgid "Medium"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:876
+#: include/class-tm-epo-builder-base.php:770
+msgid "Large"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:881
+msgid "Datepicker position"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:882
+#: include/class-tm-epo-builder-base.php:787
+msgid "Select the position of the datepicker."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:891
+#: include/class-tm-epo-builder-base.php:783
+msgid "Top of screen"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:892
+#: include/class-tm-epo-builder-base.php:784
+msgid "Bottom of screen"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:919
+msgid "Username"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:920
+msgid "Your Envato username."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:929
+msgid "Envato API Key"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:930
+msgid ""
+"You can find your API key by visiting your Account page then clicking the My "
+"Settings tab. At the bottom of the page you’ll find your account’s API key "
+"and a button to regenerate it as needed."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:937
+msgid "Purchase code"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:938
+msgid ""
+"Please enter your <strong>CodeCanyon WooCommerce Extra Product Options "
+"purchase code</strong>."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:938
+msgid "To access your Purchase Code for an item:"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:940
+msgid "Log into your Marketplace account"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:941
+msgid "From your account dropdown links, select \"Downloads\""
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:942
+msgid "Click the \"Download\" button that corresponds with your purchase"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:943
+msgid ""
+"Select the \"License certificate &amp; purchase code\" download link. Your "
+"Purchase Code will be displayed within the License Certificate."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:948
+msgid "Deactivate License"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:949
+msgid "Activate License"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:954
+msgid "License activated."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:982
+msgid "Upload folder"
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:983
+msgid "Changing this will only affect future uploads."
+msgstr ""
+
+#: admin/class-tm-epo-admin-settings.php:994
+msgid "File manager"
+msgstr ""
+
+#: admin/views/html-tm-epo-admin.php:31 admin/views/html-tm-epo-admin.php:46
+msgid "Any"
+msgstr ""
+
+#: admin/views/html-tm-epo-admin.php:70 admin/views/html-tm-epo-admin.php:176
+msgid "Remove"
+msgstr ""
+
+#: admin/views/html-tm-epo-admin.php:71 admin/views/html-tm-epo-admin.php:177
+msgid "Click to toggle"
+msgstr ""
+
+#: admin/views/html-tm-epo-admin.php:73 admin/views/html-tm-epo-admin.php:124
+#: admin/views/html-tm-epo-admin.php:179 admin/views/html-tm-epo.php:108
+msgid "Attribute:"
+msgstr ""
+
+#: admin/views/html-tm-epo-admin.php:76
+msgid "Type:"
+msgstr ""
+
+#: admin/views/html-tm-epo-admin.php:78
+#: include/class-tm-epo-builder-base.php:223
+#: include/class-tm-epo-builder-base.php:2578
+msgid "Radio buttons"
+msgstr ""
+
+#: admin/views/html-tm-epo-admin.php:79
+msgid "Checkbox"
+msgstr ""
+
+#: admin/views/html-tm-epo-admin.php:80
+msgid "Select"
+msgstr ""
+
+#: admin/views/html-tm-epo-admin.php:84
+#: include/class-tm-epo-builder-base.php:1389
+msgid "Hide price"
+msgstr ""
+
+#: admin/views/html-tm-epo-admin.php:87
+#: include/class-tm-epo-builder-base.php:941
+msgid "Required"
+msgstr ""
+
+#: admin/views/html-tm-epo-admin.php:90
+msgid "Enabled"
+msgstr ""
+
+#: admin/views/html-tm-epo-admin.php:106 admin/views/html-tm-epo-admin.php:202
+#: include/class-tm-epo-builder-base.php:1323
+msgid "Limit selection"
+msgstr ""
+
+#: admin/views/html-tm-epo-admin.php:116 admin/views/html-tm-epo-admin.php:212
+msgid "Variation:"
+msgstr ""
+
+#: admin/views/html-tm-epo-admin.php:131 admin/views/html-tm-epo-admin.php:227
+msgid "Price:"
+msgstr ""
+
+#: admin/views/html-tm-epo-admin.php:145 admin/views/html-tm-epo-admin.php:241
+msgid "Custom price (required)"
+msgstr ""
+
+#: admin/views/html-tm-epo-admin.php:155 admin/views/html-tm-epo-admin.php:251
+msgid "Custom price"
+msgstr ""
+
+#: admin/views/html-tm-epo-admin.php:182 admin/views/html-tm-epo-admin.php:220
+msgid "Attributes missing. Please DELETE this extra option:"
+msgstr ""
+
+#: admin/views/html-tm-epo-fields-edit.php:16
+#: admin/views/html-tm-epo-fields-edit.php:17
+#: admin/views/html-tm-epo-fields-edit.php:18
+#: admin/views/html-tm-epo-fields-edit.php:19
+msgid "Form updated."
+msgstr ""
+
+#: admin/views/html-tm-epo-fields-edit.php:21
+#, php-format
+msgid "Form restored to revision from %s"
+msgstr ""
+
+#: admin/views/html-tm-epo-fields-edit.php:22
+msgid "Form published."
+msgstr ""
+
+#: admin/views/html-tm-epo-fields-edit.php:23
+msgid "Form saved."
+msgstr ""
+
+#: admin/views/html-tm-epo-fields-edit.php:24
+msgid "Form submitted."
+msgstr ""
+
+#: admin/views/html-tm-epo-fields-edit.php:25
+#, php-format
+msgid "Form scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: admin/views/html-tm-epo-fields-edit.php:27
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: admin/views/html-tm-epo-fields-edit.php:28
+msgid "Form draft updated."
+msgstr ""
+
+#: admin/views/html-tm-epo-fields-edit.php:63
+msgid "Enter title here"
+msgstr ""
+
+#: admin/views/html-tm-epo-fields.php:42
+msgid "Undo"
+msgstr ""
+
+#: admin/views/html-tm-epo.php:41
+msgid ""
+"Before adding Extra Options, add and save some attributes on the "
+"<strong>Attributes</strong> tab."
+msgstr ""
+
+#: admin/views/html-tm-epo.php:45
+msgid "Close all"
+msgstr ""
+
+#: admin/views/html-tm-epo.php:45
+msgid "Expand all"
+msgstr ""
+
+#: admin/views/html-tm-epo.php:104
+msgid "Add Extra Option"
+msgstr ""
+
+#: admin/views/html-tm-global-epo.php:27
+msgid "Select mode"
+msgstr ""
+
+#: admin/views/html-tm-global-epo.php:29
+msgid "BUILDER"
+msgstr ""
+
+#: admin/views/html-tm-global-epo.php:30
+msgid "LOCAL"
+msgstr ""
+
+#: admin/views/html-tm-global-epo.php:31
+msgid "SETTINGS"
+msgstr ""
+
+#: admin/views/html-tm-global-epo.php:47
+msgid ""
+"To translate the strings for the local options please use WPML interface."
+msgstr ""
+
+#: admin/views/html-tm-global-epo.php:66 include/tm-welcome.php:261
+msgid "Include additional Global forms"
+msgstr ""
+
+#: admin/views/html-tm-global-epo.php:92
+msgid "Exclude from Global Extra Product Options"
+msgstr ""
+
+#: admin/views/html-tm-global-epo.php:104
+msgid "Override global display"
+msgstr ""
+
+#: admin/views/html-tm-global-epo.php:109
+#: admin/views/html-tm-global-epo.php:125
+msgid "Use global setting"
+msgstr ""
+
+#: admin/views/html-tm-global-epo.php:110
+msgid "Always show"
+msgstr ""
+
+#: admin/views/html-tm-global-epo.php:111
+msgid "Show only with action hook"
+msgstr ""
+
+#: admin/views/html-tm-global-epo.php:120
+msgid "Override Final total box"
+msgstr ""
+
+#: admin/views/html-tm-global-epo.php:127
+msgid "Show only Final box"
+msgstr ""
+
+#: admin/views/html-tm-global-epo.php:128
+msgid "Show Final box and hide Options if zero"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:88
+msgid "Heading"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:103
+#: include/class-tm-epo-builder-base.php:1859
+msgid "Divider"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:133
+msgid "Range picker"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:148
+msgid "Color picker"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:163
+msgid "Text Area"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:178
+msgid "Text Field"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:193
+msgid "Upload"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:208
+msgid "Select Box"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:238
+msgid "Checkboxes"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:253
+msgid "Variations"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:381
+msgid "Title options"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:382
+#: include/class-tm-epo-builder-base.php:530
+#: include/class-tm-epo-builder-base.php:564
+#: include/class-tm-epo-builder-base.php:1616
+msgid "General options"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:383
+#: include/class-tm-epo-builder-base.php:531
+#: include/class-tm-epo-builder-base.php:565
+#: include/class-tm-epo-builder-base.php:1617
+msgid "Conditional Logic"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:440
+msgid "Normal (clear)"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:441
+msgid "Box"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:442
+msgid "Expand and Collapse (start opened)"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:443
+msgid "Expand and Collapse (start closed)"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:444
+msgid "Accordion"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:446
+msgid "Section style"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:447
+msgid "Select this section's display style."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:457
+msgid "Before Local Options"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:458
+msgid "After Local Options"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:460
+msgid "Section placement"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:461
+msgid "Select where this section will appear compare to local Options."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:472
+msgid "Pop up"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:473
+msgid "Slider (wizard)"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:475
+msgid "Section type"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:476
+msgid "Select this section's display type."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:484
+msgid "Section class name"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:485
+msgid "Enter an extra class name to add to this section"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:508
+#: include/class-tm-epo-builder-base.php:873
+#: include/class-tm-epo-builder-base.php:938
+#: include/class-tm-epo-builder-base.php:1196
+#: include/class-tm-epo-builder-base.php:1236
+#: include/class-tm-epo-builder-base.php:1252
+#: include/class-tm-epo-builder-base.php:1267
+#: include/class-tm-epo-builder-base.php:1283
+#: include/class-tm-epo-builder-base.php:1298
+#: include/class-tm-epo-builder-base.php:1386
+#: include/class-tm-epo-builder-base.php:1899
+#: include/class-tm-epo-builder-base.php:2647
+msgid "No"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:509
+#: include/class-tm-epo-builder-base.php:874
+#: include/class-tm-epo-builder-base.php:939
+#: include/class-tm-epo-builder-base.php:1197
+#: include/class-tm-epo-builder-base.php:1237
+#: include/class-tm-epo-builder-base.php:1253
+#: include/class-tm-epo-builder-base.php:1284
+#: include/class-tm-epo-builder-base.php:1299
+#: include/class-tm-epo-builder-base.php:1387
+#: include/class-tm-epo-builder-base.php:1900
+msgid "Yes"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:512
+msgid "Section Conditional Logic"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:513
+msgid "Enable conditional logic for showing or hiding this section."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:532
+#: include/class-tm-epo-builder-base.php:566
+#: include/class-tm-epo-builder-base.php:1618
+msgid "CSS settings"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:551
+#: include/class-tm-epo-builder-base.php:672
+#: include/class-tm-epo-builder-base.php:1645
+msgid "Element class name"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:552
+#: include/class-tm-epo-builder-base.php:673
+#: include/class-tm-epo-builder-base.php:1646
+msgid "Enter an extra class name to add to this element"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:578
+#: include/class-tm-epo-builder-base.php:1740
+#: include/class-tm-epo-builder-base.php:1752
+msgid "H1"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:579
+#: include/class-tm-epo-builder-base.php:1741
+#: include/class-tm-epo-builder-base.php:1753
+msgid "H2"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:580
+#: include/class-tm-epo-builder-base.php:1742
+#: include/class-tm-epo-builder-base.php:1754
+msgid "H3"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:581
+#: include/class-tm-epo-builder-base.php:1743
+#: include/class-tm-epo-builder-base.php:1755
+msgid "H4"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:582
+#: include/class-tm-epo-builder-base.php:1744
+#: include/class-tm-epo-builder-base.php:1756
+msgid "H5"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:583
+#: include/class-tm-epo-builder-base.php:1745
+#: include/class-tm-epo-builder-base.php:1757
+msgid "H6"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:584
+#: include/class-tm-epo-builder-base.php:1746
+#: include/class-tm-epo-builder-base.php:1758
+msgid "p"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:585
+#: include/class-tm-epo-builder-base.php:1747
+#: include/class-tm-epo-builder-base.php:1759
+msgid "div"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:586
+#: include/class-tm-epo-builder-base.php:1748
+#: include/class-tm-epo-builder-base.php:1760
+msgid "span"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:588
+msgid "Header type"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:596
+msgid "Header title"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:606
+#: include/class-tm-epo-builder-base.php:648
+#: include/class-tm-epo-builder-base.php:1782
+#: include/class-tm-epo-builder-base.php:1816
+msgid "Above field"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:607
+#: include/class-tm-epo-builder-base.php:1783
+msgid "Left of the field"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:608
+#: include/class-tm-epo-builder-base.php:1784
+msgid "Right of the field"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:611
+msgid "Header position"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:620
+msgid "Header color"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:621
+#: include/class-tm-epo-builder-base.php:638
+#: include/class-tm-epo-builder-base.php:1797
+#: include/class-tm-epo-builder-base.php:1833
+msgid "Leave empty for default value"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:628
+msgid "Content"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:637
+msgid "Content color"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:649
+#: include/class-tm-epo-builder-base.php:1817
+msgid "Below field"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:650
+#: include/class-tm-epo-builder-base.php:889
+#: include/class-tm-epo-builder-base.php:1818
+#: include/class-tm-epo-builder-base.php:2664
+msgid "Tooltip"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:651
+#: include/class-tm-epo-builder-base.php:1819
+msgid "Icon tooltip left"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:652
+#: include/class-tm-epo-builder-base.php:1820
+msgid "Icon tooltip right"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:654
+msgid "Content position"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:720
+msgid "Minimum selectable date"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:721
+#: include/class-tm-epo-builder-base.php:730
+msgid "A number of days from today."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:729
+msgid "Maximum selectable date"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:737
+msgid "Disabled dates"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:738
+msgid ""
+"Comma separated dates according to your selected date format. (Two digits "
+"for day, two digits for month and four digits for year)"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:745
+msgid "Enabled dates"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:746
+msgid ""
+"Comma separated dates according to your selected date format. (Two digits "
+"for day, two digits for month and four digits for year). Please note that "
+"this will override any other setting!"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:758
+msgid "Theme"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:772
+#: include/class-tm-epo-helper-base.php:596
+msgid "Size"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:786
+msgid "Position"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:795
+msgid "Disable weekdays"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:796
+msgid "This allows you to disable all selected weekdays."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:802
+#: include/class-tm-epo-wpml-base.php:607
+msgid "Translations"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:814 templates/tm-date.php:66
+msgid "Day"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:827 templates/tm-date.php:75
+msgid "Month"
+msgstr "Mês "
+
+#: include/class-tm-epo-builder-base.php:836 templates/tm-date.php:84
+msgid "Year"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:859
+#: include/class-tm-epo-builder-base.php:860
+#: include/class-tm-epo-builder-base.php:861
+#: include/class-tm-epo-builder-base.php:1050
+#: include/class-tm-epo-builder-base.php:2937
+msgid "Subscription fee"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:876
+msgid "Enable points display?"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:877
+msgid "This allows you to generate points along the range picker."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:890
+msgid "Left side"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:891
+msgid "Right side"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:892
+msgid "Tooltip and Left side"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:893
+msgid "Tooltip and Right side"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:895
+msgid "Show value on"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:896
+msgid "Select how to show the value of the range picker."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:907
+msgid "Step value"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:908
+msgid "Enter the step for the handle."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:920
+msgid "No validation"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:921
+msgid "Email"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:922
+msgid "Url"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:923
+msgid "Number"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:924
+msgid "Digits"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:926
+msgid "Validate as"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:927
+msgid "Choose whether the field will be validated against the choosen method."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:942
+msgid "Choose whether the user must fill out this field or not."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:953
+#: include/class-tm-epo-builder-base.php:2972
+#: include/class-tm-extra-product-options.php:1112
+#: include/class-tm-extra-product-options.php:2662
+#: include/class-tm-extra-product-options.php:3806 templates/cart/cart.php:36
+#: templates/cart/flatsome/cart.php:33 templates/cart/salient/cart.php:30
+msgid "Price"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:954
+msgid "Enter the price for this field or leave it blank for no price."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:965
+msgid "Sale Price"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:966
+msgid ""
+"Enter the sale price for this field or leave it blankto use the default "
+"price."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:976
+msgid "Text after Price"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:977
+msgid ""
+"Enter a text to display after the price for this field or leave it blank for "
+"no text."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:986
+msgid "Text before Price"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:987
+msgid ""
+"Enter a text to display before the price for this field or leave it blank "
+"for no text."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1001
+#: include/class-tm-epo-builder-base.php:1026
+#: include/class-tm-epo-builder-base.php:1081
+#: include/class-tm-epo-builder-base.php:1098
+#: include/class-tm-epo-builder-base.php:1119
+#: include/class-tm-epo-builder-base.php:2914
+msgid "Percent of the original price"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1002
+#: include/class-tm-epo-builder-base.php:1027
+#: include/class-tm-epo-builder-base.php:1082
+#: include/class-tm-epo-builder-base.php:1099
+#: include/class-tm-epo-builder-base.php:1120
+#: include/class-tm-epo-builder-base.php:2915
+msgid "Percent of the original price + options"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1003
+#: include/class-tm-epo-builder-base.php:1028
+msgid "Price per char"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1004
+#: include/class-tm-epo-builder-base.php:1029
+msgid "Percent of the original price per char"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1005
+#: include/class-tm-epo-builder-base.php:1030
+msgid "Price per char (no first char)"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1006
+#: include/class-tm-epo-builder-base.php:1031
+msgid "Percent of the original price per char (no first char)"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1007
+#: include/class-tm-epo-builder-base.php:1032
+msgid "Price per char (no spaces)"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1008
+#: include/class-tm-epo-builder-base.php:1033
+#: include/class-tm-epo-builder-base.php:1049
+#: include/class-tm-epo-builder-base.php:1065
+#: include/class-tm-epo-builder-base.php:1100
+#: include/class-tm-epo-builder-base.php:1121
+#: include/class-tm-epo-builder-base.php:2940
+msgid "Fee"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1010
+#: include/class-tm-epo-builder-base.php:1035
+#: include/class-tm-epo-builder-base.php:1052
+#: include/class-tm-epo-builder-base.php:1067
+#: include/class-tm-epo-builder-base.php:1084
+#: include/class-tm-epo-builder-base.php:1102
+#: include/class-tm-epo-builder-base.php:1123
+msgid "Price type"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1024
+#: include/class-tm-extra-product-options.php:2663 templates/cart/cart.php:37
+#: templates/cart/flatsome/cart.php:34 templates/cart/salient/cart.php:31
+msgid "Quantity"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1025
+#: include/class-tm-epo-builder-base.php:1117
+msgid "Current value"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1048
+#: include/class-tm-epo-builder-base.php:1064
+msgid "Use options"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1116
+msgid "Step * price"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1118
+msgid "Price per Interval"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1134
+msgid "Min value"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1135
+msgid "Enter the minimum value."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1145
+msgid "Max value"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1146
+msgid "Enter the maximum value."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1156
+msgid "Day / Month / Year"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1157
+msgid "Month / Date / Year"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1158
+msgid "Day . Month . Year"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1159
+msgid "Month . Date . Year"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1160
+msgid "Day - Month - Year"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1161
+msgid "Month - Date - Year"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1163
+msgid "Date format"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1173
+msgid "Start year"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1174
+msgid "Enter starting year."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1184
+msgid "End year"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1185
+msgid "Enter ending year."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1199
+msgid "Use URL replacements"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1200
+msgid "Choose whether to redirect to a URL if the option is click."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1212
+msgid "Populate options"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1213
+msgid "Double click the radio button to remove its selected attribute."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1224
+msgid "Variation options"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1239
+msgid "Use image replacements"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1240
+msgid "Choose whether to use images in place of radio buttons."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1255
+msgid "Use image lightbox"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1256
+msgid "Choose whether to enable the lightbox on the thumbnail."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1268
+#: include/class-tm-epo-builder-base.php:2648
+msgid "Use the image replacements"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1269
+#: include/class-tm-epo-builder-base.php:2649
+msgid "Use custom image"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1271
+#: include/class-tm-epo-builder-base.php:2651
+msgid "Changes product image"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1272
+#: include/class-tm-epo-builder-base.php:2652
+msgid "Choose whether to change the product image."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1286
+msgid "Enable Swatch mode"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1287
+msgid ""
+"Swatch mode will show the option label on a tooltip when Use image "
+"replacements is active."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1301
+msgid "Enable clear options button"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1302
+msgid "This will add a button to clear the selected option."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1312
+#: include/class-tm-epo-builder-base.php:2620
+msgid "Items per row"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1313
+#: include/class-tm-epo-builder-base.php:2621
+msgid ""
+"Use this field to make a grid display. Enter how many items per row for the "
+"grid or leave blank for normal display."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1324
+msgid ""
+"Enter a number above 0 to limit the checkbox selection or leave blank for "
+"default behaviour."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1334
+msgid "Exact selection"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1335
+msgid ""
+"Enter a number above 0 to have the user select the exact number of "
+"checkboxes or leave blank for default behaviour."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1345
+msgid "Minimum selection"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1346
+msgid ""
+"Enter a number above 0 to have the user select at least that number of "
+"checkboxes or leave blank for default behaviour."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1356
+msgid "Normal browser button"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1357
+msgid "Styled button"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1359
+msgid "Upload button style"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1370
+msgid "Date field"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1371
+msgid "Date picker"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1372
+msgid "Date field and picker"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1374
+msgid "Date picker style"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1390
+msgid "Choose whether to hide the price or not."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1404
+msgid "Right"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1405
+msgid "Left"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1406
+msgid "Top"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1407
+msgid "Bottom"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1409
+msgid "Quantity selector"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1410
+msgid "This will show a quantity selector for this option."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1412
+msgid "Quantity min value"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1413
+msgid "Quantity max value"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1421
+msgid "Quantity step"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1422
+msgid "Enter the quantity step."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1424
+msgid "Quantity Default value"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1424
+msgid "Enter a value to be applied to the Quantity field automatically."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1433
+msgid "Placeholder"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1444
+msgid "Minimum characters"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1445
+msgid "Enter a value for the minimum characters the user must enter."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1455
+msgid "Maximum characters"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1456
+msgid "Enter a value to limit the maximum characters the user can enter."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1465
+#: include/class-tm-epo-builder-base.php:1475
+msgid "Default value"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1466
+#: include/class-tm-epo-builder-base.php:1476
+msgid "Enter a value to be applied to the field automatically."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1491
+msgid "Sunday"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1492
+msgid "Monday"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1493
+msgid "Tuesday"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1494
+msgid "Wednesday"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1495
+msgid "Thursday"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1496
+msgid "Friday"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1497
+msgid "Saturday"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1526
+#, php-format
+msgid "Leave it blank to calculate it automatically from the %s price"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1544
+#, php-format
+msgid "Leave it blank to calculate it automatically from the %s sale price"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1615
+msgid "Label options"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1708
+msgid "this field if"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1708
+msgid "all"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1708
+msgid "any"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1708
+msgid "of these rules match"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1749
+msgid "label"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1763
+msgid "Label type"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1772
+#: include/class-tm-epo-builder-base.php:2968
+#: include/class-tm-extra-product-options.php:3803
+msgid "Label"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1787
+msgid "Label position"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1796
+msgid "Label color"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1805
+msgid "Subtitle"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1822
+msgid "Subtitle position"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1832
+msgid "Subtitle color"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1858
+msgid "Horizontal rule"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1860
+msgid "Padding"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1862
+msgid "Divider type"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1868
+msgid "None"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1903
+msgid "Element Conditional Logic"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1904
+msgid "Enable conditional logic for showing or hiding this element."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:1956
+msgid "Section"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2567
+#: include/class-tm-epo-builder-base.php:2852
+msgid "Choose the image to use in place of the radio button."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2567
+#: include/class-tm-epo-builder-base.php:2568
+msgid "Remove the image."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2568
+#: include/class-tm-epo-builder-base.php:2857
+#: include/class-tm-epo-builder-base.php:2861
+msgid "Choose the image to replace the product image with."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2577
+msgid "Select boxes"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2579
+msgid "Image swatches"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2580
+msgid "Color swatches"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2582
+msgid "Display as"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2583
+msgid "Select the display type of this attribute."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2590
+msgid "Attribute Label"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2591
+msgid "Leave blank to use the original attribute label."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2603
+msgid "Show reset button"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2604
+msgid "Enables the display of a reset button for this attribute."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2611
+msgid "Attribute element class name"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2612
+msgid "Enter an extra class name to add to this attribute element"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2629
+msgid "Width"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2630
+msgid "Enter the width of the displayed item or leave blank for auto width."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2638
+msgid "Height"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2639
+msgid "Enter the height of the displayed item or leave blank for auto height."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2662
+msgid "Show bottom"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2663
+msgid "Show inside"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2666
+msgid "Show attribute name"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2667
+msgid "Choose whether to show or hide the attribute name."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2678
+msgid "Color"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2679
+msgid "Select the color to use."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2687
+msgid "Image replacement"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2688
+msgid "Select an image for this term."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2697
+msgid "Product Image replacement"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2698
+msgid "Select the image to replace the product image with."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2719
+msgid "No saved variations found."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2854
+msgid "Choose the image to use in place of the checkbox."
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2967
+#: include/class-tm-epo-builder-base.php:3030
+msgid "Checked"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2969
+msgid "Images"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2971
+#: include/class-tm-extra-product-options.php:1110
+#: include/class-tm-extra-product-options.php:1226
+#: include/class-tm-extra-product-options.php:3804
+msgid "Value"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:2973
+msgid "Delete all options"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:3044
+#: include/class-tm-epo-builder-base.php:3062
+#: include/class-tm-epo-builder-base.php:3069
+msgid "Sale"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:3080
+msgid "URL"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:3086
+msgid "Add item"
+msgstr ""
+
+#: include/class-tm-epo-builder-base.php:3087
+msgid "Mass add"
+msgstr ""
+
+#: include/class-tm-epo-check-base.php:38
+#, php-format
+msgid ""
+"%sImportant:%s WooCommerce Multilingual plugin is not supported and will "
+"cause loss of data."
+msgstr ""
+
+#: include/class-tm-epo-check-base.php:65
+#, php-format
+msgid ""
+"%sImportant:%s WooCommerce TM Extra Product Options requires %sWooCommerce%s "
+"2.1 or later."
+msgstr ""
+
+#: include/class-tm-epo-check-base.php:69
+#, php-format
+msgid ""
+"%sImportant:%s Please run WooCommerce updater before using WooCommerce TM "
+"Extra Product Options."
+msgstr ""
+
+#: include/class-tm-epo-check-base.php:91
+#, php-format
+msgid ""
+"%sImportant:%s WooCommerce TM Extra Product Options requires WordPress 3.5 "
+"or later."
+msgstr ""
+
+#: include/class-tm-epo-check-base.php:114
+msgid "WooCommerce TM Extra Product Options requires WordPress 3.5 or later."
+msgstr ""
+
+#: include/class-tm-epo-helper-base.php:595
+msgid "Filename"
+msgstr ""
+
+#: include/class-tm-epo-helper-base.php:607
+#: include/class-tm-epo-helper-base.php:620
+msgid "Delete"
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:89
+msgid "Error connecting to server!"
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:95
+msgid "Error getting data from the server!"
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:110
+msgid "License activated!"
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:114
+msgid "License deactivated!"
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:120
+msgid "Invalid data!"
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:126
+msgid "Invalid action."
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:129
+msgid "Please fill all fields before trying to activate."
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:132
+msgid "Trying to activate from outside the plugin interface is not allowed!"
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:135
+msgid "Error connecting to Envato API. Please try again later."
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:138
+msgid "Trying to activate with an invalid purchase code!"
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:141
+msgid ""
+"That username is not valid for this item purchase code. Please make sure you "
+"entered the correct username (case sensitive)."
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:144
+msgid "Trying to activate from an invalid domain!"
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:147
+msgid "Trying to activate from an invalid IP address!"
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:150
+msgid "The purchase code is already activated!"
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:153
+msgid "The purchase code is already activated on another domain!"
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:156
+msgid "You have already activated that purchase code on another domain!"
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:159
+msgid "The purchase code is already activated! Please buy a valid license!"
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:163
+msgid "You have already activated your purchase code!"
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:166
+msgid "Cannot deactivate. Purchase code is not activated!"
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:170
+msgid ""
+"Cannot deactivate. Purchase code is not valid for your save license key!"
+msgstr ""
+
+#: include/class-tm-epo-update-licenser.php:177
+msgid "Could not complete request!"
+msgstr ""
+
+#: include/class-tm-epo-update-updater.php:46
+msgid "Downloading package from envato market..."
+msgstr ""
+
+#: include/class-tm-epo-update-updater.php:51
+msgid "Error! Can't connect to filesystem"
+msgstr ""
+
+#: include/class-tm-epo-update-updater.php:58
+msgid ""
+"To receive automatic updates license activation is required. Please visit <a "
+"href=\""
+msgstr ""
+
+#: include/class-tm-epo-update-updater.php:64
+msgid "Error! Envato API error"
+msgstr ""
+
+#: include/class-tm-epo-update-updater.php:78
+msgid "Error on unzipping package"
+msgstr ""
+
+#: include/class-tm-epo-update-updater.php:178
+msgid "Download new version from CodeCanyon"
+msgstr ""
+
+#: include/class-tm-epo-update-updater.php:178
+msgid "or register the plugin to receive automatic updates."
+msgstr ""
+
+#: include/class-tm-epo-wpml-base.php:440
+#, php-format
+msgid "Add translation to %s"
+msgstr ""
+
+#: include/class-tm-epo-wpml-base.php:452
+#, php-format
+msgid "Edit the %s translation"
+msgstr ""
+
+#: include/class-tm-epo-wpml-base.php:464
+msgid "Language"
+msgstr ""
+
+#: include/class-tm-epo-wpml-base.php:558
+#, php-format
+msgid "Language of this %s"
+msgstr ""
+
+#: include/class-tm-epo-wpml-base.php:569
+msgid "This is a translation of"
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:1110
+#: include/class-tm-extra-product-options.php:1226
+msgid "Option"
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:1113
+#: include/class-tm-extra-product-options.php:1117
+#: include/class-tm-extra-product-options.php:1227
+#: include/class-tm-extra-product-options.php:3805
+msgid "Qty"
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:1114
+#: include/class-tm-extra-product-options.php:2664 templates/cart/cart.php:38
+#: templates/cart/flatsome/cart.php:35 templates/cart/salient/cart.php:32
+#: templates/checkout/review-order.php:18
+#: templates/checkout/review-order.php:120
+msgid "Total"
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:1226
+msgid "Extra Product Options Fees"
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:1389
+msgid "Edit options"
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:1636
+#: include/class-tm-extra-product-options.php:3793
+msgid "Extra fee"
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:1993
+msgid "Select options"
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:2029
+msgid "Empty cart"
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:2277
+msgid "You cannot add negative priced products to the cart."
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:2679
+#: include/class-tm-extra-product-options.php:3801
+#: templates/tm-builder-section-start.php:27
+msgid "Additional options"
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:2825
+msgid "Options Subscription fee"
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:3794
+msgid "Options amount"
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:3795
+msgid "Final total"
+msgstr "Final total: "
+
+#: include/class-tm-extra-product-options.php:3796
+msgid "Prev"
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:3797
+msgid "Next"
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:3798
+msgid "Sign up fee"
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:3827
+msgid "This field is required."
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:3828
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:3829
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:3830
+msgid "Please enter a valid number."
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:3831
+msgid "Please enter only digits."
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:3832
+msgid "Please enter no more than {0} characters."
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:3833
+msgid "Please enter at least {0} characters."
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:3834
+msgid "Please enter a value less than or equal to {0}."
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:3835
+msgid "Please enter a value greater than or equal to {0}."
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:3837
+msgid "Please select up to {0} choices."
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:3838
+msgid "Please select exactly {0} choices."
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:3839
+msgid "Please select at least {0} choices."
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:3850
+msgid "Done"
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:3851
+msgid "Today"
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:5711
+#: include/class-tm-extra-product-options.php:5815
+#, php-format
+msgid "\"%s\" is a required field."
+msgstr ""
+
+#: include/class-tm-extra-product-options.php:5832 templates/cart/cart.php:173
+#: templates/cart/flatsome/cart.php:172 templates/cart/salient/cart.php:182
+msgid "Update Cart"
+msgstr ""
+
+#: include/fields/class-tm-epo-fields-date.php:82
+#: include/fields/class-tm-epo-fields-date.php:146
+#: include/fields/class-tm-epo-fields-date.php:213
+msgid "Invalid date entered!"
+msgstr ""
+
+#: include/fields/class-tm-epo-fields-date.php:111
+msgid "Invalid data submitted!"
+msgstr ""
+
+#: include/fields/class-tm-epo-fields-date.php:153
+msgid "Invalid year date entered!"
+msgstr ""
+
+#: include/fields/class-tm-epo-fields-date.php:166
+#: include/fields/class-tm-epo-fields-date.php:186
+#: include/fields/class-tm-epo-fields-date.php:204
+msgid "You cannot select that date!"
+msgstr ""
+
+#: include/fields/class-tm-epo-fields-textarea.php:38
+#: include/fields/class-tm-epo-fields-textfield.php:38
+#, php-format
+msgid "You must enter at least %s characters for \"%s\"."
+msgstr ""
+
+#: include/fields/class-tm-epo-fields-textarea.php:49
+#: include/fields/class-tm-epo-fields-textfield.php:49
+#, php-format
+msgid "You cannot enter more than %s characters for \"%s\"."
+msgstr ""
+
+#: include/fields/class-tm-epo-fields-upload.php:43
+msgid "Upload successful"
+msgstr ""
+
+#: include/tm-functions.php:64
+msgid "Everyone"
+msgstr ""
+
+#: include/tm-functions.php:65
+msgid "Logged in users"
+msgstr ""
+
+#: include/tm-welcome.php:22
+msgid "About WooCommerce TM Extra Product Options"
+msgstr ""
+
+#: include/tm-welcome.php:23
+msgid "Welcome to WooCommerce TM Extra Product Options"
+msgstr ""
+
+#: include/tm-welcome.php:190
+#, php-format
+msgid "Welcome to Extra Product Options %s"
+msgstr ""
+
+#: include/tm-welcome.php:194
+msgid "Thank you for the purchase!"
+msgstr ""
+
+#: include/tm-welcome.php:196
+#, php-format
+msgid ""
+"%s If you have any questions or problems with the plugin please visit the "
+"support forum <a href=\"http://support.themecomplete.com\">here</a>."
+msgstr ""
+
+#: include/tm-welcome.php:200
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: include/tm-welcome.php:204
+msgid "Documentation"
+msgstr ""
+
+#: include/tm-welcome.php:205
+msgid "Support"
+msgstr ""
+
+#: include/tm-welcome.php:238
+msgid "Extend-able elements"
+msgstr ""
+
+#: include/tm-welcome.php:240
+msgid ""
+"Extra Product Options can now be extended by creating addon plugins. You can "
+"create you own elements or customize the default ones."
+msgstr ""
+
+#: include/tm-welcome.php:241
+msgid ""
+"If you are interested in developing an addon to Extra Product Options "
+"contact us for more information."
+msgstr ""
+
+#: include/tm-welcome.php:253
+msgid "Validation features"
+msgstr ""
+
+#: include/tm-welcome.php:254
+msgid ""
+"You can now have validation features applied to the options created with the "
+"builder when they support it. This way you create number or email fields and "
+"the customer will not be permitted to add the product to the cart if the "
+"fields do not conform to the selected validation."
+msgstr ""
+
+#: include/tm-welcome.php:257
+msgid "Related image sizes for image replacements"
+msgstr ""
+
+#: include/tm-welcome.php:258
+msgid ""
+"When choosing an image replacement or a picture to replace the product image "
+"you can now select between the various image sizes that WordPress applies to "
+"that image."
+msgstr ""
+
+#: include/tm-welcome.php:262
+msgid ""
+"You can now include global forms to individual products even if they are not "
+"assigned to those forms. You can do that from the new settings tab."
+msgstr ""
+
+#: include/tm-welcome.php:291
+msgid "For any problems feel free to contact us at the"
+msgstr ""
+
+#: include/tm-welcome.php:291
+msgid "Support forum"
+msgstr ""
+
+#: templates/cart/cart.php:35 templates/cart/flatsome/cart.php:32
+#: templates/cart/salient/cart.php:29 templates/checkout/review-order.php:17
+msgid "Product"
+msgstr ""
+
+#: templates/cart/cart.php:64 templates/cart/flatsome/cart.php:57
+#: templates/cart/salient/cart.php:54
+msgid "Remove this item"
+msgstr ""
+
+#: templates/cart/cart.php:91 templates/cart/flatsome/cart.php:84
+#: templates/cart/salient/cart.php:81
+msgid "Available on backorder"
+msgstr ""
+
+#: templates/cart/cart.php:166 templates/cart/flatsome/cart.php:179
+#: templates/cart/salient/cart.php:156
+msgid "Coupon"
+msgstr ""
+
+#: templates/cart/cart.php:166 templates/cart/salient/cart.php:156
+msgid "Coupon code"
+msgstr ""
+
+#: templates/cart/cart.php:166 templates/cart/flatsome/cart.php:181
+#: templates/cart/salient/cart.php:156
+msgid "Apply Coupon"
+msgstr ""
+
+#: templates/cart/flatsome/cart.php:173 templates/cart/salient/cart.php:182
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: templates/cart/flatsome/cart.php:180
+msgid "Enter Coupon"
+msgstr ""
+
+#: templates/checkout/review-order.php:73
+msgid "Subtotal"
+msgstr ""
+
+#: templates/tm-upload.php:29
+msgid "Select file"
+msgstr ""
+
+#: templates/tm-upload.php:42
+#, php-format
+msgid "(max file size %s)"
+msgstr ""
+
+#: templates/tm-variations.php:192
+msgid "Choose an option"
+msgstr ""
+
+#: templates/tm-variations.php:374
+msgid "Reset options"
+msgstr ""
+
+#: tm-woo-extra-product-options.php:133
+msgctxt "post type general name"
+msgid "TM Extra Product Options"
+msgstr ""
+
+#: tm-woo-extra-product-options.php:147
+msgid "TM Global Forms"
+msgstr ""
+
+#: tm-woo-extra-product-options.php:148
+msgid "TM Global Form"
+msgstr ""
+
+#: tm-woo-extra-product-options.php:149
+msgctxt "post type general name"
+msgid "TM Global Product Options"
+msgstr ""
+
+#: tm-woo-extra-product-options.php:150
+msgid "Add Global Form"
+msgstr ""
+
+#: tm-woo-extra-product-options.php:151
+msgid "Add New Global Form"
+msgstr ""
+
+#: tm-woo-extra-product-options.php:153
+msgid "Edit Global Form"
+msgstr ""
+
+#: tm-woo-extra-product-options.php:154
+msgid "New Global Form"
+msgstr ""
+
+#: tm-woo-extra-product-options.php:155 tm-woo-extra-product-options.php:156
+msgid "View Global Form"
+msgstr ""
+
+#: tm-woo-extra-product-options.php:157
+msgid "Search Global Form"
+msgstr ""
+
+#: tm-woo-extra-product-options.php:158
+msgid "No Global Form found"
+msgstr ""
+
+#: tm-woo-extra-product-options.php:159
+msgid "No Global Form found in trash"
+msgstr ""
+
+#: tm-woo-extra-product-options.php:160
+msgid "Parent Global Form"
+msgstr ""
+
+#: tm-woo-extra-product-options.php:162
+msgid "This is where you can add new products to your store."
+msgstr ""
+
+#: tm-woo-extra-product-options.php:265
+msgid "Echo a custom action"
+msgstr ""
+
+#: tm-woo-extra-product-options.php:269
+msgid "EPO custom action"
+msgstr ""
+
+#: tm-woo-extra-product-options.php:326
+msgid "Title:"
+msgstr ""
+
+#: tm-woo-extra-product-options.php:328
+msgid "Custom action:"
+msgstr ""

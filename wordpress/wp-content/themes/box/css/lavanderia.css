@@ -1,0 +1,716 @@
+
+.title-lavanderia{
+      padding-bottom: 0px;
+      display: block;
+}
+
+.title-lavanderia h2{
+  font-family: Cabin;
+  font-size: 2em;
+  font-style: italic;
+  color: #685ebb;
+  padding: 12px 20px 10px 20px;
+  text-align: left;
+  margin-bottom: 0;
+  /*float: left;
+  width: 78%;*/
+  line-height: 29px;
+  padding-top: 25px;
+}
+.page-lavanderia-info .vote {
+    margin: -10px auto;
+}
+.title-lavanderia .product-nav {
+  float: right;
+  padding-top: 17px;
+  position: relative;
+  top: inherit;
+  bottom: inherit;
+  margin-top: inherit;
+  right: inherit;
+  height: inherit;
+}
+
+/* MOSTRANDO LOGO */
+
+ul.products li.product .product-image .img-effect .hover-image,
+ul.products li.product-category .product-image .img-effect .hover-image {
+    opacity: 1;
+}
+ul.products li.product .product-image .img-effect:hover .hover-image,
+ul.products li.product-category .product-image .img-effect:hover .hover-image {
+    opacity: 0;
+}
+ul.products li.product .product-image .img-effect:hover img,
+ul.products li.product-category .product-image .img-effect:hover img {
+    opacity: 1;
+}
+
+/* fim */
+
+
+.btn-mostrar-mais{
+  margin-bottom: 100px !important;
+}
+.page-lavanderia-info{
+  display: block;
+}
+
+.onde-coletar-div{
+    font-size: 0.9em;
+    margin-bottom: 15px !important;
+}
+
+
+.title-lavanderia h2 {
+
+  transition: all 0.3s ease-in-out !important; /* 300 milissegundos */
+  -webkit-transition:all 0.3s ease-in-out;
+  -moz-transition:all 0.3s ease-in-out;
+  -o-transition:all 0.3s ease-in-out;
+  -ms-transition:all 0.3s ease-in-out;
+  transform: rotate(0deg) scale(1) skew(0deg) translate(0px) !important;
+  -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+  -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+  -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+  -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+
+}
+.title-lavanderia h2:hover{
+
+  /*
+  transform: rotate(0deg) scale(1.08) skew(0deg) translate(0px) !important;
+  -webkit-transform: rotate(0deg) scale(1.08) skew(0deg) translate(0px);
+  -moz-transform: rotate(0deg) scale(1.08) skew(0deg) translate(0px);
+  -o-transform: rotate(0deg) scale(1.08) skew(0deg) translate(0px);
+  -ms-transform: rotate(0deg) scale(1.08) skew(0deg) translate(0px);
+  */
+
+}
+
+.bloco-minha-lavanderia > .vc_column_container > .vc_column-inner {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.title-enviar-peca{
+      font-size: 1.7em !important;
+}
+.tm-description {
+    margin-top: 0;
+}
+
+.suporte-lavanderia{
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0 !important;
+    padding-top: 0px;
+}
+.suporte-lavanderia li{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: none !important;
+}
+.icon-lavanderia {
+    font-size: 18px;
+    color: forestgreen;
+}
+
+.dokan-support-topic-wrapper .dokan-support-single-title,
+.dokan-support-topic-wrapper .dokan-support-single-title h3 {
+    margin-bottom: 10px;
+}
+.dokan-support-topic-wrapper .dokan-suppport-topic-body {
+    margin-top: 9px;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 0px;
+    border-radius: 5px;
+}
+.dokan-support-topic-wrapper .dokan-support-user-image h4 {
+  margin: 0;
+    font-size: 1em;
+    margin-bottom: -3px;
+    margin-top: -1px;
+    line-height: 14px;
+}
+.dokan-support-topic-wrapper .dokan-support-user-image {
+    text-align: center;
+    padding: 7px 0px 0px;
+    background: #eee;
+}
+.dokan-support-topic-wrapper .dokan-support-reply {
+    padding: 0px 10px !important;
+}
+.dokan-support-reply-form .comment-respond {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0 !important;
+}
+.dokan-support-reply-form .comment-respond input[type="submit"] {
+    font-size: 1em !important;
+    padding: 5px 18px !important;
+    border-radius: 6px;
+    line-height: 1.33;
+    margin-top: -10px !important;
+    margin-bottom: 0 !important;
+}
+.dokan-w3 {
+    width: 30%;
+    float: left;
+}
+.dokan-w9 {
+    width: 65%;
+    float: left;
+}
+.dokan-support-user-name{
+  font-size: 0.9em;
+}
+.dokan-support-topic-wrapper .dokan-support-date-time {
+    font-size: 1em;
+    font-style: italic;
+}
+.dokan-support-login-wrapper h2{
+  font-size: 1.4em;
+    line-height: 24px;
+    font-weight: 500;
+}
+.dokan-support-login-wrapper{
+  width: auto !important;
+  max-width: 450px;
+}
+
+.lista-lavanderias .gridlist-toggle,
+.lista-lavanderias .shop-loop-after .woocommerce-viewing,
+.lista-lavanderias .shop-loop-before .woocommerce-viewing,
+.lista-lavanderias .shop-loop-before .yith-infs-button-wrapper,
+.lista-lavanderias .page-numbers{
+  display: none !important;
+}
+
+.lista-lavanderias .add-links-wrap{
+  display: none;
+}
+
+
+
+
+
+.lista-lavanderias .product-image{
+    display: inline-block;
+    float: right;
+    width: 40% !important;
+    margin-bottom: 0 !important;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.lista-lavanderias .product-info{
+  display: inline-block;
+  float: none;
+  width: 55%;
+  padding: 7px 10px;
+  text-align: left;
+  margin-top: 3px;
+  border-radius: 8px;
+}
+ul.products.grid li.product.show-outimage-q-onimage:hover .product-info,
+.lista-lavanderias .product-info:hover{
+  /*box-shadow: 9px 2px 26px -3px rgba(0, 0, 0, 0.19);*/
+}
+
+@media (min-width: 390px) and (max-width: 480px) {
+  .lista-lavanderias .product-image{
+      width: 29% !important;
+  }
+}
+
+
+.lista-lavanderias .product-box {
+  padding: 0 0px 0 3px;
+  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  vertical-align: middle;
+  /*min-height: 135px;*/
+  min-height: 170px;
+  transition: all 0.5s ease-in-out !important; /* 300 milissegundos */
+  -webkit-transition:all 0.5s ease-in-out;
+  -moz-transition:all 0.5s ease-in-out;
+  -o-transition:all 0.5s ease-in-out;
+  -ms-transition:all 0.5s ease-in-out;
+}
+.lista-lavanderias .product-box:hover{
+    box-shadow: none;
+    box-shadow: -12px 2px 26px -5px rgba(0, 0, 0, 0.19);
+}
+
+
+.lista-lavanderias  ul.products li.product{
+    vertical-align: middle;
+    background: rgba(255, 255, 255, 0.83);
+}
+
+
+.lista-lavanderias  ul.products li.product h3{
+    margin-bottom: 3px;
+    font-family: Cabin;
+    font-style: italic;
+    color: #2b2e63;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+.lista-lavanderias .details-lavanderia{
+  line-height: 16px;
+    font-size: 0.8em;
+    display: block;
+    margin-bottom: 3px;
+    text-align: left;
+    padding-left: 5px;
+    border: 0px solid #ccc;
+}
+.btn-pedido-lavanderia{
+    padding: 4px 11px !important;
+    font-size: 0.8em !important;
+    background-color: #f78223 !important;
+}
+.btn-pedido-lavanderia .fa{
+  padding-right: 5px;
+}
+
+
+
+@media (min-width: 767px) and (max-width: 768px) {
+    ul.pcols-xs-2 li.product,
+    .column2 ul.pcols-xs-2 li.product,
+    ul.pcols-xs-2 li.product-category,
+    .column2 ul.pcols-xs-2 li.product-category {
+      width: 50%;
+      padding: 0 6px;
+    }
+
+    ul.pcols-xs-2,
+    .column2 ul.pcols-xs-2 {
+        margin: 0 -6px;
+    }
+
+}
+
+ul li.pcols-md-first,
+.column2 ul li.pcols-md-first {
+    clear: none;
+}
+ul.products li.product.product-first{
+    clear: none;
+}
+ul li.pcols-md-first, .column2 ul li.pcols-md-first {
+    clear: none;
+}
+
+
+
+
+
+
+
+.rating_form_1 {
+	 display: block;
+   margin-bottom: -3px;
+  margin-top: 3px;
+  min-height: 20px;
+}
+.rating_form_1 .rating_form {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.rating_form_1 .rating_form.cursor [class^="cyto-"],
+.rating_form_1 .rating_form.cursor [class*=" cyto-"] {
+	cursor: pointer;
+}
+.rating_form_1 .update {
+	opacity: 0.5;
+}
+.rating_form_1 .rating_form [id^="rate_"] {
+  float: left;
+list-style-type: none !important;
+margin: 0;
+padding: 0;
+padding-left: 3px;
+line-height: .8em;
+color: #ffd700;
+font-size: 1.2em;
+border: 0;
+width: auto;
+}
+.rating_form_1 .rating_form [id^="rate_"].hover {
+	color: #ff7f00;
+}
+.rating_form_1 .rating_form [id^="rate_"]:first-child {
+	padding-left: 0;
+}
+.rating_form_1 .rating_form [id^="rate_"]:before {
+	vertical-align: middle;
+}
+.rating_form_1 .rating_form .def {
+    float: left;
+    list-style-type: none !important;
+    background-color: rgba(222, 222, 222, 0.38);
+    padding: 1px 5px 3px;
+    margin: 0 0 0 7px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    line-height: 1em;
+    color: #616161;
+    font-size: 0.9em;
+    width: auto;
+    color: #000;
+
+}
+.rating_form_1 .rating_form .def.login{
+    display: none;
+}
+
+
+.rating_form_1 .rating_total{
+  display:none !important;
+}
+.rating_form_1 .rating_score:hover,
+.rating_form_1 .rating_total:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
+.rating_form_1 .thankyou {
+	background-color: #cffa90 !important;
+	color: #51711a !important;
+}
+.rating_form_1 .rated {
+	/*display: none;*/
+	background-color: #faf190 !important;
+	color: #716d1a !important;
+  margin: 0 !important;
+}
+.rating_form_1 .tooltip {
+	position: absolute;
+	display: block;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 8px;
+	line-height: 1em;
+	text-align: center;
+	color: #ffffff;
+	background: #000000;
+	font-size: 10px;
+	top: 40px; /* Set height between icon and tooltip in px  */
+	z-index: 2;
+	opacity: 1;
+}
+.rating_form_1 .tooltip:after {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	width: 0;
+	height: 0;
+	margin-left: -6px;
+	border-top: 6px solid #000000;
+	border-right: 6px solid transparent;
+	border-left: 6px solid transparent;
+}
+.rating_form_1 .title {
+	color: #555555;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+.rating_form_1 .rating_stats {
+	display: none;
+	position: absolute;
+	background-color: #ffffff;
+	border: 1px solid #9b9b9b;
+	font-size: 13px;
+	color: #777777;
+	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+	padding: 0;
+	z-index: 1;
+  border-radius: 8px;
+      margin-top: 10px;
+}
+.rating_form_1 .rating_stats .rf_stats_header {
+	background-color: rgba(199, 199, 199, 0);
+	color: #595959;
+	padding: 5px 5px 5px 10px;
+	font-weight: bold;
+	border-bottom: 1px solid #9b9b9b;
+	line-height: 1.7;
+	height: auto;
+}
+.rating_form_1 .rating_stats .rf_stats_close {
+  display: inline-block;
+    background-color: #ff5a5a;
+    color: #ffffff;
+    padding: 0 7px;
+    margin-left: 5px;
+    font-weight: bold;
+    float: right;
+    border-radius: 20px;
+}
+.rating_form_1 .rating_stats .rf_stats_close:hover {
+	background-color: #ca1818;
+	cursor: pointer;
+}
+.rating_form_1 .rating_stats table {
+	border-collapse: collapse;
+	margin: 0 !important;
+	padding: 0;
+	border: 0 !important;
+  font-size: 0.8em;
+}
+.rating_form_1 .rating_stats table th {
+  padding: 1px 5px;
+    background: #dfdfdf;
+    color: #777777;
+    font-weight: bold;
+    border-bottom: 1px solid #bababa;
+    border-right: 1px solid #bababa;
+    text-transform: initial;
+    font-size: 0.9em;
+    line-height: 2;
+}
+.rating_form_1 .rating_stats table th:last-child {
+	border-right: 0;
+}
+.rating_form_1 .rating_stats tbody td {
+	padding: 5px;
+	border-top: 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+	border-right: 1px solid #e2e2e2;
+	line-height: 2;
+}
+.rating_form_1 .rating_stats tbody td:last-child {
+	border-right: 0;
+}
+.rating_form_1 .rating_rich_snippet {
+	display: none;
+}
+.rating_form_1 .edit_rating {
+	color: red;
+	padding-left: 5px;
+	vertical-align: middle;
+	line-height: normal;
+	cursor: pointer;
+}
+.rating_form_1 .rating_stats_active .rating_score,
+.rating_form_1 .rating_stats_active .rating_total {
+	font-weight: bold;
+}
+#yith-ajaxsearchform{
+  text-align: center;
+}
+.autocomplete-suggestions{
+  display: inline-block;
+  position: relative!important;
+  box-shadow: 1px 9px 23px -5px rgba(0, 0, 0, 0.14);
+      border-radius: 8px !important;
+      border: 0 !important;
+}
+.yith-ajaxsearchform-container .button-wrap{
+  display: none;
+}
+.yith-ajaxsearchform-container .text{
+  width: 100%;
+  display: inline-block;
+}
+.yith-ajaxsearchform-container .yith-s{
+    width: 100%;
+    line-height: 35px !important;
+    font-size: 1.2em !important;
+    border-radius: 8px !important;
+}
+
+.logo-page-lavanderia{
+  text-align: center;
+  padding-top: 35px;
+}
+.logo-page-lavanderia img{
+      box-shadow: 1px 2px 11px -3px rgba(0, 0, 0, 0.51);
+      border: 2px solid #FFF;
+      margin: 13px auto 0 auto;
+      -moz-border-radius: 100%;
+      -webkit-border-radius: 100%;
+      border-radius: 100%;
+      display: inline-block;
+      position: relative;
+}
+
+.page-lavanderia-info .rating_form_1{
+    margin-top: 9px;
+    /*padding-left: 20px;*/
+    margin-bottom: -13px;
+}
+.page-lavanderia-info li {
+  list-style-type: none;
+}
+.page-lavanderia-info .fa {
+    font-size: 1.5em;
+    padding-right: 7px;
+}
+
+.page-lavanderia-info .rating_form_1 .rating_stats{
+  top: -25px !important;
+  left: 25px;
+}
+.page-lavanderia-info  .details-endereco{
+  font-size: 0.9em;
+  line-height: 20px;
+  padding-top: 19px;
+}
+.page-lavanderia-info .info{
+  /*padding-left: 30px;*/
+  padding-bottom: 20px;
+}
+.page-lavanderia-info .rating_form_1 .rating_form .def {
+    padding: 3px 5px 3px;
+}
+
+.title-lavanderias-online{
+  margin-bottom: 0 !important;
+}
+
+.meus-pedidos {
+    font-size: 0.9em !important;
+}
+
+#calc_shipping_postcode{
+    text-align: center;
+    max-width: 250px;
+    margin-bottom: 5px;
+    font-size: 1.2em !important;
+}
+.rp_calc_shipping{
+  margin-bottom: 5px !important;
+}
+.shipping_postcode{
+  text-align: center;
+}
+.shippingmethod_container{
+  text-align: center;
+  font-size: 0.9em;
+}
+.shippingmethod_container .info{
+    box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.17);
+    padding: 6px 10px;
+    font-size: 0.9em;
+    line-height: 15px;
+    border-radius: 8px;
+    background: rgba(0, 95, 142, 0.79);
+    color: #FFF;
+  display: inline-block;
+  margin: 6px auto 10px !important;
+}
+.shippingmethod_container .cidade{
+    background: #000;
+}
+.shippingmethod_container .error{
+  background: rgba(187, 14, 14, 0.74);
+  color: #FFF;
+}
+.shippingmethod_container .info .msg{
+    background: #FFF;
+    color: #043148;
+    padding: 5px 12px;
+    display: block;
+    border-radius: 7px;
+    margin: 5px 0 2px;
+    text-align: center;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.24);
+    font-size: 1.1em;
+    font-family: Cabin;
+    letter-spacing: 1px;
+    line-height: 17px;
+}
+
+
+.lista-lavanderias .conta-msg{
+  margin: 0;
+      margin-top: -19px;
+}
+
+.page-lavanderia-info .dokan-store-phone{
+  clear: both;
+}
+
+.calcula-cep{
+  display: none
+}
+.distancia-cep {
+  background: #808ab9;
+    color: #FFF;
+    padding: 2px 4px 2px 5px;
+    margin: 6px 0px 8px !important;
+    border-radius: 6px;
+    display: none;
+    text-align: center;
+}
+.distancia-cep:hover{
+  background: #5b6386;
+}
+.cep-pesquisado {
+    display: inline-block;
+    margin-bottom: 4px !important
+}
+.cep-pesquisado .pesquisado{
+  background: #808ab9;
+  color: #FFF;
+  padding: 1px 10px 2px;
+  /*margin: 6px 0px 8px !important;*/
+  border-radius: 6px;
+  display: none;
+  font-size: 0.8em;
+}
+
+.active-box{
+  border: 1px solid #ccc !important;
+  background: #f1f1f1 !important;
+}
+
+.product-box.inactive:before {
+    content: " ";
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.click-get-itens{
+  opacity: 0;
+}
+
+.click-get-itens-promocoes{
+  opacity: 1;
+}
+
+.quickview-wrap .tm-extra-product-options .tmcp-textfield.tm-epo-field,
+.quickview-wrap .tm-extra-product-options .tmcp-field-wrap > label {
+    width: 100%;
+}
+.tm-epo-datepicker-label-container{
+  width: auto !important;
+}
+.shop-loop-before .woocommerce-ordering {
+    float: right;
+    margin-right: 0px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+.total-posts {
+    float: left;
+    font-size: 1.5em;
+    font-family: Cabin;
+    font-style: italic;
+    color: #57a2cc;
+}

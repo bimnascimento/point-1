@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.enabled": true,
+		"git.ignoreLimitWarning": true,
+		"files.exclude": {
+			"**/.git": false,
+		}
+	}
+}

@@ -1,0 +1,10 @@
+*** WooCommerce MailChimp Changelog ***
+
+2017-04-03 - version 1.0.2
+ * Fix - Update for WC 3.0 compatibility.
+
+2016-08-01 - version 1.0.1
+ * Fix - eCommerce 360 data tracking not working.
+
+2016-03-16 - version 1.0.0
+ * First Release.

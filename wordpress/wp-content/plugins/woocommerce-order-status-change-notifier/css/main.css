@@ -1,0 +1,16 @@
+#form_status_comment select,
+#form_status_comment textArea,
+#form_status_comment label
+{
+    width: 100%;
+}
+#form_status_comment textArea{
+    resize: none;
+}
+#status_comment{
+    height: 100px;
+}
+
+#form_status_comment .group {
+    padding-bottom: 10px;
+}

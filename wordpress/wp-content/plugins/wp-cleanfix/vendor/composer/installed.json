@@ -1,0 +1,180 @@
+[
+    {
+        "name": "wpbones/wpbones",
+        "version": "0.8.34",
+        "version_normalized": "0.8.34.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wpbones/WPBones.git",
+            "reference": "c4e9d69c810870ab3f4e244dca0f5d17a63da394"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wpbones/WPBones/zipball/c4e9d69c810870ab3f4e244dca0f5d17a63da394",
+            "reference": "c4e9d69c810870ab3f4e244dca0f5d17a63da394",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9"
+        },
+        "time": "2017-03-01 10:34:23",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WPCleanFix\\WPBones\\": "src/"
+            },
+            "files": [
+                "src/helpers.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Giovambattista Fazioli",
+                "email": "giovambattista.fazioli@gmail.com",
+                "homepage": "http://undolog.com"
+            }
+        ],
+        "description": "WordPress framework for Laravel developers",
+        "homepage": "https://github.com/wpbones/wpbones",
+        "keywords": [
+            "framework",
+            "laravel",
+            "plugins",
+            "themes",
+            "wordpress",
+            "wpbones"
+        ]
+    },
+    {
+        "name": "wpbones/pure-css-tabs",
+        "version": "1.0.11",
+        "version_normalized": "1.0.11.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wpbones/pure-css-tabs.git",
+            "reference": "c6b6c45bfc77dd3a9481a781d94b71106facfa41"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wpbones/pure-css-tabs/zipball/c6b6c45bfc77dd3a9481a781d94b71106facfa41",
+            "reference": "c6b6c45bfc77dd3a9481a781d94b71106facfa41",
+            "shasum": ""
+        },
+        "time": "2017-03-11 12:59:59",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WPCleanFix\\PureCSSTabs\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Giovambattista Fazioli",
+                "email": "giovambattista.fazioli@gmail.com",
+                "homepage": "http://undolog.com"
+            }
+        ],
+        "description": "Pure CSS tabs for WP Bones",
+        "homepage": "https://github.com/wpbones/pure-css-tabs",
+        "keywords": [
+            "WP Bones",
+            "css",
+            "less"
+        ]
+    },
+    {
+        "name": "wpbones/actions-and-filters-js",
+        "version": "1.0.4",
+        "version_normalized": "1.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wpbones/actions-and-filters-js.git",
+            "reference": "97608b8d0fa0c93c1e5b8e57ed97ce437dc6c917"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wpbones/actions-and-filters-js/zipball/97608b8d0fa0c93c1e5b8e57ed97ce437dc6c917",
+            "reference": "97608b8d0fa0c93c1e5b8e57ed97ce437dc6c917",
+            "shasum": ""
+        },
+        "time": "2017-01-07 12:12:44",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WPCleanFix\\ActionsAndFiltersJS\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Giovambattista Fazioli",
+                "email": "giovambattista.fazioli@gmail.com",
+                "homepage": "http://undolog.com"
+            }
+        ],
+        "description": "WordPress actions and filters in Javascript",
+        "homepage": "https://github.com/wpbones/actions-and-filters-js",
+        "keywords": [
+            "WP Bones",
+            "actions",
+            "filters",
+            "javascript"
+        ]
+    },
+    {
+        "name": "wpbones/pure-css-switch",
+        "version": "1.0.9",
+        "version_normalized": "1.0.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wpbones/pure-css-switch.git",
+            "reference": "69ab35529e08979401f80450c9ca0d51f96ee9e6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wpbones/pure-css-switch/zipball/69ab35529e08979401f80450c9ca0d51f96ee9e6",
+            "reference": "69ab35529e08979401f80450c9ca0d51f96ee9e6",
+            "shasum": ""
+        },
+        "time": "2017-02-11 11:50:52",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WPCleanFix\\PureCSSSwitch\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Giovambattista Fazioli",
+                "email": "giovambattista.fazioli@gmail.com",
+                "homepage": "http://undolog.com"
+            }
+        ],
+        "description": "Pure CSS Switch Button for WP Bones",
+        "homepage": "https://github.com/wpbones/pure-css-switch",
+        "keywords": [
+            "WP Bones",
+            "css",
+            "less"
+        ]
+    }
+]

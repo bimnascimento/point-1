@@ -1,0 +1,82 @@
+.wpbones-switch-button.wpbones-switch-button-flat-square input[type="checkbox"] + label {
+  padding: 2px;
+  width: 48px;
+  height: 24px;
+  vertical-align: middle;
+  background-color: #aaa;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: background 0.4s;
+  -moz-transition: background 0.4s;
+  -o-transition: background 0.4s;
+  transition: background 0.4s;
+}
+.wpbones-switch-button.wpbones-switch-button-flat-square.disabled input[type="checkbox"] + label {
+  background-color: #eee;
+}
+.wpbones-switch-button.wpbones-switch-button-flat-square:hover input[type="checkbox"] + label {
+  background-color: #579fcb;
+}
+.wpbones-switch-button.wpbones-switch-button-flat-square.disabled:hover input[type="checkbox"] + label {
+  background-color: #eee;
+}
+.wpbones-switch-button.wpbones-switch-button-flat-square input[type="checkbox"] + label:before,
+.wpbones-switch-button.wpbones-switch-button-flat-square input[type="checkbox"] + label:after {
+  display: inline-block;
+  position: absolute;
+  content: "";
+}
+.wpbones-switch-button.wpbones-switch-button-flat-square input[type="checkbox"] + label:before {
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
+  background-color: #fff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: background 0.4s;
+  -moz-transition: background 0.4s;
+  -o-transition: background 0.4s;
+  transition: background 0.4s;
+}
+.wpbones-switch-button.wpbones-switch-button-flat-square input[type="checkbox"] + label:after {
+  top: 4px;
+  left: 4px;
+  bottom: 4px;
+  width: 16px;
+  background-color: #919191;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: margin 0.4s, background 0.4s;
+  -moz-transition: margin 0.4s, background 0.4s;
+  -o-transition: margin 0.4s, background 0.4s;
+  transition: margin 0.4s, background 0.4s;
+}
+.wpbones-switch-button.wpbones-switch-button-flat-square.disabled input[type="checkbox"] + label:after {
+  background-color: #d5d5d5;
+}
+.wpbones-switch-button.wpbones-switch-button-flat-square:hover input[type="checkbox"]:checked + label {
+  background-color: #aaa;
+}
+.wpbones-switch-button.wpbones-switch-button-flat-square input[type="checkbox"]:checked + label {
+  background-color: #579fcb;
+}
+.wpbones-switch-button.wpbones-switch-button-flat-square.disabled input[type="checkbox"]:checked + label {
+  background-color: #eee;
+}
+.wpbones-switch-button.wpbones-switch-button-flat-square input[type="checkbox"]:checked + label:after {
+  margin-left: 24px;
+  background-color: #3887b7;
+}
+.wpbones-switch-button.wpbones-switch-button-flat-square.disabled input[type="checkbox"]:checked + label:after {
+  margin-left: 24px;
+  background-color: #d5d5d5;
+}
+.wpbones-switch-button.wpbones-switch-button-flat-square.wpbones-switch-mode-select input[type="checkbox"] + label:after,
+.wpbones-switch-button.wpbones-switch-button-flat-square.wpbones-switch-mode-select:hover input[type="checkbox"]:checked + label,
+.wpbones-switch-button.wpbones-switch-button-flat-square.wpbones-switch-mode-select input[type="checkbox"] + label {
+  background-color: #579fcb !important;
+}

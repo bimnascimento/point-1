@@ -1,0 +1,124 @@
+@wpbones-tab-border-color : #bbb;
+@wpbones-tab-responsive-accordion-border : #ddd;
+@wpbones-tab-disabled : transparent;
+@wpbones-tab-over : #fff;
+@wpbones-tab-content-color : #fff;
+@wpbones-tabs-margin-top : 16px;
+@wpbones-tab-padding-size : 0.5rem 1rem;
+@wpbones-tab-spacing : 0.2rem;
+@wpbones-tab-label-color-selected : #000;
+@wpbones-tab-label-color-unselected : #888;
+
+.wpbones-tabs
+{
+  margin-top : @wpbones-tabs-margin-top;
+  display    : flex;
+  flex-wrap  : wrap;
+}
+
+.wpbones-tabs > label
+{
+  order                 : 1;
+  display               : block;
+  padding               : @wpbones-tab-padding-size;
+  margin-right          : @wpbones-tab-spacing;
+  cursor                : pointer;
+  background-color      : @wpbones-tab-disabled;
+  font-weight           : bold;
+  transition            : background ease 0.2s;
+  outline               : none;
+  border                : 1px solid @wpbones-tab-border-color;
+  z-index               : 1;
+  color                 : @wpbones-tab-label-color-unselected;
+  -moz-border-radius    : 2px 2px 0 0;
+  -webkit-border-radius : 2px 2px 0 0;
+  border-radius         : 2px 2px 0 0;
+
+  &:hover
+  {
+    background-color : @wpbones-tab-over;
+    color            : @wpbones-tab-label-color-selected;
+  }
+}
+
+.wpbones-tabs .wpbones-tab
+{
+  order                 : 99;
+  flex-grow             : 1;
+  width                 : 100%;
+  display               : none;
+  padding               : 1rem;
+  background-color      : @wpbones-tab-content-color;
+  position              : relative;
+  top                   : -1px;
+  border                : 1px solid @wpbones-tab-border-color;
+  -moz-border-radius    : 0 2px 2px 2px;
+  -webkit-border-radius : 0 2px 2px 2px;
+  border-radius         : 0 2px 2px 2px;
+}
+
+.wpbones-tabs
+{
+  > input[type="radio"]
+  {
+    position : absolute;
+    opacity  : 0;
+    display  : none;
+  }
+
+  > input[type="radio"]:checked + label
+  {
+    background-color : @wpbones-tab-content-color;
+    color            : @wpbones-tab-label-color-selected;
+    border-bottom    : none;
+
+    & + .wpbones-tab
+    {
+      display : block;
+    }
+  }
+
+}
+
+@media (max-width : 45em)
+{
+  .wpbones-tabs
+  {
+    .wpbones-tab,
+    > label
+    {
+      order : initial;
+    }
+
+    & > .wpbones-tab
+    {
+      -moz-border-radius    : 0;
+      -webkit-border-radius : 0;
+      border-radius         : 0;
+      top                   : 0;
+      border-bottom         : none;
+      border-top            : none;
+    }
+
+    & > label
+    {
+      width                 : 100%;
+      margin                : 0;
+      border-bottom         : none;
+      -moz-border-radius    : 0;
+      -webkit-border-radius : 0;
+      border-radius         : 0;
+    }
+
+    > input[type="radio"]:checked + label
+    {
+      border-bottom : 1px solid @wpbones-tab-responsive-accordion-border;
+    }
+
+    > label:nth-last-child(2),
+    .wpbones-tab:last-child
+    {
+      border-bottom : 1px solid @wpbones-tab-border-color;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "wpbones/pure-css-switch",
+  "version": "1.0.9",
+  "homepage": "https://github.com/wpbones/pure-css-switch",
+  "license": "MIT",
+  "type": "library",
+  "description": "Pure CSS Switch Button for WP Bones",
+  "keywords": [
+    "css",
+    "less",
+    "WP Bones"
+  ],
+  "authors": [
+    {
+      "name": "Giovambattista Fazioli",
+      "email": "giovambattista.fazioli@gmail.com",
+      "homepage": "http://undolog.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wpbones/pure-css-switch.git"
+  },
+  "support": {
+    "email": "giovambattista.fazioli@gmail.com",
+    "issues": "https://github.com/wpbones/pure-css-switch/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "WPCleanFix\\PureCSSSwitch\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

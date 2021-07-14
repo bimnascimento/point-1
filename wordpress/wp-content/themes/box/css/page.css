@@ -1,0 +1,586 @@
+
+.page-not-found-main{
+  text-align: center;
+}
+.page-not-found h2{
+  font-size: 70px;
+}
+
+
+.title-regiao {
+    font-size: 1.5em !important;
+    color: #00317c !important;
+    text-align: center !important;
+    font-family: Cabin !important;
+    font-weight: 800 !important;
+    font-style: italic !important;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    background: rgba(255, 255, 255, 0.70);
+    border-radius: 20px;
+    padding: 4px 20px;
+    margin-top: 17px !important;
+    z-index: 1;
+    position: absolute;
+    top: 31px;
+    margin: 0 20px;
+    box-shadow: 5px 4px 10px 0px rgba(0, 0, 0, 0.17);
+}
+.title-regiao:hover {
+    background: rgba(255, 255, 255,1);
+}
+
+.maked-css{
+  padding: 0;
+}
+.maked-css-select{
+  padding: 0;
+}
+.gm-iv-address {
+  background-color: #222222;
+  opacity: 0.8;
+  font-family: Roboto,Arial;
+  outline-color: #000;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  display: inline-block;
+  padding: 13px 8px 6px;
+  margin-top: 10px;
+  height: 56px;
+}
+.gm-iv-address-link {
+    position: absolute !important;
+    top: 70px !important;
+    background: #FFF !important;
+    padding: 2px 10px !important;
+    border-radius: 15px !important;
+}
+.hmapsprem_map_container .gm-style {
+    top: 18px !important;
+    height: 94% !important;
+}
+.gmnoprint.gm-bundled-control.gm-bundled-control-on-bottom{
+  bottom: 122px;
+  right: 45px;
+}
+.hmapsprem_container .hmapsprem_map_container .hmapsprem_info_window p {
+    font-size: 13px !important;
+}
+.gm-style{
+  margin-top: 40px !important;
+}
+
+
+ .cp-modal-content .access-panel-login > .vc_row{
+   padding-top: 10px !important;
+ }
+ .cp-overlay.cp-open .cp-modal {
+     margin-top: -40px;
+ }
+
+
+.box-cidades{
+  max-width: 750px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#rp_shipping_calculator, .rp_shipping_button{
+  text-align: center !important;
+}
+
+
+.icon-como-funciona {
+    box-shadow: 0px 4px 18px -4px rgba(0, 0, 0, 0.32);
+    background-color: white;
+    border-radius: 21px;
+    padding: 0 15px;
+    /*margin: 0 5px;*/
+    transition: all 0.8s ease-in-out !important;
+    -webkit-transition:all 0.8s ease-in-out;
+    -moz-transition:all 0.8s ease-in-out;
+    -o-transition:all 0.8s ease-in-out;
+
+}
+.icon-como-funciona:hover {
+    box-shadow: 0px 4px 18px -6px rgba(187, 145, 60, 0.90);
+    background-color: #FFF;
+}
+.icon-como-funciona  .featured-box .box-content {
+        background: transparent;
+    margin-top: 65px;
+    margin-bottom: 15px;
+}
+.icon-como-funciona .featured-box .wpb_content_element {
+    margin-bottom: 20px;
+    margin-top: -30px;
+}
+.theme-11 .apsl-icon-block.apsl-icon-facebook {
+    border: 1px solid rgba(174, 211, 236, 0.76);
+    box-shadow: 0px 4px 18px -6px rgba(0, 0, 0, 0.9);
+}
+
+
+
+
+
+.title-como-funciona{
+    font-weight: 100 !important;
+}
+.apsl-long-login-text {
+    text-transform: none;
+}
+.icon-featured img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    border-radius: 25px;
+}
+.icon-como-funciona .featured-box .icon-featured {
+    height: 130px;
+    width: 130px;
+    border-radius: 30px;
+    background-color: #FFF !important;
+    /*box-shadow: 1px 1px 12px -4px #757575;*/
+}
+.featured-box-effect-3 .icon-featured:after {
+    -webkit-transform: scale(0.97);
+    -moz-transform: scale(0.97);
+    -ms-transform: scale(0.97);
+    -o-transform: scale(0.97);
+    transform: scale(0.97);
+    opacity: 1 !important;
+    transition: all 0.2s ease-in-out !important;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+}
+.featured-box-effect-3:hover .icon-featured:after {
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transform: scale(0.95);
+    opacity: 1 !important;
+}
+.featured-box-effect-3 .icon-featured:after {
+    box-shadow: 0 0 0 2px #FFF !important;
+}
+.featured-box-effect-3:hover .icon-featured:after {
+    box-shadow: 0 0 0 6px #f8dea8 !important;
+}
+.icon-como-funciona .step{
+    color: #000;
+}
+/*
+.featured-boxes-style-6 .featured-box .icon-featured:after {
+    border: 13px solid #ffffff;
+    border-radius: 20%;
+    box-sizing: content-box;
+    content: "";
+    display: block;
+    height: 100%;
+    left: -15px;
+    padding: 2px;
+    position: absolute;
+    top: -11px;
+    width: 100%;
+}*/
+.featured-boxes-style-6 .featured-box .icon-featured:after {
+    border: 20px solid #ffffff;
+    border-radius: 50%;
+    box-sizing: content-box;
+    content: "";
+    display: block;
+    height: 100%;
+    left: -22px;
+    padding: 2px;
+    position: absolute;
+    top: -23px;
+    width: 100%;
+}
+.featured-box h4 {
+    font-size: 1.3em;
+    font-weight: 400;
+    letter-spacing: -0.7px;
+    margin-top: 5px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.icon-como-funciona .step {
+    font-size: 1.8em;
+    font-family: Cabin;
+    font-style: normal;
+    background: #7098ff;
+    border-radius: 100%;
+    padding: 20px 0 0 14px;
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    color: #FFF;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.34);
+    float: left;
+    margin-right: 10px;
+    position: absolute;
+    top: 43px;
+    z-index: 1;
+    box-shadow: 1px 1px 9px -3px rgba(86, 86, 86, 0.39);
+    left: -29px;
+}
+.icon-como-funciona .title {
+  color: #ffc44e;
+  display: block;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 24px;
+  height: 46px;
+  font-family: Cabin;
+  vertical-align: middle;
+  font-style: italic;
+  font-size: 1.2em;
+  font-weight: 700;
+  padding-left: 0px;
+  margin-bottom: 60px !important;
+}
+.icon-como-funciona:hover .step {
+    transition: all 0.8s ease-in-out !important;
+    -webkit-transition:all 0.8s ease-in-out;
+    -moz-transition:all 0.8s ease-in-out;
+    -o-transition:all 0.8s ease-in-out;
+    background: #1ab137;
+}
+.featured-boxes-style-6 .featured-box .icon-featured {
+    border: 0px;
+}
+.icon-como-funciona .wpb_wrapper {
+    padding-bottom: 15px;
+}
+.icon-como-funciona .desc {
+  display: block;
+  text-align: left;
+  clear: both;
+  font-size: 0.9em;
+  line-height: 26px;
+}
+.mobile .icon-como-funciona .desc {
+    font-size: 1.3em;
+}
+#chat_f_b_smal {
+    padding: 3px 10px !important;
+    height: 42px !important;
+        margin-bottom: 26px;
+    border-radius: 20px !important;
+    z-index: 999 !important;
+}
+.chat_f_vt {
+    position: fixed;
+    left: 2%;
+}
+#b-c-facebook {
+    width: 250px !important;
+}
+#b-c-facebook .chat-f-b {
+    width: 350px !important;
+}
+
+
+
+.ult-carousel-wrapper .slick-next{
+    margin-right: -25px !important;
+}
+.ult-carousel-wrapper .slick-prev{
+    margin-left: -25px !important;
+}
+
+
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    vertical-align: middle;
+}
+
+.icon-linha-um .aio-icon{
+    background: #136aaf !important;
+}
+.icon-linha-dois .aio-icon{
+    background: #3c8ed0 !important;
+}
+.icon-linha-tres .aio-icon{
+    background: #6ab0e8 !important;
+}
+.wpb_wrapper .aio-icon-header h3.aio-icon-title {
+    font-size: 1.9em;
+    font-weight: 100;
+    letter-spacing: normal;
+    text-transform: none;
+    font-family: Cabin;
+    font-style: italic;
+    color: #54a0de;
+}
+
+
+.order_details .woocommerce-message .button{
+    margin: 0 10px 10px;
+}
+
+
+.title-apresentacao-precisa-2 {
+    font-size: 39px !important;
+    color: #ffffff !important;
+    line-height: 46px !important;
+    text-align: center !important;
+    font-family: Ubuntu !important;
+    font-weight: 600 !important;
+    font-style: italic !important;
+    letter-spacing: 1px !important;
+    margin-bottom: 9px !important;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.91);
+}
+
+/*@import url(http://fonts.googleapis.com/css?family=Allan|Amatic+SC|Anton:400|700);*/
+.title-apresentacao.title-apresentacao-animacao > div {
+    color: #fffeb8 !important;
+  }
+.title-apresentacao-animacao {
+    font-size: 2.1em !important;
+    color: #fffeb8 !important;
+    line-height: 40px;
+    text-align: center;
+    font-family: Allan;
+    font-weight: 600 !important;
+    font-style: italic;
+    margin-bottom: 0 !important;
+    max-height: 40px;
+    text-shadow: 1px 1px 1px #000;
+}
+.title-apresentacao-nunca {
+    font-size: 2.9em !important;
+    color: #ffffff;
+    line-height: 40px;
+    text-align: center;
+    font-family: Amatic SC;
+    font-weight: 600 !important;
+    font-style: italic;
+    margin-bottom: 15px !important;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px #000;
+}
+.title-apresentacao-problema {
+    font-size:2em !important;
+    color: #ffffff;
+    line-height: 40px;
+    text-align: center;
+    font-family: Anton;
+    font-weight: 400 !important;
+    font-style: italic;
+    margin-bottom: 0 !important;
+    text-shadow: 1px 1px 1px #000;
+    letter-spacing: 1px;
+}
+.title-apresentacao-precisa {
+  font-size: 3.2em !important;
+  color: #b3ffd3 !important;
+  line-height: 43px !important;
+  text-align: center;
+  font-family: Anton;
+  font-weight: 100 !important;
+  font-style: italic !important;
+  margin-bottom: 10px !important;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.41);
+  letter-spacing: 3px;
+}
+
+.title-cidades-preferencia{
+    font-size: 54px;
+    line-height: 40px;
+    text-align: center;
+    font-family: Just Another Hand;
+    font-weight: 100 !important;
+    font-style: italic !important;
+}
+.title-cidades-encontre{
+  font-weight: 100 !important;
+  font-style: italic !important;
+  font-size: 2em !important;
+  letter-spacing: 1px;
+  margin-top: 7px;
+}
+.title-escolha-cidade{
+  margin: -39px 0px 10px;
+    font-size: 2em !important;
+    letter-spacing: 1px;
+}
+
+.btn-encontrar-lavanderia{
+  font-size: 0.8em;
+}
+
+
+
+.title-como-pedir{
+
+}
+
+.bloco-voce-economiza > .wpb_wrapper {
+    background: rgba(0, 0, 0, 0.50);
+    margin-bottom: 26px;
+    border-radius: 8px;
+    padding: 15px !important;
+    padding-left: 20px !important;
+    padding-right: 0px !important;
+    padding-bottom: 33px !important;
+    box-shadow: 2px 2px 0px 0px #000, 0px -7px 1px -2px #08c;
+}
+
+.img-apresentacao-mobile{
+  max-width: 450px;
+  /*width: 400px*/
+}
+
+.widget_wysija{
+  text-align: center;
+}
+.wysija-submit{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bloco-em-breve-logo{
+  margin-top: -30px;
+  margin-bottom: 0;
+}
+.bloco-form-novidades{
+  margin-top: -30px;
+}
+
+.formError {
+  position: relative !important;
+    display: block;
+    top: 0 !important;
+    left: 0 !important;
+    max-width: 230px;
+    margin: 10px auto !important;
+}
+.formError .formErrorContent {
+    background: none repeat scroll 0 0 #8E2121;
+    border: 1px solid #BBBBBB;
+    color: #FFFFFF;
+    font-family: tahoma;
+    font-size: 11px;
+    padding: 4px 10px;
+    position: relative;
+    width: 100%;
+    z-index: 5001;
+    border-radius: 15px;
+}
+
+
+.widget_wysija .wysija-input {
+    min-width: 250px;
+    text-align: center;
+}
+
+.title-voce-economiza{
+  margin-bottom: 15px !important;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.bloco-economiza {
+    margin-bottom: 80px !important;
+}
+
+.bloco-novo {
+    position: absolute;
+    z-index: 2;
+    max-width: 27%;
+    margin-top: 40px;
+}
+
+.uvc-type-wrap .ticker {
+  font-weight: inherit;
+}
+
+.vc_btn3.vc_btn3-color-warning.vc_btn3-style-3d {
+    color: #FFF;
+    /*background-color: #f96f04;*/
+    box-shadow: 0 5px 0 #834e00;
+    text-shadow: 1px 1px 4px #000;
+}
+
+.btn-encontrar-lavanderia{
+  margin-bottom: 40px;
+}
+.btn-encontrar-lavanderia a{
+  font-size: 1.3em !important;
+}
+.bloco-aprecentacao-mensagem{
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom:-20px !important;
+}
+.title-economize{
+    margin-bottom: 0;
+    text-shadow: 1px 1px 1px #000;
+    font-family: 'Caveat';
+}
+
+.ultimate-vticker{
+  width: 100%;
+}
+.title-apresentacao-animacao {
+    /*font-size: 3em !important;*/
+}
+
+.btn-encontrar-lavanderia{
+
+}
+
+
+.icon-economize{
+  margin-bottom: 0;
+    margin-top: 0;
+    float: right;
+    /*margin-right: -10px;*/
+    font-size: 1.6em;
+    margin-left: 0px;
+}
+
+.desc-bloco-economiza {
+    color: #FFF;
+    font-size: 0.8em;
+    line-height: 20px;
+    text-align: justify;
+    /*display: table;*/
+}
+
+.bloco-extra{
+  font-size: 0.9em;
+  line-height: 30px;
+  color: #FFF !important;
+}
+.bloco-sem-mensalidade{
+  background: #2c539e; /* Old browsers */
+background: -moz-linear-gradient(top, #2c539e 0%, #203f72 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #2c539e 0%,#203f72 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #2c539e 0%,#203f72 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c539e', endColorstr='#203f72',GradientType=0 ); /* IE6-9 */
+}
+.wpb_wrapper .aio-icon-header h3.aio-icon-title{
+  color: #FFF;
+  margin-bottom: 0;
+}
+.aio-icon-box{
+  margin-bottom: 0;
+}
+.bloco-extra, .bloco-extra h3{
+  color: #FFF !important;
+  margin-bottom: 0;
+}
+
+.page-id-11 .radar-site {
+  z-index: 9999;
+}

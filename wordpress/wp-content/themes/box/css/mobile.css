@@ -1,0 +1,215 @@
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 992px) {
+  .header-left.show-menu-search #main-menu {
+      /*padding-left: 0px;*/
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .ver-lavanderia{
+    float: right !important;
+  }
+  .button.checkout{
+    display: none;
+  }
+
+  .icon-como-funciona .title {
+      margin-bottom: 60px !important;
+      clear: both;
+  }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+  #header .header-main .container .header-center {
+      padding-top: 30px;
+      padding-bottom: 0px;
+  }
+  #mini-cart.minicart-inline {
+    padding-top: 21px;
+    padding-bottom: 0;
+  }
+  .sticky-header #mini-cart.minicart-inline {
+    padding-top: 0px;
+    padding-bottom: 0;
+  }
+  #header .mobile-toggle {
+      top: -5px;
+  }
+  #header.sticky-header .mobile-toggle {
+      top: 5px;
+  }
+
+  .widget_shopping_cart .buttons .wc-forward + .wc-forward {
+      margin-top: 0px;
+  }
+  .widget_shopping_cart .buttons .wc-forward {
+      width: auto;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .bloco-minha-lavanderia .woocommerce .col-md-5 {
+      padding-left: 15px !important;
+      padding-bottom: 20px !important;
+  }
+
+
+
+}
+@media (max-width: 767px) {
+
+  .shop_table td.product-name {
+      width: auto !important;
+      text-align: center;
+      margin-right: 0 !important;
+  }
+  .shop_table.responsive td.product-remove{
+    right: -18px;
+  }
+
+
+  /*
+  #header .header-top .header-left{
+    padding-left: 60px;
+  }
+
+  #header .header-main {
+    position: fixed !important;
+    width: 100%;
+  }
+  #main{
+    padding-top: 25px;
+  }
+  #header.sticky-header .header-main{
+    background: none !important;
+    box-shadow: none !important;
+  }
+  #header .header-main .header-left{
+    padding-top: 5px !important;
+    padding-bottom: 0 !important;
+    position: fixed !important;
+  }
+
+  #header .header-main .header-right{
+    display: none !important;
+  }
+
+  #header.logo-center .header-main .container .header-center .logo {
+      margin: 0 auto !important;
+  }
+
+  #header.logo-center .header-main .container .header-center {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: -10px;
+  }
+  */
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575px) {
+  #header .top-links,
+  #header .header-top .gap {
+      display: none;
+  }
+
+  .woocommerce-message ul, .woocommerce-error ul, .woocommerce-info ul {
+      width: 86% !important;
+  }
+
+  .footer-wrapper.fixed{
+    display: none;
+  }
+
+  .bloco-minha-lavanderia .featured-box {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .bloco-minha-lavanderia .featured-box .shop_table td,
+  .bloco-minha-lavanderia .featured-box .shop_table th {
+          padding: 0 10px !important;
+  }
+  .bloco-minha-lavanderia .featured-box .shop_table td.product-subtotal{
+    padding: 10px !important;
+  }
+  .shop_table dl.variation {
+      font-size: 0.8em;
+      margin-top: 6px;
+  }
+
+  .shop_table ul {
+      font-size: 0.9em;
+  }
+
+  /*
+  #footer .footer-bottom .container .footer-center {
+      display: table-caption !important;
+  }
+  */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 480px) {
+  #header .header-main {
+      padding-top: 35px;
+  }
+  #header.sticky-header .header-main.sticky {
+      margin-top: -11px;
+  }
+  #header #mini-cart {
+      top: 0px;
+  }
+  .fixed-header #header .mobile-toggle {
+      top: 5px;
+  }
+  .fixed-header #header.sticky-header .mobile-toggle {
+      top: 10px;
+  }
+  #header.sticky-header .mobile-toggle {
+      top: 5px;
+  }
+  #mini-cart.minicart-inline {
+      padding-top: 0px;
+  }
+  .sticky-header #mini-cart.minicart-inline {
+      padding-top: 10px;
+  }
+  .fixed-header #header .header-top .header-left{
+    padding-left: 45px;
+  }
+}
+
+
+@media (max-width: 355px) {
+  .sidebar-opened .mobile-sidebar .sidebar-toggle {
+      display: none!important;
+  }
+}
+
+@media (max-width: 245px) {
+  #header .header-top .header-right{
+    display: none !important;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .container {
+        width: 97%;
+    }
+}

@@ -1,0 +1,117 @@
+.wpbones-tabs {
+  position: relative;
+  margin-top: 16px;
+}
+.wpbones-tabs > label {
+  position: absolute;
+  z-index: 1;
+}
+.wpbones-tabs > label,
+.wpbones-tabs > h2 {
+  font-size: 1.1em;
+  width: 9em;
+  height: 2em;
+  line-height: 2em;
+}
+.wpbones-tabs > h2 {
+  position: relative;
+  margin: 6px 0 0 0;
+  text-align: center;
+  background-color: #ddd;
+  color: #666;
+  z-index: -1;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.wpbones-tabs > label {
+  outline: none;
+}
+.wpbones-tabs > label ~ label,
+.wpbones-tabs > h2 ~ h2 {
+  position: absolute;
+  top: 0;
+}
+.wpbones-tabs label:nth-child(1),
+.wpbones-tabs h2:nth-child(3) {
+  left: 0em;
+}
+.wpbones-tabs label:nth-child(5),
+.wpbones-tabs h2:nth-child(7) {
+  left: 9em;
+}
+.wpbones-tabs label:nth-child(9),
+.wpbones-tabs h2:nth-child(11) {
+  left: 18em;
+}
+.wpbones-tabs input + h2 + div {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-top: -1px;
+}
+.wpbones-tabs input:checked + h2 + div {
+  position: static !important;
+  padding: 2em !important;
+  height: auto !important;
+  width: auto !important;
+}
+.wpbones-tabs label:hover {
+  cursor: pointer;
+}
+.wpbones-tabs > div {
+  background: #fff;
+  padding: 1em;
+}
+.wpbones-tabs input[name="tabs"] {
+  opacity: 0;
+  position: absolute;
+}
+.wpbones-tabs:hover h2 {
+  outline: none !important;
+}
+.wpbones-tabs input[name="tabs"]:checked + h2 {
+  background: #fff;
+  color: #333;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  z-index: 1;
+  padding-bottom: 4px;
+  padding-top: 3px;
+  margin-top: -7px;
+}
+@media screen and (max-width: 45em) {
+  .wpbones-tabs label,
+  .wpbones-tabs input[name="tabs"] {
+    display: none;
+  }
+  .wpbones-tabs > input + h2 + div {
+    display: block !important;
+    position: static !important;
+    padding: 1em !important;
+    height: auto !important;
+    width: auto !important;
+  }
+  .wpbones-tabs h2,
+  .wpbones-tabs input[name="tabs"]:checked + h2 {
+    margin-top: 16px;
+    border: none;
+    width: auto;
+    position: static !important;
+    text-align: left;
+    background-color: transparent;
+  }
+  .wpbones-tabs input[name="tabs"]:checked + h2 {
+    background-color: transparent;
+    color: #333;
+  }
+  .wpbones-tabs h2:after {
+    display: none !important;
+  }
+}

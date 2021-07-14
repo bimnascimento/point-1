@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.betrs_settings_section { font-family: 'Open Sans'; }
+	.betrs_settings_section input, .betrs_settings_section textarea, .betrs_settings_section select { border: 2px solid #ccc; border-radius: 3px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; vertical-align: middle; }
+	.betrs_settings_section .wp-list-table { margin-top: 20px; border: 1px solid #ccc; border-radius: 3px; }
+	.betrs_settings_section .widefat thead tr th, .betrs_settings_section .widefat tfoot tr th { color: #a9a9a9; font-weight: bold; }
+	.betrs_settings_section .widefat th:last-child, .betrs_settings_section .widefat td:last-child { width: 36px; text-align: right; }
+	.betrs_settings_section .widefat tr.no-items td { text-align: left; }
+	.betrs_settings_section .widefat td.column-description textarea { width: 100%; height: 4em; }
+	.betrs_settings_section .widefat td.column-costs div.cost_op, .betrs_settings_section .widefat td.column-conditions div.condition_op { padding-bottom: 10px; }
+	.betrs_settings_section .widefat td.column-costs div.cost_op:last-child { border: 0; }
+	.betrs_settings_section .widefat td span { display: block; }
+	.betrs_settings_section .widefat td .wait_cursor { display: block; width: 15px; height: 15px; }
+	.betrs_settings_section .single-row {}
+		.betrs_settings_section .single-row h4.shipping-headline { font-size: 1.2em; color: #72777c; position: relative; z-index: 1; }
+			.betrs_settings_section .single-row h4.shipping-headline:after { border-bottom: 3px dotted #a0a5aa; content: ""; margin: 0 auto; position: absolute; top: 45%; left: 0; right: 0; width: 95%; z-index: -1; }
+			.betrs_settings_section .single-row h4.shipping-headline span { background: #fff; padding: 0 10px 0 0; }
+		.betrs_settings_section .single-row .widefat .move_row { background: url(../img/move_row.png) no-repeat center top; display: inline-block; height: 20px; width: 20px; text-align: right; cursor: move; }
+		.betrs_settings_section .single-row:last-child:after { visibility: hidden; }
+		.betrs_settings_section .single-row .single-row-left { display: block; float: left; width: 70%; }
+		.betrs_settings_section .single-row .single-row-right { display: block; float: right; width: 28%; }
+		.betrs_settings_section .single-row .additional-settings { padding: 20px; border: 3px dashed #ccc; border-radius: 8px; }
+			.betrs_settings_section .single-row .additional-settings .clear { margin-bottom: 10px; }
+			.betrs_settings_section .single-row .additional-settings .clear:after { content: ".";  visibility: hidden; display: block; height: 0; clear: both; }
+			.betrs_settings_section .single-row .additional-settings h5 { font-weight: bold; color: #a9a9a9; margin: 0; float: left; font-size: 1em; padding: 8px 0; }
+			.betrs_settings_section .single-row .additional-settings .onoffswitch { float: right; }
+
+.betrs_settings_section h3 { padding: 15px; border: 1px solid #ddd; margin-bottom: 0; line-height: 20px; cursor: pointer; overflow: hidden; vertical-align: middle; background: #f8f8f8 url(../img/plus.png) no-repeat; background-position: right 30px center; }
+	.betrs_settings_section h3:hover { background-color: #eee; }
+	.betrs_settings_section h3 span { display: inline-block; margin-left: 25px; }
+	.betrs_settings_section h3 span.counter { font-size: 4.6em; font-style: italic; color: #aaa; margin: -3px 0 0; vertical-align: top; }
+	.betrs_settings_section h3.open { background-image: url(../img/minus.png); }
+	.betrs_settings_section .betrs_settings_inner { display: none; background: #fff; border: 1px solid #ddd; padding: 20px; border-top: 0; }
+		.betrs_settings_section .betrs_settings_inner .next-link { text-align: center; }
+		.betrs_settings_section .betrs_settings_inner .next-link a { margin: 0 auto; }
+
+#BETRS-table-rates-parent { display: block; width: 100%; }
+	#BETRS-table-rates-parent .tablenav.top { display: none; }
+	#BETRS-table-rates-parent .single-row { margin-bottom: 20px; }
+	#BETRS-table-rates-parent label { display:block; width: 100%; padding: 10px 0; font-weight: bold; color: #a9a9a9; text-transform: uppercase; cursor: default; }
+		#BETRS-table-rates-parent .titlewrap label span { float: right; }
+		#BETRS-table-rates-parent label span a.remove-shipping-option { display: block; height: 1.4em; width: 12px; line-height: 1em; vertical-align: middle; background: url(../img/delete-rate.png) no-repeat center center; }
+			#BETRS-table-rates-parent label span a.remove-shipping-option:hover { -webkit-filter: grayscale(100%); filter: grayscale(100%); }
+	#BETRS-table-rates-parent .titlewrap input { width: 100%; padding: 8px 12px; }
+	#BETRS-table-rates-footer { text-align: left; padding: 0 10px 10px; }
+	#BETRS-table-rates-parent .option_slug { display: none; line-height: 24px; min-height: 25px; margin-top: 5px; padding: 0 10px; color: #666; font-weight: bold; }
+		#BETRS-table-rates-parent .option_slug span { font-weight: normal; }
+
+/* toggle slider checkbox */
+.betrs_settings_section .onoffswitch{ position:relative ; width: 90px; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; right: 0; }
+.betrs_settings_section .onoffswitch-checkbox{ display: none !important; }
+.betrs_settings_section .onoffswitch-label{ display: block; overflow:hidden; cursor: pointer; border:2px solid #999; border-radius:20px; width: auto !important; padding: 0 !important; }
+.betrs_settings_section .onoffswitch-inner{ display: block; width:200%; margin-left:-100%; transition:margin .3s ease-in 0s; }
+.betrs_settings_section .onoffswitch-inner:after,.onoffswitch-inner:before{ display:block; float:left; width:50%; height:30px; padding:0; line-height:30px; font-size:14px; font-family:Trebuchet,Arial,sans-serif; font-weight:700; box-sizing:border-box; }
+.betrs_settings_section .onoffswitch-inner:before{ content:"ON"; padding-left:10px; background-color:#fff; color: #A9A9A9; }
+.betrs_settings_section .onoffswitch-inner:after{ content:"OFF"; padding-right:10px; background-color:#fff; color: #999; text-align: right; }
+.betrs_settings_section .onoffswitch-switch{ display: block; width: 18px; margin: 6px; background: #A1A1A1; position: absolute; top: 0; bottom: 0; right: 56px; border: 2px solid #fff; border-radius: 20px; transition:all .3s ease-in 0s; }
+.betrs_settings_section .onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-inner{ margin-left: 0; }
+.betrs_settings_section .onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-switch{ right:0; background-color: #0073AA; }
+
+.betrs_settings_section ::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color: #a0a5aa; font-style: italic; }
+.betrs_settings_section ::-moz-placeholder { /* Firefox 19+ */ opacity: 1; color: #a0a5aa; font-style: italic; }
+.betrs_settings_section :-ms-input-placeholder { /* IE 10+ */ color: #a0a5aa; font-style: italic; }
+.betrs_settings_section :-moz-placeholder { /* Firefox 18- */ color: #a0a5aa; font-style: italic; }
+
+.betrs-small-delete { display: inline-block !important; height: 20px; width: 18px; background: url(../img/small-delete.png) 0 50% no-repeat; cursor: pointer; vertical-align: middle; }
+	.betrs-small-delete:hover { background-position: 100% 50%; }
+
+table.wc-shipping-classes .wc-shipping-class-priority { text-align: center; }
+
+.betrs-popup { position:fixed; top:0;  left:0; width:100%; height:100%; background:url(../img/overlay.png) repeat; text-align:center; z-index: 8000; }
+	.betrs-popup .be-popup-container { display: inline-block; margin-top: 200px; z-index: 9000; box-shadow:0 0 25px #111; -webkit-box-shadow:0 0 25px #111; -moz-box-shadow:0 0 25px #111; min-width:350px; max-width:450px; background: #fff; text-align: center; padding: 30px; max-height: 600px; overflow-y: auto; }
+	#betrs-export-table-popup .be-popup-container { box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; background: transparent; }
+	#betrs-export-table-popup .be-popup-container h2 { font-size: 3em; color: #b6b6b6; }
+	#betrs-export-table-popup .be-popup-container img { height: 30px; }
+	.betrs-popup h2.betrs_error { color: #f44336 !important; text-transform: uppercase; }
+	.betrs-popup .be-popup-container label { font-size: 1.2em; font-weight: bold; }
+	.betrs-popup .be-popup-container span { font-style: italic; color: #aeaeae; }
+	.betrs-popup .be-popup-container input[type="text"] { width: 100%; }

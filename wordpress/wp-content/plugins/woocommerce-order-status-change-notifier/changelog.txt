@@ -1,0 +1,10 @@
+*** WooCommerce Order Status Change Notifier Changelog ***
+
+2016.02.01 - version 1.1.0
+ * Updated compatibility with Order Status changes.
+
+2015.11.05 - version 1.0.1
+ * Bug fix. Edit Order blank screen after update
+ 
+ 2015.06.04 - version 1.0.0
+ * First Release

@@ -1,0 +1,43 @@
+/*------------------------------------------------------------------
+[WooCommerce Frontend Shop Manager ADMIN STYLES]
+
+[Table of contents]
+
+1.Vendor Groups Manager
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Vendor Groups Manager]
+-------------------------------------------------------------------*/
+
+.wfsm-vendor-group {
+	display:block;
+	max-width:480px;
+	padding:20px;
+	background:#fff;
+	border:1px solid #ccc;
+	border-radius:3px;
+	margin-bottom:20px;
+}
+	.wfsm-vendor-group .wfsm-vendor-group-option {
+		display:block;
+		margin-top:10px;
+	}
+		.wfsm-vendor-group .wfsm-vendor-group-option:first-child {
+			margin-top:0;
+		}
+		.wfsm-vendor-group .wfsm-vendor-group-title {
+			display:block;
+			font-size:12px;
+			font-style:italic;
+		}
+		.wfsm-vendor-group input {
+			width:100%;
+		}
+		.wfsm-vendor-group select {
+		}
+		.wfsm-vendor-group-ui {
+			color:#f00;
+			font-weight:bold;
+			cursor:pointer;
+		}
